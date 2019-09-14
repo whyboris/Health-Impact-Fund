@@ -1,0 +1,17 @@
+{
+  "title": "Health Impact Fund English",
+  "description": "Health Impact Fund. Decouple the price of drugs from the cost of research",
+  "title_page2": "Page two",
+  "hello_page2": "Hi from the second page",
+  "go_page2": "Go to page 2",
+  "build": "Now go build something great.",
+  "welcome_page2": "Welcome to page 2",
+  "go_back": "Go back to the homepage",
+  "intro_hip": "Health Impact Fund",
+  "intro_hip_tagline": "Decouple the price of drugs from the cost of research.",
+  "intro_hip_description": "There is a market failure in drug development mainly suffered by poor people. The Health Impact Fund creates new incentive systems for the development of innovative pharmaceuticals that decouple the price of drugs from the cost of research.",
+  "notfound": {
+    "header": "NOT FOUND",
+    "description": "You just hit a route that doesn't yet exist"
+  }
+}

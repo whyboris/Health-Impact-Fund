@@ -1,0 +1,17 @@
+{
+    "title": "Health Impact Fund Englisch",
+    "description": "Health Impact Fund. Entkoppeln Sie den Preis von Medikamenten von den Forschungskosten",
+    "title_page2": "Seite zwei",
+    "hello_page2": "Hallo von der zweiten Seite",
+    "go_page2": "Gehen Sie zu Seite 2",
+    "build": "Jetzt geh und baue etwas großartiges.",
+    "welcome_page2": "Willkommen auf Seite 2",
+    "go_back": "Gehe zurück zur Homepage",
+    "intro_hip": "Health Impact Fund",
+    "intro_hip_tagline": "Entkoppeln Sie den Preis von Medikamenten von den Forschungskosten.",
+    "intro_hip_description": "Es gibt ein Marktversagen bei der Arzneimittelentwicklung, unter dem vor allem arme Menschen leiden. Der Health Impact Fund schafft neue Anreizsysteme für die Entwicklung innovativer Arzneimittel, die den Preis von Arzneimitteln von den Forschungskosten entkoppeln.",
+    "notfound": {
+        "header": "NICHT GEFUNDEN",
+        "description": "Sie haben gerade eine Route erreicht, die noch nicht existiert"
+    }
+}
