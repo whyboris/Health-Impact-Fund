@@ -85,6 +85,10 @@ p {
 .header-navigation {
   float: right;
   margin: 0;
+
+  .hamburger-icon {
+    display: none;
+  }
 }
 
 .gatsby-image-wrapper {
@@ -165,11 +169,43 @@ header {
 
 @media only screen and (max-width: 880px) {
   .header-navigation {
-    border: 5px solid red;
+    // border: 5px solid red;
     display: block;
     max-height: 60px;
     max-width: 100px;
     overflow: hidden;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 100;
+
+    .nav-item {
+      display: block;
+      margin: 40px 20px;
+    }
+
+    .hamburger-icon {
+      display: block;
+      float: right;
+      margin: 20px;
+    }
+
+    &:hover {
+      background: white;
+      border-radius: 10px;
+      border: 1px solid #80cf0f;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+      max-height: 100%;
+      min-width: 200px;
+      overflow: visible;
+      padding-left: 20px;
+
+      .donate {
+        margin: 8px 20px 20px 0;
+        text-align: center;
+        padding: 10px;
+      }
+    }
   }
 }
 
@@ -194,7 +230,7 @@ header {
     }
 
     .step-text {
-      margin: 0;
+      margin: 20px 0;
       padding: 0;
     }
   }
