@@ -31,6 +31,43 @@ h2 {
   margin-top: 0;
 }
 
+p {
+  margin-top: 0;
+}
+
+.step {
+  display: flex;
+  position: relative;
+  // border: 1px solid red;
+
+  .hif-step {
+    max-width: 80%
+  }
+
+  .step-image {
+    // border: 1px solid green;
+    // z-index: 2;
+    padding: 0 20px;
+  }
+
+  .step-text {
+    flex-grow: 2;
+    padding: 30px 30px 30px 60px;
+    // border: 1px solid yellow;
+  }
+}
+
+.step-arrow {
+  border: 1px solid blue;
+  left: 0;
+  margin-left: 50%;
+  position: absolute;
+  position: absolute;
+  top: 250px;
+  transform: translate(-50%, -60px);
+  z-index: 1;
+}
+
 .body-contents {
   margin: 0 auto;
   max-width: 960px;
@@ -40,8 +77,9 @@ h2 {
 
 .center-block {
   display: block;
-  margin: 60px auto 20px;
-  max-width: 55%;
+  font-size: 18px;
+  margin: 60px auto 100px;
+  max-width: 70%;
 }
 
 .header-navigation {
@@ -68,6 +106,10 @@ h2 {
   display: inline-block;
   font-weight: bold;
   margin: 20px;
+}
+
+.intro-and-tagline {
+  margin: 0 40px;
 }
 
 header {
@@ -131,8 +173,56 @@ header {
   }
 }
 
+
+@media only screen and (max-width: 700px) {
+  .step {
+    .step-image {
+      min-width: 160px;
+      padding: 0;
+      position: relative;
+
+      img {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+      }
+    }
+
+    .hif-step {
+      max-width: 100%;
+    }
+
+    .step-text {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+
+  .intro-and-tagline {
+    margin: 0;
+  }
+
+  .step {
+    flex-direction: column !important;
+
+    .step-image {
+
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        transform: none;
+        width: initial;
+      }
+    }
   }
 }

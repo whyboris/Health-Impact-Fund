@@ -7,9 +7,14 @@
   "build": "Now go build something great.",
   "welcome_page2": "Welcome to page 2",
   "go_back": "Go back to the homepage",
-  "intro_hip": "Health Impact Fund",
-  "intro_hip_tagline": "Decouple the price of drugs from the cost of research.",
-  "intro_hip_description": "There is a market failure in drug development mainly suffered by poor people. The Health Impact Fund creates new incentive systems for the development of innovative pharmaceuticals that decouple the price of drugs from the cost of research.",
+  "intro_hif": "Health Impact Fund",
+  "intro_hif_tagline": "Decouple the price of drugs from the cost of research.",
+  "intro_hif_description": "There is a market failure in drug development mainly suffered by poor people. The Health Impact Fund creates new incentive systems for the development of innovative pharmaceuticals that decouple the price of drugs from the cost of research.",
+  "intro_01": "1st text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in auctor metus. Morbi egestas lacinia facilisis. ",
+  "intro_02": "2nd text: Nunc ullamcorper enim at tellus dignissim, eu mollis dui tempus. In posuere finibus dolor eget volutpat.",
+  "intro_03": "3rd text: Fusce purus sapien, luctus in consectetur quis, mattis ac turpis. Phasellus facilisis in velit at pulvinar. Sed ut lectus vitae eros cursus consequat.",
+  "intro_04": "4th text: Sed quis commodo neque. Morbi ultrices imperdiet dolor, ac varius mi mollis vitae. Etiam nisl ex, ac nibh interdum, porttitor erat a, auctor libero. Nulla id libero et dui convallis vestibulum sed quis diam.",
+  "intro_05": "5th text: Duis velit felis, commodo eu lacus sit amet, aliquam tempor erat. Mauris tincidunt est nec iaculis condimentum. Phasellus id mauris condimentum, maximus turpis sed, mollis ante.",
   "notfound": {
     "header": "NOT FOUND",
     "description": "You just hit a route that doesn't yet exist"
