@@ -30,26 +30,22 @@ const IndexPage = ({ intl }) => {
 
       <div className="intro-and-tagline">
         <h1>
-          <FormattedMessage id="intro.intro_hif" />
+          <FormattedMessage id="intro.hif" />
         </h1>
         <h2>
-          <FormattedMessage id="intro.intro_hif_tagline" />
+          <FormattedMessage id="intro.hif_tagline" />
         </h2>
       </div>
 
       <p className="center-block">
-        <FormattedMessage id="intro.intro_hif_description" />
+        <FormattedMessage id="intro.hif_description" />
       </p>
 
-      <Step data={{step: '01.', img: step1, text: "intro.intro_01", mirror: false, arrow: true}} />
-      <Step data={{step: '02.', img: step2, text: "intro.intro_02", mirror: true,  arrow: true}} />
-      <Step data={{step: '03.', img: step3, text: "intro.intro_03", mirror: false, arrow: true}} />
-      <Step data={{step: '04.', img: step4, text: "intro.intro_04", mirror: true,  arrow: true}} />
-      <Step data={{step: '05.', img: step5, text: "intro.intro_05", mirror: false, arrow: false}} />
-
-      <Link to="/page-2/">
-        <FormattedMessage id="go_page2" />
-      </Link>
+      <Step data={{step: '01.', img: step1, text: "intro.step_01", mirror: false, arrow: true}} />
+      <Step data={{step: '02.', img: step2, text: "intro.step_02", mirror: true,  arrow: true}} />
+      <Step data={{step: '03.', img: step3, text: "intro.step_03", mirror: false, arrow: true}} />
+      <Step data={{step: '04.', img: step4, text: "intro.step_04", mirror: true,  arrow: true}} />
+      <Step data={{step: '05.', img: step5, text: "intro.step_05", mirror: false, arrow: false}} />
 
     </Layout>
   )

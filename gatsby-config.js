@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Health Impact Fund`,
-    description: `Health Impact Fund Description`,
+    description: `Health Impact Fund SEO Description`,
     author: `@HealthImpact`,
   },
   plugins: [

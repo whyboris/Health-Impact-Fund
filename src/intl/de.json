@@ -9,19 +9,15 @@
     "info": "DE: Benefits info",
     "title": "DE: Benefits page"
   },
-  "description": "Health Impact Fund. Entkoppeln Sie den Preis von Medikamenten von den Forschungskosten",
-  "go_back": "Gehe zurück zur Homepage",
-  "go_page2": "Gehen Sie zu Seite 2",
-  "hello_page2": "Hallo von der zweiten Seite",
   "intro": {
-    "intro_01": "DE: 1st text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in auctor metus. Morbi egestas lacinia facilisis. ",
-    "intro_02": "DE: 2nd text: Nunc ullamcorper enim at tellus dignissim, eu mollis dui tempus. In posuere finibus dolor eget volutpat.",
-    "intro_03": "DE: 3rd text: Fusce purus sapien, luctus in consectetur quis, mattis ac turpis. Phasellus facilisis in velit at pulvinar. Sed ut lectus vitae eros cursus consequat.",
-    "intro_04": "DE: 4th text: Sed quis commodo neque. Morbi ultrices imperdiet dolor, ac varius mi mollis vitae. Etiam nisl ex, ac nibh interdum, porttitor erat a, auctor libero. Nulla id libero et dui convallis vestibulum sed quis diam.",
-    "intro_05": "DE: 5th text: Duis velit felis, commodo eu lacus sit amet, aliquam tempor erat. Mauris tincidunt est nec iaculis condimentum. Phasellus id mauris condimentum, maximus turpis sed, mollis ante.",
-    "intro_hif": "Health Impact Fund: German Languge",
-    "intro_hif_description": "Es gibt ein Marktversagen bei der Arzneimittelentwicklung, unter dem vor allem arme Menschen leiden. Der Health Impact Fund schafft neue Anreizsysteme für die Entwicklung innovativer Arzneimittel, die den Preis von Arzneimitteln von den Forschungskosten entkoppeln.",
-    "intro_hif_tagline": "Entkoppeln Sie den Preis von Medikamenten von den Forschungskosten."
+    "hif": "Health Impact Fund: German Languge",
+    "hif_description": "Es gibt ein Marktversagen bei der Arzneimittelentwicklung, unter dem vor allem arme Menschen leiden. Der Health Impact Fund schafft neue Anreizsysteme für die Entwicklung innovativer Arzneimittel, die den Preis von Arzneimitteln von den Forschungskosten entkoppeln.",
+    "hif_tagline": "Entkoppeln Sie den Preis von Medikamenten von den Forschungskosten.",
+    "step_01": "DE: 1st text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in auctor metus. Morbi egestas lacinia facilisis. ",
+    "step_02": "DE: 2nd text: Nunc ullamcorper enim at tellus dignissim, eu mollis dui tempus. In posuere finibus dolor eget volutpat.",
+    "step_03": "DE: 3rd text: Fusce purus sapien, luctus in consectetur quis, mattis ac turpis. Phasellus facilisis in velit at pulvinar. Sed ut lectus vitae eros cursus consequat.",
+    "step_04": "DE: 4th text: Sed quis commodo neque. Morbi ultrices imperdiet dolor, ac varius mi mollis vitae. Etiam nisl ex, ac nibh interdum, porttitor erat a, auctor libero. Nulla id libero et dui convallis vestibulum sed quis diam.",
+    "step_05": "DE: 5th text: Duis velit felis, commodo eu lacus sit amet, aliquam tempor erat. Mauris tincidunt est nec iaculis condimentum. Phasellus id mauris condimentum, maximus turpis sed, mollis ante."
   },
   "knowledge": {
     "heading": "DE: knowledge heading",
@@ -29,12 +25,12 @@
     "title": "DE: knowledge page"
   },
   "navigation": {
-    "about": "de_About",
-    "benefits": "de_Benefits",
-    "donate": "de_Donate",
-    "knowledge": "de_Knowledge",
-    "language": "de_Language",
-    "news": "de_News"
+    "about": "Über",
+    "benefits": "Leistungen",
+    "donate": "Spenden",
+    "knowledge": "Wissen",
+    "language": "Sprache",
+    "news": "Nachrichten"
   },
   "news": {
     "heading": "DE: NEWS heading",
@@ -45,7 +41,5 @@
     "description": "Sie haben gerade eine Route erreicht, die noch nicht existiert",
     "header": "NICHT GEFUNDEN"
   },
-  "title": "Health Impact Fund Englisch",
-  "title_page2": "Seite zwei",
-  "welcome_page2": "Willkommen auf Seite 2"
+  "title": "Health Impact Fund German"
 }
