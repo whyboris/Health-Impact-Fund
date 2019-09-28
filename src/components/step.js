@@ -2,7 +2,7 @@ import React from "react"
 
 import { injectIntl, FormattedMessage } from "gatsby-plugin-intl"
 
-// import arrow from "../images/arrow.png"
+// const arrow = "http://temp.yboris.com/hif/arrow.png"
 
 const Step = ({data}) => {
 
@@ -19,8 +19,8 @@ const Step = ({data}) => {
             <FormattedMessage id={data.text} />
           </p>
         </div>
-
-        {/* <div
+{/*
+        <div
           className="step-arrow"
           style={{ display: data.arrow ? 'initial' : 'none' }}
         >
@@ -29,7 +29,8 @@ const Step = ({data}) => {
             style={{ transform: data.mirror ? 'scaleX(-1)' : 'scaleX(1)' }}
           />
 
-        </div> */}
+        </div>
+*/}
 
       </div>
 

@@ -3,16 +3,7 @@ import { FormattedMessage, Link, injectIntl } from "gatsby-plugin-intl"
 
 import Step from "../components/step"
 
-import step1 from '../images/1.png'
-import step2 from '../images/2.png'
-import step3 from '../images/3.png'
-import step4 from '../images/4.png'
-import step5 from '../images/5.png'
-
-// import arrow from '../images/arrow.png'
-
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = ({ intl }) => {
@@ -24,8 +15,8 @@ const IndexPage = ({ intl }) => {
         keywords={[`Health Impact Fund`, `HIF`, `Global Health`]}
       />
 
-      <div style={{ maxWidth: `600px`, margin: `20px auto` }}>
-        <Image />
+      <div style={{ textAlign: `center`, margin: `20px auto` }}>
+        <img src="http://temp.yboris.com/hif/0.png" style={{ maxWidth: `100%` }} />
       </div>
 
       <div className="intro-and-tagline">
@@ -41,11 +32,11 @@ const IndexPage = ({ intl }) => {
         <FormattedMessage id="intro.hif_description" />
       </p>
 
-      <Step data={{step: '01.', img: step1, text: "intro.step_01", mirror: false, arrow: true}} />
-      <Step data={{step: '02.', img: step2, text: "intro.step_02", mirror: true,  arrow: true}} />
-      <Step data={{step: '03.', img: step3, text: "intro.step_03", mirror: false, arrow: true}} />
-      <Step data={{step: '04.', img: step4, text: "intro.step_04", mirror: true,  arrow: true}} />
-      <Step data={{step: '05.', img: step5, text: "intro.step_05", mirror: false, arrow: false}} />
+      <Step data={{step: '01.', img: 'http://temp.yboris.com/hif/1.png', text: "intro.step_01", mirror: false, arrow: true}} />
+      <Step data={{step: '02.', img: 'http://temp.yboris.com/hif/2.png', text: "intro.step_02", mirror: true,  arrow: true}} />
+      <Step data={{step: '03.', img: 'http://temp.yboris.com/hif/3.png', text: "intro.step_03", mirror: false, arrow: true}} />
+      <Step data={{step: '04.', img: 'http://temp.yboris.com/hif/4.png', text: "intro.step_04", mirror: true,  arrow: true}} />
+      <Step data={{step: '05.', img: 'http://temp.yboris.com/hif/5.png', text: "intro.step_05", mirror: false, arrow: false}} />
 
     </Layout>
   )
