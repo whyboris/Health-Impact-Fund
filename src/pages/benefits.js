@@ -256,9 +256,8 @@ const SecondPage = ({ intl }) => (
     <ul>
       <li>Expanded arsenal of available medicines.</li>
       <li>Cutting-edge pharmaceuticals at affordable prices.</li>
-
     </ul>
-      <strong>... pharmaceutical innovators.</strong>
+    <strong>... pharmaceutical innovators.</strong>
     <ul>
       <li>
         New incentives for essential but heretofore unprofitable R&D projects.
@@ -272,9 +271,8 @@ const SecondPage = ({ intl }) => (
       <li>
         Realization of the internationally agreed Sustainable Development Goals.
       </li>
-
     </ul>
-      <strong>... states and taxpayers.</strong>
+    <strong>... states and taxpayers.</strong>
     <ul>
       <li>
         Greater chance that patients will receive the medicines that are best
