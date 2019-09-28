@@ -18,5 +18,13 @@
   "notfound": {
     "header": "NOT FOUND",
     "description": "You just hit a route that doesn't yet exist"
+  },
+  "navigation": {
+    "benefits": "Benefits",
+    "news": "News",
+    "about":"About",
+    "knowledge":"Knowledge",
+    "language":"Language",
+    "donate":"Donate"
   }
 }

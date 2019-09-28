@@ -13,5 +13,13 @@
     "notfound": {
         "header": "NICHT GEFUNDEN",
         "description": "Sie haben gerade eine Route erreicht, die noch nicht existiert"
+    },
+    "navigation": {
+      "benefits": "de_Benefits",
+      "news": "de_News",
+      "about": "de_About",
+      "knowledge": "de_Knowledge",
+      "language": "de_Language",
+      "donate": "de_Donate"
     }
 }

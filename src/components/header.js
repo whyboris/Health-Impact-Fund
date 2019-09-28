@@ -3,6 +3,8 @@ import PropTypes from "prop-types"
 import React from "react"
 import Language from "./language"
 
+import { injectIntl, FormattedMessage } from "gatsby-plugin-intl"
+
 const Header = ({ siteTitle }) => (
   <header>
     <div
@@ -30,20 +32,22 @@ const Header = ({ siteTitle }) => (
         </div>
 
         <div className="nav-item">
-          Benefits
+          <FormattedMessage id="navigation.benefits" />
         </div>
         <div className="nav-item">
-          News
+          <FormattedMessage id="navigation.news" />
         </div>
         <div className="nav-item">
-          About
+        <FormattedMessage id="navigation.about" />
         </div>
         <div className="nav-item">
-          Knowledge
+        <FormattedMessage id="navigation.knowledge" />
         </div>
         <div className="nav-item dropdown">
 
-          <div className="dropbtn">Language</div>
+          <div className="dropbtn">
+            <FormattedMessage id="navigation.language" />
+          </div>
 
           <svg style={{ marginLeft: '8px' }} width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clipPath="url(#clip0)">
@@ -60,7 +64,7 @@ const Header = ({ siteTitle }) => (
 
         </div>
         <div className="nav-item donate">
-          Donate
+        <FormattedMessage id="navigation.donate" />
         </div>
 
       </div>
@@ -78,4 +82,4 @@ Header.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default injectIntl(Header)
