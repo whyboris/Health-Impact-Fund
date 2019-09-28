@@ -1,34 +1,51 @@
 {
-  "title": "Health Impact Fund English",
-  "description": "Health Impact Fund. Decouple the price of drugs from the cost of research",
-  "title_page2": "Page two",
-  "hello_page2": "Hi from the second page",
-  "go_page2": "Go to page 2",
-  "build": "Now go build something great.",
-  "welcome_page2": "Welcome to page 2",
-  "go_back": "Go back to the homepage",
-  "intro_hif": "Health Impact Fund",
-  "intro_hif_tagline": "Decouple the price of drugs from the cost of research.",
-  "intro_hif_description": "There is a market failure in drug development mainly suffered by poor people. The Health Impact Fund creates new incentive systems for the development of innovative pharmaceuticals that decouple the price of drugs from the cost of research.",
-  "intro_01": "1st text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in auctor metus. Morbi egestas lacinia facilisis. ",
-  "intro_02": "2nd text: Nunc ullamcorper enim at tellus dignissim, eu mollis dui tempus. In posuere finibus dolor eget volutpat.",
-  "intro_03": "3rd text: Fusce purus sapien, luctus in consectetur quis, mattis ac turpis. Phasellus facilisis in velit at pulvinar. Sed ut lectus vitae eros cursus consequat.",
-  "intro_04": "4th text: Sed quis commodo neque. Morbi ultrices imperdiet dolor, ac varius mi mollis vitae. Etiam nisl ex, ac nibh interdum, porttitor erat a, auctor libero. Nulla id libero et dui convallis vestibulum sed quis diam.",
-  "intro_05": "5th text: Duis velit felis, commodo eu lacus sit amet, aliquam tempor erat. Mauris tincidunt est nec iaculis condimentum. Phasellus id mauris condimentum, maximus turpis sed, mollis ante.",
-  "notfound": {
-    "header": "NOT FOUND",
-    "description": "You just hit a route that doesn't yet exist"
-  },
-  "navigation": {
-    "benefits": "Benefits",
-    "news": "News",
-    "about":"About",
-    "knowledge":"Knowledge",
-    "language":"Language",
-    "donate":"Donate"
-  },
   "about": {
     "heading": "About heading",
-    "info": "About info"
-  }
+    "info": "About info",
+    "title": "About page title"
+  },
+  "benefits": {
+    "heading": "Benefits heading",
+    "info": "Benefits info",
+    "title": "Benefits page"
+  },
+  "description": "Health Impact Fund. Decouple the price of drugs from the cost of research",
+  "go_back": "Go back to the homepage",
+  "go_page2": "Go to page 2",
+  "hello_page2": "Hi from the second page",
+  "intro": {
+    "intro_01": "1st text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in auctor metus. Morbi egestas lacinia facilisis. ",
+    "intro_02": "2nd text: Nunc ullamcorper enim at tellus dignissim, eu mollis dui tempus. In posuere finibus dolor eget volutpat.",
+    "intro_03": "3rd text: Fusce purus sapien, luctus in consectetur quis, mattis ac turpis. Phasellus facilisis in velit at pulvinar. Sed ut lectus vitae eros cursus consequat.",
+    "intro_04": "4th text: Sed quis commodo neque. Morbi ultrices imperdiet dolor, ac varius mi mollis vitae. Etiam nisl ex, ac nibh interdum, porttitor erat a, auctor libero. Nulla id libero et dui convallis vestibulum sed quis diam.",
+    "intro_05": "5th text: Duis velit felis, commodo eu lacus sit amet, aliquam tempor erat. Mauris tincidunt est nec iaculis condimentum. Phasellus id mauris condimentum, maximus turpis sed, mollis ante.",
+    "intro_hif": "Health Impact Fund",
+    "intro_hif_description": "There is a market failure in drug development mainly suffered by poor people. The Health Impact Fund creates new incentive systems for the development of innovative pharmaceuticals that decouple the price of drugs from the cost of research.",
+    "intro_hif_tagline": "Decouple the price of drugs from the cost of research."
+  },
+  "knowledge": {
+    "heading": "Knowledge heading",
+    "info": "Knowledge info",
+    "title": "Knowledge page"
+  },
+  "navigation": {
+    "about": "About",
+    "benefits": "Benefits",
+    "donate": "Donate",
+    "knowledge": "Knowledge",
+    "language": "Language",
+    "news": "News"
+  },
+  "news": {
+    "heading": "News heading",
+    "info": "News info",
+    "title": "News page"
+  },
+  "notfound": {
+    "description": "You just hit a route that doesn't yet exist",
+    "header": "NOT FOUND"
+  },
+  "title": "Health Impact Fund English",
+  "title_page2": "Page two",
+  "welcome_page2": "Welcome to page 2"
 }

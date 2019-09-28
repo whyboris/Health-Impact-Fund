@@ -6,12 +6,12 @@ import SEO from "../components/seo"
 
 const SecondPage = ({ intl }) => (
   <Layout>
-    <SEO lang={intl.locale} title={intl.formatMessage({ id: "about.title" })} />
+    <SEO lang={intl.locale} title={intl.formatMessage({ id: "benefits.title" })} />
     <h1>
-      <FormattedMessage id="about.heading" />
+      <FormattedMessage id="benefits.heading" />
     </h1>
     <p>
-      <FormattedMessage id="about.info" />
+      <FormattedMessage id="benefits.info" />
     </p>
   </Layout>
 )
