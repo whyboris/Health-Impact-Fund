@@ -9,6 +9,9 @@
     "info": "DE: Benefits info",
     "title": "DE: Benefits page"
   },
+  "general": {
+    "legal_notice": "DE: Legal Notice"
+  },
   "intro": {
     "hif": "Health Impact Fund: German Languge",
     "hif_description": "Es gibt ein Marktversagen bei der Arzneimittelentwicklung, unter dem vor allem arme Menschen leiden. Der Health Impact Fund schafft neue Anreizsysteme für die Entwicklung innovativer Arzneimittel, die den Preis von Arzneimitteln von den Forschungskosten entkoppeln.",

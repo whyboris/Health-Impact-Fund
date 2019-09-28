@@ -9,6 +9,9 @@
     "info": "Benefits info",
     "title": "Benefits page"
   },
+  "general": {
+    "legal_notice": "Legal Notice"
+  },
   "intro": {
     "hif": "Health Impact Fund",
     "hif_description": "There is a market failure in drug development mainly suffered by poor people. The Health Impact Fund creates new incentive systems for the development of innovative pharmaceuticals that decouple the price of drugs from the cost of research.",

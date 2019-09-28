@@ -8,7 +8,7 @@ import { Link } from "gatsby-plugin-intl"
 
 import React from "react"
 import PropTypes from "prop-types"
-import { injectIntl } from "gatsby-plugin-intl"
+import { injectIntl, FormattedMessage } from "gatsby-plugin-intl"
 
 import Header from "./header"
 import "./layout.scss"
@@ -30,7 +30,7 @@ const Layout = ({ children, intl }) => {
           <div className="footer-links">
 
             <Link to="/404/">
-              Legal Notice
+              <FormattedMessage id="general.legal_notice" />
             </Link>
 
             <a href="https://twitter.com/HealthImpact">
