@@ -21,5 +21,9 @@
       "knowledge": "de_Knowledge",
       "language": "de_Language",
       "donate": "de_Donate"
+    },
+    "about": {
+      "heading": "DE: About heading",
+      "info": "DE: About info"
     }
 }

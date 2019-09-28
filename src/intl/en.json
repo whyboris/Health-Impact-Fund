@@ -26,5 +26,9 @@
     "knowledge":"Knowledge",
     "language":"Language",
     "donate":"Donate"
+  },
+  "about": {
+    "heading": "About heading",
+    "info": "About info"
   }
 }

@@ -35,6 +35,14 @@ p {
   margin-top: 0;
 }
 
+a {
+  color: initial;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
 .step {
   display: flex;
   position: relative;

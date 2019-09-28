@@ -31,18 +31,30 @@ const Header = ({ siteTitle }) => (
           </svg>
         </div>
 
-        <div className="nav-item">
-          <FormattedMessage id="navigation.benefits" />
-        </div>
-        <div className="nav-item">
-          <FormattedMessage id="navigation.news" />
-        </div>
-        <div className="nav-item">
-        <FormattedMessage id="navigation.about" />
-        </div>
-        <div className="nav-item">
-        <FormattedMessage id="navigation.knowledge" />
-        </div>
+        <Link to="/benefits">
+          <div className="nav-item">
+            <FormattedMessage id="navigation.benefits" />
+          </div>
+        </Link>
+
+        <Link to="/news">
+          <div className="nav-item">
+              <FormattedMessage id="navigation.news" />
+          </div>
+        </Link>
+
+        <Link to="/about">
+          <div className="nav-item">
+            <FormattedMessage id="navigation.about" />
+          </div>
+        </Link>
+
+        <Link to="/knowledge">
+          <div className="nav-item">
+            <FormattedMessage id="navigation.knowledge" />
+          </div>
+        </Link>
+
         <div className="nav-item dropdown">
 
           <div className="dropbtn">
@@ -63,9 +75,11 @@ const Header = ({ siteTitle }) => (
           <Language />
 
         </div>
-        <div className="nav-item donate">
-        <FormattedMessage id="navigation.donate" />
-        </div>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K7ULUVQSNFV8C">
+          <div className="nav-item donate">
+            <FormattedMessage id="navigation.donate" />
+          </div>
+        </a>
 
       </div>
     </div>
