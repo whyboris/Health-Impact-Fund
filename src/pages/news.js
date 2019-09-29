@@ -4,6 +4,8 @@ import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import Icon from "../images/pdf.svg"
+
 const SecondPage = ({ intl }) => (
   <Layout>
     <SEO lang={intl.locale} title={intl.formatMessage({ id: "news.title" })} />
@@ -13,6 +15,34 @@ const SecondPage = ({ intl }) => (
     <p>
       <FormattedMessage id="news.info" />
     </p>
+
+    <div class="news-item">
+      <span class="date">2019.09.25</span>
+
+      <div class="news-text">
+        <h2>UK Labour Party Medicines Platform calls for Delinkage.</h2>
+
+        <p>
+          The UK Labour Party is now officially calling for a change to the way
+          that we pay for medicines, so that prices are “delinked” from the cost
+          of innovation. The Health Impact Fund is a unique, competitive form of
+          delinkage that controls the rewards to innovators through a market
+          mechanism.
+        </p>
+
+        <a
+          class="news-download"
+          href="http://temp.yboris.com/hif/LabourUK_Medicines-For-The-Many.pdf"
+        >
+          <Icon />
+          <span>
+            MEDICINES FOR THE MANY:
+            <br />
+            Public Health before Private Profit
+          </span>
+        </a>
+      </div>
+    </div>
 
     <div class="news-item">
       <div class="photo-and-caption">
