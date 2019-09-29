@@ -116,6 +116,7 @@ a {
     list-style-type: none;
     position: relative;
     width: 100%;
+    padding-left: 50px;
   }
 
   strong {
@@ -128,15 +129,29 @@ a {
   }
 
   a {
-    position: absolute;
-    right: 0;
-    top: 0;
-    border: 1px solid $primary;
-    float: right !important;
-    margin: 0 !important;
-    padding: 6px;
     text-decoration: none;
-    border-radius: 5px;
+
+    svg {
+      transition-property: transform;
+      transition-duration: 250ms;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 40px;
+    }
+
+    &:hover {
+      color: initial;
+      font-size: initial;
+
+      span {
+        text-decoration: underline;
+      }
+
+      svg  {
+        transform: scale(1.5);
+      }
+    }
   }
 }
 
