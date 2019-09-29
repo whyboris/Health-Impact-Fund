@@ -16,6 +16,7 @@ body {
 main {
   background-color: #ffffff;
   padding: 20px;
+  min-height: 500px;
 }
 
 footer {
@@ -40,6 +41,55 @@ a {
 
   &:hover {
     color: $primary;
+  }
+}
+
+.news-item {
+  position: relative;
+
+  h2 {
+    line-height: 42px;
+    font-size: 30px;
+  }
+
+  p {
+    line-height: 26px;
+  }
+
+  .date {
+    color: #555555;
+    display: block;
+    font-size: 12px;
+    left: 440px;
+    position: absolute;
+    top: 20px;
+  }
+
+  .news-text {
+    margin-right: 40px;
+    padding-top: 40px;
+    margin-left: 440px;
+  }
+
+}
+
+.photo-and-caption {
+  float: left;
+  margin-right: 40px;
+
+  img {
+    max-width: 400px;
+    display: block;
+  }
+
+  .caption {
+    font-size: 10px;
+    color: #555555;
+
+    a {
+      text-decoration: none;
+    }
+
   }
 }
 
@@ -262,6 +312,27 @@ header {
       }
     }
   }
+
+  .news-item {
+    .photo-and-caption {
+      float: none;
+
+      img {
+        max-width: 90%;
+      }
+    }
+
+    .news-text {
+      margin-left: 40px;
+    }
+
+    .date {
+      position: relative;
+      left: 40px;
+      top: 30px;
+    }
+  }
+
 }
 
 

@@ -14,71 +14,104 @@ const SecondPage = ({ intl }) => (
       <FormattedMessage id="about.info" />
     </p>
 
-    <h2>Health Impact Fund &#8220;mini-HIF&#8221; Proposal</h2>
-
-    <h3>Executive Summary</h3>
-
-    <p class="minihif">
-      The Health Impact Fund (HIF) is intended to provide competitive returns to
-      firms that develop drugs and vaccines to treat the diseases mostly
-      prevalent in low- and middle-income countries. A smaller version – the
-      “mini-HIF” – could effectively demonstrate viability of this approach. The
-      benefits of supporting the mini-HIF are:
+    <h1>Incentives for Global Health</h1>
+    <p>
+      Incentives for Global Health is a US-based non-profit organization with
+      the principle mandate of advancing the Health Impact Fund proposal. We
+      welcome new team volunteers to collaborate with us in this important work.
     </p>
-    <ul class="minihiful">
+
+    <h1>International Advisory Council</h1>
+
+    <ul>
       <li>
-        Helping to kick-start a transformative, sustainable solution to generate
-        incremental revenues from therapies targeted at developing countries.
+        <strong>Kenneth J. Arrow</strong>
+        (21. Februar 2017), Professor of Economics and Operations Research,
+        Stanford University; Nobel Prize Winner in Economics.
       </li>
       <li>
-        Helping to launch an institution that would increase commercial
-        incentives to develop therapies for neglected diseases.
+        <strong>Noam Chomsky</strong>, former Institute Professor, Department of
+        Linguistics & Philosophy, MIT.
       </li>
       <li>
-        Leading a highly visible, innovative global public health initiative
+        <strong>John J. DeGioia</strong>, President of Georgetown University.
+      </li>
+      <li>
+        <strong>Ruth Faden</strong>, Professor of Biomedical Ethics and founder
+        of the Berman Institute of Bioethics, Johns Hopkins University.
+      </li>
+      <li>
+        <strong>Paul Farmer</strong>, Chair of the Department of Global Health
+        and Social Medicine at Harvard Medical School; Co-Founder, Partners in
+        Health.
+      </li>
+      <li>
+        <strong>Robert Gallo</strong>, Director of the Institute of Human
+        Virology at the University of Maryland School of Medicine, co-discoverer
+        of the human immunodeficiency virus.
+      </li>
+      <li>
+        <strong>Professor David Haslam</strong>, former Chair of the National
+        Institute for Health and Care Excellence (NICE).
+      </li>
+      <li>
+        <strong>Paul Martin</strong>, twenty-first Prime Minister of Canada.
+      </li>
+      <li>
+        <strong>Christopher Murray</strong>, Institute Director, Institute for
+        Health Metrics and Evaluation (IHME).
+      </li>
+      <li>
+        <strong>Gustav Nossal</strong>, Research Biologist; Australian of the
+        Year in 2000.
+      </li>
+      <li>
+        <strong>Baroness Onora O’Neill</strong>, Member of the UK House of
+        Lords; former President of the British Academy.
+      </li>
+      <li>
+        <strong>James Orbinski</strong>, Professor and inaugural Director of the
+        Dahdaleh Institute of Global Health Research at York University; former
+        International President of Médecins Sans Frontières; co-founder of the
+        Drugs for Neglected Diseases Initiative (DNDi); co-founder of Dignitas
+        International.
+      </li>
+      <li>
+        <strong>Sir Michael Rawlins</strong>, former Chair of the UK National
+        Institute of Health & Clinical Excellence (NICE).
+      </li>
+      <li>
+        <strong>Jan Rosier</strong>, Professor of Biotech Business at University
+        College Dublin; Former Vice President of Janssen Drug Development.
+      </li>
+      <li>
+        <strong>Karin Roth</strong>, former member of the German Parliament and
+        former speaker of the SPD-faction in the Subcommittee on Health in
+        Developing Countries.
+      </li>
+      <li>
+        <strong>Amartya Sen</strong>, Professor of Economics and Philosophy,
+        Harvard University; Nobel Prize Winner in Economics.
+      </li>
+      <li>
+        <strong>Peter Singer</strong>, Ira W. DeCamp Professor of Bioethics,
+        Princeton University.
+      </li>
+      <li>
+        <strong>Judith Whitworth</strong>, former Director of the John Curtin
+        School of Medical Research at ANU; former Chair of the WHO Global
+        Advisory Committee on Health Research.
+      </li>
+      <li>
+        <strong>Heidemarie Wieczorek-Zeul</strong>, former German Federal
+        Minister for Economic Cooperation and Development.
+      </li>
+      <li>
+        <strong>Richard Wilder</strong>, General Counsel and Director of
+        Business Development at the Coalition for Epidemic Preparedness
+        Innovations.
       </li>
     </ul>
-    <p class="minihif">
-      The most effective mini-HIF would be funded in the range of $60m &#8211;
-      $200m, ideally with funding from several sources including foundations and
-      governments.
-    </p>
-    <p class="minihif">
-      The mini-HIF would be a competition for pharmaceutical manufacturers and
-      PDPs to achieve health impact through an innovative drug, vaccine,
-      delivery mechanism or formulation used mainly in low- and middle-income
-      countries (a “project”). Firms and PDPs would be invited to bid through a
-      Request for Proposals; successful proposals would become eligible for
-      rewards based on health impact achieved through the initiative. The
-      available reward pool would be divided among the accepted projects in
-      proportion to the health impact achieved by each.
-    </p>
-    <p class="minihif">
-      The mini-HIF would create incentives for investment into improving the
-      health of poor people. For further details, please get in touch with us at{" "}
-      <a href="emailto:contact@healthimpactfund.org">
-        contact@healthimpactfund.org
-      </a>
-    </p>
-
-    <img
-      style={{
-        margin: '10px auto',
-        display: 'block'
-      }}
-      src="https://healthimpactfund.org/wp-content/uploads/2016/02/miniHIF.jpg"
-      alt="Health Impact Fund mini-HIF"
-    />
-
-    <h3>Health Impact Fund &#8220;mini-HIF&#8221; Proposal</h3>
-    <p>
-      This book presents an in-depth overview of the Health Impact Fund&#8217;s
-      proposed MiniHIF initiative. The mini-HIF focuses on demonstrating the
-      feasibility of rewarding new drugs based on assessed health impact.{" "}
-    </p>
-    <a href="https://healthimpactfund.org/wp-content/uploads/2016/02/mini-HIF-proposal-2016.pdf">
-      Click here to download (English)
-    </a>
   </Layout>
 )
 

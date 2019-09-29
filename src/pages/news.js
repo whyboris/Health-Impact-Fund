@@ -14,101 +14,34 @@ const SecondPage = ({ intl }) => (
       <FormattedMessage id="news.info" />
     </p>
 
-    <br />
-    <br />
-    <br />
+    <div class="news-item">
+      <div class="photo-and-caption">
+        <img src="http://temp.yboris.com/hif/GordonBrown.jpg" />
+        <span class="caption">
+          <a href="https://www.flickr.com/photos/26087974@N05/2794502401/in/photolist-5fWycT-73eyY4-K27DF5-7srBjU-5yrHsu-4pRJQ3-LxKie-6FQgRL-21YNA-7fuBBP-YrMnc-XLitE-4pB7az-22E6bwo-81ukoA-6qCvdA-5A2dWq-81raKp-3pqzmL-4W6Ldz-9e3DLE-7G3t1c-7KVkH-81uk3j-bnoTq-83tNQB-7KVx4-4WaZnb-65D1NB-YrMMT-4W6LHi-6byQ6F-E1Bbz-suznZz-7YLEhZ-7KUVL-7KV4s-4Wb2z9-4Wb5nG-5WEWkq-7GEke-bB7KBf-7KUXP-6Fcrgy-4Wb1ey-7JrU1-7KUFS-5AUF6y-6vuMmB-7KVda">
+            Photo by Cory M. Grenier
+          </a>
+        </span>
+      </div>
 
-    <h1>International Advisory Council</h1>
+      <span class="date">2019.06.20</span>
 
-    <ul>
-      <li>
-        <strong>Kenneth J. Arrow</strong>
-        (21. Februar 2017), Professor of Economics and Operations Research,
-        Stanford University; Nobel Prize Winner in Economics.
-      </li>
-      <li>
-        <strong>Noam Chomsky</strong>, former Institute Professor, Department of
-        Linguistics & Philosophy, MIT.
-      </li>
-      <li>
-        <strong>John J. DeGioia</strong>, President of Georgetown University.
-      </li>
-      <li>
-        <strong>Ruth Faden</strong>, Professor of Biomedical Ethics and founder
-        of the Berman Institute of Bioethics, Johns Hopkins University.
-      </li>
-      <li>
-        <strong>Paul Farmer</strong>, Chair of the Department of Global Health
-        and Social Medicine at Harvard Medical School; Co-Founder, Partners in
-        Health.
-      </li>
-      <li>
-        <strong>Robert Gallo</strong>, Director of the Institute of Human
-        Virology at the University of Maryland School of Medicine, co-discoverer
-        of the human immunodeficiency virus.
-      </li>
-      <li>
-        <strong>Professor David Haslam</strong>, former Chair of the National
-        Institute for Health and Care Excellence (NICE).
-      </li>
-      <li>
-        <strong>Paul Martin</strong>, twenty-first Prime Minister of Canada.
-      </li>
-      <li>
-        <strong>Christopher Murray</strong>, Institute Director, Institute for
-        Health Metrics and Evaluation (IHME).
-      </li>
-      <li>
-        <strong>Gustav Nossal</strong>, Research Biologist; Australian of the
-        Year in 2000.
-      </li>
-      <li>
-        <strong>Baroness Onora O’Neill</strong>, Member of the UK House of
-        Lords; former President of the British Academy.
-      </li>
-      <li>
-        <strong>James Orbinski</strong>, Professor and inaugural Director of the
-        Dahdaleh Institute of Global Health Research at York University; former
-        International President of Médecins Sans Frontières; co-founder of the
-        Drugs for Neglected Diseases Initiative (DNDi); co-founder of Dignitas
-        International.
-      </li>
-      <li>
-        <strong>Sir Michael Rawlins</strong>, former Chair of the UK National
-        Institute of Health & Clinical Excellence (NICE).
-      </li>
-      <li>
-        <strong>Jan Rosier</strong>, Professor of Biotech Business at University
-        College Dublin; Former Vice President of Janssen Drug Development.
-      </li>
-      <li>
-        <strong>Karin Roth</strong>, former member of the German Parliament and
-        former speaker of the SPD-faction in the Subcommittee on Health in
-        Developing Countries.
-      </li>
-      <li>
-        <strong>Amartya Sen</strong>, Professor of Economics and Philosophy,
-        Harvard University; Nobel Prize Winner in Economics.
-      </li>
-      <li>
-        <strong>Peter Singer</strong>, Ira W. DeCamp Professor of Bioethics,
-        Princeton University.
-      </li>
-      <li>
-        <strong>Judith Whitworth</strong>, former Director of the John Curtin
-        School of Medical Research at ANU; former Chair of the WHO Global
-        Advisory Committee on Health Research.
-      </li>
-      <li>
-        <strong>Heidemarie Wieczorek-Zeul</strong>, former German Federal
-        Minister for Economic Cooperation and Development.
-      </li>
-      <li>
-        <strong>Richard Wilder</strong>, General Counsel and Director of
-        Business Development at the Coalition for Epidemic Preparedness
-        Innovations.
-      </li>
-    </ul>
+      <div class="news-text">
+        <h2>
+          London meeting on the Health Impact Fund with the Rt Hon Gordon Brown.
+        </h2>
+
+        <p>
+          On June 20 2019, a wide variety of stakeholders participated in a
+          meeting on the <em>Health Impact Fund</em> proposal, the MVAC
+          proposal, and antibiotic market entry rewards. These alternative and
+          complementary mechanisms to support innovation showed the importance
+          of new financing tools for pharmaceutical innovation in a variety of
+          areas. The Rt Hon Gordon Brown offered incisive comments on the
+          challenges of attracting political support in the current environment.
+        </p>
+      </div>
+    </div>
   </Layout>
 )
 
