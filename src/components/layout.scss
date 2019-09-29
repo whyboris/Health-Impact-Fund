@@ -1,4 +1,5 @@
 $primary: #80CF0F;
+$pramaryDark: #2f4c06;
 
 html {
   font-family: sans-serif;
@@ -15,7 +16,7 @@ body {
 
 main {
   background-color: #ffffff;
-  padding: 20px;
+  padding: 40px;
   min-height: 500px;
 }
 
@@ -121,11 +122,16 @@ a {
   padding: 20px;
   position: relative;
 
+  h3 {
+    color: $pramaryDark;
+  }
+
   img {
     float: left;
     height: 200px;
     margin-right: 40px;
     width: 130px;
+    border-radius: 10px;
   }
 
   ul {
@@ -142,6 +148,7 @@ a {
   }
 
   strong {
+    color: $pramaryDark;
     display: block;
     margin-bottom: 6px;
   }
@@ -175,6 +182,18 @@ a {
         transform: scale(1.5);
       }
     }
+  }
+}
+
+.individual_publication {
+  svg {
+    position: relative !important;
+  }
+
+  span {
+    display: inline-block;
+    position: absolute;
+    margin: 13px 6px;
   }
 }
 

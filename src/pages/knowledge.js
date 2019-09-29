@@ -19,8 +19,25 @@ const SecondPage = ({ intl }) => (
       <FormattedMessage id="knowledge.info" />
     </p>
 
-    <h2>Publications</h2>
-    <div class="publication_container">
+    <div class="publication_container individual_publication">
+      <img
+        src="http://temp.yboris.com/hif/HIF_pilot_proposal_2019_04.png"
+        alt="Health Impact Fund Pilot Proposal"
+      />
+
+      <h3>Health Impact Fund Pilot Proposal</h3>
+      <p>
+        The Health Impact Fund Pilot Proposal summarizes the Health Impact Fund
+        initative, its design and terms; answers the question "why?", and lists
+        its members.
+      </p>
+      <a href="http://temp.yboris.com/hif/HIF_pilot_proposal_2019_04.pdf">
+        <Icon />
+        <span>Click here to download</span>
+      </a>
+    </div>
+
+    <div class="publication_container individual_publication">
       <img
         src="https://healthimpactfund.org/wp-content/uploads/2015/12/HIF_Front_Cover-big.jpg"
         alt="Health Impact Fund Book"
@@ -35,11 +52,12 @@ const SecondPage = ({ intl }) => (
         comparatively low cost.
       </p>
       <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/hif_book.pdf">
-        Click here to download
+        <Icon />
+        <span>Click here to download</span>
       </a>
     </div>
 
-    <div class="publication_container">
+    <div class="publication_container individual_publication">
       <img
         src="https://healthimpactfund.org/wp-content/uploads/2015/12/Summaries.png"
         alt="Health Impact Fund Summaries"
@@ -54,7 +72,8 @@ const SecondPage = ({ intl }) => (
         and The path forward.
       </p>
       <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/HIFshort.pdf">
-        Click here to download
+        <Icon />
+        <span>Click here to download</span>
       </a>
       <br />
     </div>

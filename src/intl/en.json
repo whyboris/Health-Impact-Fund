@@ -1,8 +1,8 @@
 {
   "about": {
-    "heading": "About heading",
-    "info": "About info",
-    "title": "About page title"
+    "heading": "About HIF",
+    "info": "some text to translate here",
+    "title": "About HIF"
   },
   "benefits": {
     "heading": "Benefits heading",
@@ -23,22 +23,22 @@
     "step_05": "We cannot do it without your help! We hope you will collaborate with us in refining and implementing the Health Impact Fund idea so that new medicines can really benefit all."
   },
   "knowledge": {
-    "heading": "Knowledge heading",
-    "info": "Knowledge info",
-    "title": "Knowledge page"
+    "heading": "Publications",
+    "info": "some text to be translated",
+    "title": "HIF Publications"
   },
   "navigation": {
     "about": "About",
     "benefits": "Benefits",
     "donate": "Donate",
-    "knowledge": "Knowledge",
+    "knowledge": "Publications",
     "language": "Language",
     "news": "News"
   },
   "news": {
-    "heading": "News heading",
-    "info": "News info",
-    "title": "News page"
+    "heading": "Recent news",
+    "info": "some temp news text to be translated",
+    "title": "HIF News"
   },
   "notfound": {
     "description": "You just hit a route that doesn't yet exist",
