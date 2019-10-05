@@ -17,8 +17,18 @@ const SecondPage = ({ intl }) => (
     <h1>Incentives for Global Health</h1>
     <p>
       Incentives for Global Health is a US-based non-profit organization with
-      the principle mandate of advancing the Health Impact Fund proposal. We
+      the principal mandate of advancing the Health Impact Fund proposal. We
       welcome new team volunteers to collaborate with us in this important work.
+    </p>
+    <p>
+      If you are interested in getting involved or supporting Incentives for
+      Global Health, please write us at
+      <a href="mailto:info@healthimpactfund.org">info@healthimpactfund.org</a>
+      or you can make a
+      <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K7ULUVQSNFV8C">
+        donation
+      </a>
+      .
     </p>
 
     <h1>International Advisory Council</h1>

@@ -4,11 +4,14 @@
  *
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
-import { Link } from "gatsby-plugin-intl"
 
 import React from "react"
 import PropTypes from "prop-types"
-import { injectIntl, FormattedMessage } from "gatsby-plugin-intl"
+import {
+  injectIntl,
+  // FormattedMessage,
+  // Link
+} from "gatsby-plugin-intl"
 
 import Header from "./header"
 import "./layout.scss"
@@ -29,9 +32,9 @@ const Layout = ({ children, intl }) => {
 
           <div className="footer-links">
 
-            <Link to="/404/">
+            {/* <Link to="/404/">
               <FormattedMessage id="general.legal_notice" />
-            </Link>
+            </Link> */}
 
             <a href="https://twitter.com/HealthImpact">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">

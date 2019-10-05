@@ -11,7 +11,7 @@ const Step = ({data}) => {
     <>
       <div className="step" style={{ flexDirection: data.mirror ?  'row-reverse' : 'initial' }}>
         <div className="step-image">
-          <img src={data.img} />
+          <img src={data.img} alt={'step ' + data.step} />
         </div>
         <div className="step-text">
           <h1>{data.step}</h1>
