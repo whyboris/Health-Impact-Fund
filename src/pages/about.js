@@ -2,6 +2,7 @@ import React from "react"
 import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 
 import Layout from "../components/layout"
+import Advisor from "../components/advisor"
 import SEO from "../components/seo"
 
 const SecondPage = ({ intl }) => (
@@ -10,117 +11,192 @@ const SecondPage = ({ intl }) => (
     <h1>
       <FormattedMessage id="about.heading" />
     </h1>
-    <p>
+    {/* <p>
       <FormattedMessage id="about.info" />
-    </p>
+    </p> */}
 
-    <h1>Incentives for Global Health</h1>
+    {/* <h1>Incentives for Global Health</h1> */}
     <p>
       Incentives for Global Health is a US-based non-profit organization with
-      the principal mandate of advancing the Health Impact Fund proposal. We
-      welcome new team volunteers to collaborate with us in this important work.
+      the principal mandate of advancing the
+      <em style={{ fontWeight: "bold" }}> Health Impact Fund </em>
+      proposal. We welcome new team volunteers to collaborate with us in this
+      important work.
     </p>
     <p>
       If you are interested in getting involved or supporting Incentives for
-      Global Health, please write us at
-      <a href="mailto:info@healthimpactfund.org">info@healthimpactfund.org</a>
-      or you can make a
+      Global Health, please write us at{" "}
+      <a href="mailto:info@healthimpactfund.org">info@healthimpactfund.org</a>{" "}
+      or you can make a{" "}
       <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K7ULUVQSNFV8C">
         donation
       </a>
       .
     </p>
 
-    <h1>International Advisory Council</h1>
+    <h1 style={{ marginTop: "40px" }}>International Advisory Council</h1>
 
-    <ul>
-      <li>
-        <strong>Kenneth J. Arrow</strong>
-        (21. Februar 2017), Professor of Economics and Operations Research,
-        Stanford University; Nobel Prize Winner in Economics.
-      </li>
-      <li>
-        <strong>Noam Chomsky</strong>, former Institute Professor, Department of
-        Linguistics & Philosophy, MIT.
-      </li>
-      <li>
-        <strong>John J. DeGioia</strong>, President of Georgetown University.
-      </li>
-      <li>
-        <strong>Ruth Faden</strong>, Professor of Biomedical Ethics and founder
-        of the Berman Institute of Bioethics, Johns Hopkins University.
-      </li>
-      <li>
-        <strong>Paul Farmer</strong>, Chair of the Department of Global Health
-        and Social Medicine at Harvard Medical School; Co-Founder, Partners in
-        Health.
-      </li>
-      <li>
-        <strong>Robert Gallo</strong>, Director of the Institute of Human
-        Virology at the University of Maryland School of Medicine, co-discoverer
-        of the human immunodeficiency virus.
-      </li>
-      <li>
-        <strong>Professor David Haslam</strong>, former Chair of the National
-        Institute for Health and Care Excellence (NICE).
-      </li>
-      <li>
-        <strong>Paul Martin</strong>, twenty-first Prime Minister of Canada.
-      </li>
-      <li>
-        <strong>Christopher Murray</strong>, Institute Director, Institute for
-        Health Metrics and Evaluation (IHME).
-      </li>
-      <li>
-        <strong>Gustav Nossal</strong>, Research Biologist; Australian of the
-        Year in 2000.
-      </li>
-      <li>
-        <strong>Baroness Onora O’Neill</strong>, Member of the UK House of
-        Lords; former President of the British Academy.
-      </li>
-      <li>
-        <strong>James Orbinski</strong>, Professor and inaugural Director of the
-        Dahdaleh Institute of Global Health Research at York University; former
-        International President of Médecins Sans Frontières; co-founder of the
-        Drugs for Neglected Diseases Initiative (DNDi); co-founder of Dignitas
-        International.
-      </li>
-      <li>
-        <strong>Sir Michael Rawlins</strong>, former Chair of the UK National
-        Institute of Health & Clinical Excellence (NICE).
-      </li>
-      <li>
-        <strong>Jan Rosier</strong>, Professor of Biotech Business at University
-        College Dublin; Former Vice President of Janssen Drug Development.
-      </li>
-      <li>
-        <strong>Karin Roth</strong>, former member of the German Parliament and
-        former speaker of the SPD-faction in the Subcommittee on Health in
-        Developing Countries.
-      </li>
-      <li>
-        <strong>Amartya Sen</strong>, Professor of Economics and Philosophy,
-        Harvard University; Nobel Prize Winner in Economics.
-      </li>
-      <li>
-        <strong>Peter Singer</strong>, Ira W. DeCamp Professor of Bioethics,
-        Princeton University.
-      </li>
-      <li>
-        <strong>Judith Whitworth</strong>, former Director of the John Curtin
-        School of Medical Research at ANU; former Chair of the WHO Global
-        Advisory Committee on Health Research.
-      </li>
-      <li>
-        <strong>Heidemarie Wieczorek-Zeul</strong>, former German Federal
-        Minister for Economic Cooperation and Development.
-      </li>
-      <li>
-        <strong>Richard Wilder</strong>, General Counsel and Director of
-        Business Development at the Coalition for Epidemic Preparedness
-        Innovations.
-      </li>
+    <ul className="advisory-council">
+      <Advisor
+        data={{
+          name: "Kenneth J. Arrow",
+          description: "about.Kenneth_Arrow",
+          description_long: "about.Kenneth_Arrow_long",
+          id: '01'
+        }}
+      />
+      <Advisor
+        data={{
+          name: "Noam Chomsky",
+          description: "about.Noam_Chomsky",
+          description_long: "about.Noam_Chomsky_long",
+          id: '02'
+        }}
+      />
+      <Advisor
+        data={{
+          name: "John J. DeGioia",
+          description: "about.John_DeGioia",
+          description_long: "about.John_DeGioia_long",
+          id: '03'
+        }}
+      />
+      <Advisor
+        data={{
+          name: "Ruth Faden",
+          description: "about.Ruth_Faden",
+          description_long: "about.Ruth_Faden_long",
+          id: '04'
+        }}
+      />
+      <Advisor
+        data={{
+          name: "Paul Farmer",
+          description: "about.Paul_Farmer",
+          description_long: "about.Paul_Farmer_long",
+          id: '05'
+        }}
+      />
+      <Advisor
+        data={{
+          name: "Robert Gallo",
+          description: "about.Robert_Gallo",
+          description_long: "about.Robert_Gallo_long",
+          id: '06'
+        }}
+      />
+      <Advisor
+        data={{
+          name: "Professor David Haslam",
+          description: "about.David_Haslam",
+          description_long: "about.David_Haslam_long",
+          id: '07'
+        }}
+      />
+      <Advisor
+        data={{
+          name: "Paul Martin",
+          description: "about.Paul_Martin",
+          description_long: "about.Paul_Martin_long",
+          id: '08'
+        }}
+      />
+      <Advisor
+        data={{
+          name: "Christopher Murray",
+          description: "about.Christopher_Murray",
+          description_long: "about.Christopher_Murray_long",
+          id: '09'
+        }}
+      />
+      <Advisor
+        data={{
+          name: "Gustav Nossal",
+          description: "about.Gustav_Nossal",
+          description_long: "about.Gustav_Nossal_long",
+          id: '010'
+        }}
+      />
+      <Advisor
+        data={{
+          name: "Baroness Onora O’Neill",
+          description: "about.Onora_O_Neill",
+          description_long: "about.Onora_O_Neill_long",
+          id: '011'
+        }}
+      />
+      <Advisor
+        data={{
+          name: "James Orbinski",
+          description: "about.James_Orbinski",
+          description_long: "about.James_Orbinski_long",
+          id: '012'
+        }}
+      />
+      <Advisor
+        data={{
+          name: "Sir Michael Rawlins",
+          description: "about.Michael_Rawlins",
+          description_long: "about.Michael_Rawlins_long",
+          id: '013'
+        }}
+      />
+      <Advisor
+        data={{
+          name: "Jan Rosier",
+          description: "about.Jan_Rosier",
+          description_long: "about.Jan_Rosier_long",
+          id: '014'
+        }}
+      />
+      <Advisor
+        data={{
+          name: "Karin Roth",
+          description: "about.Karin_Roth",
+          description_long: "about.Karin_Roth_long",
+          id: '015'
+        }}
+      />
+      <Advisor
+        data={{
+          name: "Amartya Sen",
+          description: "about.Amartya_Sen",
+          description_long: "about.Amartya_Sen_long",
+          id: '016'
+        }}
+      />
+      <Advisor
+        data={{
+          name: "Peter Singer",
+          description: "about.Peter_Singer",
+          description_long: "about.Peter_Singer_long",
+          id: '017'
+        }}
+      />
+      <Advisor
+        data={{
+          name: "Judith Whitworth",
+          description: "about.Judith_Whitworth",
+          description_long: "about.Judith_Whitworth_long",
+          id: '018'
+        }}
+      />
+      <Advisor
+        data={{
+          name: "Heidemarie Wieczorek-Zeul",
+          description: "about.Heidemarie_Wieczorek_Zeul",
+          description_long: "about.Heidemarie_Wieczorek_Zeul_long",
+          id: '019'
+        }}
+      />
+      <Advisor
+        data={{
+          name: "Richard Wilder",
+          description: "about.Richard_Wilder",
+          description_long: "about.Richard_Wilder_long",
+          id: '020'
+        }}
+      />
     </ul>
   </Layout>
 )

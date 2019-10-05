@@ -82,7 +82,7 @@ const IndexPage = ({ intl }) => {
         }}
       />
 
-      <div class="video-container">
+      <div className="video-container">
         <iframe
           title="Medicine for the 99 percent"
           width="560"
@@ -94,12 +94,12 @@ const IndexPage = ({ intl }) => {
         ></iframe>
       </div>
 
-      <div class="hip-book">
+      <div className="hip-book">
         <img
           alt="Health Impact Fund book"
           src="https://healthimpactfund.org/wp-content/uploads/2015/12/HIF_Front_Cover-big.jpg"
         />
-        <div class="green-block"></div>
+        <div className="green-block"></div>
         <p>
           <em>
             The Health Impact Fund complements to the existing rules in the
@@ -111,11 +111,11 @@ const IndexPage = ({ intl }) => {
         </p>
 
         <Link to="/knowledge">
-          <div class="button button-first">Explore more papers</div>
+          <div className="button button-first">Explore more papers</div>
         </Link>
 
         <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/hif_book.pdf">
-          <div class="button button-second">Read the book</div>
+          <div className="button button-second">Read the book</div>
         </a>
 
       </div>

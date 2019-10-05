@@ -15,11 +15,11 @@ const SecondPage = ({ intl }) => (
     <h1>
       <FormattedMessage id="knowledge.heading" />
     </h1>
-    <p>
+    {/* <p>
       <FormattedMessage id="knowledge.info" />
-    </p>
+    </p> */}
 
-    <div class="publication_container individual_publication">
+    <div className="publication_container individual_publication">
       <img
         src="http://temp.yboris.com/hif/HIF_pilot_proposal_2019_04.png"
         alt="Health Impact Fund Pilot Proposal"
@@ -37,7 +37,7 @@ const SecondPage = ({ intl }) => (
       </a>
     </div>
 
-    <div class="publication_container individual_publication">
+    <div className="publication_container individual_publication">
       <img
         src="https://healthimpactfund.org/wp-content/uploads/2015/12/HIF_Front_Cover-big.jpg"
         alt="Health Impact Fund Book"
@@ -57,7 +57,7 @@ const SecondPage = ({ intl }) => (
       </a>
     </div>
 
-    <div class="publication_container individual_publication">
+    <div className="publication_container individual_publication">
       <img
         src="https://healthimpactfund.org/wp-content/uploads/2015/12/Summaries.png"
         alt="Health Impact Fund Summaries"
@@ -78,7 +78,7 @@ const SecondPage = ({ intl }) => (
       <br />
     </div>
 
-    <div class="publication_container">
+    <div className="publication_container">
       <ul>
         <li>
           <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/DP1_Hollis.pdf">
