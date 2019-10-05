@@ -16,9 +16,9 @@ const Advisor = ({data}) => {
       <li onClick={
           () => {
             if (!showLongDescription) {
-              document.getElementById(data.id).setAttribute("class", "show");
+              document.getElementById(data.id).classList.remove("hidden");
             } else {
-              document.getElementById(data.id).setAttribute("class", "hidden");
+              document.getElementById(data.id).classList.add("hidden");
             }
             showLongDescription = !showLongDescription;
           }}
@@ -29,7 +29,7 @@ const Advisor = ({data}) => {
           <FormattedMessage id={data.description} />
         </p>
 
-        <p id={data.id} className="hidden">
+        <p id={data.id} className="description-long hidden">
           <FormattedMessage id={data.description_long} />
         </p>
       </li>

@@ -1,7 +1,7 @@
 import React from "react"
 import {
   // FormattedMessage,
-  injectIntl
+  injectIntl,
 } from "gatsby-plugin-intl"
 
 import Layout from "../components/layout"
@@ -20,7 +20,29 @@ const SecondPage = ({ intl }) => (
       <FormattedMessage id="benefits.info" />
     </p> */}
 
-    <h1>The Health Impact Fund in a few sentences.</h1>
+    <div className="scroll-to-top" onClick={ () => { window.scrollTo(0, 0); }}>
+      <svg
+        width="16"
+        height="10"
+        viewBox="0 0 16 10"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g clipPath="url(#clip0)">
+          <path
+            d="M14.1053 0L8 6.10526L1.89474 0L0 1.89474L8 9.89474L16 1.89474L14.1053 0Z"
+            fill="#222222"
+          />
+        </g>
+        <defs>
+          <clipPath id="clip0">
+            <rect width="16" height="9.89474" fill="white" />
+          </clipPath>
+        </defs>
+      </svg>
+    </div>
+
+    <h1 id="summary">The Health Impact Fund in a few sentences.</h1>
 
     <p>
       The Health Impact Fund provides a complementary system for the development
@@ -29,12 +51,14 @@ const SecondPage = ({ intl }) => (
     </p>
     <p>
       <strong>How does it work?</strong>
+      <br />
       The Health Impact Fund is financed by states and charitable contributors.
       It would give pharmaceutical innovators the option of registering any new
       product for annual reward payments.
     </p>
     <p>
       <strong>One special feature:</strong>
+      <br />
       the price of registered products is limited to the costs of manufacture
       and distribution, and therefore affordable even for poor patients. The
       price of registered medicines is delinked from their R&D cost.
@@ -42,19 +66,21 @@ const SecondPage = ({ intl }) => (
 
     <p>
       <strong>A second special feature:</strong>
+      <br />
       reward payments for pharmaceutical innovators depend solely on the annual
       health gains achieved by their registered medicines. The more such a new
       medicine improves or lengthens human lives, the more money goes to its
       innovator.
     </p>
 
-    <h1>Background</h1>
+    <h1 id="background">Background</h1>
 
     <p>
       <strong>
         Pharmaceutical research is currently funded from patent-protected
         markups.
       </strong>
+      <br />
       The development of new medicines is very expensive. To cover these R&D
       costs, states provide 20-year patents. Under the protection of such
       temporary monopolies, pharmaceutical firms sell their new products at very
@@ -62,6 +88,7 @@ const SecondPage = ({ intl }) => (
     </p>
     <p>
       <strong>First adverse effect:</strong>
+      <br />
       in the current system, the diseases of the poor are unattractive areas for
       pharmaceutical research. This is so because poor patients cannot afford to
       buy expensive medicines. The diseases of the poor are therefore generally
@@ -71,6 +98,7 @@ const SecondPage = ({ intl }) => (
     </p>
     <p>
       <strong>Second adverse effect:</strong>
+      <br />
       new medicines are generally unaffordable for the poor. Even when new
       medicines are developed, against hepatitis C for example, they are almost
       always sold at profit-maximizing monopoly prices. These far exceed what
@@ -82,13 +110,15 @@ const SecondPage = ({ intl }) => (
         The Health Impact Fund provides a complementary system that strengthens
         world health.
       </strong>
+      <br />
       With the Health Impact Fund, pharmaceutical companies obtain an additional
       option that, through new incentives, mitigates the two adverse effects.
     </p>
 
-    <h1>The Essence.</h1>
+    <h1 id="essence">The Essence</h1>
     <p>
       <strong>Health gains as the standard.</strong>
+      <br />
       The purpose of medicines is to improve and preserve health. The Health
       Impact Fund aligns research, development and marketing with precisely this
       purpose. This is so because the reward payments that any innovator
@@ -101,23 +131,26 @@ const SecondPage = ({ intl }) => (
     </p>
     <p>
       <strong>Covering the costs of pharmaceutical firms.</strong>
+      <br />
       With the publicly funded reward payments that the Health Impact Fund pays
       out for each registered medicine, the firm can recoup its R&D costs and
       earn profits in addition.
     </p>
     <p>
       <strong>Delinking a medicine’s price from its R&D costs.</strong>
+      <br />
       Registered medicines can then be sold at the affordable cost price, which
       covers merely the variable costs of manufacture and distribution. Such
       medicines are therefore affordable even to very poor patients.
     </p>
 
-    <h1>Frequent questions.</h1>
+    <h1 id="faq">Frequent questions</h1>
 
     <p>
       <strong>
         Should the Health Impact Fund replace the existing system of incentives?
       </strong>
+      <br />
       Clearly: no. The conventional incentives from patent-protected markups
       remain in place. The Health Impact Fund merely gives pharmaceutical
       innovators the additional option of registering a new medicine and then
@@ -126,6 +159,7 @@ const SecondPage = ({ intl }) => (
 
     <p>
       <strong>How is the Health Impact Fund financed?</strong>
+      <br />
       The Health Impact Fund might be financed by states, for example, most
       plausibly in proportion to their gross national incomes. Another possible
       source of funding are international taxes, which might be imposed on
@@ -134,14 +168,15 @@ const SecondPage = ({ intl }) => (
     </p>
 
     <p>
-      <strong>How much money does the Health Impact Fund require?</strong>A
-      stable and efficient Health Impact Fund would require at least €3 billion.
-      Of course, it could also work with a larger amount and would then attract
-      a larger number of product registrations.
+      <strong>How much money does the Health Impact Fund require?</strong>
+      <br />A stable and efficient Health Impact Fund would require at least €3
+      billion. Of course, it could also work with a larger amount and would then
+      attract a larger number of product registrations.
     </p>
 
     <p>
       <strong>Is this amount realistic?</strong>
+      <br />
       €3 billion per year is less than 0.3% of what the world currently spends
       on pharmaceuticals. If all countries participated, then each would need to
       contribute merely 0.0036% of its gross national income to the Health
@@ -153,6 +188,7 @@ const SecondPage = ({ intl }) => (
       <strong>
         What if some affluent countries initially don’t want to contribute?
       </strong>
+      <br />
       Their abstention would have some positive effects as well: medicines that
       are registered with the Health Impact Fund could still be sold with large
       patent-protected markups in such non-contributing affluent countries. This
@@ -166,6 +202,7 @@ const SecondPage = ({ intl }) => (
         How does the Health Impact Fund reward participating pharmaceutical
         innovators?
       </strong>
+      <br />
       Pharmaceutical innovators can register any new product with the Health
       Impact Fund and then receive annual reward payments that are tied
       exclusively to the measured health gains achieved: the larger a product’s
@@ -175,12 +212,14 @@ const SecondPage = ({ intl }) => (
 
     <p>
       <strong>And how are health gains measured?</strong>
+      <br />
       Health gains are measured in quality-adjusted life years (QALYs) and
       assessed through statistical sampling.
     </p>
 
     <p>
       <strong>What are quality-adjusted life years?</strong>
+      <br />
       The methodology of quality-adjusted life years has been in use for
       approximately 30 years. One qualityadjusted life year might be, for
       instance, one additional year of fully healthy life gained by a patient.
@@ -195,6 +234,7 @@ const SecondPage = ({ intl }) => (
         How do quality-adjusted life years affect the distribution of reward
         payments?
       </strong>
+      <br />
       Each year, the Health Impact Fund assesses the quality-adjusted life years
       achieved by each registered drug. Based on these assessments, the fixed
       annual reward pool is then distributed over the registered products. Thus
@@ -206,6 +246,7 @@ const SecondPage = ({ intl }) => (
       <strong>
         Does the idea of a Health Impact Fund thus far exist only on paper?
       </strong>
+      <br />
       No. There has already been a 5-year pilot project about the measurability
       of health gains, which included field work in India and was supported by a
       €2 million grant from the European Research Council. This project has
@@ -214,6 +255,7 @@ const SecondPage = ({ intl }) => (
     </p>
     <p>
       <strong>How can the Health Impact Fund be realized politically?</strong>
+      <br />
       The developers of the Health Impact Fund idea are currently seeking
       support for another pilot project. Its purpose is to try out the central
       elements of the Health Impact Fund on a smaller scale – for example, with
@@ -229,6 +271,7 @@ const SecondPage = ({ intl }) => (
       <strong>
         What initiatives might innovators propose for this new pilot project?
       </strong>
+      <br />
       Important selection criteria would be the magnitude and measurability of
       the expected health gains as well as the proposal’s innovation potential
       and inclusion of poor population segments. Pharmaceutical innovators might
@@ -246,17 +289,20 @@ const SecondPage = ({ intl }) => (
         Support the new pilot project and feel free to contact the Health Impact
         Fund team at:
       </strong>
+      <br />
       Max@healthimpactfund.org
     </p>
 
-    <h1>Advantages for …</h1>
+    <h1 id="advantages">Advantages for …</h1>
 
     <strong>... patients.</strong>
+    <br />
     <ul>
       <li>Expanded arsenal of available medicines.</li>
       <li>Cutting-edge pharmaceuticals at affordable prices.</li>
     </ul>
     <strong>... pharmaceutical innovators.</strong>
+    <br />
     <ul>
       <li>
         New incentives for essential but heretofore unprofitable R&D projects.
@@ -272,6 +318,7 @@ const SecondPage = ({ intl }) => (
       </li>
     </ul>
     <strong>... states and taxpayers.</strong>
+    <br />
     <ul>
       <li>
         Greater chance that patients will receive the medicines that are best

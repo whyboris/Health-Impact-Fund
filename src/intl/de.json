@@ -69,11 +69,16 @@
   },
   "navigation": {
     "about": "Über",
+    "advantages": "Vorteile",
+    "background": "Hintergrund",
     "benefits": "Leistungen",
     "donate": "Spenden",
+    "essence": "Wesen",
+    "faq": "FAQ",
     "knowledge": "Wissen",
     "language": "Sprache",
-    "news": "Nachrichten"
+    "news": "Nachrichten",
+    "summary": "Zusammenfassung"
   },
   "news": {
     "heading": "DE: NEWS heading",

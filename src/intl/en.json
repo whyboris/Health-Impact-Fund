@@ -69,11 +69,16 @@
   },
   "navigation": {
     "about": "About",
+    "advantages": "Advantages",
+    "background": "Background",
     "benefits": "Benefits",
     "donate": "Donate",
+    "essence": "Essence",
+    "faq": "FAQ",
     "knowledge": "Publications",
     "language": "Language",
-    "news": "News"
+    "news": "News",
+    "summary": "Summary"
   },
   "news": {
     "heading": "Recent news",
