@@ -26,11 +26,11 @@ const Advisor = ({data}) => {
         <strong>{data.name}</strong>
 
         <p className="description">
-          <FormattedMessage id={data.description} />
+          <FormattedMessage id={'team.' + data.name} />
         </p>
 
         <p id={data.id} className="description-long hidden">
-          <FormattedMessage id={data.description_long} />
+          <FormattedMessage id={'team.' + (data.name) + '_long'} />
         </p>
       </li>
     </>
