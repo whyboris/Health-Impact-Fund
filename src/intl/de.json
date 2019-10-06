@@ -23,9 +23,16 @@
     "step_05": "DE: 5th text: Duis velit felis, commodo eu lacus sit amet, aliquam tempor erat. Mauris tincidunt est nec iaculis condimentum. Phasellus id mauris condimentum, maximus turpis sed, mollis ante."
   },
   "knowledge": {
-    "heading": "DE: knowledge heading",
-    "info": "DE: knowledge info",
-    "title": "DE: knowledge page"
+    "click_to_download": "Click here to download",
+    "heading": "DE: Publications",
+    "hif_book": "The Health Impact Fund Book",
+    "hif_book_description": "This book presents for public consideration a complement to the existing rules governing the development and distribution of new medicines. It shows that the proposed Health Impact Fund is feasible and that it would produce large gains in global public health and economic productivity at comparatively low cost.",
+    "hif_pilot_proposal": "Health Impact Fund Pilot Proposal",
+    "hif_pilot_proposal_description": "The Health Impact Fund Pilot Proposal summarizes the Health Impact Fund initative, its design and terms; answers the question 'why?', and lists its members.",
+    "hif_summaries": "The Health Impact Fund Summaries",
+    "hif_summaries_description": "This document provides a two page summary of the Health Impact Fund and its goals. The document covers items including: How the Health Impact Fund works for patients, How the Health Impact Fund works for Pharmaceutical Companies, How the Health Impact Fund works for Taxpayers and The path forward.",
+    "info": "some text to be translated",
+    "title": "DE: HIF Publications"
   },
   "navigation": {
     "about": "Über",
@@ -41,6 +48,10 @@
     "summary": "Zusammenfassung"
   },
   "news": {
+    "2019.06.20_body": "On June 20 2019, a wide variety of stakeholders participated in a meeting on the Health Impact Fund proposal, the MVAC proposal, and antibiotic market entry rewards. These alternative and complementary mechanisms to support innovation showed the importance of new financing tools for pharmaceutical innovation in a variety of areas. The Rt Hon Gordon Brown offered incisive comments on the challenges of attracting political support in the current environment.",
+    "2019.06.20_title": "London meeting on the Health Impact Fund with the Rt Hon Gordon Brown.",
+    "2019.09.25_body": "The UK Labour Party is now officially calling for a change to the way that we pay for medicines, so that prices are “delinked” from the cost of innovation. The Health Impact Fund is a unique, competitive form of delinkage that controls the rewards to innovators through a market mechanism.",
+    "2019.09.25_title": "UK Labour Party Medicines Platform calls for Delinkage.",
     "heading": "DE: NEWS heading",
     "info": "DE: NEWS info",
     "title": "DE: NEWS page"

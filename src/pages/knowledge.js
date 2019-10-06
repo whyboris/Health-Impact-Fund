@@ -25,15 +25,15 @@ const SecondPage = ({ intl }) => (
         alt="Health Impact Fund Pilot Proposal"
       />
 
-      <h3>Health Impact Fund Pilot Proposal</h3>
-      <p>
-        The Health Impact Fund Pilot Proposal summarizes the Health Impact Fund
-        initative, its design and terms; answers the question "why?", and lists
-        its members.
-      </p>
+      <FormattedMessage id="knowledge.hif_pilot_proposal">
+        {txt => <h3>{txt}</h3>}
+      </FormattedMessage>
+      <FormattedMessage id="knowledge.hif_pilot_proposal_description">
+        {txt => <p>{txt}</p>}
+      </FormattedMessage>
       <a href="http://temp.yboris.com/hif/HIF_pilot_proposal_2019_04.pdf">
         <Icon />
-        <span>Click here to download</span>
+        <FormattedMessage id="knowledge.click_to_download" />
       </a>
     </div>
 
@@ -43,17 +43,17 @@ const SecondPage = ({ intl }) => (
         alt="Health Impact Fund Book"
       />
 
-      <h3>The Health Impact Fund Book</h3>
-      <p>
-        This book presents for public consideration a complement to the existing
-        rules governing the development and distribution of new medicines. It
-        shows that the proposed Health Impact Fund is feasible and that it would
-        produce large gains in global public health and economic productivity at
-        comparatively low cost.
-      </p>
+      <FormattedMessage id="knowledge.hif_book">
+        {txt => <h3>{txt}</h3>}
+      </FormattedMessage>
+
+      <FormattedMessage id="knowledge.hif_book_description">
+        {txt => <p>{txt}</p>}
+      </FormattedMessage>
+
       <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/hif_book.pdf">
         <Icon />
-        <span>Click here to download</span>
+        <FormattedMessage id="knowledge.click_to_download" />
       </a>
     </div>
 
@@ -63,17 +63,15 @@ const SecondPage = ({ intl }) => (
         alt="Health Impact Fund Summaries"
       />
 
-      <h3>The Health Impact Fund Summaries</h3>
-      <p>
-        This document provides a two page summary of the Health Impact Fund and
-        its goals. The document covers items including: How the Health Impact
-        Fund works for patients, How the Health Impact Fund works for
-        Pharmaceutical Companies, How the Health Impact Fund works for Taxpayers
-        and The path forward.
-      </p>
+      <FormattedMessage id="knowledge.hif_summaries">
+        {txt => <h3>{txt}</h3>}
+      </FormattedMessage>
+      <FormattedMessage id="knowledge.hif_summaries_description">
+        {txt => <p>{txt}</p>}
+      </FormattedMessage>
       <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/HIFshort.pdf">
         <Icon />
-        <span>Click here to download</span>
+        <FormattedMessage id="knowledge.click_to_download" />
       </a>
       <br />
     </div>
