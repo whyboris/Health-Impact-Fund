@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 import Icon from "../images/pdf.svg"
 
-const SecondPage = ({ intl }) => (
+const Knowledge = ({ intl }) => (
   <Layout>
     <SEO
       lang={intl.locale}
@@ -201,4 +201,4 @@ const SecondPage = ({ intl }) => (
   </Layout>
 )
 
-export default injectIntl(SecondPage)
+export default injectIntl(Knowledge)

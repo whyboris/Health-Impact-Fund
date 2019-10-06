@@ -29,49 +29,58 @@ const advisors = [
   "Richard Wilder",
 ]
 
-
-const SecondPage = ({ intl }) => (
+const About = ({ intl }) => (
   <Layout>
     <SEO lang={intl.locale} title={intl.formatMessage({ id: "about.title" })} />
     <h1>
       <FormattedMessage id="about.heading" />
     </h1>
-    {/* <p>
-      <FormattedMessage id="about.info" />
-    </p> */}
 
-    {/* <h1>Incentives for Global Health</h1> */}
-    <p>
-      Incentives for Global Health is a US-based non-profit organization with
-      the principal mandate of advancing the
-      <em style={{ fontWeight: "bold" }}> Health Impact Fund </em>
-      proposal. We welcome new team volunteers to collaborate with us in this
-      important work.
-    </p>
-    <p>
-      If you are interested in getting involved or supporting Incentives for
-      Global Health, please write us at{" "}
-      <a href="mailto:info@healthimpactfund.org">info@healthimpactfund.org</a>{" "}
-      or you can make a{" "}
-      <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K7ULUVQSNFV8C">
-        donation
-      </a>
-      .
-    </p>
+    <FormattedMessage
+      id="about.about_IGH"
+      values={{
+        HIP: (
+          <>
+            <em>Health Impact Fund</em>
+          </>
+        ),
+      }}
+    >
+      {(...chunks) => <p>{chunks}</p>}
+    </FormattedMessage>
 
-    <h1 style={{ marginTop: "40px" }}>International Advisory Council</h1>
+    <FormattedMessage
+      id="about.about_IGH_more"
+      values={{
+        email: (
+          <>
+            <a href="mailto:info@healthimpactfund.org">
+              info@healthimpactfund.org
+            </a>
+          </>
+        ),
+        donation: (
+          <>
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K7ULUVQSNFV8C">
+              <FormattedMessage id="about.donation" />
+            </a>
+          </>
+        ),
+      }}
+    >
+      {(...chunks) => <p>{chunks}</p>}
+    </FormattedMessage>
 
+    <FormattedMessage id="about.advisory_council">
+      {txt => <h1 style={{ marginTop: "40px" }}>{txt}</h1>}
+    </FormattedMessage>
 
     <ul className="advisory-council">
-
-      {
-        advisors.map((element, index) => {
-          return <Advisor data={{ name: element, id: index}} />
-        })
-      }
-
+      {advisors.map((element, index) => {
+        return <Advisor key={index} data={{ name: element, id: index }} />
+      })}
     </ul>
   </Layout>
 )
 
-export default injectIntl(SecondPage)
+export default injectIntl(About)

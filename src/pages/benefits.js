@@ -7,7 +7,7 @@ import {
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const SecondPage = ({ intl }) => (
+const Benefits = ({ intl }) => (
   <Layout>
     <SEO
       lang={intl.locale}
@@ -344,4 +344,4 @@ const SecondPage = ({ intl }) => (
   </Layout>
 )
 
-export default injectIntl(SecondPage)
+export default injectIntl(Benefits)

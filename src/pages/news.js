@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 import Icon from "../images/pdf.svg"
 
-const SecondPage = ({ intl }) => (
+const News = ({ intl }) => (
   <Layout>
     <SEO lang={intl.locale} title={intl.formatMessage({ id: "news.title" })} />
     <h1>
@@ -70,4 +70,4 @@ const SecondPage = ({ intl }) => (
   </Layout>
 )
 
-export default injectIntl(SecondPage)
+export default injectIntl(News)
