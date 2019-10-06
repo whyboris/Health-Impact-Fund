@@ -12,7 +12,7 @@ const advisors = [
   "John J. DeGioia",
   "Ruth Faden",
   "Paul Farmer",
-  "Robert Gallo",
+  "Robert C. Gallo",
   "Professor David Haslam",
   "Paul Martin",
   "Christopher Murray",
