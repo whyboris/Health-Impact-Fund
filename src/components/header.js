@@ -81,19 +81,19 @@ const Header = ({ siteTitle }) => (
           </svg>
           <div className="dropdown-content">
 
-            <Link to="/about#summary">
+            <Link to="/problem">
               <FormattedMessage id="navigation.problem" />
             </Link>
-            <Link to="/about#background">
+            <Link to="/what">
               <FormattedMessage id="navigation.what" />
             </Link>
-            <Link to="/about#essence">
+            <Link to="/how">
               <FormattedMessage id="navigation.how" />
             </Link>
-            <Link to="/about#faq">
+            <Link to="/benefits">
               <FormattedMessage id="navigation.benefits" />
             </Link>
-            <Link to="/about#advantages">
+            <Link to="/faq">
               <FormattedMessage id="navigation.faq" />
             </Link>
 
