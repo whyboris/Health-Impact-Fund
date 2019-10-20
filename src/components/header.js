@@ -49,10 +49,13 @@ const Header = ({ siteTitle }) => (
           </svg>
         </div>
 
+
+{/* ABOUT  dropdown */}
+
         <div className="nav-item dropdown">
           <div className="dropbtn">
-            <Link to="/benefits">
-              <FormattedMessage id="navigation.benefits" />
+            <Link to="/about">
+              <FormattedMessage id="navigation.about" />
             </Link>
           </div>
 
@@ -76,44 +79,141 @@ const Header = ({ siteTitle }) => (
               </clipPath>
             </defs>
           </svg>
-
           <div className="dropdown-content">
-            <Link to="/benefits#summary">
-              <FormattedMessage id="navigation.summary" />
+            <Link to="/about#summary">
+              <FormattedMessage id="navigation.problem" />
             </Link>
-            <Link to="/benefits#background">
-              <FormattedMessage id="navigation.background" />
+            <Link to="/about#background">
+              <FormattedMessage id="navigation.what" />
             </Link>
-            <Link to="/benefits#essence">
-              <FormattedMessage id="navigation.essence" />
+            <Link to="/about#essence">
+              <FormattedMessage id="navigation.how" />
             </Link>
-            <Link to="/benefits#faq">
+            <Link to="/about#faq">
+              <FormattedMessage id="navigation.benefits" />
+            </Link>
+            <Link to="/about#advantages">
               <FormattedMessage id="navigation.faq" />
-            </Link>
-            <Link to="/benefits#advantages">
-              <FormattedMessage id="navigation.advantages" />
             </Link>
           </div>
         </div>
 
-        <Link to="/news">
-          <div className="nav-item">
-            <FormattedMessage id="navigation.news" />
-          </div>
-        </Link>
 
-        <Link to="/about">
-          <div className="nav-item">
-            <FormattedMessage id="navigation.about" />
+{/* NEWS */}
+        <div className="nav-item dropdown">
+          <div className="dropbtn">
+            <Link to="/about">
+              <FormattedMessage id="navigation.about" />
+            </Link>
           </div>
-        </Link>
 
-        <Link to="/knowledge">
-          <div className="nav-item">
-            <FormattedMessage id="navigation.knowledge" />
+          <svg
+            style={{ marginLeft: "8px" }}
+            width="16"
+            height="10"
+            viewBox="0 0 16 10"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clipPath="url(#clip0)">
+              <path
+                d="M14.1053 0L8 6.10526L1.89474 0L0 1.89474L8 9.89474L16 1.89474L14.1053 0Z"
+                fill="#222222"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0">
+                <rect width="16" height="9.89474" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+          <div className="dropdown-content">
+
+            <Link to="/news">
+              <div className="nav-item">
+                <FormattedMessage id="navigation.news" />
+              </div>
+            </Link>
           </div>
-        </Link>
+        </div>
 
+{/* TEAM */}
+        <div className="nav-item dropdown">
+          <div className="dropbtn">
+            <Link to="/team">
+              <FormattedMessage id="navigation.team" />
+            </Link>
+          </div>
+
+          <svg
+            style={{ marginLeft: "8px" }}
+            width="16"
+            height="10"
+            viewBox="0 0 16 10"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clipPath="url(#clip0)">
+              <path
+                d="M14.1053 0L8 6.10526L1.89474 0L0 1.89474L8 9.89474L16 1.89474L14.1053 0Z"
+                fill="#222222"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0">
+                <rect width="16" height="9.89474" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+          <div className="dropdown-content">
+
+            <Link to="/team">
+              <FormattedMessage id="navigation.team" />
+            </Link>
+
+          </div>
+        </div>
+
+
+{/* PUBLICATIONS */}
+        <div className="nav-item dropdown">
+          <div className="dropbtn">
+            <Link to="/publications">
+              <FormattedMessage id="navigation.publications" />
+            </Link>
+          </div>
+
+          <svg
+            style={{ marginLeft: "8px" }}
+            width="16"
+            height="10"
+            viewBox="0 0 16 10"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clipPath="url(#clip0)">
+              <path
+                d="M14.1053 0L8 6.10526L1.89474 0L0 1.89474L8 9.89474L16 1.89474L14.1053 0Z"
+                fill="#222222"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0">
+                <rect width="16" height="9.89474" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+          <div className="dropdown-content">
+
+            <Link to="/publications">
+              <FormattedMessage id="navigation.publications" />
+            </Link>
+
+          </div>
+        </div>
+
+
+{/* LANGUAGE */}
         <div className="nav-item dropdown">
           <div className="dropbtn">
             <FormattedMessage id="navigation.language" />
@@ -143,11 +243,14 @@ const Header = ({ siteTitle }) => (
           <Language />
         </div>
 
+{/*
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K7ULUVQSNFV8C">
           <div className="nav-item donate">
             <FormattedMessage id="navigation.donate" />
           </div>
         </a>
+ */}
+
       </div>
     </div>
   </header>

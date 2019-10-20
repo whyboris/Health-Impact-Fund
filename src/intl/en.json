@@ -45,11 +45,15 @@
     "benefits": "Benefits",
     "donate": "Donate",
     "essence": "Essence",
-    "faq": "FAQ",
-    "knowledge": "Publications",
+    "faq": "FAQs",
+    "how": "How it works",
     "language": "Language",
     "news": "News",
-    "summary": "Summary"
+    "problem": "The problem",
+    "publications": "Publications",
+    "summary": "Summary",
+    "team": "Team",
+    "what": "What is the HIF"
   },
   "news": {
     "2019.06.20_body": "On June 20 2019, a wide variety of stakeholders participated in a meeting on the Health Impact Fund proposal, the MVAC proposal, and antibiotic market entry rewards. These alternative and complementary mechanisms to support innovation showed the importance of new financing tools for pharmaceutical innovation in a variety of areas. The Rt Hon Gordon Brown offered incisive comments on the challenges of attracting political support in the current environment.",
