@@ -80,6 +80,7 @@ const Header = ({ siteTitle }) => (
             </defs>
           </svg>
           <div className="dropdown-content">
+
             <Link to="/about#summary">
               <FormattedMessage id="navigation.problem" />
             </Link>
@@ -95,6 +96,7 @@ const Header = ({ siteTitle }) => (
             <Link to="/about#advantages">
               <FormattedMessage id="navigation.faq" />
             </Link>
+
           </div>
         </div>
 
@@ -102,8 +104,8 @@ const Header = ({ siteTitle }) => (
 {/* NEWS */}
         <div className="nav-item dropdown">
           <div className="dropbtn">
-            <Link to="/about">
-              <FormattedMessage id="navigation.about" />
+            <Link to="/news">
+              <FormattedMessage id="navigation.news" />
             </Link>
           </div>
 
@@ -130,10 +132,9 @@ const Header = ({ siteTitle }) => (
           <div className="dropdown-content">
 
             <Link to="/news">
-              <div className="nav-item">
-                <FormattedMessage id="navigation.news" />
-              </div>
+              <FormattedMessage id="navigation.recent_events" />
             </Link>
+
           </div>
         </div>
 
@@ -168,7 +169,19 @@ const Header = ({ siteTitle }) => (
           <div className="dropdown-content">
 
             <Link to="/team">
-              <FormattedMessage id="navigation.team" />
+              <FormattedMessage id="navigation.igh" />
+            </Link>
+            <Link to="/team">
+              <FormattedMessage id="navigation.advisory_board" />
+            </Link>
+            <Link to="/team">
+              <FormattedMessage id="navigation.scientific_advisors" />
+            </Link>
+            <Link to="/team">
+              <FormattedMessage id="navigation.board" />
+            </Link>
+            <Link to="/team">
+              <FormattedMessage id="navigation.management_team" />
             </Link>
 
           </div>
@@ -206,7 +219,13 @@ const Header = ({ siteTitle }) => (
           <div className="dropdown-content">
 
             <Link to="/publications">
-              <FormattedMessage id="navigation.publications" />
+              <FormattedMessage id="navigation.book" />
+            </Link>
+            <Link to="/publications">
+              <FormattedMessage id="navigation.discussion_papers" />
+            </Link>
+            <Link to="/publications">
+              <FormattedMessage id="navigation.videos" />
             </Link>
 
           </div>
