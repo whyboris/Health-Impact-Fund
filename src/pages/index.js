@@ -138,8 +138,8 @@ const IndexPage = ({ intl }) => {
           className="pull-quote"
           id="firstQuote"
           onClick={() => {
-            document.getElementById("firstQuote").classList.add("hidden")
-            document.getElementById("secondQuote").classList.remove("hidden")
+            document.getElementById("firstQuote").classList.add("quote-hidden")
+            document.getElementById("secondQuote").classList.remove("quote-hidden")
           }}
         >
           With sufficient funding, the HIF could be an effective way of
@@ -154,11 +154,11 @@ const IndexPage = ({ intl }) => {
         </p>
 
         <p
-          className="pull-quote hidden"
+          className="pull-quote quote-hidden"
           id="secondQuote"
           onClick={() => {
-            document.getElementById("secondQuote").classList.add("hidden")
-            document.getElementById("thirdQuote").classList.remove("hidden")
+            document.getElementById("secondQuote").classList.add("quote-hidden")
+            document.getElementById("thirdQuote").classList.remove("quote-hidden")
           }}
         >
           An international Health Impact Fund (HIF) should be established as a
@@ -174,11 +174,11 @@ const IndexPage = ({ intl }) => {
         </p>
 
         <p
-          className="pull-quote hidden"
+          className="pull-quote quote-hidden"
           id="thirdQuote"
           onClick={() => {
-            document.getElementById("thirdQuote").classList.add("hidden")
-            document.getElementById("firstQuote").classList.remove("hidden")
+            document.getElementById("thirdQuote").classList.add("quote-hidden")
+            document.getElementById("firstQuote").classList.remove("quote-hidden")
           }}
         >
           The HIF plan is both innovative and timely. There is a clear need for
