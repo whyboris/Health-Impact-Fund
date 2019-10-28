@@ -20,7 +20,12 @@ const Benefits = ({ intl }) => (
       <FormattedMessage id="benefits.info" />
     </p> */}
 
-    <div className="scroll-to-top" onClick={ () => { window.scrollTo(0, 0); }}>
+    <div
+      className="scroll-to-top"
+      onClick={() => {
+        window.scrollTo(0, 0)
+      }}
+    >
       <svg
         width="16"
         height="10"
@@ -143,7 +148,6 @@ const Benefits = ({ intl }) => (
       covers merely the variable costs of manufacture and distribution. Such
       medicines are therefore affordable even to very poor patients.
     </p>
-
   </Layout>
 )
 
