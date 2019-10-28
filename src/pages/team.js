@@ -48,6 +48,13 @@ const board = [
   "Sachin Chaturvedi",
 ]
 
+const team = [
+  "Peggy Tse",
+  "Maria Ginevra Cattaneo",
+  "Max Alexander Matthey",
+  "Daniele Botti",
+]
+
 const About = ({ intl }) => (
   <Layout>
     <SEO lang={intl.locale} title={intl.formatMessage({ id: "about.title" })} />
@@ -168,6 +175,11 @@ const About = ({ intl }) => (
       )}
     </FormattedMessage>
 
+    <ul className="advisory-council">
+      {team.map((element, index) => {
+        return <Advisor key={index} data={{ name: element, id: index + 300 }} />
+      })}
+    </ul>
 
   </Layout>
 )
