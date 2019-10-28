@@ -535,20 +535,13 @@ header {
   padding: 40px;
   min-height: 250px;
 
-  .quote-indicator {
-    font-size: 10px;
-    position: absolute;
-    color: #555555;
-    bottom: 20px;
-    right: 0;
-  }
-
   .quote-svg {
     position: absolute;
     transform: translate(50px, 0);
   }
 
   .pull-quote {
+    line-height: 24px;
     top: 70px;
     left: 150px;
     width: 65%;
@@ -562,10 +555,19 @@ header {
   }
 
   .quote-author {
+    display: block;
     margin-top: 10px;
     font-weight: bold;
   }
 
+  .quote-indicator {
+    bottom: 0;
+    color: #555555;
+    color: $primary;
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+  }
 }
 
 .panel-container {

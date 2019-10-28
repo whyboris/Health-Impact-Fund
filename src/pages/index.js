@@ -134,7 +134,7 @@ const IndexPage = ({ intl }) => {
           />
         </svg>
 
-        <p
+        <div
           className="pull-quote"
           id="firstQuote"
           onClick={() => {
@@ -149,11 +149,11 @@ const IndexPage = ({ intl }) => {
           morbidity and mortality. It could support companies, including
           Janssen, in their efforts to develop innovative products within a
           competitive, market-based framework that rewards outcomes.
-          <p className="quote-author">Jami Taylor, Janssen Pharmaceuticals</p>
-          <div className="quote-indicator">1/3</div>
-        </p>
+          <span className="quote-author">Jami Taylor, Janssen Pharmaceuticals</span>
+          <div className="quote-indicator">1 / 3</div>
+        </div>
 
-        <p
+        <div
           className="pull-quote quote-hidden"
           id="secondQuote"
           onClick={() => {
@@ -169,11 +169,11 @@ const IndexPage = ({ intl }) => {
           have. This givescompanies incentives to develop medicines for those
           with the greatest health needs and notonly those with the greatest
           purchasing power.
-          <p className="quote-author">Liberal (Venstre) Party of Norway</p>
-          <div className="quote-indicator">2/3</div>
-        </p>
+          <span className="quote-author">Liberal (Venstre) Party of Norway</span>
+          <div className="quote-indicator">2 / 3</div>
+        </div>
 
-        <p
+        <div
           className="pull-quote quote-hidden"
           id="thirdQuote"
           onClick={() => {
@@ -187,9 +187,9 @@ const IndexPage = ({ intl }) => {
           market-based approach, which does not require wholesale changes to
           internationalor national intellectual property laws, should be
           well-received by potential donors and industry participants alike.
-          <p className="quote-author">Tom Bollyky</p>
-          <div className="quote-indicator">3/3</div>
-        </p>
+          <span className="quote-author">Tom Bollyky</span>
+          <div className="quote-indicator">3 / 3</div>
+        </div>
       </div>
 
       <div className="panel-container">
