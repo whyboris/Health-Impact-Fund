@@ -86,7 +86,7 @@ const About = ({ intl }) => (
     <FormattedMessage
       id="about.about_IGH"
       values={{
-        HIP: (
+        intl_HIP: (
           <>
             <em>Health Impact Fund</em>
           </>
@@ -99,14 +99,14 @@ const About = ({ intl }) => (
     <FormattedMessage
       id="about.about_IGH_more"
       values={{
-        email: (
+        intl_email: (
           <>
             <a href="mailto:info@healthimpactfund.org">
               info@healthimpactfund.org
             </a>
           </>
         ),
-        donation: (
+        intl_donation: (
           <>
             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K7ULUVQSNFV8C">
               <FormattedMessage id="about.donation" />

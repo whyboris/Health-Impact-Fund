@@ -1,7 +1,7 @@
 {
   "about": {
-    "about_IGH": "Incentives for Global Health is a US-based non-profit organization with the principal mandate of advancing the {HIP} proposal. We welcome new team volunteers to collaborate with us in this important work.",
-    "about_IGH_more": "If you are interested in getting involved or supporting Incentives for Global Health, please write us at {email} or you can make a {donation}.",
+    "about_IGH": "Incentives for Global Health is a US-based non-profit organization with the principal mandate of advancing the {intl_HIP} proposal. We welcome new team volunteers to collaborate with us in this important work.",
+    "about_IGH_more": "If you are interested in getting involved or supporting Incentives for Global Health, please write us at {intl_email} or you can make a {intl_donation}.",
     "advisory_council": "International Advisory Council",
     "scientific_advisory_board": "Scientific Advisory Board",
     "board": "Board",

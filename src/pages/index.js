@@ -7,8 +7,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const IndexPage = ({ intl }) => {
-  let quoteShowing = 1
-
   return (
     <Layout>
       <SEO
@@ -91,7 +89,9 @@ const IndexPage = ({ intl }) => {
           Improve the health situation and save lives - while opening up new
           markets and securing research that is not covered by the patent
           system.
-          <button className="button">Read how</button>
+          <Link to="/benefits">
+            <button className="button">Read how</button>
+          </Link>
         </div>
 
         <div className="thin-panel">
@@ -99,7 +99,9 @@ const IndexPage = ({ intl }) => {
           <br />
           Reduce economic burdens from diseases with a more efficient spending
           on medicine and research.
-          <button className="button">Read how</button>
+          <Link to="/benefits">
+            <button className="button">Read how</button>
+          </Link>
         </div>
 
         <div className="thin-panel last-panel">
@@ -108,7 +110,11 @@ const IndexPage = ({ intl }) => {
           Affordable drugs and a longer and healthier life
           <div className="donation-box">
             Make drugs affordable for everyone. Donate to support our mission
-            <button className="button">Donate now</button>
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K7ULUVQSNFV8C">
+              <button className="button">
+                <FormattedMessage id="navigation.donate" />
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -165,7 +171,6 @@ const IndexPage = ({ intl }) => {
           purchasing power.
           <p className="quote-author">Liberal (Venstre) Party of Norway</p>
           <div className="quote-indicator">2/3</div>
-
         </p>
 
         <p
@@ -184,7 +189,6 @@ const IndexPage = ({ intl }) => {
           well-received by potential donors and industry participants alike.
           <p className="quote-author">Tom Bollyky</p>
           <div className="quote-indicator">3/3</div>
-
         </p>
       </div>
 
@@ -195,7 +199,9 @@ const IndexPage = ({ intl }) => {
           The Health Impact Fund offers an innovative pay-for-performance
           mechanism which rewards new pharmaceuticals based on actual health
           impact.
-          <button className="button">Read how</button>
+          <Link to="/what">
+            <button className="button">Read how</button>
+          </Link>
         </div>
 
         <div className="thin-panel first-panel">
@@ -213,7 +219,9 @@ const IndexPage = ({ intl }) => {
           <br />
           How does the Health Impact Fund ensure that drug research is
           economically viable?
-          <button className="button">How it works</button>
+          <Link to="/how">
+            <button className="button">How it works</button>
+          </Link>
         </div>
       </div>
 
