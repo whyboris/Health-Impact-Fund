@@ -82,6 +82,59 @@ const IndexPage = ({ intl }) => {
         }}
       />
 
+      <div className="panel-container">
+        <div className="thin-panel first-panel">
+          <em>Benefits for Innovators.</em>
+          <br />
+          Improve the health situation and save lives - while opening up new
+          markets and securing research that is not covered by the patent
+          system.
+          <button className="button">Read how</button>
+        </div>
+
+        <div className="thin-panel">
+          <em>Benefits for Government and Taxpayers.</em>
+          <br />
+          Reduce economic burdens from diseases with a more efficient spending
+          on medicine and research.
+          <button className="button">Read how</button>
+        </div>
+
+        <div className="thin-panel last-panel">
+          <em>Benefits for Patients.</em>
+          <br />
+          Affordable drugs and a longer and healthier life
+          <div className="donation-box">
+            Make drugs affordable for everyone. Donate to support our mission
+            <button className="button">Donate now</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="panel-container">
+        <div className="thin-panel first-panel">
+          <em>What.</em>
+          <br />
+          The Health Impact Fund offers an innovative pay-for-performance mechanism which rewards new pharmaceuticals based on actual health impact.
+          <button className="button">Read how</button>
+        </div>
+
+        <div className="thin-panel first-panel">
+          <em>Why.</em>
+          <br />
+          Most diseases and premature deaths worldwide are caused by poverty – poor people can't afford appropriate medicines.
+          <button className="button">What else?</button>
+        </div>
+
+        <div className="thin-panel">
+          <em>How.</em>
+          <br />
+          How does the Health Impact Fund ensure that drug research is economically viable?
+          <button className="button">How it works</button>
+        </div>
+      </div>
+
       <div className="video-container">
         <iframe
           title="Medicine for the 99 percent"
@@ -117,7 +170,6 @@ const IndexPage = ({ intl }) => {
         <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/hif_book.pdf">
           <div className="button button-second">Read the book</div>
         </a>
-
       </div>
     </Layout>
   )

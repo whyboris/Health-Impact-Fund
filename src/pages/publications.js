@@ -39,26 +39,6 @@ const Knowledge = ({ intl }) => (
 
     <div className="publication_container individual_publication">
       <img
-        src="https://healthimpactfund.org/wp-content/uploads/2015/12/HIF_Front_Cover-big.jpg"
-        alt="Health Impact Fund Book"
-      />
-
-      <FormattedMessage id="knowledge.hif_book">
-        {txt => <h3>{txt}</h3>}
-      </FormattedMessage>
-
-      <FormattedMessage id="knowledge.hif_book_description">
-        {txt => <p>{txt}</p>}
-      </FormattedMessage>
-
-      <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/hif_book.pdf">
-        <Icon />
-        <FormattedMessage id="knowledge.click_to_download" />
-      </a>
-    </div>
-
-    <div className="publication_container individual_publication">
-      <img
         src="https://healthimpactfund.org/wp-content/uploads/2015/12/Summaries.png"
         alt="Health Impact Fund Summaries"
       />
@@ -76,7 +56,7 @@ const Knowledge = ({ intl }) => (
       <br />
     </div>
 
-    <div className="publication_container">
+    <div id="publications" className="publication_container">
       <ul>
         <li>
           <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/DP1_Hollis.pdf">
