@@ -165,6 +165,25 @@ a {
   }
 }
 
+.three-buttons {
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    text-decoration: none;
+  }
+
+  .button {
+    background: $primary;
+    color: white;
+    display: block;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px 23px;
+    text-decoration: none;
+  }
+}
+
 .benefits-list {
 
   margin-bottom: 40px;
@@ -784,6 +803,10 @@ header {
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+
+  .three-buttons {
+    display: initial
   }
 
   .advisory-council {

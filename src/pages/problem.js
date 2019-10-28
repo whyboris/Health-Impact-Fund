@@ -67,19 +67,25 @@ const Benefits = ({ intl }) => (
       decouples the price from the return to innovation.
     </p>
 
-    <Link to="/what">
-      <FormattedMessage id="navigation.what" />
-    </Link>
-    <br />
-    <br />
-    <Link to="/how">
-      <FormattedMessage id="navigation.how" />
-    </Link>
-    <br />
-    <br />
-    <Link to="/benefits">
-      <FormattedMessage id="navigation.benefits" />
-    </Link>
+    <div className="three-buttons">
+      <Link to="/what">
+        <div className="button">
+          <FormattedMessage id="navigation.what" />
+        </div>
+      </Link>
+
+      <Link to="/how">
+        <div className="button">
+          <FormattedMessage id="navigation.how" />
+        </div>
+      </Link>
+
+      <Link to="/benefits">
+        <div className="button">
+          <FormattedMessage id="navigation.benefits" />
+        </div>
+      </Link>
+    </div>
   </Layout>
 )
 
