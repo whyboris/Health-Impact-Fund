@@ -12,9 +12,9 @@ const Knowledge = ({ intl }) => (
       lang={intl.locale}
       title={intl.formatMessage({ id: "knowledge.title" })}
     />
-    {/* <h1>
-      <FormattedMessage id="knowledge.heading" />
-    </h1> */}
+    <h1>
+      <FormattedMessage id="videos" />
+    </h1>
     {/* <p>
       <FormattedMessage id="knowledge.info" />
     </p> */}
@@ -35,6 +35,8 @@ const Knowledge = ({ intl }) => (
 
       <br />
       <br />
+
+      <p>More videos will be posted soon.</p>
       <br />
       <br />
 

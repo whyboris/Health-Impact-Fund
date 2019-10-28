@@ -163,7 +163,7 @@ const IndexPage = ({ intl }) => {
           comparatively low cost.
         </p>
 
-        <Link to="/knowledge">
+        <Link to="/publications">
           <div className="button button-first">Explore more papers</div>
         </Link>
 
