@@ -538,6 +538,7 @@ header {
   .quote-indicator {
     font-size: 10px;
     position: absolute;
+    color: #555555;
     bottom: 20px;
     right: 0;
   }
@@ -776,6 +777,9 @@ header {
     }
   }
 
+  .quote-container {
+    min-height: 350px;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -839,6 +843,19 @@ header {
   }
 }
 
+@media only screen and (max-width: 550px) {
+
+  .quote-container {
+    min-height: 450px;
+
+    .pull-quote {
+      left: 60px;
+      width: 75%;
+    }
+  }
+
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
@@ -868,6 +885,21 @@ header {
         transform: none;
         width: initial;
       }
+    }
+  }
+
+  .quote-container {
+    min-height: 450px;
+
+    .quote-svg {
+      top: 20px;
+      left: -20px;
+    }
+
+    .pull-quote {
+      top: 30px;
+      left: 45px;
+      width: 75%;
     }
   }
 }
