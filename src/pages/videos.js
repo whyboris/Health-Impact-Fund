@@ -4,8 +4,6 @@ import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import Icon from "../images/pdf.svg"
-
 const Knowledge = ({ intl }) => (
   <Layout>
     <SEO

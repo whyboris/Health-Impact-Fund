@@ -7,7 +7,6 @@ import SEO from "../components/seo"
 
 // make sure each has an entry in the en.json & other languages!
 const advisors = [
-  "Kenneth J. Arrow",
   "Noam Chomsky",
   "John J. DeGioia",
   "Ruth Faden",
@@ -27,6 +26,10 @@ const advisors = [
   "Judith Whitworth",
   "Heidemarie Wieczorek-Zeul",
   "Richard Wilder",
+]
+
+const former_advisors = [
+  "Kenneth J. Arrow",
 ]
 
 const scientific_advisors = [
@@ -49,10 +52,12 @@ const board = [
 ]
 
 const team = [
+  "Aidan Hollis",
   "Peggy Tse",
   "Maria Ginevra Cattaneo",
   "Max Alexander Matthey",
   "Daniele Botti",
+  "Boris Yakubchik"
 ]
 
 const About = ({ intl }) => (
@@ -136,6 +141,20 @@ const About = ({ intl }) => (
     <ul className="advisory-council">
       {advisors.map((element, index) => {
         return <Advisor key={index} data={{ name: element, id: index }} />
+      })}
+    </ul>
+
+    <FormattedMessage id="about.former_advisory_council">
+      {txt => (
+        <h1 id="advisory" style={{ marginTop: "40px" }}>
+          {txt}
+        </h1>
+      )}
+    </FormattedMessage>
+
+    <ul className="advisory-council">
+      {former_advisors.map((element, index) => {
+        return <Advisor key={index} data={{ name: element, id: index + 50 }} />
       })}
     </ul>
 
