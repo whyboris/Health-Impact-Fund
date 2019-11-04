@@ -343,15 +343,18 @@ a {
   }
 
   .step-image {
-    // border: 1px solid green;
-    // z-index: 2;
     padding: 0 20px;
   }
 
   .step-text {
     flex-grow: 2;
     padding: 30px 30px 30px 60px;
-    // border: 1px solid yellow;
+  }
+
+  .step-total {
+    color: gray;
+    font-size: 13px;
+    margin-left: 3px;
   }
 }
 
@@ -703,6 +706,10 @@ header {
   right: calc(50% + 50px) !important;
 }
 
+.swiper-slide {
+  cursor: grab;
+}
+
 // =========================================== MEDIA ===============================================
 
 @media only screen and (max-width: 880px) {
@@ -960,6 +967,7 @@ header {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        max-height: 150px;
         position: relative;
         transform: none;
         width: initial;

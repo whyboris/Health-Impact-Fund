@@ -11,7 +11,8 @@ const Step = ({data}) => {
         <img src={data.img} alt={'step ' + data.step} />
       </div>
       <div className="step-text">
-        <h1>{data.step}</h1>
+        <h1 style={{ display: 'inline' }}>{data.step}</h1>
+        <span className="step-total">/ 05</span>
         <p className="hif-step">
           <FormattedMessage id={data.text} />
         </p>
