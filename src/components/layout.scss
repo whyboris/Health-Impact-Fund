@@ -51,6 +51,37 @@ a {
   }
 }
 
+.carousel-navigation {
+  cursor: pointer;
+  position: absolute;
+  user-select: none;
+}
+
+.carousel-left {
+  right: 50vw;
+  transform: translate(-20px, -20px);
+}
+
+.carousel-center {
+  left: 50vw;
+  transform: translate(-10px, -20px);
+}
+
+.carousel-right {
+  left: 50vw;
+  transform: translate(20px, -20px);
+}
+
+#currentStep {
+  color: $primary;
+  font-weight: bold;
+}
+
+.total-steps {
+  color: #999999;
+  font-weight: bold;
+}
+
 .news-item {
   position: relative;
 

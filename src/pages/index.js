@@ -6,7 +6,53 @@ import Step from "../components/step"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import ReactSiema from 'react-siema'
+
 const IndexPage = ({ intl }) => {
+
+  let slider
+  let theCurrentSlide = 1
+  const siemaOptions = {
+    duration: 150,
+  }
+
+  const doTheThing = () => {
+
+    setTimeout(() => {
+      const theCurrentSlide = slider.currentSlide
+
+      const leftArrowRef = document.getElementById("leftArrow")
+
+      if (theCurrentSlide === 0) {
+        leftArrowRef.classList.add("hidden")
+      } else {
+        leftArrowRef.classList.remove("hidden")
+      }
+
+      const rightArrowRef = document.getElementById("rightArrow")
+
+      if (theCurrentSlide === 4) {
+        rightArrowRef.classList.add("hidden")
+      } else {
+        rightArrowRef.classList.remove("hidden")
+      }
+
+      document.getElementById("currentStep").innerText = "0" + (theCurrentSlide + 1).toString()
+
+    }, 160)
+  }
+
+  // HACK: Once page is loaded set up the listeners for every step!
+  setTimeout(() => {
+    const allSteps = document.getElementsByClassName("step");
+
+    for (let element of allSteps) {
+      element.addEventListener('mouseup', e => {
+        doTheThing()
+      })
+    };
+  }, 100)
+
   return (
     <Layout>
       <SEO
@@ -36,51 +82,150 @@ const IndexPage = ({ intl }) => {
         <FormattedMessage id="intro.hif_description" />
       </p>
 
-      <Step
-        data={{
-          step: "01.",
-          img: "http://temp.yboris.com/hif/1.png",
-          text: "intro.step_01",
-          mirror: false,
-          arrow: true,
-        }}
-      />
-      <Step
-        data={{
-          step: "02.",
-          img: "http://temp.yboris.com/hif/2.png",
-          text: "intro.step_02",
-          mirror: true,
-          arrow: true,
-        }}
-      />
-      <Step
-        data={{
-          step: "03.",
-          img: "http://temp.yboris.com/hif/3.png",
-          text: "intro.step_03",
-          mirror: false,
-          arrow: true,
-        }}
-      />
-      <Step
-        data={{
-          step: "04.",
-          img: "http://temp.yboris.com/hif/4.png",
-          text: "intro.step_04",
-          mirror: true,
-          arrow: true,
-        }}
-      />
-      <Step
-        data={{
-          step: "05.",
-          img: "http://temp.yboris.com/hif/5.png",
-          text: "intro.step_05",
-          mirror: false,
-          arrow: false,
-        }}
-      />
+      <ReactSiema {...siemaOptions} ref={siema => (slider = siema)} >
+        <div>
+          <Step
+            data={{
+              step: "01.",
+              img: "http://temp.yboris.com/hif/1.png",
+              text: "intro.step_01",
+              mirror: false,
+            }}
+          />
+        </div>
+
+        <div>
+          <Step
+            data={{
+              step: "02.",
+              img: "http://temp.yboris.com/hif/2.png",
+              text: "intro.step_02",
+              mirror: false,
+            }}
+          />
+        </div>
+
+        <div>
+          <Step
+            data={{
+              step: "03.",
+              img: "http://temp.yboris.com/hif/3.png",
+              text: "intro.step_03",
+              mirror: false,
+            }}
+          />
+        </div>
+
+        <div>
+          <Step
+            data={{
+              step: "04.",
+              img: "http://temp.yboris.com/hif/4.png",
+              text: "intro.step_04",
+              mirror: false,
+            }}
+          />
+        </div>
+        <div>
+          <Step
+            data={{
+              step: "05.",
+              img: "http://temp.yboris.com/hif/5.png",
+              text: "intro.step_05",
+              mirror: false,
+            }}
+          />
+        </div>
+      </ReactSiema>
+
+      <div
+        className="carousel-navigation carousel-left"
+        onClick={() => {
+            slider.prev()
+            theCurrentSlide = (slider.currentSlide)
+            document.getElementById("currentStep").innerText = "0" + (theCurrentSlide + 1).toString()
+
+            if (theCurrentSlide === 0) {
+              document.getElementById("leftArrow").classList.add("hidden")
+            }
+
+            document.getElementById("rightArrow").classList.remove("hidden")
+
+          }
+        }
+      >
+        <svg
+          id="leftArrow"
+          className="hidden"
+          style={{ transform: "rotate(90deg)", marginRight: "30px" }}
+          width="16"
+          height="10"
+          viewBox="0 0 16 10"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clipPath="url(#clip0)">
+            <path
+              d="M14.1053 0L8 6.10526L1.89474 0L0 1.89474L8 9.89474L16 1.89474L14.1053 0Z"
+              fill="#80cf0f"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0">
+              <rect width="16" height="9.89474" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+
+        <span id="currentStep">01</span>
+
+      </div>
+      <div className="carousel-navigation carousel-center">
+        <span className="total-steps">/</span>
+      </div>
+      <div
+        className="carousel-navigation carousel-right"
+        onClick={() => {
+            slider.next()
+            theCurrentSlide = (slider.currentSlide)
+            document.getElementById("currentStep").innerText = "0" + (theCurrentSlide + 1).toString();
+
+
+            document.getElementById("leftArrow").classList.remove("hidden")
+
+            if (theCurrentSlide === 4) {
+              document.getElementById("rightArrow").classList.add("hidden")
+            }
+
+          }
+        }
+      >
+        <span className="total-steps">05</span>
+        <svg
+          id="rightArrow"
+          style={{ transform: "rotate(-90deg)", marginLeft: "30px" }}
+          width="16"
+          height="10"
+          viewBox="0 0 16 10"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clipPath="url(#clip0)">
+            <path
+              d="M14.1053 0L8 6.10526L1.89474 0L0 1.89474L8 9.89474L16 1.89474L14.1053 0Z"
+              fill="#80cf0f"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0">
+              <rect width="16" height="9.89474" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+
+      <br />
+      <br />
 
       <div className="panel-container">
         <div className="thin-panel first-panel">
@@ -119,7 +264,7 @@ const IndexPage = ({ intl }) => {
         </div>
       </div>
 
-      <div class="quote-container">
+      <div className="quote-container">
         <svg
           className="quote-svg"
           width="170"
@@ -139,7 +284,9 @@ const IndexPage = ({ intl }) => {
           id="firstQuote"
           onClick={() => {
             document.getElementById("firstQuote").classList.add("quote-hidden")
-            document.getElementById("secondQuote").classList.remove("quote-hidden")
+            document
+              .getElementById("secondQuote")
+              .classList.remove("quote-hidden")
           }}
         >
           With sufficient funding, the HIF could be an effective way of
@@ -149,7 +296,9 @@ const IndexPage = ({ intl }) => {
           morbidity and mortality. It could support companies, including
           Janssen, in their efforts to develop innovative products within a
           competitive, market-based framework that rewards outcomes.
-          <span className="quote-author">Jami Taylor, Janssen Pharmaceuticals</span>
+          <span className="quote-author">
+            Jami Taylor, Janssen Pharmaceuticals
+          </span>
           <div className="quote-indicator">1 / 3</div>
         </div>
 
@@ -158,7 +307,9 @@ const IndexPage = ({ intl }) => {
           id="secondQuote"
           onClick={() => {
             document.getElementById("secondQuote").classList.add("quote-hidden")
-            document.getElementById("thirdQuote").classList.remove("quote-hidden")
+            document
+              .getElementById("thirdQuote")
+              .classList.remove("quote-hidden")
           }}
         >
           An international Health Impact Fund (HIF) should be established as a
@@ -169,7 +320,9 @@ const IndexPage = ({ intl }) => {
           have. This givescompanies incentives to develop medicines for those
           with the greatest health needs and notonly those with the greatest
           purchasing power.
-          <span className="quote-author">Liberal (Venstre) Party of Norway</span>
+          <span className="quote-author">
+            Liberal (Venstre) Party of Norway
+          </span>
           <div className="quote-indicator">2 / 3</div>
         </div>
 
@@ -178,7 +331,9 @@ const IndexPage = ({ intl }) => {
           id="thirdQuote"
           onClick={() => {
             document.getElementById("thirdQuote").classList.add("quote-hidden")
-            document.getElementById("firstQuote").classList.remove("quote-hidden")
+            document
+              .getElementById("firstQuote")
+              .classList.remove("quote-hidden")
           }}
         >
           The HIF plan is both innovative and timely. There is a clear need for
