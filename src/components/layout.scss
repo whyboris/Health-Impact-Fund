@@ -681,6 +681,28 @@ header {
   max-height: auto;
 }
 
+.swiper-pagination-bullet-active {
+  background: $primary !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-size: 27px 27px !important;
+  bottom: -3px;
+  filter: hue-rotate(-126deg);
+  top: initial !important;
+}
+
+.swiper-button-next {
+  left: calc(50% + 50px) !important;
+  right: initial !important;
+}
+
+.swiper-button-prev {
+  left: initial !important;
+  right: calc(50% + 50px) !important;
+}
+
 // =========================================== MEDIA ===============================================
 
 @media only screen and (max-width: 880px) {
