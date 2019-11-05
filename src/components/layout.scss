@@ -580,13 +580,14 @@ header {
   }
 
   .pull-quote {
-    line-height: 24px;
-    top: 70px;
-    left: 150px;
-    width: 65%;
-    position: absolute;
     cursor: pointer;
+    left: 150px;
+    line-height: 24px;
     overflow: hidden;
+    position: absolute;
+    top: 70px;
+    user-select: none;
+    width: 65%;
   }
 
   .quote-hidden {

@@ -43,34 +43,42 @@ const IndexPage = ({ intl }) => {
 
       <div className="panel-container">
         <div className="thin-panel first-panel">
-          <em>Benefits for Innovators.</em>
+          <em>
+            <FormattedMessage id="intro.benefits_innovators_heading" />
+          </em>
           <br />
-          Improve health and save lives - while opening up new markets and
-          supporting research that is not fully protected by patents.
+          <FormattedMessage id="intro.benefits_innovators_text" />
           <Link to="/benefits">
-            <button className="button">Read how</button>
+            <button className="button">
+              <FormattedMessage id="intro.button_read_how" />
+            </button>
           </Link>
         </div>
 
         <div className="thin-panel">
-          <em>Benefits for Government and Taxpayers.</em>
+          <em>
+            <FormattedMessage id="intro.benefits_government_heading" />
+          </em>
           <br />
-          Reduce the economic burden from diseases with more efficient spending
-          on medicine and research.
+          <FormattedMessage id="intro.benefits_government_text" />
           <Link to="/benefits">
-            <button className="button">Read how</button>
+            <button className="button">
+              <FormattedMessage id="intro.button_read_how" />
+            </button>
           </Link>
         </div>
 
         <div className="thin-panel last-panel">
-          <em>Benefits for Patients.</em>
+          <em>
+            <FormattedMessage id="intro.benefits_patients_heading" />
+          </em>
           <br />
-          Affordable drugs and a longer and healthier life
+          <FormattedMessage id="intro.benefits_patients_text" />
           <div className="donation-box">
-            Make drugs affordable for everyone. Donate to support our mission
+            <FormattedMessage id="intro.donate_text" />
             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K7ULUVQSNFV8C">
               <button className="button">
-                <FormattedMessage id="navigation.donate" />
+                <FormattedMessage id="intro.button_donate" />
               </button>
             </a>
           </div>
@@ -102,15 +110,9 @@ const IndexPage = ({ intl }) => {
               .classList.remove("quote-hidden")
           }}
         >
-          With sufficient funding, the HIF could be an effective way of
-          stimulating investment from small and large bio-pharmaceutical
-          companies to address the needs of low-income populations. It would
-          align commercial incentives with social goals of reducing excess
-          morbidity and mortality. It could support companies, including
-          Janssen, in their efforts to develop innovative products within a
-          competitive, market-based framework that rewards outcomes.
+          <FormattedMessage id="intro.quote_jami_text" />
           <span className="quote-author">
-            Jami Taylor, Janssen Pharmaceuticals
+            <FormattedMessage id="intro.quote_jami_name" />
           </span>
           <div className="quote-indicator">1 / 3</div>
         </div>
@@ -125,16 +127,10 @@ const IndexPage = ({ intl }) => {
               .classList.remove("quote-hidden")
           }}
         >
-          An international Health Impact Fund (HIF) should be established as a
-          supplement to thecurrent patent system. Through HIF pharmaceutical
-          companies can voluntarily register theirdrugs and commit to making
-          them available at the lowest price against payment of supportover ten
-          years from the Fund on the basis of major health impact their drugs
-          have. This givescompanies incentives to develop medicines for those
-          with the greatest health needs and notonly those with the greatest
-          purchasing power.
+          <FormattedMessage id="intro.quote_norway_text" />
+
           <span className="quote-author">
-            Liberal (Venstre) Party of Norway
+            <FormattedMessage id="intro.quote_norway_name" />
           </span>
           <div className="quote-indicator">2 / 3</div>
         </div>
@@ -149,13 +145,11 @@ const IndexPage = ({ intl }) => {
               .classList.remove("quote-hidden")
           }}
         >
-          The HIF plan is both innovative and timely. There is a clear need for
-          incentives for creating medicines with a significant global health
-          impact and ensuring their widespread and sustained availability. A
-          market-based approach, which does not require wholesale changes to
-          internationalor national intellectual property laws, should be
-          well-received by potential donors and industry participants alike.
-          <span className="quote-author">Tom Bollyky</span>
+          <FormattedMessage id="intro.quote_tom_text" />
+
+          <span className="quote-author">
+            <FormattedMessage id="intro.quote_tom_name" />
+          </span>
           <div className="quote-indicator">3 / 3</div>
         </div>
       </div>

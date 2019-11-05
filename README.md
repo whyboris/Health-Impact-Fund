@@ -12,9 +12,11 @@ The webstie is built with _Gatsby_ and the _gatsby-starter-default-intl_ starter
 
 ## Caveats
 
-Seems like the `en.json` (and other languages in the `/intl` folder) need to be sorted alphabetically (all keys and nested keys) and never have entries that are mising in the other .json files. For auto-sorting try [Sort JSON objects](https://marketplace.visualstudio.com/items?itemName=richie5um2.vscode-sort-json) for _VSCode_.
+Seems like the `en.json` (and other languages in the `/intl` folder) _must_ be a valid JSON with no errors. If there is an error, none of the text will be rendered; you will instead see the text reference id.
 
-Images are hoste externally for simplicity.
+For simplicity, I recommend sorting the JSON alphabetically with [Sort JSON objects](https://marketplace.visualstudio.com/items?itemName=richie5um2.vscode-sort-json) for _VSCode_.
+
+Images are hosted externally for simplicity.
 
 ### If you've not coded but want to start:
 

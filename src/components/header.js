@@ -262,14 +262,6 @@ const Header = ({ siteTitle }) => (
           <Language />
         </div>
 
-{/*
-        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K7ULUVQSNFV8C">
-          <div className="nav-item donate">
-            <FormattedMessage id="navigation.donate" />
-          </div>
-        </a>
- */}
-
       </div>
     </div>
   </header>
