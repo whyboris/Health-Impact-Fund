@@ -12,7 +12,7 @@ The webstie is built with _Gatsby_ and the _gatsby-starter-default-intl_ starter
 
 ## Caveats
 
-Seems like the `en.json` (and other languages in the `/intl` folder) _must_ be a valid JSON with no errors. If there is an error, none of the text will be rendered; you will instead see the text reference id.
+Seems like the `en.json` (and other languages in the `/intl` folder) _must_ be a valid JSON with no errors (no trailing commas for example). If there is an error, none of the text will be rendered; you will instead see the text reference id.
 
 For simplicity, I recommend sorting the JSON alphabetically with [Sort JSON objects](https://marketplace.visualstudio.com/items?itemName=richie5um2.vscode-sort-json) for _VSCode_.
 

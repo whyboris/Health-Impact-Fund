@@ -156,33 +156,41 @@ const IndexPage = ({ intl }) => {
 
       <div className="panel-container">
         <div className="thin-panel first-panel">
-          <em>What.</em>
+          <em>
+            <FormattedMessage id="intro.what_heading" />
+          </em>
           <br />
-          The Health Impact Fund offers an innovative pay-for-performance
-          mechanism that rewards new pharmaceuticals based on actual health
-          impact.
+          <FormattedMessage id="intro.what_text" />
           <Link to="/what">
-            <button className="button">Read how</button>
+            <button className="button">
+              <FormattedMessage id="intro.what_button" />
+            </button>
           </Link>
         </div>
 
         <div className="thin-panel first-panel">
-          <em>Why.</em>
+          <em>
+            <FormattedMessage id="intro.why_heading" />
+          </em>
           <br />
-          Most diseases and premature deaths worldwide are caused by poverty –
-          poor people can't afford appropriate medicines.
+          <FormattedMessage id="intro.why_text" />
           <Link to="/problem">
-            <button className="button">What else?</button>
+            <button className="button">
+              <FormattedMessage id="intro.why_button" />
+            </button>
           </Link>
         </div>
 
         <div className="thin-panel">
-          <em>How.</em>
+          <em>
+            <FormattedMessage id="intro.how_heading" />
+          </em>
           <br />
-          How does the Health Impact Fund ensure that drug research is
-          economically viable?
+          <FormattedMessage id="intro.how_text" />
           <Link to="/how">
-            <button className="button">How it works</button>
+            <button className="button">
+              <FormattedMessage id="intro.how_button" />
+            </button>
           </Link>
         </div>
       </div>
@@ -207,20 +215,21 @@ const IndexPage = ({ intl }) => {
         <div className="green-block"></div>
         <p>
           <em>
-            The Health Impact Fund complements the existing rules in the
-            development and distribution of new medicines.
+            <FormattedMessage id="intro.book_heading" />
           </em>
-          Read in this book how we showed feasibility and how the Health Impact
-          Fund would produce large gains in global public health and economic
-          productivity at comparatively low cost.
+          <FormattedMessage id="intro.book_text" />
         </p>
 
         <Link to="/publications">
-          <div className="button button-first">Explore more papers</div>
+          <div className="button button-first">
+            <FormattedMessage id="intro.book_read_papers" />
+          </div>
         </Link>
 
         <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/hif_book.pdf">
-          <div className="button button-second">Read the book</div>
+          <div className="button button-second">
+            <FormattedMessage id="intro.book_read_book" />
+          </div>
         </a>
       </div>
     </Layout>
