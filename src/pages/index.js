@@ -7,7 +7,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const IndexPage = ({ intl }) => {
-
   return (
     <Layout>
       <SEO
@@ -46,9 +45,8 @@ const IndexPage = ({ intl }) => {
         <div className="thin-panel first-panel">
           <em>Benefits for Innovators.</em>
           <br />
-          Improve the health situation and save lives - while opening up new
-          markets and securing research that is not covered by the patent
-          system.
+          Improve health and save lives - while opening up new markets and
+          supporting research that is not fully protected by patents.
           <Link to="/benefits">
             <button className="button">Read how</button>
           </Link>
@@ -57,7 +55,7 @@ const IndexPage = ({ intl }) => {
         <div className="thin-panel">
           <em>Benefits for Government and Taxpayers.</em>
           <br />
-          Reduce economic burdens from diseases with a more efficient spending
+          Reduce the economic burden from diseases with more efficient spending
           on medicine and research.
           <Link to="/benefits">
             <button className="button">Read how</button>
@@ -167,7 +165,7 @@ const IndexPage = ({ intl }) => {
           <em>What.</em>
           <br />
           The Health Impact Fund offers an innovative pay-for-performance
-          mechanism which rewards new pharmaceuticals based on actual health
+          mechanism that rewards new pharmaceuticals based on actual health
           impact.
           <Link to="/what">
             <button className="button">Read how</button>
@@ -215,12 +213,12 @@ const IndexPage = ({ intl }) => {
         <div className="green-block"></div>
         <p>
           <em>
-            The Health Impact Fund complements to the existing rules in the
+            The Health Impact Fund complements the existing rules in the
             development and distribution of new medicines.
           </em>
-          Read in this book how we proved feasibility and how it would produce
-          large gains in global public health and economic productivity at
-          comparatively low cost.
+          Read in this book how we showed feasibility and how the Health Impact
+          Fund would produce large gains in global public health and economic
+          productivity at comparatively low cost.
         </p>
 
         <Link to="/publications">
