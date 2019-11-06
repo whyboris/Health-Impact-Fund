@@ -15,7 +15,7 @@ const Benefits = ({ intl }) => {
     <Layout>
       <SEO
         lang={intl.locale}
-        title={intl.formatMessage({ id: "benefits.title" })}
+        title={intl.formatMessage({ id: "what.title" })}
       />
 
       <div
