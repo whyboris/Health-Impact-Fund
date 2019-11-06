@@ -558,42 +558,24 @@ header {
 }
 
 .hip-book {
-  height: 280px;
   margin-bottom: 60px;
   margin-top: 60px;
   position: relative;
   width: 100%;
 
-  .green-block {
-    background-color: $primary;
-    height: 100%;
-    position: absolute;
-    right: 0;
+  .book-description-block {
+    background: $primary;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    font-weight: bold;
+    left: 17%;
+    line-height: 26px;
+    padding: 50px 70px 126px;
+    position: relative;
     top: 0;
     width: 83%;
-  }
 
-  .button {
-    cursor: pointer;
-    border: 1px solid white;
-    bottom: 25px;
-    color: white;
-    padding: 5px 20px;
-    position: absolute;
-  }
-
-  .button-first {
-    left: 30%;
-  }
-
-  .button-second {
-    background-color: white;
-    color: $primary;
-    font-weight: bold;
-    right: 15%;
-  }
-
-  p {
     em {
       color: black;
       text-emphasis: none;
@@ -603,15 +585,26 @@ header {
       }
     }
 
-    line-height: 26px;
+    .button {
+      cursor: pointer;
+      border: 1px solid white;
+      bottom: 25px;
+      color: white;
+      padding: 5px 20px;
+      position: absolute;
+    }
 
-    color: white;
-    font-weight: bold;
-    display: block;
-    position: absolute;
-    right: 15%;
-    top: 15%;
-    width: 55%;
+    .button-first {
+      left: 70px;
+    }
+
+    .button-second {
+      background-color: white;
+      color: $primary;
+      font-weight: bold;
+      right: 70px;
+    }
+
   }
 
   img {
@@ -767,31 +760,14 @@ header {
 
 @media only screen and (max-width: 880px) {
   .hip-book {
-    height: 300px;
-
-    .green-block {
+    .book-description-block {
+      left: 40px;
       width: calc(100% - 40px);
-    }
-
-    p {
-      top: 30px;
-      right: 5%;
-      left: 110px;
-      width: initial;
     }
 
     img {
       left: -15px;
       top: 10%;
-    }
-
-    .button {
-      left: 110px;
-    }
-
-    .button-second {
-      right: initial;
-      bottom: 75px;
     }
   }
 
@@ -908,32 +884,31 @@ header {
   }
 
   .hip-book {
-    height: 430px;
-
-    .green-block {
-      width: 100%;
-    }
-
-    p {
-      top: 150px;
-      right: 10px;
-      left: 10px;
-    }
-
     img {
-      left: -15px;
-      top: -15px;
+      bottom: -20px;
+      left: initial;
+      right: -20px;
+      top: initial;
     }
 
-    .button {
-      top: 20px;
-      bottom: initial;
-      margin-right: 15px;
-    }
+    .book-description-block {
+      left: 0;
+      padding: 20px 20px 155px;
+      width: 100%;
 
-    .button-second {
-      right: initial;
-      top: 75px;
+      .button-first {
+        bottom: 75px;
+        left: initial;
+        margin-left: 20px;
+        right: 100px;
+        padding: 5px 10px;
+      }
+
+      .button-second {
+        left: initial;
+        right: 100px;
+        padding: 5px 10px;
+      }
     }
   }
 

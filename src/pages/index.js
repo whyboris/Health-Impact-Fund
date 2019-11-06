@@ -146,25 +146,26 @@ const IndexPage = ({ intl }) => {
           alt="Health Impact Fund book"
           src="http://temp.yboris.com/hif/HIF_book_cover.jpg"
         />
-        <div className="green-block"></div>
-        <p>
+        <div className="book-description-block">
           <em>
             <FormattedMessage id="intro.book_heading" />
           </em>
           <FormattedMessage id="intro.book_text" />
-        </p>
 
-        <Link to="/publications">
-          <div className="button button-first">
-            <FormattedMessage id="intro.book_read_papers" />
-          </div>
-        </Link>
+          <Link to="/publications">
+            <div className="button button-first">
+              <FormattedMessage id="intro.book_read_papers" />
+            </div>
+          </Link>
 
-        <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/hif_book.pdf">
-          <div className="button button-second">
-            <FormattedMessage id="intro.book_read_book" />
-          </div>
-        </a>
+          <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/hif_book.pdf">
+            <div className="button button-second">
+              <FormattedMessage id="intro.book_read_book" />
+            </div>
+          </a>
+
+        </div>
+
       </div>
     </Layout>
   )
