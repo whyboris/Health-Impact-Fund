@@ -9,6 +9,7 @@ import { injectIntl, FormattedMessage } from "gatsby-plugin-intl"
 const PullQuote = ({data}) => {
 
   const params = {
+    loop: true,
     pagination: {
       el: '.swiper-pagination',
       type: 'bullets',
@@ -22,8 +23,8 @@ const PullQuote = ({data}) => {
   }
 
   return (
-<>
-    <div className="quote-container-DISABLED">
+    <>
+      <div className="quote-container">
         <svg
           className="quote-svg"
           width="170"
@@ -38,63 +39,32 @@ const PullQuote = ({data}) => {
           />
         </svg>
 
-    <Swiper {...params}>
+        <Swiper {...params}>
 
-        <div
-          className="pull-quote"
-          id="firstQuote"
-          onClick={() => {
-            document.getElementById("firstQuote").classList.add("quote-hidden")
-            document
-              .getElementById("secondQuote")
-              .classList.remove("quote-hidden")
-          }}
-        >
-          <FormattedMessage id="intro.quote_jami_text" />
-          <span className="quote-author">
-            <FormattedMessage id="intro.quote_jami_name" />
-          </span>
-        </div>
+          <div className="pull-quote">
+            <FormattedMessage id="intro.quote_jami_text" />
+            <span className="quote-author">
+              <FormattedMessage id="intro.quote_jami_name" />
+            </span>
+          </div>
 
-        <div
-          className="pull-quote quote-hidden"
-          id="secondQuote"
-          onClick={() => {
-            document.getElementById("secondQuote").classList.add("quote-hidden")
-            document
-              .getElementById("thirdQuote")
-              .classList.remove("quote-hidden")
-          }}
-        >
-          <FormattedMessage id="intro.quote_norway_text" />
+          <div className="pull-quote">
+            <FormattedMessage id="intro.quote_norway_text" />
+            <span className="quote-author">
+              <FormattedMessage id="intro.quote_norway_name" />
+            </span>
+          </div>
 
-          <span className="quote-author">
-            <FormattedMessage id="intro.quote_norway_name" />
-          </span>
-        </div>
+          <div className="pull-quote">
+            <FormattedMessage id="intro.quote_tom_text" />
+            <span className="quote-author">
+              <FormattedMessage id="intro.quote_tom_name" />
+            </span>
+          </div>
 
-        <div
-          className="pull-quote quote-hidden"
-          id="thirdQuote"
-          onClick={() => {
-            document.getElementById("thirdQuote").classList.add("quote-hidden")
-            document
-              .getElementById("firstQuote")
-              .classList.remove("quote-hidden")
-          }}
-        >
-          <FormattedMessage id="intro.quote_tom_text" />
-
-          <span className="quote-author">
-            <FormattedMessage id="intro.quote_tom_name" />
-          </span>
-        </div>
-
-    </Swiper>
-
-    </div>
-
-</>
+        </Swiper>
+      </div>
+    </>
   )
 }
 
