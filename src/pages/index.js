@@ -144,7 +144,7 @@ const IndexPage = ({ intl }) => {
       <div className="hip-book">
         <img
           alt="Health Impact Fund book"
-          src="https://healthimpactfund.org/wp-content/uploads/2015/12/HIF_Front_Cover-big.jpg"
+          src="http://temp.yboris.com/hif/HIF_book_cover.jpg"
         />
         <div className="green-block"></div>
         <p>

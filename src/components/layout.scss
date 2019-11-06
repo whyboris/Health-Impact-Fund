@@ -247,7 +247,7 @@ a {
   display: block;
 }
 
-.publication_container {
+.publication-container {
   clear: both;
   display: block;
   padding: 20px;
@@ -261,7 +261,8 @@ a {
     float: left;
     height: 200px;
     margin-right: 40px;
-    width: 130px;
+    width: 152px;
+    margin-bottom: 15px;
     border-radius: 10px;
   }
 
@@ -331,6 +332,71 @@ a {
     height: 400px;
     width: 260px;
   }
+}
+
+.book-container-3d {
+  margin-top: 35px;
+  position: absolute;
+  width: 29%;
+
+  .book {
+    display: inline-block;
+    box-shadow: 5px 5px 20px #333;
+    margin: 10px;
+  }
+
+  .book img { vertical-align: middle; }
+
+  .csstransforms3d  .books {
+    -moz-perspective: 100px;
+    -moz-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+  }
+
+  .csstransforms3d  .book {
+    position: relative;
+    -moz-perspective: 100px;
+    -moz-transform: rotateY(-3deg);
+    -webkit-transform: perspective(100) rotateY(-3deg);
+    outline: 1px solid transparent; /* Helps smooth jagged edges in Firefox */
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .csstransforms3d  .book img {
+    position: relative;
+    max-width: 100%;
+  }
+
+  .csstransforms3d  .book:before,
+  .csstransforms3d  .book:after {
+    position: absolute;
+    top: 2%;
+    height: 96%;
+    content: ' ';
+    z-index: -1;
+  }
+
+  .csstransforms3d  .book:before {
+    width: 100%;
+    left: 7.5%;
+    background-color: #5a2d18;
+    box-shadow: 5px 5px 20px #333;
+  }
+
+  .csstransforms3d  .book:after {
+    width: 5%;
+    left: 100%;
+    background-color: #EFEFEF;
+    box-shadow: inset 0px 0px 5px #aaa;
+    -moz-transform: rotateY(20deg);
+    -webkit-transform: perspective(100) rotateY(20deg);
+  }
+}
+
+.book-page-hack {
+  margin-left: 40%;
+  margin-top: 70px;
 }
 
 .step {
@@ -461,12 +527,6 @@ header {
       margin: 10px;
       padding: 12px 16px;
       text-decoration: none;
-
-      &:hover {
-        // background-color: #e2e2e2;
-        // border-radius: 10px;
-        text-decoration: underline;
-      }
     }
   }
 
@@ -555,13 +615,17 @@ header {
   }
 
   img {
-    position: absolute;
-    height: 140px;
-    width: 100px;
-    left: 10%;
-    top: 15%;
+    border-bottom: 3px solid #eeeeee;
+    border-left: 3px solid #6aa7c7;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.2);
     display: block;
+    height: 140px;
+    left: 10%;
+    position: absolute;
+    top: 15%;
+    width: 100px;
     z-index: 2;
   }
 }
@@ -946,4 +1010,17 @@ header {
       }
     }
   }
+
+  .book-container-3d {
+    position: relative;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .book-page-hack {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
 }

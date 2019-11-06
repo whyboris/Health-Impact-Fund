@@ -19,9 +19,9 @@ const Knowledge = ({ intl }) => (
       <FormattedMessage id="knowledge.info" />
     </p> */}
 
-    <div className="publication_container individual_publication">
+    <div className="publication-container individual_publication">
       <img
-        src="http://temp.yboris.com/hif/HIF_pilot_proposal_2019_04.png"
+        src="http://temp.yboris.com/hif/HIF_pilot_proposal_2019_04.jpg"
         alt="Health Impact Fund Pilot Proposal"
       />
 
@@ -37,9 +37,9 @@ const Knowledge = ({ intl }) => (
       </a>
     </div>
 
-    <div className="publication_container individual_publication">
+    <div className="publication-container individual_publication">
       <img
-        src="https://healthimpactfund.org/wp-content/uploads/2015/12/Summaries.png"
+        src="http://temp.yboris.com/hif/summaries.jpg"
         alt="Health Impact Fund Summaries"
       />
 
@@ -56,7 +56,7 @@ const Knowledge = ({ intl }) => (
       <br />
     </div>
 
-    <div id="publications" className="publication_container">
+    <div id="publications" className="publication-container">
       <ul>
         <li>
           <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/DP1_Hollis.pdf">

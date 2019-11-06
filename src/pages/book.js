@@ -21,13 +21,21 @@ const Knowledge = ({ intl }) => (
 
 
 
-    <div className="publication_container individual_publication">
-      <img
-        className="book-cover"
-        src="https://healthimpactfund.org/wp-content/uploads/2015/12/HIF_Front_Cover-big.jpg"
-        alt="Health Impact Fund Book"
-      />
+    <div className="book-container-3d">
 
+      <div className="csstransforms3d">
+        <div class="book">
+          <img
+            className="book-cover"
+            src="http://temp.yboris.com/hif/HIF_book_cover.jpg"
+            alt="Health Impact Fund Book"
+            />
+        </div>
+      </div>
+
+    </div>
+
+    <div className="publication-container individual_publication book-page-hack">
       <FormattedMessage id="knowledge.hif_book">
         {txt => <h1>{txt}</h1>}
       </FormattedMessage>
