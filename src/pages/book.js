@@ -10,21 +10,13 @@ const Knowledge = ({ intl }) => (
   <Layout>
     <SEO
       lang={intl.locale}
-      title={intl.formatMessage({ id: "knowledge.title" })}
+      title={intl.formatMessage({ id: "book.title" })}
     />
-    {/* <h1>
-      <FormattedMessage id="knowledge.heading" />
-    </h1> */}
-    {/* <p>
-      <FormattedMessage id="knowledge.info" />
-    </p> */}
-
-
 
     <div className="book-container-3d">
 
       <div className="csstransforms3d">
-        <div class="book">
+        <div className="book">
           <img
             className="book-cover"
             src="http://temp.yboris.com/hif/HIF_book_cover.jpg"

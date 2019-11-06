@@ -8,14 +8,8 @@ const Benefits = ({ intl }) => (
   <Layout>
     <SEO
       lang={intl.locale}
-      title={intl.formatMessage({ id: "benefits.title" })}
+      title={intl.formatMessage({ id: "problem.title" })}
     />
-    {/* <h1>
-      <FormattedMessage id="benefits.heading" />
-    </h1> */}
-    {/* <p>
-      <FormattedMessage id="benefits.info" />
-    </p> */}
 
     <div
       className="scroll-to-top"

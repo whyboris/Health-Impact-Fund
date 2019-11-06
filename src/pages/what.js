@@ -17,12 +17,6 @@ const Benefits = ({ intl }) => {
         lang={intl.locale}
         title={intl.formatMessage({ id: "benefits.title" })}
       />
-      {/* <h1>
-      <FormattedMessage id="benefits.heading" />
-    </h1> */}
-      {/* <p>
-      <FormattedMessage id="benefits.info" />
-    </p> */}
 
       <div
         className="scroll-to-top"

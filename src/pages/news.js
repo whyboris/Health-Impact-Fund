@@ -12,9 +12,6 @@ const News = ({ intl }) => (
     <h1>
       <FormattedMessage id="news.heading" />
     </h1>
-    {/* <p>
-      <FormattedMessage id="news.info" />
-    </p> */}
 
     <div className="news-item">
       <span className="date">2019.09.25</span>

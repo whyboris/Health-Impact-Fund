@@ -62,7 +62,7 @@ const team = [
 
 const About = ({ intl }) => (
   <Layout>
-    <SEO lang={intl.locale} title={intl.formatMessage({ id: "about.title" })} />
+    <SEO lang={intl.locale} title={intl.formatMessage({ id: "team.title" })} />
 
     <div
       className="scroll-to-top"

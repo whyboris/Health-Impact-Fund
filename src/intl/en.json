@@ -9,16 +9,28 @@
     "management_team": "Management Team",
     "donation": "donation",
     "heading": "Incentives for Global Health",
-    "info": "some text to translate here",
     "title": "About HIF"
   },
   "benefits": {
-    "heading": "Benefits heading",
-    "info": "Benefits info",
-    "title": "Benefits page"
+    "title": "Benefits"
+  },
+  "book": {
+    "title": "Health Impact Fund Book"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions | FAQ"
+  },
+  "problem": {
+    "title": "The problem"
+  },
+  "what": {
+    "title": "What is the HIF?"
   },
   "general": {
     "legal_notice": "Legal Notice"
+  },
+  "how": {
+    "title": "How it works"
   },
   "intro": {
     "hif": "Health Impact Fund",
@@ -184,8 +196,9 @@
     "Daniele Botti": "Manager, finance",
     "Daniele Botti_long": "Daniele Botti is Adjunct Professor in the Department of Philosophy and Political Science at Quinnipiac University, and a Fellow of the Global Justice Program at Yale University. In the spring semester of 2018, Dr. Botti serves as Lecturer in the Department of Philosophy at Yale. Botti holds a Laurea, summa cum laude, in Literature and Philosophy from the University of Milan (Italy), and a PhD degree in History from the University of Eastern Piedmont (Vercelli, Italy). Besides serving as treasurer for IGH, Botti also volunteers as treasurer for ASAP (Academics Stand Against Poverty). He has published on peer-reviewed journals such as The Solutions Journal, History of Political Thought, and Journal of the History of Ideas.",
     "Boris Yakubchik": "Webmaster",
-    "Boris Yakubchik_long": "Boris Yakubchik is a web developer in charge of upkeep of the current website."
+    "Boris Yakubchik_long": "Boris Yakubchik is a web developer in charge of upkeep of the current website.",
+    "title": "Team"
   },
-  "title": "Health Impact Fund English",
+  "title": "Health Impact Fund",
   "videos": "Videos"
 }
