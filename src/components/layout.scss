@@ -566,47 +566,30 @@ header {
   }
 }
 
-.quote-container {
-  position: relative;
+.quote-container-DISABLED {
   background-color: #f1f1f1;
-  width: 100%;
+  box-sizing: border-box;
   margin-left: -40px;
-  padding: 40px;
-  min-height: 250px;
+  padding: 70px;
+  width: calc(100% + 80px);
 
   .quote-svg {
     position: absolute;
-    transform: translate(50px, 0);
   }
 
   .pull-quote {
-    cursor: pointer;
-    left: 150px;
+    display: block;
     line-height: 24px;
-    overflow: hidden;
-    position: absolute;
-    top: 70px;
-    user-select: none;
-    width: 65%;
-  }
-
-  .quote-hidden {
-    display: none;
+    margin-top: 20px;
+    padding-left: 20%;
+    width: 80% !important;
   }
 
   .quote-author {
     display: block;
-    margin-top: 10px;
     font-weight: bold;
-  }
-
-  .quote-indicator {
-    bottom: 0;
-    color: #555555;
-    color: $primary;
-    font-size: 10px;
-    position: absolute;
-    right: 0;
+    margin-bottom: 40px;
+    margin-top: 10px;
   }
 }
 
@@ -848,10 +831,6 @@ header {
       }
     }
   }
-
-  .quote-container {
-    min-height: 350px;
-  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -922,19 +901,6 @@ header {
   }
 }
 
-@media only screen and (max-width: 550px) {
-
-  .quote-container {
-    min-height: 450px;
-
-    .pull-quote {
-      left: 60px;
-      width: 75%;
-    }
-  }
-
-}
-
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
@@ -973,21 +939,6 @@ header {
         transform: none;
         width: initial;
       }
-    }
-  }
-
-  .quote-container {
-    min-height: 450px;
-
-    .quote-svg {
-      top: 20px;
-      left: -20px;
-    }
-
-    .pull-quote {
-      top: 30px;
-      left: 45px;
-      width: 75%;
     }
   }
 }
