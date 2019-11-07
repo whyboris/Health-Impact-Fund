@@ -21,7 +21,7 @@ const Knowledge = ({ intl }) => (
 
     <div className="publication-container individual_publication">
       <img
-        src="https://docs.healthimpactfund.org/img/HIF_pilot_proposal_2019_04.jpg"
+        src={"/HIF_pilot_proposal_2019_04.jpg"}
         alt="Health Impact Fund Pilot Proposal"
       />
 
@@ -39,7 +39,7 @@ const Knowledge = ({ intl }) => (
 
     <div className="publication-container individual_publication">
       <img
-        src="https://docs.healthimpactfund.org/img/summaries.jpg"
+        src={"/summaries.jpg"}
         alt="Health Impact Fund Summaries"
       />
 

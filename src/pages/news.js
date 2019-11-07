@@ -42,7 +42,7 @@ const News = ({ intl }) => (
     <div className="news-item">
       <div className="photo-and-caption">
         <img
-          src="https://docs.healthimpactfund.org/img/GordonBrown.jpg"
+          src={'/GordonBrown.jpg'}
           alt="Gordon Brown"
         />
         <span className="caption">
