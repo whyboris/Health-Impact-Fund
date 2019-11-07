@@ -90,7 +90,7 @@ const Benefits = ({ intl }) => {
 
       <p style={{ 'text-align': 'center' }}>
         For much more information on price determination, see{" "}
-        <a className="see-more-click" style={{ display: 'inline-block' }} href="https://healthimpactfund.org/wp-content/uploads/2015/12/DP1_Hollis.pdf">
+        <a className="see-more-click" style={{ display: 'inline-block' }} href="/pdf/DP1_Hollis.pdf">
           document
         </a>
       </p>

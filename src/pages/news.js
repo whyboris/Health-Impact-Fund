@@ -27,7 +27,7 @@ const News = ({ intl }) => (
 
         <a
           className="news-download"
-          href="https://docs.healthimpactfund.org/pdf/LabourUK_Medicines-For-The-Many.pdf"
+          href="/pdf/LabourUK_Medicines-For-The-Many.pdf"
         >
           <Icon />
           <span>
@@ -42,7 +42,7 @@ const News = ({ intl }) => (
     <div className="news-item">
       <div className="photo-and-caption">
         <img
-          src={'/GordonBrown.jpg'}
+          src='/img/GordonBrown.jpg'
           alt="Gordon Brown"
         />
         <span className="caption">

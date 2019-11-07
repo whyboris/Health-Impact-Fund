@@ -19,7 +19,7 @@ const Knowledge = ({ intl }) => (
         <div className="book">
           <img
             className="book-cover"
-            src={'/HIF_book_cover.jpg'}
+            src='/img/HIF_book_cover.jpg'
             alt="Health Impact Fund Book"
             />
         </div>
@@ -36,7 +36,7 @@ const Knowledge = ({ intl }) => (
         {txt => <p>{txt}</p>}
       </FormattedMessage>
 
-      <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/hif_book.pdf">
+      <a href="/pdf/hif_book.pdf">
         <Icon />
         <FormattedMessage id="knowledge.click_to_download" />
       </a>

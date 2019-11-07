@@ -18,7 +18,7 @@ const IndexPage = ({ intl }) => {
 
       <div style={{ textAlign: `center`, margin: `20px auto` }}>
         <img
-          src={'/0.png'}
+          src='/img/0.png'
           alt="Health Impact Fund stylized summary graphic"
           style={{ maxWidth: `100%` }}
         />
@@ -144,7 +144,7 @@ const IndexPage = ({ intl }) => {
       <div className="hip-book">
         <img
           alt="Health Impact Fund book"
-          src={'/HIF_book_cover.jpg'}
+          src='/img/HIF_book_cover.jpg'
         />
         <div className="book-description-block">
           <em>
@@ -158,7 +158,7 @@ const IndexPage = ({ intl }) => {
             </div>
           </Link>
 
-          <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/hif_book.pdf">
+          <a href="/pdf/hif_book.pdf">
             <div className="button button-second">
               <FormattedMessage id="intro.book_read_book" />
             </div>
