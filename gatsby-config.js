@@ -3,10 +3,18 @@ module.exports = {
     title: `Health Impact Fund`,
     description: `Health Impact Fund SEO Description`,
     author: `@HealthImpact`,
+    siteUrl: `https://healthimpactfund.org`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: `https://healthimpactfund.org`,
+        policy: [{ userAgent: `*`, allow: `/` }]
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
