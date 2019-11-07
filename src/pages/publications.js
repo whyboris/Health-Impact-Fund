@@ -21,7 +21,7 @@ const Knowledge = ({ intl }) => (
 
     <div className="publication-container individual_publication">
       <img
-        src="http://temp.yboris.com/hif/HIF_pilot_proposal_2019_04.jpg"
+        src="https://docs.healthimpactfund.org/img/HIF_pilot_proposal_2019_04.jpg"
         alt="Health Impact Fund Pilot Proposal"
       />
 
@@ -31,7 +31,7 @@ const Knowledge = ({ intl }) => (
       <FormattedMessage id="knowledge.hif_pilot_proposal_description">
         {txt => <p>{txt}</p>}
       </FormattedMessage>
-      <a href="http://temp.yboris.com/hif/HIF_pilot_proposal_2019_04.pdf">
+      <a href="https://docs.healthimpactfund.org/pdf/HIF_pilot_proposal_2019_04.pdf">
         <Icon />
         <FormattedMessage id="knowledge.click_to_download" />
       </a>
@@ -39,7 +39,7 @@ const Knowledge = ({ intl }) => (
 
     <div className="publication-container individual_publication">
       <img
-        src="http://temp.yboris.com/hif/summaries.jpg"
+        src="https://docs.healthimpactfund.org/img/summaries.jpg"
         alt="Health Impact Fund Summaries"
       />
 
@@ -49,7 +49,7 @@ const Knowledge = ({ intl }) => (
       <FormattedMessage id="knowledge.hif_summaries_description">
         {txt => <p>{txt}</p>}
       </FormattedMessage>
-      <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/HIFshort.pdf">
+      <a href="https://docs.healthimpactfund.org/pdf/HIFshort.pdf">
         <Icon />
         <FormattedMessage id="knowledge.click_to_download" />
       </a>
@@ -59,7 +59,7 @@ const Knowledge = ({ intl }) => (
     <div id="publications" className="publication-container">
       <ul>
         <li>
-          <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/DP1_Hollis.pdf">
+          <a href="https://docs.healthimpactfund.org/pdf/DP1_Hollis.pdf">
             <Icon />
             <strong>Aidan Hollis</strong>
             <span>The Health Impact Fund and Price Determination</span>
@@ -67,7 +67,7 @@ const Knowledge = ({ intl }) => (
         </li>
 
         <li>
-          <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/DP2_Syed.pdf">
+          <a href="https://docs.healthimpactfund.org/pdf/DP2_Syed.pdf">
             <Icon />
             <strong>Talha Syed</strong>
             <span>
@@ -78,7 +78,7 @@ const Knowledge = ({ intl }) => (
         </li>
 
         <li>
-          <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/DP3_Bollyky.pdf">
+          <a href="https://docs.healthimpactfund.org/pdf/DP3_Bollyky.pdf">
             <Icon />
             <strong>Thomas J. Bollyky</strong>
             <span>
@@ -88,7 +88,7 @@ const Knowledge = ({ intl }) => (
         </li>
 
         <li>
-          <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/DP4_Chalkidou.pdf">
+          <a href="https://docs.healthimpactfund.org/pdf/DP4_Chalkidou.pdf">
             <Icon />
             <strong>Kalipso Chalkidou</strong>
             <span>
@@ -98,7 +98,7 @@ const Knowledge = ({ intl }) => (
           </a>
         </li>
         <li>
-          <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/DP5_Ravallia_and_Stern.pdf">
+          <a href="https://docs.healthimpactfund.org/pdf/DP5_Ravallia_and_Stern.pdf">
             <Icon />
             <strong>Juggs Ravalia and Lennart Stern</strong>
             <span>
@@ -108,14 +108,14 @@ const Knowledge = ({ intl }) => (
         </li>
 
         <li>
-          <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/DP6_Van_Puymbroeck.pdf">
+          <a href="https://docs.healthimpactfund.org/pdf/DP6_Van_Puymbroeck.pdf">
             <Icon />
             <strong>Rudolf V. Van Puymbroeck</strong>
             <span>The Health Impact Fund: Creation and Commitment.</span>
           </a>
         </li>
         <li>
-          <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/DP7_Singer_and_Schroeder.pdf">
+          <a href="https://docs.healthimpactfund.org/pdf/DP7_Singer_and_Schroeder.pdf">
             <Icon />
             <strong>Peter Singer and Doris Schroeder, lead authors</strong>
             <span>
@@ -124,14 +124,14 @@ const Knowledge = ({ intl }) => (
           </a>
         </li>
         <li>
-          <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/DP8_Mendel_and_Hollis.pdf">
+          <a href="https://docs.healthimpactfund.org/pdf/DP8_Mendel_and_Hollis.pdf">
             <Icon />
             <strong>Joy Mendel and Aidan Hollis</strong>
             <span>The Health Impact Fund and Traditional Medicines.</span>
           </a>
         </li>
         <li>
-          <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/DP9_Hollis-Pogge_PDPs.pdf">
+          <a href="https://docs.healthimpactfund.org/pdf/DP9_Hollis-Pogge_PDPs.pdf">
             <Icon />
             <strong>Aidan Hollis and Thomas Pogge</strong>
             <span>
@@ -141,7 +141,7 @@ const Knowledge = ({ intl }) => (
         </li>
 
         <li>
-          <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/High-level-panel-draft-2016-02-23-en-français.pdf">
+          <a href="https://docs.healthimpactfund.org/pdf/High-level-panel-draft-2016-02-23-en-français.pdf">
             <Icon />
             <strong>Aidan Hollis and Thomas Pogge</strong>
             <span>
@@ -150,7 +150,7 @@ const Knowledge = ({ intl }) => (
           </a>
         </li>
         <li>
-          <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/HIF_Mechanism_Discussion_Paper.pdf">
+          <a href="https://docs.healthimpactfund.org/pdf/HIF_Mechanism_Discussion_Paper.pdf">
             <Icon />
             <strong>Ishaan Nerurkar & Colton Jang</strong>
             <span>The Health Impact Fund: A Mechanism Design Approach.</span>
@@ -158,7 +158,7 @@ const Knowledge = ({ intl }) => (
         </li>
 
         <li>
-          <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/High-level-panel-draft-016-02-22-formatted.docx.pdf">
+          <a href="https://docs.healthimpactfund.org/pdf/High-level-panel-draft-016-02-22-formatted.docx.pdf">
             <Icon />
             <strong>Thomas Pogge & Aidan Hollis</strong>
             <span>
@@ -168,7 +168,7 @@ const Knowledge = ({ intl }) => (
         </li>
 
         <li>
-          <a href="https://healthimpactfund.org/wp-content/uploads/2015/12/High-level-panel-response-2016-03-16.docx.pdf">
+          <a href="https://docs.healthimpactfund.org/pdf/High-level-panel-response-2016-03-16.docx.pdf">
             <Icon />
             <strong>Thomas Pogge & Aidan Hollis</strong>
             <span>

@@ -19,7 +19,7 @@ const Knowledge = ({ intl }) => (
         <div className="book">
           <img
             className="book-cover"
-            src="http://temp.yboris.com/hif/HIF_book_cover.jpg"
+            src="https://docs.healthimpactfund.org/img/HIF_book_cover.jpg"
             alt="Health Impact Fund Book"
             />
         </div>

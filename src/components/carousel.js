@@ -31,7 +31,7 @@ const Carousel = ({data}) => {
         <Step
           data={{
             step: "01",
-            img: "http://temp.yboris.com/hif/1.png",
+            img: "https://docs.healthimpactfund.org/img/1.png",
             text: "intro.step_01",
             mirror: false,
           }}
@@ -42,7 +42,7 @@ const Carousel = ({data}) => {
         <Step
           data={{
             step: "02",
-            img: "http://temp.yboris.com/hif/2.png",
+            img: "https://docs.healthimpactfund.org/img/2.png",
             text: "intro.step_02",
             mirror: false,
           }}
@@ -53,7 +53,7 @@ const Carousel = ({data}) => {
         <Step
           data={{
             step: "03",
-            img: "http://temp.yboris.com/hif/3.png",
+            img: "https://docs.healthimpactfund.org/img/3.png",
             text: "intro.step_03",
             mirror: false,
           }}
@@ -64,7 +64,7 @@ const Carousel = ({data}) => {
         <Step
           data={{
             step: "04",
-            img: "http://temp.yboris.com/hif/4.png",
+            img: "https://docs.healthimpactfund.org/img/4.png",
             text: "intro.step_04",
             mirror: false,
           }}
@@ -74,7 +74,7 @@ const Carousel = ({data}) => {
         <Step
           data={{
             step: "05",
-            img: "http://temp.yboris.com/hif/5.png",
+            img: "https://docs.healthimpactfund.org/img/5.png",
             text: "intro.step_05",
             mirror: false,
           }}

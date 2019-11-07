@@ -27,7 +27,7 @@ const News = ({ intl }) => (
 
         <a
           className="news-download"
-          href="http://temp.yboris.com/hif/LabourUK_Medicines-For-The-Many.pdf"
+          href="https://docs.healthimpactfund.org/pdf/LabourUK_Medicines-For-The-Many.pdf"
         >
           <Icon />
           <span>
@@ -42,7 +42,7 @@ const News = ({ intl }) => (
     <div className="news-item">
       <div className="photo-and-caption">
         <img
-          src="http://temp.yboris.com/hif/GordonBrown.jpg"
+          src="https://docs.healthimpactfund.org/img/GordonBrown.jpg"
           alt="Gordon Brown"
         />
         <span className="caption">

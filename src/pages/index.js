@@ -18,7 +18,7 @@ const IndexPage = ({ intl }) => {
 
       <div style={{ textAlign: `center`, margin: `20px auto` }}>
         <img
-          src="http://temp.yboris.com/hif/0.png"
+          src="https://docs.healthimpactfund.org/img/0.png"
           alt="Health Impact Fund stylized summary graphic"
           style={{ maxWidth: `100%` }}
         />
@@ -144,7 +144,7 @@ const IndexPage = ({ intl }) => {
       <div className="hip-book">
         <img
           alt="Health Impact Fund book"
-          src="http://temp.yboris.com/hif/HIF_book_cover.jpg"
+          src="https://docs.healthimpactfund.org/img/HIF_book_cover.jpg"
         />
         <div className="book-description-block">
           <em>
