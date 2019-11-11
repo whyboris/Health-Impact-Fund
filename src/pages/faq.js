@@ -9,12 +9,14 @@ import SEO from "../components/seo"
 
 const Benefits = ({ intl }) => (
   <Layout>
-    <SEO
-      lang={intl.locale}
-      title={intl.formatMessage({ id: "faq.title" })}
-    />
+    <SEO lang={intl.locale} title={intl.formatMessage({ id: "faq.title" })} />
 
-    <div className="scroll-to-top" onClick={ () => { window.scrollTo(0, 0); }}>
+    <div
+      className="scroll-to-top"
+      onClick={() => {
+        window.scrollTo(0, 0)
+      }}
+    >
       <svg
         width="16"
         height="10"
@@ -62,8 +64,8 @@ const Benefits = ({ intl }) => (
     <p>
       <strong>How much money does the Health Impact Fund require?</strong>
       <br />A stable and efficient Health Impact Fund would require at least €3
-      billion. Of course, it could also work with a larger amount and would then
-      attract a larger number of product registrations.
+      billion per year. Of course, it could also work with a larger amount and
+      would then attract a larger number of product registrations.
     </p>
 
     <p>
@@ -84,9 +86,9 @@ const Benefits = ({ intl }) => (
       Their abstention would have some positive effects as well: medicines that
       are registered with the Health Impact Fund could still be sold with large
       patent-protected markups in such non-contributing affluent countries. This
-      opportunity would make registration more appealing and would also give
-      non-contributing states an incentive to join the Health Impact Fund
-      scheme.
+      opportunity would make registration more attractive for pharmaceutical
+      firms to register a new medicine and would also give non-contributing
+      states an incentive to join the Health Impact Fund scheme.
     </p>
 
     <p>
@@ -113,7 +115,7 @@ const Benefits = ({ intl }) => (
       <strong>What are quality-adjusted life years?</strong>
       <br />
       The methodology of quality-adjusted life years has been in use for
-      approximately 30 years. One qualityadjusted life year might be, for
+      approximately 30 years. One quality-adjusted life year might be, for
       instance, one additional year of fully healthy life gained by a patient.
       Or it could be a gain of two life years in poor (50%) health. Or it might
       involve no lengthening of life at all, but rather an improvement in health
@@ -184,7 +186,6 @@ const Benefits = ({ intl }) => (
       <br />
       Max@healthimpactfund.org
     </p>
-
   </Layout>
 )
 

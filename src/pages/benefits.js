@@ -47,7 +47,9 @@ const Benefits = ({ intl }) => {
 
       <h1 id="advantages">Advantages for …</h1>
 
-      <strong style={{ display: 'block', 'margin-top': '40px' }}>... patients.</strong>
+      <strong style={{ display: "block", "margin-top": "40px" }}>
+        ... patients.
+      </strong>
 
       <ul className="benefits-list">
         <li>
@@ -116,11 +118,11 @@ const Benefits = ({ intl }) => {
       <ul className="benefits-list">
         <li>
           New incentives for essential but heretofore unprofitable R&D projects.
-        </li>
         <li>
-          The opportunity to help poorer patients without ruining themselves or
         </li>
-        <li>those patients financially.</li>
+          The opportunity to help poorer patients without ruining themselves or
+          those patients financially.
+        </li>
         <li>Enlarged contributions to world health.</li>
         <li>Improved public image.</li>
         <li>

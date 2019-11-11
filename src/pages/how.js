@@ -9,10 +9,7 @@ import SEO from "../components/seo"
 
 const Benefits = ({ intl }) => (
   <Layout>
-    <SEO
-      lang={intl.locale}
-      title={intl.formatMessage({ id: "how.title" })}
-    />
+    <SEO lang={intl.locale} title={intl.formatMessage({ id: "how.title" })} />
 
     <div
       className="scroll-to-top"
@@ -141,7 +138,7 @@ const Benefits = ({ intl }) => (
     <p>
       <strong>Delinking a medicine’s price from its R&D costs.</strong>
       <br />
-      Registered medicines can be sold at an affordable price, which covers
+      Registered medicines must be sold at an affordable price, which covers
       merely the costs of manufacture and distribution. Such medicines are
       therefore affordable even to very poor patients.
     </p>
