@@ -88,9 +88,13 @@ const Benefits = ({ intl }) => {
         tools to ensure low prices, including tendering or regulated prices.
       </p>
 
-      <p style={{ 'text-align': 'center' }}>
+      <p style={{ "text-align": "center" }}>
         For much more information on price determination, see{" "}
-        <a className="see-more-click" style={{ display: 'inline-block' }} href="/pdf/DP1_Hollis.pdf">
+        <a
+          className="see-more-click"
+          style={{ display: "inline-block" }}
+          href="/pdf/DP1_Hollis.pdf"
+        >
           document
         </a>
       </p>
@@ -123,12 +127,12 @@ const Benefits = ({ intl }) => {
         fixed amount in every year. Registered products obtain a share of the
         fixed payout equal to their share of assessed health impact of all
         registered products annually. Thus, firms are essentially competing to
-        improve human health. A product that had a Having a fixed total payout
-        divided between firms helps the HIF (and funders) to manage its budget.
-        Each registered product would be eligible for ten years of payments,
-        which resembles the duration of exclusivity that firms now enjoy for
-        patented pharmaceuticals. Following the 10 years, products would be
-        required to be licensed for generic production.
+        improve human health. Having a fixed total payout divided between firms
+        helps the HIF (and funders) to manage its budget. Each registered
+        product would be eligible for ten years of payments, which resembles the
+        duration of exclusivity that firms now enjoy for patented
+        pharmaceuticals. Following the 10 years, products would be required to
+        be licensed for generic production.
       </p>
     </Layout>
   )

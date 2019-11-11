@@ -58,7 +58,7 @@ const Benefits = ({ intl }) => (
     </p>
     <p>
       What is needed here is a better way of paying for innovation, one that
-      decouples the price from the return to innovation.
+      decouples the price from the fixed cost of research and development.
     </p>
 
     <div className="three-buttons">
