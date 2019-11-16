@@ -1,6 +1,6 @@
 # Health Impact Fund
 
-[Health Impact Fund](https://healthimpactfund.org) - decouple the price of drugs from the cost of research.
+[Health Impact Fund](https://healthimpactfund.org) - delink the price of drugs from the cost of research.
 
 ## About
 

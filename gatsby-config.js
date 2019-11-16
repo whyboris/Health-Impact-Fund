@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Health Impact Fund`,
-    description: `Decouple the price of drugs from the cost of research.`,
+    description: `Delink the price of drugs from the cost of research.`,
     author: `@HealthImpact`,
     siteUrl: `https://healthimpactfund.org`
   },
