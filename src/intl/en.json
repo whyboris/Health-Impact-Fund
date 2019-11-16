@@ -134,6 +134,9 @@
     "header": "NOT FOUND"
   },
   "problem": {
+    "p1": "The diseases mainly suffered by poor people don’t attract much attention from investors, who can earn more from drugs that treat the diseases of rich people. So people with diseases like malaria, tuberculosis or schistosomiasis, lack treatment options, or in some cases lack treatments at all.",
+    "p2": "When new drugs are developed, the prices are often too high for poor people. This problem is particularly painful since the actual cost of manufacturing is generally quite low, and prices are kept artificially high so that investors can earn profits. The usual justification is that without high prices, there will be no incentive for investment in innovation. But this justification does no good for people who can’t afford to buy drugs at high prices.",
+    "p3": "What is needed here is a better way of paying for innovation, one that delinks the price from the fixed cost of research and development.",
     "title": "The problem"
   },
   "publications": {

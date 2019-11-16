@@ -38,27 +38,18 @@ const Benefits = ({ intl }) => (
       </svg>
     </div>
 
-    <h1 id="summary">The problem</h1>
+    <h1 id="summary">
+      <FormattedMessage id="problem.title" />
+    </h1>
 
     <p>
-      The diseases mainly suffered by poor people don’t attract much attention
-      from investors, who can earn more from drugs that treat the diseases of
-      rich people. So people with diseases like malaria, tuberculosis or
-      schistosomiasis, lack treatment options, or in some cases lack treatments
-      at all.
+      <FormattedMessage id="problem.p1" />
     </p>
     <p>
-      When new drugs are developed, the prices are often too high for poor
-      people. This problem is particularly painful since the actual cost of
-      manufacturing is generally quite low, and prices are kept artificially
-      high so that investors can earn profits. The usual justification is that
-      without high prices, there will be no incentive for investment in
-      innovation. But this justification does no good for people who can’t
-      afford to buy drugs at high prices.
+      <FormattedMessage id="problem.p2" />
     </p>
     <p>
-      What is needed here is a better way of paying for innovation, one that
-      delinks the price from the fixed cost of research and development.
+      <FormattedMessage id="problem.p3" />
     </p>
 
     <div className="three-buttons">
