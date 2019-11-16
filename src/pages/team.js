@@ -83,11 +83,11 @@ const About = ({ intl }) => (
     </div>
 
     <h1>
-      <FormattedMessage id="about.heading" />
+      <FormattedMessage id="team.heading" />
     </h1>
 
     <FormattedMessage
-      id="about.about_IGH"
+      id="team.about_IGH"
       values={{
         intl_HIP: (
           <>
@@ -100,7 +100,7 @@ const About = ({ intl }) => (
     </FormattedMessage>
 
     <FormattedMessage
-      id="about.about_IGH_more"
+      id="team.about_IGH_more"
       values={{
         intl_email: (
           <>
@@ -112,7 +112,7 @@ const About = ({ intl }) => (
         intl_donation: (
           <>
             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K7ULUVQSNFV8C">
-              <FormattedMessage id="about.donation" />
+              <FormattedMessage id="team.donation" />
             </a>
           </>
         ),
@@ -121,7 +121,7 @@ const About = ({ intl }) => (
       {(...chunks) => <p>{chunks}</p>}
     </FormattedMessage>
 
-    <FormattedMessage id="about.advisory_council">
+    <FormattedMessage id="team.advisory_council">
       {txt => (
         <h1 id="advisory" style={{ marginTop: "40px" }}>
           {txt}
@@ -135,7 +135,7 @@ const About = ({ intl }) => (
       })}
     </ul>
 
-    <FormattedMessage id="about.former_advisory_council">
+    <FormattedMessage id="team.former_advisory_council">
       {txt => (
         <h1 id="advisory" style={{ marginTop: "40px" }}>
           {txt}
@@ -149,7 +149,7 @@ const About = ({ intl }) => (
       })}
     </ul>
 
-    <FormattedMessage id="about.scientific_advisory_board">
+    <FormattedMessage id="team.scientific_advisory_board">
       {txt => (
         <h1 id="scientific" style={{ marginTop: "40px" }}>
           {txt}
@@ -163,7 +163,7 @@ const About = ({ intl }) => (
       })}
     </ul>
 
-    <FormattedMessage id="about.board">
+    <FormattedMessage id="team.board">
       {txt => (
         <h1 id="board" style={{ marginTop: "40px" }}>
           {txt}
@@ -177,7 +177,7 @@ const About = ({ intl }) => (
       })}
     </ul>
 
-    <FormattedMessage id="about.management_team">
+    <FormattedMessage id="team.management_team">
       {txt => (
         <h1 id="management" style={{ marginTop: "40px" }}>
           {txt}
