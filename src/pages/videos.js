@@ -4,14 +4,14 @@ import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Knowledge = ({ intl }) => (
+const Videos = ({ intl }) => (
   <Layout>
     <SEO
       lang={intl.locale}
-      title={intl.formatMessage({ id: "videos" })}
+      title={intl.formatMessage({ id: "videos.videos" })}
     />
     <h1>
-      <FormattedMessage id="videos" />
+      <FormattedMessage id="videos.videos" />
     </h1>
 
     <div className="video-container">
@@ -29,11 +29,11 @@ const Knowledge = ({ intl }) => (
     <br />
     <br />
 
-    <p>More videos will be posted soon.</p>
+    <p><FormattedMessage id="videos.coming_soon" /></p>
     <br />
     <br />
 
   </Layout>
 )
 
-export default injectIntl(Knowledge)
+export default injectIntl(Videos)

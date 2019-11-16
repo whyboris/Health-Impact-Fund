@@ -14,11 +14,35 @@
   "benefits": {
     "title": "Benefits"
   },
-  "book": {
-    "title": "Health Impact Fund Book"
-  },
   "faq": {
-    "title": "Frequently Asked Questions | FAQ"
+    "title": "Frequently Asked Questions | FAQ",
+    "heading": "Frequently Asked Questions",
+    "support_us": "Support the new pilot project and feel free to contact the Health Impact Fund team at:",
+    "support_us_email": "Max@healthimpactfund.org",
+    "q1": "Should the Health Impact Fund replace the existing system of incentives?",
+    "q1_answer": "Clearly: no. The conventional incentives from patent-protected markups remain in place. The Health Impact Fund merely gives pharmaceutical innovators the additional option of registering a new medicine and then receiving reward payments according to health impact.",
+    "q2": "How is the Health Impact Fund financed?",
+    "q2_answer": "The Health Impact Fund might be financed by states, for example, most plausibly in proportion to their gross national incomes. Another possible source of funding are international taxes, which might be imposed on greenhouse gas emissions or on certain destabilizing financial transactions.",
+    "q3": "How much money does the Health Impact Fund require?",
+    "q3_answer": "A stable and efficient Health Impact Fund would require at least €3 billion per year. Of course, it could also work with a larger amount and would then attract a larger number of product registrations.",
+    "q4": "Is this amount realistic?",
+    "q4_answer": "€3 billion per year is less than 0.3% of what the world currently spends on pharmaceuticals. If all countries participated, then each would need to contribute merely 0.0036% of its gross national income to the Health Impact Fund. And these contributions would be offset by substantial savings through better health and productivity worldwide.",
+    "q5":"What if some affluent countries initially don’t want to contribute? ",
+    "q5_answer": "Their abstention would have some positive effects as well: medicines that are registered with the Health Impact Fund could still be sold with large patent-protected markups in such non-contributing affluent countries. This opportunity would make registration more attractive for pharmaceutical firms to register a new medicine and would also give non-contributing states an incentive to join the Health Impact Fund scheme.",
+    "q6":"How does the Health Impact Fund reward participating pharmaceutical innovators? ",
+    "q6_answer": "Pharmaceutical innovators can register any new product with the Health Impact Fund and then receive annual reward payments that are tied exclusively to the measured health gains achieved: the larger a product’s contribution to reducing the burden of disease, the higher the reward payment. A registered product is rewarded during its first ten years.",
+    "q7": "And how are health gains measured?",
+    "q7_answer": "Health gains are measured in quality-adjusted life years (QALYs) and assessed through statistical sampling.",
+    "q8": "What are quality-adjusted life years?",
+    "q8_answer": "The methodology of quality-adjusted life years has been in use for approximately 30 years. One quality-adjusted life year might be, for instance, one additional year of fully healthy life gained by a patient. Or it could be a gain of two life years in poor (50%) health. Or it might involve no lengthening of life at all, but rather an improvement in health only – as when a medicine averts a four-year-long disease that would have reduced the patient’s health from 100% to 75%; this health gain of four times 25% also counts as saving one quality-adjusted life year.",
+    "q9": "How do quality-adjusted life years affect the distribution of reward payments?",
+    "q9_answer": "Each year, the Health Impact Fund assesses the quality-adjusted life years achieved by each registered drug. Based on these assessments, the fixed annual reward pool is then distributed over the registered products. Thus if, in a given year, some medicine achieves 10% of the health gains produced by all medicines registered with the Health Impact Fund, then this medicine is rewarded with 10% of that year’s reward pool.",
+    "q10": "Does the idea of a Health Impact Fund thus far exist only on paper?",
+    "q10_answer": "No. There has already been a 5-year pilot project about the measurability of health gains, which included field work in India and was supported by a €2 million grant from the European Research Council. This project has shown how the therapeutic effects of medicines can be assessed even in poor countries.",
+    "q11": "How can the Health Impact Fund be realized politically?",
+    "q11_answer": "The developers of the Health Impact Fund idea are currently seeking support for another pilot project. Its purpose is to try out the central elements of the Health Impact Fund on a smaller scale – for example, with a single reward pool of €100 million. Pharmaceutical innovators would be invited each to propose one new initiative, involving an already-patented medicine of theirs, toward achieving additional health gains in some impoverished area of the world. An expert committee would select four of these proposals and give them three years for implementation. At the end of the period, the reward pool would be distributed in proportion to the health gains achieved.",
+    "q12": "What initiatives might innovators propose for this new pilot project?",
+    "q12_answer": "Important selection criteria would be the magnitude and measurability of the expected health gains as well as the proposal’s innovation potential and inclusion of poor population segments. Pharmaceutical innovators might propose, for example, to develop a heat-stable or pediatric version of one of their medicines, or the design of a new product-specific therapy or diagnosis protocol suitable for the tropics. The objective of the pilot is to show that health gains can be reliably and consistently measured. It would also show how much additional health impact can be achieved by means of such new incentives. It is hoped that, with the help of states, foundations and others, such a larger pilot project can soon be implemented."
   },
   "problem": {
     "title": "The problem"
@@ -70,11 +94,16 @@
     "book_read_papers": "Explore more papers",
     "book_read_book": "Read the book"
   },
-  "knowledge": {
+  "book": {
+    "click_to_download": "Click here to download",
+    "hif_book": "The Health Impact Fund Book",
+    "hif_book_description": "This book presents for public consideration a complement to the existing rules governing the development and distribution of new medicines. It shows that the proposed Health Impact Fund is feasible and that it would produce large gains in global public health and economic productivity at comparatively low cost.",
+    "hif_book_note": "This version of the book is from 2008; a substantially revised, expanded and updated version is currently in preparation.",
+    "title": "Health Impact Fund Book"
+  },
+  "publications": {
     "click_to_download": "Click here to download",
     "heading": "Publications",
-    "hif_book": "The Health Impact Fund Book",
-    "hif_book_description": "This book presents for public consideration a complement to the existing rules governing the development and distribution of new medicines. It shows that the proposed Health Impact Fund is feasible and that it would produce large gains in global public health and economic productivity at comparatively low cost. This version of the book is from 2008; a substantially revised, expanded and updated version is currently in preparation.",
     "hif_pilot_proposal": "Health Impact Fund Pilot Proposal",
     "hif_pilot_proposal_description": "The Health Impact Fund Pilot Proposal summarizes the Health Impact Fund initative, its design and terms; answers the question 'why?', and lists its members.",
     "hif_summaries": "The Health Impact Fund Summaries",
@@ -200,5 +229,8 @@
     "title": "Team"
   },
   "title": "Health Impact Fund",
-  "videos": "Videos"
+  "videos": {
+    "coming_soon": "More videos will be posted soon.",
+    "videos": "Videos"
+  }
 }

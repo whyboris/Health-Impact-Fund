@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 import Icon from "../images/pdf.svg"
 
-const Knowledge = ({ intl }) => (
+const Book = ({ intl }) => (
   <Layout>
     <SEO
       lang={intl.locale}
@@ -28,21 +28,25 @@ const Knowledge = ({ intl }) => (
     </div>
 
     <div className="publication-container individual_publication book-page-hack">
-      <FormattedMessage id="knowledge.hif_book">
+      <FormattedMessage id="book.hif_book">
         {txt => <h1>{txt}</h1>}
       </FormattedMessage>
 
-      <FormattedMessage id="knowledge.hif_book_description">
+      <FormattedMessage id="book.hif_book_description">
+        {txt => <p>{txt}</p>}
+      </FormattedMessage>
+
+      <FormattedMessage id="book.hif_book_note">
         {txt => <p>{txt}</p>}
       </FormattedMessage>
 
       <a href="/pdf/hif_book.pdf">
         <Icon />
-        <FormattedMessage id="knowledge.click_to_download" />
+        <FormattedMessage id="book.click_to_download" />
       </a>
     </div>
 
   </Layout>
 )
 
-export default injectIntl(Knowledge)
+export default injectIntl(Book)

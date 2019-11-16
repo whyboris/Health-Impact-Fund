@@ -6,18 +6,15 @@ import SEO from "../components/seo"
 
 import Icon from "../images/pdf.svg"
 
-const Knowledge = ({ intl }) => (
+const Publications = ({ intl }) => (
   <Layout>
     <SEO
       lang={intl.locale}
-      title={intl.formatMessage({ id: "knowledge.title" })}
+      title={intl.formatMessage({ id: "publications.title" })}
     />
     <h1>
-      <FormattedMessage id="knowledge.heading" />
+      <FormattedMessage id="publications.heading" />
     </h1>
-    {/* <p>
-      <FormattedMessage id="knowledge.info" />
-    </p> */}
 
     <div className="publication-container individual_publication">
       <img
@@ -25,15 +22,15 @@ const Knowledge = ({ intl }) => (
         alt="Health Impact Fund Pilot Proposal"
       />
 
-      <FormattedMessage id="knowledge.hif_pilot_proposal">
+      <FormattedMessage id="publications.hif_pilot_proposal">
         {txt => <h3>{txt}</h3>}
       </FormattedMessage>
-      <FormattedMessage id="knowledge.hif_pilot_proposal_description">
+      <FormattedMessage id="publications.hif_pilot_proposal_description">
         {txt => <p>{txt}</p>}
       </FormattedMessage>
       <a href="/pdf/HIF_pilot_proposal_2019_04.pdf">
         <Icon />
-        <FormattedMessage id="knowledge.click_to_download" />
+        <FormattedMessage id="publications.click_to_download" />
       </a>
     </div>
 
@@ -43,15 +40,15 @@ const Knowledge = ({ intl }) => (
         alt="Health Impact Fund Summaries"
       />
 
-      <FormattedMessage id="knowledge.hif_summaries">
+      <FormattedMessage id="publications.hif_summaries">
         {txt => <h3>{txt}</h3>}
       </FormattedMessage>
-      <FormattedMessage id="knowledge.hif_summaries_description">
+      <FormattedMessage id="publications.hif_summaries_description">
         {txt => <p>{txt}</p>}
       </FormattedMessage>
       <a href="/pdf/HIFshort.pdf">
         <Icon />
-        <FormattedMessage id="knowledge.click_to_download" />
+        <FormattedMessage id="publications.click_to_download" />
       </a>
       <br />
     </div>
@@ -181,4 +178,4 @@ const Knowledge = ({ intl }) => (
   </Layout>
 )
 
-export default injectIntl(Knowledge)
+export default injectIntl(Publications)
