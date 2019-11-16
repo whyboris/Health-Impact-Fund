@@ -522,6 +522,12 @@ header {
     transform: translate(-24px, 20px);
     z-index: 1;
 
+    .language-selection {
+      &:hover {
+        color: $primary !important;
+      }
+    }
+
     span {
       cursor: pointer;
       display: block;
@@ -774,7 +780,7 @@ header {
   .header-navigation {
     // border: 5px solid red;
     display: block;
-    max-height: 60px;
+    max-height: 58px;
     max-width: 100px;
     overflow: hidden;
     position: absolute;

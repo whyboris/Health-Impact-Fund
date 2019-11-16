@@ -15,8 +15,9 @@ const Language = () => {
             <span
               key={language}
               onClick={() => changeLocale(language)}
+              className="language-selection"
               style={{
-                color: currentLocale === language ? `#80CF0F` : `#BBBBBB`,
+                color: currentLocale === language ? `#80CF0F` : `#222222`,
               }}
             >
               {languageName[language]}
