@@ -1,8 +1,5 @@
 import React from "react"
-import {
-  // FormattedMessage,
-  injectIntl,
-} from "gatsby-plugin-intl"
+import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -45,15 +42,18 @@ const Benefits = ({ intl }) => {
         </svg>
       </div>
 
-      <h1 id="advantages">Advantages for …</h1>
+      <h1 id="advantages">
+        <FormattedMessage id="benefits.advantages_for" /> ...
+      </h1>
 
       <strong style={{ display: "block", "margin-top": "40px" }}>
-        ... patients.
+        ... <FormattedMessage id="benefits.patients" />:
       </strong>
 
       <ul className="benefits-list">
         <li>
-          Expanded arsenal of available medicines.
+          <FormattedMessage id="benefits.patients_1" />
+
           <strong
             className="see-more-click"
             style={{ display: "inline-block" }}
@@ -66,7 +66,7 @@ const Benefits = ({ intl }) => {
               showLongDescription1 = !showLongDescription1
             }}
           >
-            See more
+            <FormattedMessage id="benefits.see_more" />
           </strong>
         </li>
 
@@ -75,16 +75,12 @@ const Benefits = ({ intl }) => {
           style={{ margin: "0" }}
           className="description-long hidden"
         >
-          The HIF will create incentives for new drugs to be developed that are
-          not commercially attractive under the current system but have great
-          therapeutic value. The reason is that the HIF is designed so that all
-          human lives have the same value, so even drugs that will mainly be
-          used for poor patients will offer an attractive investment
-          proposition.
+          <FormattedMessage id="benefits.show_more_1" />
         </p>
 
         <li>
-          Cutting-edge pharmaceuticals at affordable prices.
+          <FormattedMessage id="benefits.patients_2" />
+
           <strong
             className="see-more-click"
             style={{ display: "inline-block" }}
@@ -97,7 +93,7 @@ const Benefits = ({ intl }) => {
               showLongDescription2 = !showLongDescription2
             }}
           >
-            See more
+            <FormattedMessage id="benefits.see_more" />
           </strong>
         </li>
 
@@ -106,52 +102,58 @@ const Benefits = ({ intl }) => {
           style={{ margin: "0" }}
           className="description-long hidden"
         >
-          The HIF, by design, requires low prices for registered products in all
-          participating and low/lower-middle income countries. Unlike the
-          current situation where new drugs are priced to maximize profits
-          everywhere, HIF-registered drugs will be priced to maximize health
-          benefits.
+          <FormattedMessage id="benefits.show_more_2" />
         </p>
       </ul>
-      <strong>... pharmaceutical innovators.</strong>
+      <strong>
+        ... <FormattedMessage id="benefits.industry" />:
+      </strong>
       <br />
       <ul className="benefits-list">
         <li>
-          New incentives for essential but heretofore unprofitable R&D projects.
-        <li>
+          <FormattedMessage id="benefits.industry_1" />
         </li>
-          The opportunity to help poorer patients without ruining themselves or
-          those patients financially.
-        </li>
-        <li>Enlarged contributions to world health.</li>
-        <li>Improved public image.</li>
         <li>
-          Realization of the internationally agreed Sustainable Development
-          Goals.
+          <FormattedMessage id="benefits.industry_2" />
+        </li>
+        <li>
+          <FormattedMessage id="benefits.industry_3" />
+        </li>
+        <li>
+          <FormattedMessage id="benefits.industry_4" />
+        </li>
+        <li>
+          <FormattedMessage id="benefits.industry_5" />
         </li>
       </ul>
-      <strong>... states and taxpayers.</strong>
+      <strong>
+        ... <FormattedMessage id="benefits.state" />:
+      </strong>
       <br />
       <ul className="benefits-list">
         <li>
-          Greater chance that patients will receive the medicines that are best
-          for them.
-        </li>
-        <li>Much improved efficiency in the health sector.</li>
-        <li>Reduced dangers from invasive diseases of the poor.</li>
-        <li>Improvements in global health.</li>
-        <li>Reduction of the economic burdens from disease.</li>
-        <li>
-          Gains in epidemiological knowledge from the required health impact
-          assessments.
+          <FormattedMessage id="benefits.state_1" />
         </li>
         <li>
-          Genuine North-South partnership for the production of global public
-          goods.
+          <FormattedMessage id="benefits.state_2" />
         </li>
         <li>
-          Establishment of a transformative innovation in the promotion of
-          innovations
+          <FormattedMessage id="benefits.state_3" />
+        </li>
+        <li>
+          <FormattedMessage id="benefits.state_4" />
+        </li>
+        <li>
+          <FormattedMessage id="benefits.state_5" />
+        </li>
+        <li>
+          <FormattedMessage id="benefits.state_6" />
+        </li>
+        <li>
+          <FormattedMessage id="benefits.state_7" />
+        </li>
+        <li>
+          <FormattedMessage id="benefits.state_8" />
         </li>
       </ul>
     </Layout>
