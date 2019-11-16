@@ -19,7 +19,7 @@ import "./layout.scss"
 const Layout = ({ children, intl }) => {
   return (
     <>
-      <Header siteTitle={intl.formatMessage({ id: "title" })} />
+      <Header siteTitle={intl.formatMessage({ id: "general.title" })} />
       <div className="body-contents">
 
         <main>{children}</main>

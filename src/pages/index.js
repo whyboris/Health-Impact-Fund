@@ -12,7 +12,7 @@ const IndexPage = ({ intl }) => {
     <Layout>
       <SEO
         lang={intl.locale}
-        title={intl.formatMessage({ id: "title" })}
+        title={intl.formatMessage({ id: "general.title" })}
         keywords={[`Health Impact Fund`, `HIF`, `Global Health`]}
       />
 
