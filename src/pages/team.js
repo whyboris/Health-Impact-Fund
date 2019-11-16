@@ -28,9 +28,7 @@ const advisors = [
   "Richard Wilder",
 ]
 
-const former_advisors = [
-  "Kenneth J. Arrow",
-]
+const former_advisors = ["Kenneth J. Arrow"]
 
 const scientific_advisors = [
   "Sonali Kochhar",
@@ -57,7 +55,7 @@ const team = [
   "Maria Ginevra Cattaneo",
   "Max Alexander Matthey",
   "Daniele Botti",
-  "Boris Yakubchik"
+  "Boris Yakubchik",
 ]
 
 const About = ({ intl }) => (
@@ -77,17 +75,10 @@ const About = ({ intl }) => (
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clipPath="url(#clip0)">
-          <path
-            d="M14.1053 0L8 6.10526L1.89474 0L0 1.89474L8 9.89474L16 1.89474L14.1053 0Z"
-            fill="#222222"
-          />
-        </g>
-        <defs>
-          <clipPath id="clip0">
-            <rect width="16" height="9.89474" fill="white" />
-          </clipPath>
-        </defs>
+        <path
+          d="M14.1053 0L8 6.10526L1.89474 0L0 1.89474L8 9.89474L16 1.89474L14.1053 0Z"
+          fill="#222222"
+        />
       </svg>
     </div>
 
@@ -199,7 +190,6 @@ const About = ({ intl }) => (
         return <Advisor key={index} data={{ name: element, id: index + 300 }} />
       })}
     </ul>
-
   </Layout>
 )
 
