@@ -1,8 +1,5 @@
 import React from "react"
-import {
-  // FormattedMessage,
-  injectIntl,
-} from "gatsby-plugin-intl"
+import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -31,109 +28,90 @@ const Benefits = ({ intl }) => (
       </svg>
     </div>
 
-    <h1 id="summary">The Health Impact Fund in a few sentences.</h1>
+    <h1 id="summary">
+      <FormattedMessage id="how.in_short" />
+    </h1>
 
     <p>
-      The Health Impact Fund provides a complementary system for the development
-      of pharmaceutical innovations – especially ones intended for poor patients
-      who cannot afford expensive medicines.
-    </p>
-    <p>
-      <strong>How does it work?</strong>
-      <br />
-      The Health Impact Fund is financed by states and charitable contributors.
-      It would give pharmaceutical innovators the option of registering any new
-      product for annual reward payments.
-    </p>
-    <p>
-      <strong>Control of prices to support access:</strong>
-      <br />
-      The price of registered products is limited to the costs of manufacture
-      and distribution, and therefore affordable even for poor patients. The
-      price of registered medicines is delinked from their R&D cost.
-    </p>
-
-    <p>
-      <strong>Competitive reward payments based on performance:</strong>
-      <br />
-      Reward payments for pharmaceutical innovators depend solely on the annual
-      health gains achieved by their registered medicines. The more such a new
-      medicine improves or lengthens human lives, the more money the innovator
-      earns.
-    </p>
-
-    <h1 id="background">Background</h1>
-
-    <p>
-      <strong>
-        Pharmaceutical research is currently funded from patent-protected
-        markups.
-      </strong>
-      <br />
-      The development of new medicines is very expensive. To cover these R&D
-      costs, countries offer 20-year patents. Under the protection of these
-      temporary monopolies, pharmaceutical firms can sell their new products at
-      very high prices. This system has two adverse effects:
-    </p>
-    <p>
-      <strong>Little research into diseases of poor people:</strong>
-      <br />
-      In the current system, the diseases of the poor are unattractive for
-      pharmaceutical research. This is so because poor patients cannot afford to
-      buy expensive medicines. The diseases of the poor are therefore generally
-      neglected by pharmaceutical companies. Remedies against hair loss are more
-      likely to be sought than remedies against deadly diseases of poverty, such
-      as dengue, leishmaniasis or Ebola.
-    </p>
-    <p>
-      <strong>High prices limit access to new drugs:</strong>
-      <br />
-      New medicines are generally unaffordable for the poor. Even when new
-      medicines are developed, for example against the hepatitis C virus, they
-      are almost always sold at profit-maximizing monopoly prices. These far
-      exceed what most patients can afford. The same also holds for medicines
-      against global diseases such as cancer.
+      <FormattedMessage id="how.in_short_intro" />
     </p>
     <p>
       <strong>
-        The Health Impact Fund provides a complementary system that strengthens
-        world health.
+        <FormattedMessage id="how.in_short_1" />
       </strong>
       <br />
-      With the Health Impact Fund, pharmaceutical companies obtain an additional
-      option that, through new incentives, mitigates these two adverse effects.
+      <FormattedMessage id="how.in_short_1_answer" />
+    </p>
+    <p>
+      <strong>
+        <FormattedMessage id="how.in_short_2" />
+      </strong>
+      <br />
+      <FormattedMessage id="how.in_short_2_answer" />
+    </p>
+    <p>
+      <strong>
+        <FormattedMessage id="how.in_short_3" />
+      </strong>
+      <br />
+      <FormattedMessage id="how.in_short_3_answer" />
     </p>
 
-    <h1 id="essence">The Essence</h1>
+    <h1 id="background">
+      <FormattedMessage id="how.background" />
+    </h1>
     <p>
-      <strong>Health gains as the standard.</strong>
+      <strong>
+        <FormattedMessage id="how.background_1" />
+      </strong>
       <br />
-      The purpose of medicines is to improve and preserve health. The Health
-      Impact Fund aligns corporate incentives to engage in research, development
-      and marketing with precisely this social objective. This is so because the
-      reward payments that any innovator receives for its registered innovation
-      are tied directly to the health gains that this medicine achieves year by
-      year. The more a registered product lengthens or improves human lives, the
-      higher are the reward payments that its innovator receives from the Health
-      Impact Fund. In this calculus, the health of all human beings is weighted
-      equally, regardless of whether they are rich or poor.
+      <FormattedMessage id="how.background_1_answer" />
     </p>
     <p>
-      <strong>Covering the costs of pharmaceutical firms.</strong>
+      <strong>
+        <FormattedMessage id="how.background_2" />
+      </strong>
       <br />
-      With the publicly funded reward payments that the Health Impact Fund pays
-      out for each registered medicine, the firm bears the risks of failure in
-      case its product has little health benefit and earns the rewards of
-      success, in case its product is therapeutically very successful. On
-      average, firms should be able to cover their costs and earn a competitive
-      rate of return.
+      <FormattedMessage id="how.background_2_answer" />
     </p>
     <p>
-      <strong>Delinking a medicine’s price from its R&D costs.</strong>
+      <strong>
+        <FormattedMessage id="how.background_3" />
+      </strong>
       <br />
-      Registered medicines must be sold at an affordable price, which covers
-      merely the costs of manufacture and distribution. Such medicines are
-      therefore affordable even to very poor patients.
+      <FormattedMessage id="how.background_3_answer" />
+    </p>
+    <p>
+      <strong>
+        <FormattedMessage id="how.background_4" />
+      </strong>
+      <br />
+      <FormattedMessage id="how.background_4_answer" />
+    </p>
+
+    <h1 id="essence">
+      <FormattedMessage id="how.essence" />
+    </h1>
+    <p>
+      <strong>
+        <FormattedMessage id="how.essence_1" />
+      </strong>
+      <br />
+      <FormattedMessage id="how.essence_1_answer" />
+    </p>
+    <p>
+      <strong>
+        <FormattedMessage id="how.essence_2" />
+      </strong>
+      <br />
+      <FormattedMessage id="how.essence_2_answer" />
+    </p>
+    <p>
+      <strong>
+        <FormattedMessage id="how.essence_3" />
+      </strong>
+      <br />
+      <FormattedMessage id="how.essence_3_answer" />
     </p>
   </Layout>
 )

@@ -1,6 +1,6 @@
 import React from "react"
 import {
-  // FormattedMessage,
+  FormattedMessage,
   injectIntl,
 } from "gatsby-plugin-intl"
 
