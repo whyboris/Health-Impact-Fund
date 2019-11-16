@@ -18,7 +18,7 @@ const IndexPage = ({ intl }) => {
 
       <div style={{ textAlign: `center`, margin: `20px auto` }}>
         <img
-          src='/img/0.png'
+          src="/img/0.png"
           alt="Health Impact Fund stylized summary graphic"
           style={{ maxWidth: `100%` }}
         />
@@ -69,12 +69,15 @@ const IndexPage = ({ intl }) => {
           </Link>
         </div>
 
-        <div className="thin-panel last-panel">
-          <em>
-            <FormattedMessage id="intro.benefits_patients_heading" />
-          </em>
-          <br />
-          <FormattedMessage id="intro.benefits_patients_text" />
+        <div className="thin-panel">
+          <div className="last-panel">
+            <em>
+              <FormattedMessage id="intro.benefits_patients_heading" />
+            </em>
+            <br />
+            <FormattedMessage id="intro.benefits_patients_text" />
+          </div>
+
           <div className="donation-box">
             <FormattedMessage id="intro.donate_text" />
             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K7ULUVQSNFV8C">
@@ -89,7 +92,7 @@ const IndexPage = ({ intl }) => {
       <PullQuote />
 
       <div className="panel-container">
-        <div className="thin-panel first-panel">
+        <div className="thin-panel padding-for-button first-panel">
           <em>
             <FormattedMessage id="intro.what_heading" />
           </em>
@@ -102,7 +105,7 @@ const IndexPage = ({ intl }) => {
           </Link>
         </div>
 
-        <div className="thin-panel first-panel">
+        <div className="thin-panel padding-for-button first-panel">
           <em>
             <FormattedMessage id="intro.why_heading" />
           </em>
@@ -115,7 +118,7 @@ const IndexPage = ({ intl }) => {
           </Link>
         </div>
 
-        <div className="thin-panel">
+        <div className="thin-panel padding-for-button">
           <em>
             <FormattedMessage id="intro.how_heading" />
           </em>
@@ -142,10 +145,7 @@ const IndexPage = ({ intl }) => {
       </div>
 
       <div className="hip-book">
-        <img
-          alt="Health Impact Fund book"
-          src='/img/HIF_book_cover.jpg'
-        />
+        <img alt="Health Impact Fund book" src="/img/HIF_book_cover.jpg" />
         <div className="book-description-block">
           <em>
             <FormattedMessage id="intro.book_heading" />
@@ -163,9 +163,7 @@ const IndexPage = ({ intl }) => {
               <FormattedMessage id="intro.book_read_book" />
             </div>
           </a>
-
         </div>
-
       </div>
     </Layout>
   )

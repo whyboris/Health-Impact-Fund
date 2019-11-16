@@ -657,9 +657,8 @@ header {
 
   .thin-panel {
     box-sizing: border-box;
-    display: inline-block;
+    display: table-cell;
     font-size: 18px;
-    height: 300px;
     line-height: 28px;
     padding: 0 30px;
     position: relative;
@@ -685,18 +684,19 @@ header {
     }
 
     .donation-box {
-      position: absolute;
       bottom: 0;
       background: $primary;
       color: white;
       margin-left: -30px;
-      margin-bottom: -20px;
-      padding: 30px 30px 60px;
+      padding: 20px 30px 60px;
+      transform: translateY(20px);
 
       .button {
         background: white;
         color: $primary;
-        margin-bottom: 20px;
+        bottom: 20px;
+        position: absolute;
+        left: 28px;
       }
     }
   }
@@ -706,14 +706,13 @@ header {
   }
 
   .last-panel {
-    &:before {
-      content: '';
-      position: absolute;
-      left: 0;
-      height: 100px;
-      width: 1px;
-      border-left: 1px solid #dddddd;
-    }
+    border-left: 1px solid #dddddd;
+    margin-left: -30px;
+    padding-left: 30px;
+  }
+
+  .padding-for-button {
+    padding-bottom: 60px;
   }
 }
 
@@ -852,9 +851,14 @@ header {
       }
 
       .donation-box {
-        margin: 30px 0 0;
-        position: relative;
+        margin-top: 30px;
         padding: 30px 30px 60px;
+        position: relative;
+
+        .button {
+          left: initial;
+          right: 20px;
+        }
 
         .donate {
           position: absolute;
@@ -871,10 +875,7 @@ header {
 
     .last-panel {
       padding-bottom: 0;
-
-      &:before {
-        display: none;
-      }
+      border: 0;
     }
   }
 }
