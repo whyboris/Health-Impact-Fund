@@ -256,6 +256,18 @@
     "videos": "Videos"
   },
   "what": {
+    "document": "document",
+    "for_more_info_see": "For much more information on price determination, see",
+    "how": "How does it work?",
+    "how_answer": "The Health Impact Fund will be financed by states and charitable foundations. It would give pharmaceutical innovators the option of registering any new product for annual reward payments.",
+    "intro": "The Health Impact Fund is intended to provide a complementary system for the development of pharmaceutical innovations – especially ones intended for poor patients who cannot afford expensive medicines.",
+    "prices": "Prices",
+    "prices_answer": "The price of any product registered with the HIF is limited to the costs of manufacture and distribution, and therefore affordable even for poor patients. The price of registered medicines is delinked from their R&D cost. One way to keep prices down is to enable generic manufacturers to compete in producing and selling registered drugs.",
+    "prices_see_more": "Usually, once drugs become generic, prices fall substantially since generic manufacturers compete to sell identical products. Generic competition may not work in all situations, so the HIF might use other tools to ensure low prices, including tendering or regulated prices.",
+    "reward": "Reward payments",
+    "reward_answer": "The reward payments received by pharmaceutical innovators depend solely on the annual health gains achieved by their registered medicines. The more such a new medicine improves or lengthens human lives, the more money goes to its innovator.",
+    "reward_see_more": "An important part of the HIF model is that the HIF should pay out a fixed amount in every year. Registered products obtain a share of the fixed payout equal to their share of assessed health impact of all registered products annually. Thus, firms are essentially competing to improve human health. Having a fixed total payout divided between firms helps the HIF (and funders) to manage its budget. Each registered product would be eligible for ten years of payments, which resembles the duration of exclusivity that firms now enjoy for patented pharmaceuticals. Following the 10 years, products would be required to be licensed for generic production.",
+    "see_more": "See more",
     "title": "What is the HIF?"
   }
 }
