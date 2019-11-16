@@ -49,8 +49,7 @@ const Header = ({ siteTitle }) => (
           </svg>
         </div>
 
-
-{/* ABOUT  dropdown */}
+        {/* ABOUT  dropdown */}
 
         <div className="nav-item dropdown">
           <div className="dropbtn">
@@ -67,20 +66,12 @@ const Header = ({ siteTitle }) => (
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g clipPath="url(#clip0)">
-              <path
-                d="M14.1053 0L8 6.10526L1.89474 0L0 1.89474L8 9.89474L16 1.89474L14.1053 0Z"
-                fill="#222222"
-              />
-            </g>
-            <defs>
-              <clipPath id="clip0">
-                <rect width="16" height="9.89474" fill="white" />
-              </clipPath>
-            </defs>
+            <path
+              d="M14.1053 0L8 6.10526L1.89474 0L0 1.89474L8 9.89474L16 1.89474L14.1053 0Z"
+              fill="#222222"
+            />
           </svg>
           <div className="dropdown-content">
-
             <Link to="/problem">
               <FormattedMessage id="navigation.problem" />
             </Link>
@@ -96,12 +87,10 @@ const Header = ({ siteTitle }) => (
             <Link to="/faq">
               <FormattedMessage id="navigation.faq" />
             </Link>
-
           </div>
         </div>
 
-
-{/* NEWS */}
+        {/* NEWS */}
         <div className="nav-item dropdown">
           <div className="dropbtn">
             <Link to="/news">
@@ -117,28 +106,19 @@ const Header = ({ siteTitle }) => (
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g clipPath="url(#clip0)">
-              <path
-                d="M14.1053 0L8 6.10526L1.89474 0L0 1.89474L8 9.89474L16 1.89474L14.1053 0Z"
-                fill="#222222"
-              />
-            </g>
-            <defs>
-              <clipPath id="clip0">
-                <rect width="16" height="9.89474" fill="white" />
-              </clipPath>
-            </defs>
+            <path
+              d="M14.1053 0L8 6.10526L1.89474 0L0 1.89474L8 9.89474L16 1.89474L14.1053 0Z"
+              fill="#222222"
+            />
           </svg>
           <div className="dropdown-content">
-
             <Link to="/news">
               <FormattedMessage id="navigation.recent_events" />
             </Link>
-
           </div>
         </div>
 
-{/* TEAM */}
+        {/* TEAM */}
         <div className="nav-item dropdown">
           <div className="dropbtn">
             <Link to="/team">
@@ -154,20 +134,12 @@ const Header = ({ siteTitle }) => (
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g clipPath="url(#clip0)">
-              <path
-                d="M14.1053 0L8 6.10526L1.89474 0L0 1.89474L8 9.89474L16 1.89474L14.1053 0Z"
-                fill="#222222"
-              />
-            </g>
-            <defs>
-              <clipPath id="clip0">
-                <rect width="16" height="9.89474" fill="white" />
-              </clipPath>
-            </defs>
+            <path
+              d="M14.1053 0L8 6.10526L1.89474 0L0 1.89474L8 9.89474L16 1.89474L14.1053 0Z"
+              fill="#222222"
+            />
           </svg>
           <div className="dropdown-content">
-
             <Link to="/team">
               <FormattedMessage id="navigation.igh" />
             </Link>
@@ -183,12 +155,10 @@ const Header = ({ siteTitle }) => (
             <Link to="/team#management">
               <FormattedMessage id="navigation.management_team" />
             </Link>
-
           </div>
         </div>
 
-
-{/* PUBLICATIONS */}
+        {/* PUBLICATIONS */}
         <div className="nav-item dropdown">
           <div className="dropbtn">
             <Link to="/publications">
@@ -204,20 +174,12 @@ const Header = ({ siteTitle }) => (
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g clipPath="url(#clip0)">
-              <path
-                d="M14.1053 0L8 6.10526L1.89474 0L0 1.89474L8 9.89474L16 1.89474L14.1053 0Z"
-                fill="#222222"
-              />
-            </g>
-            <defs>
-              <clipPath id="clip0">
-                <rect width="16" height="9.89474" fill="white" />
-              </clipPath>
-            </defs>
+            <path
+              d="M14.1053 0L8 6.10526L1.89474 0L0 1.89474L8 9.89474L16 1.89474L14.1053 0Z"
+              fill="#222222"
+            />
           </svg>
           <div className="dropdown-content">
-
             <Link to="/book">
               <FormattedMessage id="navigation.book" />
             </Link>
@@ -227,12 +189,10 @@ const Header = ({ siteTitle }) => (
             <Link to="/videos">
               <FormattedMessage id="navigation.videos" />
             </Link>
-
           </div>
         </div>
 
-
-{/* LANGUAGE -- disabled for now */}
+        {/* LANGUAGE -- disabled for now */}
         {/* <div className="nav-item dropdown">
           <div className="dropbtn">
             <FormattedMessage id="navigation.language" />
@@ -246,22 +206,14 @@ const Header = ({ siteTitle }) => (
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g clipPath="url(#clip0)">
               <path
                 d="M14.1053 0L8 6.10526L1.89474 0L0 1.89474L8 9.89474L16 1.89474L14.1053 0Z"
                 fill="#222222"
               />
-            </g>
-            <defs>
-              <clipPath id="clip0">
-                <rect width="16" height="9.89474" fill="white" />
-              </clipPath>
-            </defs>
           </svg>
 
           <Language />
         </div> */}
-
       </div>
     </div>
   </header>
