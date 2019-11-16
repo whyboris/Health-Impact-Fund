@@ -45,8 +45,7 @@ const Benefits = ({ intl }) => {
 
       <ul className="benefits-list">
         <li>
-          <FormattedMessage id="benefits.patients_1" />
-
+          <FormattedMessage id="benefits.patients_1" />{" "}
           <strong
             className="see-more-click"
             style={{ display: "inline-block" }}
@@ -72,8 +71,7 @@ const Benefits = ({ intl }) => {
         </p>
 
         <li>
-          <FormattedMessage id="benefits.patients_2" />
-
+          <FormattedMessage id="benefits.patients_2" />{" "}
           <strong
             className="see-more-click"
             style={{ display: "inline-block" }}
