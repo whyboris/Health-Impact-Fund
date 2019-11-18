@@ -762,6 +762,12 @@ header {
   width: 10px !important;
 }
 
+.opportunities-list {
+  li {
+    line-height: 26px;
+  }
+}
+
 // =========================================== MEDIA ===============================================
 
 @media only screen and (max-width: 880px) {

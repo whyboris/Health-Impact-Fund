@@ -58,10 +58,9 @@ const team = [
   "Boris Yakubchik",
 ]
 
-const About = ({ intl }) => (
+const Team = ({ intl }) => (
   <Layout>
     <SEO lang={intl.locale} title={intl.formatMessage({ id: "team.title" })} />
-
     <div
       className="scroll-to-top"
       onClick={() => {
@@ -81,11 +80,9 @@ const About = ({ intl }) => (
         />
       </svg>
     </div>
-
     <h1>
       <FormattedMessage id="team.heading" />
     </h1>
-
     <FormattedMessage
       id="team.about_IGH"
       values={{
@@ -98,7 +95,6 @@ const About = ({ intl }) => (
     >
       {(...chunks) => <p>{chunks}</p>}
     </FormattedMessage>
-
     <FormattedMessage
       id="team.about_IGH_more"
       values={{
@@ -120,77 +116,70 @@ const About = ({ intl }) => (
     >
       {(...chunks) => <p>{chunks}</p>}
     </FormattedMessage>
-
-    <FormattedMessage id="team.advisory_council">
-      {txt => (
-        <h1 id="advisory" style={{ marginTop: "40px" }}>
-          {txt}
-        </h1>
-      )}
-    </FormattedMessage>
-
+    <h1 id="advisory" style={{ marginTop: "40px" }}>
+      <FormattedMessage id="team.advisory_council" />
+    </h1>
     <ul className="advisory-council">
       {advisors.map((element, index) => {
         return <Advisor key={index} data={{ name: element, id: index }} />
       })}
     </ul>
-
-    <FormattedMessage id="team.former_advisory_council">
-      {txt => (
-        <h1 id="advisory" style={{ marginTop: "40px" }}>
-          {txt}
-        </h1>
-      )}
-    </FormattedMessage>
-
+    <h1 id="advisory" style={{ marginTop: "40px" }}>
+      <FormattedMessage id="team.former_advisory_council" />
+    </h1>
     <ul className="advisory-council">
       {former_advisors.map((element, index) => {
         return <Advisor key={index} data={{ name: element, id: index + 50 }} />
       })}
     </ul>
-
-    <FormattedMessage id="team.scientific_advisory_board">
-      {txt => (
-        <h1 id="scientific" style={{ marginTop: "40px" }}>
-          {txt}
-        </h1>
-      )}
-    </FormattedMessage>
-
+    <h1 id="scientific" style={{ marginTop: "40px" }}>
+      <FormattedMessage id="team.scientific_advisory_board" />
+    </h1>
     <ul className="advisory-council">
       {scientific_advisors.map((element, index) => {
         return <Advisor key={index} data={{ name: element, id: index + 100 }} />
       })}
     </ul>
-
-    <FormattedMessage id="team.board">
-      {txt => (
-        <h1 id="board" style={{ marginTop: "40px" }}>
-          {txt}
-        </h1>
-      )}
-    </FormattedMessage>
-
+    <h1 id="board" style={{ marginTop: "40px" }}>
+      <FormattedMessage id="team.board" />
+    </h1>
     <ul className="advisory-council">
       {board.map((element, index) => {
         return <Advisor key={index} data={{ name: element, id: index + 200 }} />
       })}
     </ul>
-
-    <FormattedMessage id="team.management_team">
-      {txt => (
-        <h1 id="management" style={{ marginTop: "40px" }}>
-          {txt}
-        </h1>
-      )}
-    </FormattedMessage>
-
+    <h1 id="management" style={{ marginTop: "40px" }}>
+      <FormattedMessage id="team.management_team" />
+    </h1>
     <ul className="advisory-council">
       {team.map((element, index) => {
         return <Advisor key={index} data={{ name: element, id: index + 300 }} />
       })}
     </ul>
+    <h1 id="opportunities" style={{ marginTop: "40px" }}>
+      <FormattedMessage id="team.opportunities" />
+    </h1>
+    <p>
+      <FormattedMessage id="team.opportunity_intro" />
+    </p>
+    <ul className="opportunities-list">
+      <li>
+        <FormattedMessage id="team.opportunity_1" />
+      </li>
+      <li>
+        <FormattedMessage id="team.opportunity_2" />
+      </li>
+      <li>
+        <FormattedMessage id="team.opportunity_3" />
+      </li>
+      <li>
+        <FormattedMessage id="team.opportunity_4" />
+      </li>
+    </ul>
+    <p>
+      <FormattedMessage id="team.opportunity_postscript" />
+    </p>
   </Layout>
 )
 
-export default injectIntl(About)
+export default injectIntl(Team)

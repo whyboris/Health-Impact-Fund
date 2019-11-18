@@ -155,6 +155,9 @@ const Header = ({ siteTitle }) => (
             <Link to="/team#management">
               <FormattedMessage id="navigation.management_team" />
             </Link>
+            <Link to="/team#opportunities">
+              <FormattedMessage id="navigation.opportunities" />
+            </Link>
           </div>
         </div>
 
