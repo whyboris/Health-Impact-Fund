@@ -91,6 +91,13 @@ const Team = ({ intl }) => (
             <em>Health Impact Fund</em>
           </>
         ),
+        intl_volunteers: (
+          <>
+            <a href="#opportunities">
+              <FormattedMessage id="team.volunteers" />
+            </a>
+          </>
+        ),
       }}
     >
       {(...chunks) => <p>{chunks}</p>}
@@ -179,6 +186,20 @@ const Team = ({ intl }) => (
     <p>
       <FormattedMessage id="team.opportunity_postscript" />
     </p>
+    <FormattedMessage
+      id="team.invitation"
+      values={{
+        intl_email: (
+          <>
+            <a href="mailto:info@healthimpactfund.org">
+              info@healthimpactfund.org
+            </a>
+          </>
+        ),
+      }}
+    >
+      {(...chunks) => <p>{chunks}</p>}
+    </FormattedMessage>
   </Layout>
 )
 
