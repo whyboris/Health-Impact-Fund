@@ -14,6 +14,27 @@ const News = ({ intl }) => (
     </h1>
 
     <div className="news-item">
+      <div className="photo-and-caption">
+        <img
+          src='/img/berlin_workshop.jpg'
+          alt="Berlin Workshop"
+        />
+      </div>
+
+      <span className="date">2019.11.13</span>
+
+      <div className="news-text">
+        <h2>
+          <FormattedMessage id="news.2019.11.13_title" />
+        </h2>
+
+        <p>
+          <FormattedMessage id="news.2019.11.13_body" />
+        </p>
+      </div>
+    </div>
+
+    <div className="news-item">
       <span className="date">2019.09.25</span>
 
       <div className="news-text">
