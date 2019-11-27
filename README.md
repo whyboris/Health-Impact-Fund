@@ -2,6 +2,10 @@
 
 [Health Impact Fund](https://healthimpactfund.org) - delink the price of drugs from the cost of research.
 
+<p align="center">
+  <img width="800" alt="website screenshot" src="https://user-images.githubusercontent.com/17264277/69742656-23228a00-110b-11ea-9c3e-aeec4e5ac7a7.png">
+</p>
+
 ## About
 
 This repository contains the files for the public website.
