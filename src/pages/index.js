@@ -157,6 +157,28 @@ const IndexPage = ({ intl }) => {
         </div>
       </div>
 
+      <div className="hip-book">
+        <img alt="Health Impact Fund pilot" style={{ border: 0, borderRadius: 0 }} src="/img/HIF_pilot.jpg" />
+        <div className="book-description-block">
+          <em>
+            <FormattedMessage id="intro.pilot_heading" />
+          </em>
+          <FormattedMessage id="intro.pilot_text" />
+
+          <Link to="/publications">
+            <div className="button button-first">
+              <FormattedMessage id="intro.book_read_papers" />
+            </div>
+          </Link>
+
+          <a href="/pdf/HIF_pilot_proposal_2019_11.pdf">
+            <div className="button button-second">
+              <FormattedMessage id="intro.pilot_read_pilot" />
+            </div>
+          </a>
+        </div>
+      </div>
+
       <div id="main-video" className="youtube" data-embed="rTMqGbTNkNg">
         <div className="placeholder-gradient"></div>
         <div className="placeholder-channel"></div>

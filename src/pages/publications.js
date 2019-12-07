@@ -18,7 +18,7 @@ const Publications = ({ intl }) => (
 
     <div className="publication-container individual_publication">
       <img
-        src="/img/HIF_pilot_proposal_2019_04.jpg"
+        src="/img/HIF_pilot.jpg"
         alt="Health Impact Fund Pilot Proposal"
       />
 
@@ -28,7 +28,7 @@ const Publications = ({ intl }) => (
       <FormattedMessage id="publications.hif_pilot_proposal_description">
         {txt => <p>{txt}</p>}
       </FormattedMessage>
-      <a href="/pdf/HIF_pilot_proposal_2019_04.pdf">
+      <a href="/pdf/HIF_pilot_proposal_2019_11.pdf">
         <Icon />
         <FormattedMessage id="publications.click_to_download" />
       </a>
