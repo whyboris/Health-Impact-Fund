@@ -1,7 +1,7 @@
 import { Link } from "gatsby-plugin-intl"
 import PropTypes from "prop-types"
 import React from "react"
-import Language from "./language"
+// import Language from "./language"
 
 import { injectIntl, FormattedMessage } from "gatsby-plugin-intl"
 
@@ -196,7 +196,7 @@ const Header = ({ siteTitle }) => (
         </div>
 
         {/* LANGUAGE -- disabled for now */}
-        <div className="nav-item dropdown">
+        {/* <div className="nav-item dropdown">
           <div className="dropbtn">
             <FormattedMessage id="navigation.language" />
           </div>
@@ -216,7 +216,7 @@ const Header = ({ siteTitle }) => (
           </svg>
 
           <Language />
-        </div>
+        </div> */}
       </div>
     </div>
   </header>
