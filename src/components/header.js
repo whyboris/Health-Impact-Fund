@@ -195,7 +195,6 @@ const Header = ({ siteTitle }) => (
           </div>
         </div>
 
-        {/* LANGUAGE -- disabled for now */}
         <div className="nav-item dropdown">
           <div className="dropbtn">
             <FormattedMessage id="navigation.language" />
@@ -217,6 +216,7 @@ const Header = ({ siteTitle }) => (
 
           <Language />
         </div>
+
       </div>
     </div>
   </header>

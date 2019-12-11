@@ -5,6 +5,7 @@ const languageName = {
   en: "English",
   de: "Deutsch",
   it: "Italiano",
+  id: "ID"
 }
 
 const Language = () => {
