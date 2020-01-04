@@ -61,7 +61,13 @@ const team = [
 
 const Team = ({ intl }) => (
   <Layout>
-    <SEO lang={intl.locale} title={intl.formatMessage({ id: "team.title" })} />
+
+    <SEO
+      lang={intl.locale}
+      title={intl.formatMessage({ id: "team.title" })}
+      description={intl.formatMessage({ id: "general.description" })}
+    />
+
     <div
       className="scroll-to-top"
       onClick={() => {

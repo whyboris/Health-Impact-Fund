@@ -9,7 +9,11 @@ import SEO from "../components/seo"
 
 const Benefits = ({ intl }) => (
   <Layout>
-    <SEO lang={intl.locale} title={intl.formatMessage({ id: "about.title" })} />
+    <SEO
+      lang={intl.locale}
+      title={intl.formatMessage({ id: "about.title" })}
+      description={intl.formatMessage({ id: "general.description" })}
+    />
 
     <div
       className="scroll-to-top"

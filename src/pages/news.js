@@ -8,7 +8,12 @@ import Icon from "../images/pdf.svg"
 
 const News = ({ intl }) => (
   <Layout>
-    <SEO lang={intl.locale} title={intl.formatMessage({ id: "news.title" })} />
+    <SEO
+      lang={intl.locale}
+      title={intl.formatMessage({ id: "news.title" })}
+      description={intl.formatMessage({ id: "general.description" })}
+    />
+
     <h1>
       <FormattedMessage id="news.heading" />
     </h1>

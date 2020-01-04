@@ -9,6 +9,7 @@ const Videos = ({ intl }) => (
     <SEO
       lang={intl.locale}
       title={intl.formatMessage({ id: "videos.videos" })}
+      description={intl.formatMessage({ id: "general.description" })}
     />
     <h1>
       <FormattedMessage id="videos.videos" />
