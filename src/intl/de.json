@@ -65,7 +65,6 @@
         "title": "Häufig gestellte Fragen | FAQ"
     },
     "general": {
-        "description": "Den Preis von Medikamenten von den Forschungskosten trennen.",
         "legal_notice": "Impressum",
         "title": "Health Impact Fund"
     },
@@ -116,7 +115,7 @@
         "how_button": "Wie es funktioniert",
         "how_heading": "Wie.",
         "how_text": "Wie stellt der Health Impact Fund sicher, dass die Arzneimittelforschung wirtschaftlich ist?",
-        "pilot_heading": "",
+        "pilot_heading": "Ein wichtiger erster Schritt ist das Health Impact Fund Pilotprojekt",
         "pilot_read_pilot": "Das Health Impact Fund Pilotprojekt",
         "pilot_text": " Pilotprogramm wäre ein fünfjähriger Wettbewerb, bei dem Firmen basierend auf der Einführung eines Medikaments in einem Land mit niedrigen oder  mittleren Einkommen, in dem es bisher nicht erhältlich war um einen Anteil an einem festen Vergütungspool konkurrieren würden.",
         "quote_jami_name": "Jami Taylor, Janssen Pharmaceuticals",
@@ -216,7 +215,7 @@
         "Harvey Rubin": "Professor für Medizin an der Universität von Pennsylvania",
         "heading": "Anreize für globale Gesundheit",
         "Heidemarie Wieczorek-Zeul": "Ehemaliger Bundesminister für wirtschaftliche Zusammenarbeit und Entwicklung.",
-        "invitation": "",
+        "invitation": "Wir freuen uns über Anfragen unter {intl_email} ",
         "James Orbinski": "Professor und Gründungsdirektor des Dahdaleh Institute of Global Health Research an der York University; ehemaliger internationaler Präsident von Médecins Sans Frontières; Mitbegründer der Drugs for Neglected Diseases Initiative (DNDi); Mitbegründer von Dignitas International.",
         "Jan Rosier": "Professor für Biotech Business am University College Dublin; Ehemaliger Vizepräsident von Janssen Drug Development.",
         "John J. DeGioia": "Präsident der Georgetown University.",
