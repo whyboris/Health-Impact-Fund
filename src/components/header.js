@@ -143,6 +143,9 @@ const Header = ({ siteTitle }) => (
             <Link to="/team">
               <FormattedMessage id="navigation.igh" />
             </Link>
+            <Link to="/team#management">
+              <FormattedMessage id="navigation.management_team" />
+            </Link>
             <Link to="/team#advisory">
               <FormattedMessage id="navigation.advisory_board" />
             </Link>
@@ -151,9 +154,6 @@ const Header = ({ siteTitle }) => (
             </Link>
             <Link to="/team#board">
               <FormattedMessage id="navigation.board" />
-            </Link>
-            <Link to="/team#management">
-              <FormattedMessage id="navigation.management_team" />
             </Link>
             <Link to="/team#opportunities">
               <FormattedMessage id="navigation.opportunities" />
