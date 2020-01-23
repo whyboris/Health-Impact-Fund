@@ -6,6 +6,12 @@ module.exports = {
     siteUrl: `https://healthimpactfund.org`
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-5555193-17",
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-sharp`,
@@ -17,12 +23,6 @@ module.exports = {
         host: `https://healthimpactfund.org`,
         policy: [{ userAgent: `*`, allow: `/` }]
       }
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-5555193-17",
-      },
     },
     {
       resolve: `gatsby-source-filesystem`,
