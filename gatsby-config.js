@@ -56,13 +56,14 @@ module.exports = {
       options: {
         path: `${__dirname}/src/intl`,
         languages: [
-          `de`, // German
+          // this order dictates the dropdown order
           `en`, // English
-          `es`, // Spanish
-          `hi`, // Hindi
-          `id`, // ID -- identify the felds
-          `it`, // Italian
+          `de`, // German
           `zh`, // Cheneze (Simplified)
+          `hi`, // Hindi
+          `es`, // Spanish
+          `it`, // Italian
+          `id`, // ID -- identify the felds
         ],
         defaultLanguage: `en`,
         redirect: true,
