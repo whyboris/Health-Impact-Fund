@@ -131,12 +131,32 @@ const Team = ({ intl }) => (
       {(...chunks) => <p>{chunks}</p>}
     </FormattedMessage>
 
+    {/* ======================================================================================== */}
+
+    <h1 id="board" style={{ marginTop: "40px" }}>
+      <FormattedMessage id="team.board" />
+    </h1>
+    <ul className="team-list">
+      {board.map((element, index) => {
+        return <Advisor key={index} data={{ name: element, id: index + 200 }} />
+      })}
+    </ul>
+
     <h1 id="management" style={{ marginTop: "40px" }}>
       <FormattedMessage id="team.management_team" />
     </h1>
     <ul className="team-list">
       {team.map((element, index) => {
         return <Advisor key={index} data={{ name: element, id: index + 300 }} />
+      })}
+    </ul>
+
+    <h1 id="scientific" style={{ marginTop: "40px" }}>
+      <FormattedMessage id="team.scientific_advisory_board" />
+    </h1>
+    <ul className="team-list team-list-no-desc">
+      {scientific_advisors.map((element, index) => {
+        return <AdvisorSimple key={index} data={{ name: element, id: index + 100 }} />
       })}
     </ul>
 
@@ -158,23 +178,7 @@ const Team = ({ intl }) => (
       })}
     </ul>
 
-    <h1 id="scientific" style={{ marginTop: "40px" }}>
-      <FormattedMessage id="team.scientific_advisory_board" />
-    </h1>
-    <ul className="team-list team-list-no-desc">
-      {scientific_advisors.map((element, index) => {
-        return <AdvisorSimple key={index} data={{ name: element, id: index + 100 }} />
-      })}
-    </ul>
-
-    <h1 id="board" style={{ marginTop: "40px" }}>
-      <FormattedMessage id="team.board" />
-    </h1>
-    <ul className="team-list">
-      {board.map((element, index) => {
-        return <Advisor key={index} data={{ name: element, id: index + 200 }} />
-      })}
-    </ul>
+    {/* ======================================================================================== */}
 
     <h1 id="opportunities" style={{ marginTop: "40px" }}>
       <FormattedMessage id="team.opportunities" />
