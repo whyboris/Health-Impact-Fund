@@ -44,6 +44,8 @@ const Benefits = ({ intl }) => {
         ... <FormattedMessage id="benefits.patients" />:
       </strong>
 
+      {/* ====================================================================================== */}
+
       <ul className="benefits-list">
         <li>
           <FormattedMessage id="benefits.patients_1" />{" "}
@@ -71,6 +73,8 @@ const Benefits = ({ intl }) => {
           <FormattedMessage id="benefits.show_more_1" />
         </p>
 
+      {/* ====================================================================================== */}
+
         <li>
           <FormattedMessage id="benefits.patients_2" />{" "}
           <strong
@@ -96,7 +100,38 @@ const Benefits = ({ intl }) => {
         >
           <FormattedMessage id="benefits.show_more_2" />
         </p>
+
+      {/* ====================================================================================== */}
+
+        <li>
+          <FormattedMessage id="benefits.patients_3" />{" "}
+          <strong
+            className="see-more-click"
+            style={{ display: "inline-block" }}
+            onClick={() => {
+              if (!showLongDescription2) {
+                document.getElementById("third").classList.remove("hidden")
+              } else {
+                document.getElementById("third").classList.add("hidden")
+              }
+              showLongDescription2 = !showLongDescription2
+            }}
+          >
+            <FormattedMessage id="benefits.see_more" />
+          </strong>
+        </li>
+
+        <p
+          id="third"
+          style={{ margin: "0" }}
+          className="description-long hidden"
+        >
+          <FormattedMessage id="benefits.show_more_3" />
+        </p>
       </ul>
+
+      {/* ====================================================================================== */}
+
       <strong>
         ... <FormattedMessage id="benefits.industry" />:
       </strong>
@@ -113,9 +148,6 @@ const Benefits = ({ intl }) => {
         </li>
         <li>
           <FormattedMessage id="benefits.industry_4" />
-        </li>
-        <li>
-          <FormattedMessage id="benefits.industry_5" />
         </li>
       </ul>
       <strong>
