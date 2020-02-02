@@ -26,9 +26,6 @@ const Advisor = ({ data }) => {
         <p id={data.id} className="description-long hidden">
           <FormattedMessage
             id={"team." + data.name + "_long"}
-            values={{
-              breakingLine: <><br /><br /></>,
-            }}
           />
         </p>
       </li>
