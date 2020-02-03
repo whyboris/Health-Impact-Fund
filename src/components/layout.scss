@@ -671,14 +671,14 @@ header {
 
 .panel-container {
   margin-top: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 
   .thin-panel {
     box-sizing: border-box;
     display: table-cell;
     font-size: 18px;
     line-height: 28px;
-    padding: 0 30px;
+    padding: 0 30px 50px;
     position: relative;
     vertical-align: top;
     width: 33%;

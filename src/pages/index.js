@@ -70,6 +70,23 @@ const IndexPage = ({ intl }) => {
 
       <div className="panel-container">
         <div className="thin-panel first-panel">
+
+          <em>
+            <FormattedMessage id="intro.benefits_patients_heading" />
+          </em>
+          <br />
+          <FormattedMessage id="intro.benefits_patients_text" />
+
+          <Link to="/benefits">
+            <button className="button">
+              <FormattedMessage id="intro.button_read_how" />
+            </button>
+          </Link>
+
+        </div>
+
+        <div className="thin-panel first-panel">
+
           <em>
             <FormattedMessage id="intro.benefits_innovators_heading" />
           </em>
@@ -80,30 +97,27 @@ const IndexPage = ({ intl }) => {
               <FormattedMessage id="intro.button_read_how" />
             </button>
           </Link>
+
         </div>
 
         <div className="thin-panel">
-          <em>
-            <FormattedMessage id="intro.benefits_government_heading" />
-          </em>
-          <br />
-          <FormattedMessage id="intro.benefits_government_text" />
-          <Link to="/benefits">
-            <button className="button">
-              <FormattedMessage id="intro.button_read_how" />
-            </button>
-          </Link>
-        </div>
 
-        <div className="thin-panel">
-          <div className="last-panel">
             <em>
-              <FormattedMessage id="intro.benefits_patients_heading" />
+              <FormattedMessage id="intro.benefits_government_heading" />
             </em>
             <br />
-            <FormattedMessage id="intro.benefits_patients_text" />
-          </div>
+            <FormattedMessage id="intro.benefits_government_text" />
+            <Link to="/benefits">
+              <button className="button">
+                <FormattedMessage id="intro.button_read_how" />
+              </button>
+            </Link>
 
+        </div>
+      </div>
+
+      <div className="panel-container">
+        <div className="thin-panel">
           <div className="donation-box">
             <FormattedMessage id="intro.donate_text" />
             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K7ULUVQSNFV8C">

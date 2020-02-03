@@ -151,15 +151,6 @@ const Team = ({ intl }) => (
       })}
     </ul>
 
-    <h1 id="scientific" style={{ marginTop: "40px" }}>
-      <FormattedMessage id="team.scientific_advisory_board" />
-    </h1>
-    <ul className="team-list team-list-no-desc">
-      {scientific_advisors.map((element, index) => {
-        return <AdvisorSimple key={index} data={{ name: element, id: index + 100 }} />
-      })}
-    </ul>
-
     <h1 id="advisory" style={{ marginTop: "40px" }}>
       <FormattedMessage id="team.advisory_council" />
     </h1>
@@ -175,6 +166,15 @@ const Team = ({ intl }) => (
     <ul className="team-list  team-list-no-desc">
       {former_advisors.map((element, index) => {
         return <AdvisorSimple key={index} data={{ name: element, id: index + 50 }} />
+      })}
+    </ul>
+
+    <h1 id="scientific" style={{ marginTop: "40px" }}>
+      <FormattedMessage id="team.scientific_advisory_board" />
+    </h1>
+    <ul className="team-list team-list-no-desc">
+      {scientific_advisors.map((element, index) => {
+        return <AdvisorSimple key={index} data={{ name: element, id: index + 100 }} />
       })}
     </ul>
 
