@@ -143,17 +143,17 @@ const Header = ({ siteTitle }) => (
             <Link to="/team">
               <FormattedMessage id="navigation.igh" />
             </Link>
-            <Link to="/team#advisory">
-              <FormattedMessage id="navigation.advisory_board" />
-            </Link>
-            <Link to="/team#scientific">
-              <FormattedMessage id="navigation.scientific_advisors" />
-            </Link>
             <Link to="/team#board">
               <FormattedMessage id="navigation.board" />
             </Link>
             <Link to="/team#management">
               <FormattedMessage id="navigation.management_team" />
+            </Link>
+            <Link to="/team#advisory">
+              <FormattedMessage id="navigation.advisory_board" />
+            </Link>
+            <Link to="/team#scientific">
+              <FormattedMessage id="navigation.scientific_advisors" />
             </Link>
             <Link to="/team#opportunities">
               <FormattedMessage id="navigation.opportunities" />
@@ -195,8 +195,6 @@ const Header = ({ siteTitle }) => (
           </div>
         </div>
 
-        {/* LANGUAGE -- disabled for now */}
-        {/*
         <div className="nav-item dropdown">
           <div className="dropbtn">
             <FormattedMessage id="navigation.language" />
@@ -218,7 +216,7 @@ const Header = ({ siteTitle }) => (
 
           <Language />
         </div>
-        */}
+
       </div>
     </div>
   </header>

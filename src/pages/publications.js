@@ -11,6 +11,7 @@ const Publications = ({ intl }) => (
     <SEO
       lang={intl.locale}
       title={intl.formatMessage({ id: "publications.title" })}
+      description={intl.formatMessage({ id: "general.description" })}
     />
     <h1>
       <FormattedMessage id="publications.heading" />

@@ -8,10 +8,70 @@ import Icon from "../images/pdf.svg"
 
 const News = ({ intl }) => (
   <Layout>
-    <SEO lang={intl.locale} title={intl.formatMessage({ id: "news.title" })} />
+    <SEO
+      lang={intl.locale}
+      title={intl.formatMessage({ id: "news.title" })}
+      description={intl.formatMessage({ id: "general.description" })}
+    />
+
     <h1>
       <FormattedMessage id="news.heading" />
     </h1>
+
+    <div className="news-item">
+      <div className="photo-and-caption">
+        <img
+          src='/img/LeilaJanah.jpg'
+          alt="Leila Janah"
+        />
+        <span className="caption">
+          <a href="https://commons.wikimedia.org/wiki/File:Leila_Janah_(15313650137).jpg">
+            Photo by Christopher Michel
+          </a>
+        </span>
+      </div>
+
+      <span className="date">2020.02.02</span>
+
+      <div className="news-text">
+        <h2>
+          <FormattedMessage id="news.2020.02.02_title" />
+        </h2>
+
+        <p>
+          <FormattedMessage id="news.2020.02.02_body"
+            values={{
+              intl_breaking_line: (
+                <><br /><br /></>
+              ),
+              intl_igh: (
+                <>
+                  <a href="/team">
+                    Incentives for Global Health
+                  </a>
+                </>
+              ),
+              intl_samasource: (
+                <>
+                  <a href="https://twitter.com/Samasource">
+                    Samasource
+                  </a>
+                </>
+              ),
+              intl_givework_challenge: (
+                <>
+                  <a href="https://www.givework.org/">
+                    GiveWork Challenge
+                  </a>
+                </>
+              )
+            }}
+          />
+        </p>
+      </div>
+    </div>
+
+    <br/><br/>
 
     <div className="news-item">
       <div className="photo-and-caption">
@@ -33,6 +93,8 @@ const News = ({ intl }) => (
         </p>
       </div>
     </div>
+
+    <br/>
 
     <div className="news-item">
       <span className="date">2019.09.25</span>
@@ -59,6 +121,8 @@ const News = ({ intl }) => (
         </a>
       </div>
     </div>
+
+    <br/><br/>
 
     <div className="news-item">
       <div className="photo-and-caption">

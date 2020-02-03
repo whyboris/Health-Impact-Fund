@@ -13,6 +13,7 @@ const Benefits = ({ intl }) => {
       <SEO
         lang={intl.locale}
         title={intl.formatMessage({ id: "what.title" })}
+        description={intl.formatMessage({ id: "general.description" })}
       />
 
       <div

@@ -6,6 +6,12 @@ module.exports = {
     siteUrl: `https://healthimpactfund.org`
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-5555193-17",
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-sharp`,
@@ -17,12 +23,6 @@ module.exports = {
         host: `https://healthimpactfund.org`,
         policy: [{ userAgent: `*`, allow: `/` }]
       }
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-5555193-17",
-      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -42,11 +42,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Health Impact Fund`,
+        short_name: `HIF`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#80cf0f`,
+        theme_color: `#80cf0f`,
         display: `minimal-ui`,
         icon: `src/images/hif-icon.png`, // This path is relative to the root of the site.
       },
@@ -55,7 +55,16 @@ module.exports = {
       resolve: `gatsby-plugin-intl`,
       options: {
         path: `${__dirname}/src/intl`,
-        languages: [`en`],
+        languages: [
+          // this order dictates the dropdown order
+          `en`, // English
+          `de`, // German
+          // `zh`, // Cheneze (Simplified)
+          // `hi`, // Hindi
+          // `es`, // Spanish
+          // `it`, // Italian
+          // `id`, // ID -- identify the felds
+        ],
         defaultLanguage: `en`,
         redirect: true,
         redirectComponent: require.resolve(`./src/components/redirect.js`),

@@ -11,7 +11,8 @@ const Book = ({ intl }) => (
     <SEO
       lang={intl.locale}
       title={intl.formatMessage({ id: "book.title" })}
-    />
+      description={intl.formatMessage({ id: "general.description" })}
+  />
 
     <div className="book-container-3d">
 

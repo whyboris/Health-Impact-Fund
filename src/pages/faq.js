@@ -21,7 +21,11 @@ const questions = [
 
 const Benefits = ({ intl }) => (
   <Layout>
-    <SEO lang={intl.locale} title={intl.formatMessage({ id: "faq.title" })} />
+    <SEO
+      lang={intl.locale}
+      title={intl.formatMessage({ id: "faq.title" })}
+      description={intl.formatMessage({ id: "general.description" })}
+    />
 
     <div
       className="scroll-to-top"
