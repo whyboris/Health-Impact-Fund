@@ -25,8 +25,8 @@ const News = ({ intl }) => (
           alt="Leila Janah"
         />
         <span className="caption">
-          <a href="https://www.nytimes.com/2020/01/30/business/leila-janah-dead.html">
-            Photo by Earl Wilson / The New York Times
+          <a href="https://commons.wikimedia.org/wiki/File:Leila_Janah_(15313650137).jpg">
+            Photo by Christopher Michel
           </a>
         </span>
       </div>
