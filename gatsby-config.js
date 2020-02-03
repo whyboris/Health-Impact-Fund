@@ -61,6 +61,8 @@ module.exports = {
           `de`, // German
           `zh`, // Cheneze (Simplified)
           `hi`, // Hindi
+          `fr`, // French
+          `ko`, // Korean
           `es`, // Spanish
           `it`, // Italian
           `id`, // ID -- identify the felds

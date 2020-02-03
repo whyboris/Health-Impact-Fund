@@ -4,8 +4,10 @@ import { IntlContextConsumer, changeLocale } from "gatsby-plugin-intl"
 const languageName = {
   en: "English",
   de: "Deutsch",
-  zh: "Chinese",
-  hi: "Hindi",
+  zh: "中文",
+  hi: "हिंदी",
+  fr: "Français",
+  ko: "한국어",
   es: "Español",
   it: "Italiano",
   id: "ID"
