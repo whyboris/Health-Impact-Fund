@@ -58,11 +58,14 @@ module.exports = {
         languages: [
           // this order dictates the dropdown order
           `en`, // English
+          // `fr`, // French
           `de`, // German
-          // `zh`, // Cheneze (Simplified)
           // `hi`, // Hindi
-          // `es`, // Spanish
           // `it`, // Italian
+          // `ko`, // Korean
+          // `zh`, // Cheneze (Simplified)
+          // `es`, // Spanish
+          // `tr`, // Turkish
           // `id`, // ID -- identify the felds
         ],
         defaultLanguage: `en`,
