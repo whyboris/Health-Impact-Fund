@@ -66,6 +66,7 @@ module.exports = {
           `zh`, // Cheneze (Simplified)
           `es`, // Spanish
           `tr`, // Turkish
+          `ur`, // Urdu
           `id`, // ID -- identify the felds
         ],
         defaultLanguage: `en`,
