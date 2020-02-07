@@ -11,6 +11,7 @@ const languageName = {
   it: "Italiano",
   ko: "한국어",
   tr: "Türk",
+  ur: "اردو",
   zh: "中文",
 }
 
