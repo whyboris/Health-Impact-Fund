@@ -507,6 +507,10 @@ header {
     display: inline-block;
     margin: -20px; // hack
     padding: 20px; // hack to make the hover area larger for language dropdown
+
+    .language-selection {
+      transform: translateY(10px);
+    }
   }
 
   .dropdown {
