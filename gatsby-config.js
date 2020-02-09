@@ -57,18 +57,18 @@ module.exports = {
         path: `${__dirname}/src/intl`,
         languages: [
           // this order dictates the dropdown order
-          // `ar`, // Arabic
-          // `zh`, // Cheneze (Simplified)
+          `ar`, // Arabic
+          `zh`, // Cheneze (Simplified)
           `en`, // English
-          // `fr`, // French
+          `fr`, // French
           `de`, // German
-          // `hi`, // Hindi
-          // `it`, // Italian
-          // `ko`, // Korean
+          `hi`, // Hindi
+          `it`, // Italian
+          `ko`, // Korean
           `es`, // Spanish
-          // `tr`, // Turkish
-          // `ur`, // Urdu
-          // `id`, // ID -- identify the felds
+          `tr`, // Turkish
+          `ur`, // Urdu
+          `id`, // ID -- identify the felds
         ],
         defaultLanguage: `en`,
         redirect: true,
