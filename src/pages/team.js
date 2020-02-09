@@ -55,6 +55,7 @@ const team = [
   "Peggy Tse",
   "Maria Ginevra Cattaneo",
   "Max Alexander Matthey",
+  "Felicitas Holzer",
   "Daniele Botti",
   "Boris Yakubchik",
 ]

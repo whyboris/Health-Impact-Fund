@@ -5,14 +5,14 @@ const languageName = {
   de: "Deutsch",
   en: "English",
   es: "Español",
-  fr: "Français",
-  hi: "हिंदी",
-  id: "ID",
-  it: "Italiano",
-  ko: "한국어",
-  tr: "Türk",
-  ur: "اردو",
-  zh: "中文",
+  fr: "French / Français",
+  hi: "Hindi / हिंदी",
+  id: "ID / ID",
+  it: "Italian / Italiano",
+  ko: "Korean / 한국어",
+  tr: "Turkish / Türk",
+  ur: "Urdu / اردو",
+  zh: "Chinese / 中文",
 }
 
 const Language = () => {

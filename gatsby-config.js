@@ -57,13 +57,13 @@ module.exports = {
         path: `${__dirname}/src/intl`,
         languages: [
           // this order dictates the dropdown order
+          // `zh`, // Cheneze (Simplified)
           `en`, // English
           // `fr`, // French
           `de`, // German
           // `hi`, // Hindi
           // `it`, // Italian
           // `ko`, // Korean
-          // `zh`, // Cheneze (Simplified)
           `es`, // Spanish
           // `tr`, // Turkish
           // `ur`, // Urdu
