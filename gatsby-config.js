@@ -57,6 +57,7 @@ module.exports = {
         path: `${__dirname}/src/intl`,
         languages: [
           // this order dictates the dropdown order
+          // `ar`, // Arabic
           // `zh`, // Cheneze (Simplified)
           `en`, // English
           // `fr`, // French
