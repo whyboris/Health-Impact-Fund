@@ -1,3 +1,5 @@
+const { languageList } = require("./src/intl/languages");
+
 module.exports = {
   siteMetadata: {
     title: `Health Impact Fund`,
@@ -55,21 +57,7 @@ module.exports = {
       resolve: `gatsby-plugin-intl`,
       options: {
         path: `${__dirname}/src/intl`,
-        languages: [
-          // this order dictates the dropdown order
-          `ar`, // Arabic
-          `zh`, // Cheneze (Simplified)
-          `en`, // English
-          `fr`, // French
-          `de`, // German
-          `hi`, // Hindi
-          `it`, // Italian
-          `ko`, // Korean
-          `es`, // Spanish
-          `tr`, // Turkish
-          `ur`, // Urdu
-          `id`, // ID -- identify the felds
-        ],
+        languages: languageList,
         defaultLanguage: `en`,
         redirect: true,
         redirectComponent: require.resolve(`./src/components/redirect.js`),

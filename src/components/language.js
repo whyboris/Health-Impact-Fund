@@ -1,35 +1,7 @@
 import React from "react"
 import { IntlContextConsumer, changeLocale } from "gatsby-plugin-intl"
 
-const languageName1 = {
-  ar: "Arabic",
-  de: "German",
-  en: "English",
-  es: "Spanish",
-  fr: "French",
-  hi: "Hindi",
-  id: "ID",
-  it: "Italian",
-  ko: "Korean",
-  tr: "Turkish",
-  ur: "Urdu",
-  zh: "Chinese",
-}
-
-const languageName2 = {
-  ar: "عربى",
-  de: "Deutsch",
-  en: "English",
-  es: "Español",
-  fr: "Français",
-  hi: "हिंदी",
-  id: "ID",
-  it: "Italiano",
-  ko: "한국어",
-  tr: "Türk",
-  ur: " اردو",
-  zh: "中文",
-}
+import { languageNames } from "../intl/languages";
 
 const Language = () => {
   return (
@@ -46,10 +18,10 @@ const Language = () => {
               }}
             >
               <div className="language-english">
-                {languageName1[language]}
+                {languageNames[language].english}
               </div>
               <div className="language-original">
-                {languageName2[language]}
+                {languageNames[language].native}
               </div>
             </span>
           ))
