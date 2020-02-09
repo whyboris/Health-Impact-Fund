@@ -197,7 +197,7 @@ const Header = ({ siteTitle }) => (
 
         <div className="nav-item dropdown">
           <div className="dropbtn">
-            <img className="language-selection" src="/img/language.png" />
+            <img alt="language" className="language-selection" src="/img/language.png" />
           </div>
           <Language />
         </div>

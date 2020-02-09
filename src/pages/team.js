@@ -57,6 +57,9 @@ const team = [
   "Max Alexander Matthey",
   "Felicitas Holzer",
   "Daniele Botti",
+  "Najid Ahmad",
+  "Özlem Denli",
+  "Seung Chan (Kevin) Lee",
   "Boris Yakubchik",
 ]
 
