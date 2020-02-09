@@ -535,6 +535,31 @@ header {
     z-index: 1;
 
     .language-selection {
+      position: relative;
+
+      .language-english {
+        background: white;
+        display: inline-block;
+        padding-right: 5px;
+      }
+
+      .language-original {
+        background: white;
+        float: right;
+        padding-left: 5px;
+      }
+
+      &:before {
+        background: $primary;
+        content: ' ';
+        height: 2px;
+        opacity: 0.3;
+        position: absolute;
+        transform: translateY(9px);
+        width: 140px;
+        z-index: -1;
+      }
+
       &:hover {
         color: $primary !important;
       }
