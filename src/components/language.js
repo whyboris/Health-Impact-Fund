@@ -2,17 +2,17 @@ import React from "react"
 import { IntlContextConsumer, changeLocale } from "gatsby-plugin-intl"
 
 const languageName = {
-  de: "Deutsch",
+  de: "German / Deutsch",
   en: "English",
-  es: "Español",
-  fr: "Français",
-  hi: "हिंदी",
-  id: "ID",
-  it: "Italiano",
-  ko: "한국어",
-  tr: "Türk",
-  ur: "اردو",
-  zh: "中文",
+  es: "Spanish / Español",
+  fr: "French / Français",
+  hi: "Hindi / हिंदी",
+  id: "ID / ID",
+  it: "Italian / Italiano",
+  ko: "Korean / 한국어",
+  tr: "Turkish / Türk",
+  ur: "Urdu / اردو",
+  zh: "Chinese / 中文",
 }
 
 const Language = () => {
