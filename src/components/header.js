@@ -3,6 +3,8 @@ import PropTypes from "prop-types"
 import React from "react"
 import Language from "./language"
 
+import Icon from "../images/language.svg"
+
 import { injectIntl, FormattedMessage } from "gatsby-plugin-intl"
 
 const Header = ({ siteTitle }) => (
@@ -197,7 +199,7 @@ const Header = ({ siteTitle }) => (
 
         <div className="nav-item dropdown dropdown-language">
           <div className="dropbtn dropbtn-language">
-            <img alt="language" className="language-selection" src="/img/language.png" />
+            <Icon className="language-selection" />
           </div>
           <Language />
         </div>
