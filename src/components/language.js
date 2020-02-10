@@ -5,7 +5,7 @@ import { languageNames } from "../intl/languages";
 
 const Language = () => {
   return (
-    <div className="dropdown-content">
+    <div className="dropdown-content dropdown-content-language">
       <IntlContextConsumer>
         {({ languages, language: currentLocale }) =>
           languages.map(language => (

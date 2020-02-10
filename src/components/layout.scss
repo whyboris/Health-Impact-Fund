@@ -509,8 +509,12 @@ header {
     padding: 20px; // hack to make the hover area larger for language dropdown
 
     .language-selection {
-      transform: translateY(10px);
+      transform: translateY(3px);
     }
+  }
+
+  .dropbtn-language {
+    position: absolute;
   }
 
   .dropdown {
@@ -525,6 +529,10 @@ header {
     a {
       text-decoration: none;
     }
+  }
+
+  .dropdown-language {
+    margin-right: 50px;
   }
 
   .dropdown-content {
@@ -576,6 +584,10 @@ header {
       padding: 12px 16px;
       text-decoration: none;
     }
+  }
+
+  .dropdown-content-language {
+    transform: translate(-140px, 40px);
   }
 
   .donate {
@@ -924,6 +936,10 @@ header {
     top: 20px;
     z-index: 100;
 
+    .dropbtn-language {
+      position: relative;
+    }
+
     .nav-item {
       display: block;
       margin: 40px 40px 40px 20px;
@@ -951,11 +967,16 @@ header {
         padding: 10px;
       }
     }
+
+    .dropdown-content {
+      transform: translate(-80px, 20px) !important;
+    }
+
+    .dropdown-content-language {
+      transform: translate(-80px, -215px) !important; // -275px max when more languages
+    }
   }
 
-  .dropdown-content {
-    transform: translate(-80px, 20px) !important;
-  }
 
   .news-item {
     .photo-and-caption {
