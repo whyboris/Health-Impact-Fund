@@ -50,6 +50,7 @@ const board = [
   "Sachin Chaturvedi",
 ]
 
+// must coincide with order of `board`
 const boardImages = [
   "Aidan.jpg",
   "Thomas.jpg",
@@ -70,6 +71,7 @@ const management = [
   "Boris Yakubchik",
 ]
 
+// must coincide with order of `management`
 const managementImages = [
   "Aidan.jpg",
   "Peggy.jpg",
