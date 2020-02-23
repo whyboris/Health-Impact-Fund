@@ -209,6 +209,16 @@ a {
   }
 }
 
+.team-photo {
+  border: 1px solid $primary;
+  border-radius: 50%;
+  height: 70px;
+  overflow: hidden;
+  position: absolute;
+  transform: translate(-100px, -5px);
+  width: 70px;
+}
+
 .three-buttons {
   display: flex;
   justify-content: space-between;
@@ -912,6 +922,12 @@ header {
 
 // =========================================== MEDIA ===============================================
 
+@media only screen and (max-width: 1050px) {
+  .team-list-with-photo {
+    margin-left: 60px;
+  }
+}
+
 @media only screen and (max-width: 880px) {
   .hip-book {
     .book-description-block {
@@ -1113,6 +1129,19 @@ header {
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+
+  .team-list-with-photo {
+    margin-left: initial;
+
+    & .team-photo {
+      right: 10px;
+      transform: translate(0, 0);
+    }
+
+    & .description {
+      padding-right: 50px;
+    }
   }
 
   .individual_publication {

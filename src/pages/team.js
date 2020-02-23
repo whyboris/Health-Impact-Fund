@@ -50,7 +50,14 @@ const board = [
   "Sachin Chaturvedi",
 ]
 
-const team = [
+const boardImages = [
+  "Aidan.jpg",
+  "Thomas.jpg",
+  "",
+  "",
+]
+
+const management = [
   "Aidan Hollis",
   "Peggy Tse",
   "Maria Ginevra Cattaneo",
@@ -61,6 +68,19 @@ const team = [
   "Özlem Denli",
   "Seung Chan (Kevin) Lee",
   "Boris Yakubchik",
+]
+
+const managementImages = [
+  "Aidan.jpg",
+  "Peggy.jpg",
+  "Maria.jpg",
+  "Max.jpg",
+  "Felicitas.jpg",
+  "",
+  "",
+  "Ozlem.jpg",
+  "",
+  "Boris.jpg",
 ]
 
 const Team = ({ intl }) => (
@@ -140,18 +160,18 @@ const Team = ({ intl }) => (
     <h1 id="board" style={{ marginTop: "40px" }}>
       <FormattedMessage id="team.board" />
     </h1>
-    <ul className="team-list">
+    <ul className="team-list team-list-with-photo">
       {board.map((element, index) => {
-        return <Advisor key={index} data={{ name: element, id: index + 200 }} />
+        return <Advisor key={index} data={{ name: element, id: index + 200, image :boardImages[index] }} />
       })}
     </ul>
 
     <h1 id="management" style={{ marginTop: "40px" }}>
       <FormattedMessage id="team.management_team" />
     </h1>
-    <ul className="team-list">
-      {team.map((element, index) => {
-        return <Advisor key={index} data={{ name: element, id: index + 300 }} />
+    <ul className="team-list team-list-with-photo">
+      {management.map((element, index) => {
+        return <Advisor key={index} data={{ name: element, id: index + 300, image: managementImages[index] }} />
       })}
     </ul>
 

@@ -17,6 +17,13 @@ const Advisor = ({ data }) => {
           showLongDescription = !showLongDescription
         }}
       >
+
+        {
+          data.image && <div className="team-photo">
+            <img src={'/team/' + data.image} alt={'Photo of ' + data.name} />
+          </div>
+        }
+
         <strong>{data.name}</strong>
 
         <p className="description">
