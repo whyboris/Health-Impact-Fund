@@ -67,6 +67,7 @@
     },
     "general": {
         "description": "Den Medikamentenpreis von den Forschungskosten abtrennen.",
+        "design_credit": "Konzeption und Design",
         "legal_notice": "Impressum",
         "title": "Health Impact Fund"
     },

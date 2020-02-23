@@ -51,12 +51,14 @@ const board = [
 ]
 
 // must coincide with order of `board`
+/*
 const boardImages = [
   "Aidan.jpg",
   "Thomas.jpg",
   "",
   "",
 ]
+*/
 
 const management = [
   "Aidan Hollis",
@@ -78,7 +80,7 @@ const managementImages = [
   "Maria.jpg",
   "Max.jpg",
   "Felicitas.jpg",
-  "",
+  "Daniele.jpg",
   "",
   "Ozlem.jpg",
   "",
@@ -162,9 +164,9 @@ const Team = ({ intl }) => (
     <h1 id="board" style={{ marginTop: "40px" }}>
       <FormattedMessage id="team.board" />
     </h1>
-    <ul className="team-list team-list-with-photo">
+    <ul className="team-list">
       {board.map((element, index) => {
-        return <Advisor key={index} data={{ name: element, id: index + 200, image :boardImages[index] }} />
+        return <Advisor key={index} data={{ name: element, id: index + 200 }} />
       })}
     </ul>
 

@@ -67,6 +67,7 @@
     },
     "general": {
         "description": "Desvincular el precio de los medicamentos del coste de investigación",
+        "design_credit": "Diseño y concepción",
         "legal_notice": "Aviso legal",
         "title": "Fondo para el Impacto sobre la Salud"
     },

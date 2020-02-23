@@ -67,6 +67,7 @@
     },
     "general": {
         "description": "Delink the price of drugs from the cost of research.",
+        "design_credit": "Design and conception",
         "legal_notice": "Legal Notice",
         "title": "Health Impact Fund"
     },

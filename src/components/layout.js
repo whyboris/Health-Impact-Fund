@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import {
   injectIntl,
-  // FormattedMessage,
+  FormattedMessage,
   // Link
 } from "gatsby-plugin-intl"
 
@@ -48,6 +48,16 @@ const Layout = ({ children, intl }) => {
               </svg>
             </a>
 
+          </div>
+
+          <div className="design-credit">
+            <a href="https://roemerundhoehmann.de">
+              roemer und höhmann GmbH
+            </a>
+            <br />
+            <span>
+              <FormattedMessage id="general.design_credit" />
+            </span>
           </div>
 
         </footer>
