@@ -185,13 +185,13 @@ const Header = ({ siteTitle }) => (
             />
           </svg>
           <div className="dropdown-content">
-            <Link to="/book">
+            <Link to="/publications">
               <FormattedMessage id="navigation.book" />
             </Link>
             <Link to="/publications#publications">
               <FormattedMessage id="navigation.discussion_papers" />
             </Link>
-            <Link to="/videos">
+            <Link to="/publications#videos">
               <FormattedMessage id="navigation.videos" />
             </Link>
           </div>

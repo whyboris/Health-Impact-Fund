@@ -6,14 +6,74 @@ import SEO from "../components/seo"
 
 import Icon from "../images/pdf.svg"
 
-const Publications = ({ intl }) => (
+const Publications = ({ intl }) => {
+
+  setTimeout(() => {
+
+    const youtube = document.getElementById("main-video");
+    const source = "https://img.youtube.com/vi/"+ youtube.dataset.embed +"/sddefault.jpg";
+    const image = new Image();
+    image.src = source;
+
+    image.addEventListener( "load", () => {
+        youtube.appendChild( image );
+    });
+
+    youtube.addEventListener( "click", function() {
+      const iframe = document.createElement( "iframe" );
+
+      iframe.setAttribute( "frameborder", "0" );
+      iframe.setAttribute( "allowfullscreen", "" );
+      iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
+
+      this.innerHTML = "";
+      this.appendChild( iframe );
+    } );
+
+  }, 1000)
+
+  return(
   <Layout>
     <SEO
       lang={intl.locale}
       title={intl.formatMessage({ id: "publications.title" })}
       description={intl.formatMessage({ id: "general.description" })}
     />
-    <h1>
+
+    <div className="book-container-3d">
+
+      <div className="csstransforms3d">
+        <div className="book">
+          <img
+            className="book-cover"
+            src='/img/HIF_book_cover.jpg'
+            alt="Health Impact Fund Book"
+            />
+        </div>
+      </div>
+
+    </div>
+
+    <div className="publication-container individual_publication book-page-hack">
+      <FormattedMessage id="book.hif_book">
+        {txt => <h1>{txt}</h1>}
+      </FormattedMessage>
+
+      <FormattedMessage id="book.hif_book_description">
+        {txt => <p>{txt}</p>}
+      </FormattedMessage>
+
+      <FormattedMessage id="book.hif_book_note">
+        {txt => <p>{txt}</p>}
+      </FormattedMessage>
+
+      <a href="/pdf/hif_book.pdf">
+        <Icon />
+        <FormattedMessage id="book.click_to_download" />
+      </a>
+    </div>
+
+    <h1 id="publications">
       <FormattedMessage id="publications.heading" />
     </h1>
 
@@ -34,7 +94,7 @@ const Publications = ({ intl }) => (
         <FormattedMessage id="publications.click_to_download" />
       </a>
     </div>
-
+{/*
     <div className="publication-container individual_publication">
       <img
         src="/img/summaries.jpg"
@@ -53,8 +113,47 @@ const Publications = ({ intl }) => (
       </a>
       <br />
     </div>
+*/}
 
-    <div id="publications" className="publication-container">
+    <div className="publication-container individual_publication">
+      <img
+        src="/img/hif_factsheet.png"
+        alt="Health Impact Fund Factsheet"
+      />
+
+      <FormattedMessage id="publications.hif_factsheet">
+        {txt => <h3>{txt}</h3>}
+      </FormattedMessage>
+      <FormattedMessage id="publications.hif_factsheet_description">
+        {txt => <p>{txt}</p>}
+      </FormattedMessage>
+      <a href="/pdf/Health_Impact_Fund_Factsheet.pdf">
+        <Icon />
+        <FormattedMessage id="publications.click_to_download" />
+      </a>
+      <br />
+    </div>
+
+    <div className="publication-container individual_publication">
+      <img
+        src="/img/hif_graphic.png"
+        alt="Health Impact Fund Infographic"
+      />
+
+      <FormattedMessage id="publications.hif_graphic">
+        {txt => <h3>{txt}</h3>}
+      </FormattedMessage>
+      <FormattedMessage id="publications.hif_graphic_description">
+        {txt => <p>{txt}</p>}
+      </FormattedMessage>
+      <a href="/pdf/Health_Impact_Fund_graphic.pdf">
+        <Icon />
+        <FormattedMessage id="publications.click_to_download" />
+      </a>
+      <br />
+    </div>
+
+    <div className="publication-container">
       <ul>
         <li>
           <a href="/pdf/DP1_Hollis.pdf">
@@ -176,7 +275,30 @@ const Publications = ({ intl }) => (
         </li>
       </ul>
     </div>
+
+{/* Videos section */}
+
+    <h1 id="videos">
+      <FormattedMessage id="videos.videos" />
+    </h1>
+
+    <div id="main-video" className="youtube" data-embed="rTMqGbTNkNg">
+      <div className="placeholder-gradient"></div>
+      <div className="placeholder-channel"></div>
+      <span className="placeholder-title">Reimagining pharmaceutical innovation | Thomas Pogge at TEDxCanberra</span>
+      <div className="play-button"></div>
+    </div>
+
+    <br />
+    <br />
+
+    <p><FormattedMessage id="videos.coming_soon" /></p>
+    <br />
+    <br />
+
   </Layout>
 )
+
+};
 
 export default injectIntl(Publications)
