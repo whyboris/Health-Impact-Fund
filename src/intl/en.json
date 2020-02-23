@@ -191,6 +191,10 @@
     "publications": {
         "click_to_download": "Click here to download",
         "heading": "Publications",
+        "hif_factsheet": "!!! PLEASE PROVIDE TEXT !!!",
+        "hif_factsheet_description": "!!! PLEASE PROVIDE TEXT !!!",
+        "hif_graphic": "!!! PLEASE PROVIDE TEXT !!!",
+        "hif_graphic_description": "!!! PLEASE PROVIDE TEXT !!!",
         "hif_pilot_proposal": "Health Impact Fund Pilot Proposal",
         "hif_pilot_proposal_description": "This booklet  outlines and justifies the Health Impact Fund and its proposed pilot,  specifying the design and terms of the pilot as well as the parties involved.",
         "hif_summaries": "The Health Impact Fund Summaries",
