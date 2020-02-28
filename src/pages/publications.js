@@ -124,9 +124,9 @@ const Publications = ({ intl }) => {
       <FormattedMessage id="publications.hif_factsheet">
         {txt => <h3>{txt}</h3>}
       </FormattedMessage>
-      <FormattedMessage id="publications.hif_factsheet_description">
+      {/* <FormattedMessage id="publications.hif_factsheet_description">
         {txt => <p>{txt}</p>}
-      </FormattedMessage>
+      </FormattedMessage> */}
       <a href="/pdf/Health_Impact_Fund_Factsheet.pdf">
         <Icon />
         <FormattedMessage id="publications.click_to_download" />
@@ -143,9 +143,9 @@ const Publications = ({ intl }) => {
       <FormattedMessage id="publications.hif_graphic">
         {txt => <h3>{txt}</h3>}
       </FormattedMessage>
-      <FormattedMessage id="publications.hif_graphic_description">
+      {/* <FormattedMessage id="publications.hif_graphic_description">
         {txt => <p>{txt}</p>}
-      </FormattedMessage>
+      </FormattedMessage> */}
       <a href="/pdf/Health_Impact_Fund_graphic.pdf">
         <Icon />
         <FormattedMessage id="publications.click_to_download" />
