@@ -8,6 +8,7 @@ const languageList = [
   `ha`, // Hausa
   `hi`, // Hindi
   `it`, // Italian
+  `ja`, // Japanese
   `ko`, // Korean
   `es`, // Spanish
   `tr`, // Turkish
@@ -48,6 +49,10 @@ const languageSetup = {
   id: {
     english: `ID`,
     native: `Identification`
+  },
+  ja: {
+    english: `Japanese`,
+    native: `日本語`
   },
   it: {
     english: `Italian`,
