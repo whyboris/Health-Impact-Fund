@@ -11,6 +11,7 @@ const languageList = [
   `ja`, // Japanese
   `ko`, // Korean
   `pt`, // Portuguese (Portugal, Brazil)
+  `ru`, // Russian
   `es`, // Spanish
   `tr`, // Turkish
   `ur`, // Urdu
@@ -66,6 +67,10 @@ const languageSetup = {
   pt: {
     english: `Portuguese`,
     native: `Português`
+  },
+  ru: {
+    english: `Russian`,
+    native: `Русский`
   },
   tr: {
     english: `Turkish`,
