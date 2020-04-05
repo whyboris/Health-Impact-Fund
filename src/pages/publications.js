@@ -89,7 +89,11 @@ const Publications = ({ intl }) => {
       <FormattedMessage id="publications.hif_pilot_proposal_description">
         {txt => <p>{txt}</p>}
       </FormattedMessage>
-      <a href="/pdf/HIF_pilot_proposal_2019_11.pdf">
+      <a href={
+        intl.locale === 'es'
+        ? "/pdf/HIF_pilot_proposal_2019_11_es.pdf"
+        : "/pdf/HIF_pilot_proposal_2019_11.pdf"
+      }>
         <Icon />
         <FormattedMessage id="publications.click_to_download" />
       </a>
@@ -127,7 +131,11 @@ const Publications = ({ intl }) => {
       {/* <FormattedMessage id="publications.hif_factsheet_description">
         {txt => <p>{txt}</p>}
       </FormattedMessage> */}
-      <a href="/pdf/Health_Impact_Fund_Factsheet.pdf">
+      <a href={
+        intl.locale === 'de'
+          ? "/pdf/Health_Impact_Fund_Factsheet_de.pdf"
+          : "/pdf/Health_Impact_Fund_Factsheet.pdf"
+      }>
         <Icon />
         <FormattedMessage id="publications.click_to_download" />
       </a>
@@ -146,7 +154,11 @@ const Publications = ({ intl }) => {
       {/* <FormattedMessage id="publications.hif_graphic_description">
         {txt => <p>{txt}</p>}
       </FormattedMessage> */}
-      <a href="/pdf/Health_Impact_Fund_graphic.pdf">
+      <a href={
+        intl.locale === 'de'
+         ? "/pdf/Health_Impact_Fund_graphic_de.pdf"
+         : "/pdf/Health_Impact_Fund_graphic.pdf"
+      }>
         <Icon />
         <FormattedMessage id="publications.click_to_download" />
       </a>
