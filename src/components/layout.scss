@@ -578,13 +578,13 @@ header {
       .language-english {
         background: white;
         display: inline-block;
-        padding-right: 5px;
+        padding-right: 7px;
       }
 
       .language-original {
         background: white;
         float: right;
-        padding-left: 5px;
+        padding-left: 7px;
       }
 
       &:before {
@@ -594,7 +594,7 @@ header {
         opacity: 0.3;
         position: absolute;
         transform: translateY(9px);
-        width: 140px;
+        width: 170px;
         z-index: -1;
       }
 
@@ -613,7 +613,8 @@ header {
   }
 
   .dropdown-content-language {
-    transform: translate(-140px, 40px);
+    min-width: 244px;
+    transform: translate(-185px, 40px);
   }
 
   .donate {
