@@ -4,6 +4,7 @@ import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 import Layout from "../components/layout"
 import Advisor from "../components/advisor"
 import AdvisorSimple from "../components/advisorsimple"
+import Translator from "../components/translator"
 import SEO from "../components/seo"
 
 // make sure each has an entry in the en.json & other languages!
@@ -67,9 +68,9 @@ const management = [
   "Max Alexander Matthey",
   "Felicitas Holzer",
   "Daniele Botti",
-  "Najid Ahmad",
-  "Özlem Denli",
-  "Seung Chan (Kevin) Lee",
+  // "Najid Ahmad",
+  // "Özlem Denli",
+  // "Seung Chan (Kevin) Lee",
   "Boris Yakubchik",
 ]
 
@@ -81,10 +82,25 @@ const managementImages = [
   "Max.jpg",
   "Felicitas.jpg",
   "Daniele.jpg",
-  "",
-  "Ozlem.jpg",
-  "",
+  // "",
+  // "Ozlem.jpg",
+  // "",
   "Boris.jpg",
+]
+
+const translators = [
+  ["Alessandra Tisi", "Italian"],
+  ["Danielle Denny", "Portuguese"],
+  ["Elena Pribytkova", "Russian"],
+  ["Janet Adeogun", "Hausa"],
+  ["Li Xiao Zhang / Jacqueline Yao", "Chinese"],
+  ["Machiko Ohba Wilson", "Japanese"],
+  ["Maria Julia Ochoa", "Spanish"],
+  ["Mohamed Lachhab", "Arabic"],
+  ["Najid Ahmad", "Urdu"],
+  ["Özlem Denli", "Turkish"],
+  ["Seung Chan (Kevin) Lee", "Korean"],
+  ["Shashank Ganatra", "Hindi"],
 ]
 
 const Team = ({ intl }) => (
@@ -203,6 +219,15 @@ const Team = ({ intl }) => (
     <ul className="team-list team-list-no-desc">
       {scientific_advisors.map((element, index) => {
         return <AdvisorSimple key={index} data={{ name: element, id: index + 100 }} />
+      })}
+    </ul>
+
+    <h1 id="translators" style={{ marginTop: "40px" }}>
+      <FormattedMessage id="team.translators" />
+    </h1>
+    <ul className="team-list team-list-no-desc">
+      {translators.map((element, index) => {
+        return <Translator key={index} data={{ name: element[0], language: element[1], id: index + 150 }} />
       })}
     </ul>
 
