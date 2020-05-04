@@ -66,6 +66,7 @@
         "title": "Häufig gestellte Fragen | FAQ"
     },
     "general": {
+        "contact_us": "Kontaktiere uns:",
         "description": "Den Medikamentenpreis von den Forschungskosten abtrennen.",
         "design_credit": "",
         "legal_notice": "Impressum",
@@ -192,9 +193,7 @@
         "click_to_download": "Hier downloaden",
         "heading": "Veröffentlichungen",
         "hif_factsheet": "Factsheet des Health Impact Fund",
-        "hif_factsheet_description": "",
         "hif_graphic": "Der Health Impact Fund auf 1 Seite",
-        "hif_graphic_description": "",
         "hif_pilot_proposal": "Pilotvorschlag für den Health Impact Fund",
         "hif_pilot_proposal_description": "Dieses Heftchen gibt eine Einführung und Begründung des Health Impact Fund und bespricht insbesondere Konzeption und Konditionen des von uns vorgeschlagenen Pilotprojekts und die daran mitwirkenden Parteien.",
         "hif_summaries": "Zusammenfassung des Health Impact Funds",

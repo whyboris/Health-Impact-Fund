@@ -66,6 +66,7 @@
         "title": "Domande frequenti | FAQ"
     },
     "general": {
+        "contact_us": "Contattaci:",
         "description": "Separa il prezzo dei farmaci dal costo della ricerca.",
         "design_credit": "Design e ideazione",
         "legal_notice": "Avviso legale",
@@ -192,9 +193,7 @@
         "click_to_download": "Clicca qui per scaricare",
         "heading": "Pubblicazioni",
         "hif_factsheet": "Foglio informativo sull' Health Impact Fund",
-        "hif_factsheet_description": "",
         "hif_graphic": "L' Health Impact Fund in una pagina ",
-        "hif_graphic_description": "",
         "hif_pilot_proposal": "Proposta pilota dell'Health Impact Fund ",
         "hif_pilot_proposal_description": "Questo opuscolo presenta e giustifica l'Health Impact Fund e il progetto pilota proposto, specificandone struttura e condizioni, nonché le parti coinvolte.",
         "hif_summaries": "Sintesi dell'Health Impact Fund ",

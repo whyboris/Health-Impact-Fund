@@ -100,7 +100,7 @@ const Header = ({ siteTitle }) => (
             </Link>
           </div>
 
-          <svg
+          {/* <svg
             style={{ marginLeft: "8px" }}
             width="16"
             height="10"
@@ -117,7 +117,7 @@ const Header = ({ siteTitle }) => (
             <Link to="/news">
               <FormattedMessage id="navigation.recent_events" />
             </Link>
-          </div>
+          </div> */}
         </div>
 
         {/* TEAM */}

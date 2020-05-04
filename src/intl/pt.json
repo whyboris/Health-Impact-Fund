@@ -66,6 +66,7 @@
         "title": "Perguntas freqüentes | Perguntas frequentes"
     },
     "general": {
+        "contact_us": "Contate-Nos:",
         "description": "Reduza o preço dos medicamentos do custo da pesquisa.",
         "design_credit": "Design e concepção",
         "legal_notice": "Informações legais",
@@ -192,9 +193,7 @@
         "click_to_download": "Clique aqui para baixar",
         "heading": "Publicações",
         "hif_factsheet": "Ficha de informação do Health Impact Fund",
-        "hif_factsheet_description": "!!! FORNECE O TEXTO !!!",
         "hif_graphic": "O Fundo de Impacto na Saúde em 1 página",
-        "hif_graphic_description": "!!! FORNECE O TEXTO !!!",
         "hif_pilot_proposal": "Proposta-piloto do Fundo de Impacto na Saúde",
         "hif_pilot_proposal_description": "Este folheto descreve e justifica o Fundo de Impacto na Saúde e seu piloto proposto, especificando o design e os termos do piloto, bem como as partes envolvidas.",
         "hif_summaries": "Resumos do Fundo de Impacto na Saúde",

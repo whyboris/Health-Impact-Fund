@@ -66,6 +66,7 @@
         "title": "よくある質問"
     },
     "general": {
+        "contact_us": "お問い合わせ：",
         "description": "研究のコストから薬の価格の切り離し。",
         "design_credit": "設計と構想",
         "legal_notice": "法的通知",
@@ -192,9 +193,7 @@
         "click_to_download": "ダウンロードするにはこちらをクリック",
         "heading": "刊行物",
         "hif_factsheet": "健康回復基金のファクトシート",
-        "hif_factsheet_description": "!!!テキストを提供してください!!!",
         "hif_graphic": "健康回復基金概略",
-        "hif_graphic_description": "!!!テキストを提供してください!!!",
         "hif_pilot_proposal": "健康回復基金の試験事業案",
         "hif_pilot_proposal_description": "この小冊子では、健康回復基金とその試験事業案の概要と正当性を説明し、試験事業案の設計と条件、および関係者ついて説明しています。",
         "hif_summaries": "健康回復基金の概要",

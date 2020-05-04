@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import {
   injectIntl,
   FormattedMessage,
-  // Link
+  Link
 } from "gatsby-plugin-intl"
 
 import Header from "./header"
@@ -48,6 +48,10 @@ const Layout = ({ children, intl }) => {
               </svg>
             </a>
 
+          </div>
+
+          <div className="design-credit contact-us">
+            <FormattedMessage id="general.contact_us" /><a href="mailto:info@healthimpactfund.org">info@healthimpactfund.org</a>
           </div>
 
           <div className="design-credit">

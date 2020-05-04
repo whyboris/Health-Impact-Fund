@@ -66,6 +66,7 @@
         "title": "자주 묻는 질문 FAQ"
     },
     "general": {
+        "contact_us": "문의하기:",
         "description": "연구비에서 약값을 제외시켜 주세요",
         "design_credit": "디자인과 구상",
         "legal_notice": "법적 고지",
@@ -192,9 +193,7 @@
         "click_to_download": "다운로드 하려면 여기를 클릭하십시오.",
         "heading": "간행물",
         "hif_factsheet": "HIF 자료표",
-        "hif_factsheet_description": "",
         "hif_graphic": "첫번째 페이지의 HIF",
-        "hif_graphic_description": "",
         "hif_pilot_proposal": "HIF 제안서",
         "hif_pilot_proposal_description": "본 책자는 HIF 및 제안된 파일럿 프로그램의 관계자, 구성체계 및 기타 조건들을 기술합니다. ",
         "hif_summaries": "HIF요약",

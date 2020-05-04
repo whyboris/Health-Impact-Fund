@@ -66,6 +66,7 @@
         "title": "Frequently Asked Questions | FAQ"
     },
     "general": {
+        "contact_us": "Contact us:",
         "description": "Delink the price of drugs from the cost of research.",
         "design_credit": "Design and conception",
         "legal_notice": "Legal Notice",
@@ -175,7 +176,6 @@
         "2020.02.02_body": "We mourn the passing of Leila Janah, one of the co-founders of {intl_igh}. She was brilliant, kind and passionate about improving our world. Leila helped to advance the Health Impact Fund concept both practically and intellectually. A true social entrepreneur, she founded {intl_samasource}, a company designed to enable impoverished people  to work remotely on computer tasks in Africa and India. The company has provided well-paying jobs for over 11,000 people. She also developed a beauty products company LXMI which sourced products sustainably from Africa, while paying women workers fairly for their work. {intl_breaking_line} A humanitarian, an innovator, and a kind person who brought out the best in others, Leila will be deeply missed. Samasource has invited those who wish to honor Leila to make a donation to the {intl_givework_challenge}.",
         "2020.02.02_title": "Leila Janah, IGH Co-Founder, 1982-2020",
         "heading": "Recent news",
-        "info": "some temp news text to be translated",
         "title": "Health Impact Fund  News"
     },
     "notfound": {
@@ -192,14 +192,11 @@
         "click_to_download": "Click here to download",
         "heading": "Publications",
         "hif_factsheet": "Health Impact Fund factsheet",
-        "hif_factsheet_description": "!!! PLEASE PROVIDE TEXT !!!",
         "hif_graphic": "The Health Impact Fund in 1 page",
-        "hif_graphic_description": "!!! PLEASE PROVIDE TEXT !!!",
         "hif_pilot_proposal": "Health Impact Fund Pilot Proposal",
         "hif_pilot_proposal_description": "This booklet  outlines and justifies the Health Impact Fund and its proposed pilot,  specifying the design and terms of the pilot as well as the parties involved.",
         "hif_summaries": "The Health Impact Fund Summaries",
         "hif_summaries_description": "This document provides a two-page summary of the Health Impact Fund and its goals. It explains how the Health Impact Fund works for patients, for pharmaceutical companies, and for taxpayers. It also outlines a path forward to realization.",
-        "info": "some text to be translated",
         "title": "Health Impact Fund Publications"
     },
     "team": {

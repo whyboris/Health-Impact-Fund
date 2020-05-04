@@ -66,6 +66,7 @@
         "title": "Foire aux questions | FAQ"
     },
     "general": {
+        "contact_us": "Nous contacter:",
         "description": "Dissocier le prix des médicaments du coût de la recherche.",
         "design_credit": "Design et conception",
         "legal_notice": "Mention légale",
@@ -192,9 +193,7 @@
         "click_to_download": "Cliquez ici pour télécharger",
         "heading": "Les publications",
         "hif_factsheet": "Fiche pour le Fonds d'impact sanitaire",
-        "hif_factsheet_description": "Prière de fournir du texte.",
         "hif_graphic": "Le Fonds d'impact sanitaire en 1 page",
-        "hif_graphic_description": "Prière de fournir du texte.",
         "hif_pilot_proposal": "Proposition pilote du Fonds d'impact sanitaire",
         "hif_pilot_proposal_description": "Cette brochure décrit et justifie le Fonds d'impact sanitaire et son projet pilote, en spécifiant la conception et les conditions du projet pilote ainsi que les parties impliquées.",
         "hif_summaries": "Les résumés du Fonds d'impact sanitaire",
