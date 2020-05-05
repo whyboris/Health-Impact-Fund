@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import {
   injectIntl,
   FormattedMessage,
-  Link
+  // Link
 } from "gatsby-plugin-intl"
 
 import Header from "./header"

@@ -29,6 +29,7 @@ const Benefits = ({ intl }) => (
 
     <div
       className="scroll-to-top"
+      role="button"
       onClick={() => {
         window.scrollTo(0, 0)
       }}

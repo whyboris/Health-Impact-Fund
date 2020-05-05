@@ -5,8 +5,25 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const Benefits = ({ intl }) => {
-  let showLongDescription1 = false
-  let showLongDescription2 = false
+  const lol = {
+    first: false,
+    second: false
+  }
+
+  function handleClick(selector) {
+    if (!lol[selector]) {
+      document.getElementById(selector).classList.remove("hidden")
+    } else {
+      document.getElementById(selector).classList.add("hidden")
+    }
+    lol[selector] = !lol[selector]
+  }
+
+  function handleKeydown(event, selector) {
+    if (event.keyCode === 13) {
+      handleClick(selector);
+    }
+  }
 
   return (
     <Layout>
@@ -18,6 +35,7 @@ const Benefits = ({ intl }) => {
 
       <div
         className="scroll-to-top"
+        role="button"
         onClick={() => {
           window.scrollTo(0, 0)
         }}
@@ -58,14 +76,10 @@ const Benefits = ({ intl }) => {
 
       <strong
         className="see-more-click"
-        onClick={() => {
-          if (!showLongDescription1) {
-            document.getElementById("first").classList.remove("hidden")
-          } else {
-            document.getElementById("first").classList.add("hidden")
-          }
-          showLongDescription1 = !showLongDescription1
-        }}
+        role="button"
+        tabIndex="0"
+        onClick={() => handleClick('first')}
+        onKeyDown={(event) => handleKeydown(event, 'first')}
       >
         <FormattedMessage id="what.see_more" />
       </strong>
@@ -74,7 +88,7 @@ const Benefits = ({ intl }) => {
         <FormattedMessage id="what.prices_see_more" />
       </p>
 
-      <p style={{ "text-align": "center" }}>
+      <p style={{ textAlign: "center" }}>
         <FormattedMessage id="what.for_more_info_see" />{" "}
         <a
           className="see-more-click"
@@ -95,14 +109,10 @@ const Benefits = ({ intl }) => {
 
       <strong
         className="see-more-click"
-        onClick={() => {
-          if (!showLongDescription2) {
-            document.getElementById("second").classList.remove("hidden")
-          } else {
-            document.getElementById("second").classList.add("hidden")
-          }
-          showLongDescription2 = !showLongDescription2
-        }}
+        role="button"
+        tabIndex="0"
+        onClick={() => handleClick('second')}
+        onKeyDown={(event) => handleKeydown(event, 'second')}
       >
         <FormattedMessage id="what.see_more" />
       </strong>

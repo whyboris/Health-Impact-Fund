@@ -105,20 +105,20 @@ a {
   }
 
   .news-text {
+    margin-bottom: 80px;
+    margin-left: 440px;
     margin-right: 40px;
     padding-top: 40px;
-    margin-left: 440px;
-    margin-bottom: 80px;
   }
 
   .news-download {
     display: block;
 
     svg {
-      transition-property: transform;
-      transition-duration: 250ms;
       position: absolute;
       transform: translate(-50px, 3px);
+      transition-duration: 250ms;
+      transition-property: transform;
       width: 40px;
     }
 
@@ -135,16 +135,16 @@ a {
 }
 
 .scroll-to-top {
-  cursor: pointer;
   background: white;
   border-radius: 20px;
   bottom: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
   display: block;
   height: 40px;
+  left: calc(50vw - 20px);
   position: fixed;
   width: 40px;
-  left: calc(50vw - 20px);
 
   svg {
     left: 12px;
@@ -210,8 +210,8 @@ a {
 }
 
 .team-photo {
-  border: 1px solid rgba(0,0,0,0.2);
   border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.2);
   height: 70px;
   overflow: hidden;
   position: absolute;
@@ -228,9 +228,9 @@ a {
   }
 
   .button {
-    cursor: pointer;
     background: $primary;
     color: white;
+    cursor: pointer;
     display: block;
     font-weight: bold;
     margin: 20px;
@@ -253,10 +253,10 @@ a {
   font-style: italic;
   margin-bottom: 25px;
   margin-left: 20px;
+  max-height: 1000px;
   overflow: hidden;
   transition-duration: 350ms;
   transition-property: max-height;
-  max-height: 1000px;
 }
 
 .hidden {
@@ -264,10 +264,10 @@ a {
 }
 
 .see-more-click {
-  cursor: pointer;
   color: $primary;
+  cursor: pointer;
+  display: inline-block;
   margin-bottom: 10px;
-  display: block;
 }
 
 .publication-container {
@@ -895,16 +895,16 @@ header {
 
 .youtube .placeholder-channel {
   background-image: url(https://yt3.ggpht.com/-yjj95JJQEm8/AAAAAAAAAAI/AAAAAAAAAAA/qkyW_xNpwSo/s68-c-k-no-mo-rj-c0xffffff/photo.jpg);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  position: absolute;
-  left: 12px;
-  top: 12px;
-  z-index: 1;
-  background-size: contain;
-  background-repeat: no-repeat;
   background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  height: 40px;
+  left: 12px;
+  position: absolute;
+  top: 12px;
+  width: 40px;
+  z-index: 1;
 }
 
 .youtube img {
