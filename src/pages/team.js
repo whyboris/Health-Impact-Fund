@@ -222,6 +222,7 @@ const Team = ({ intl }) => (
       })}
     </ul>
 
+{/*
     <h1 id="translators" style={{ marginTop: "40px" }}>
       <FormattedMessage id="team.translators" />
     </h1>
@@ -230,6 +231,7 @@ const Team = ({ intl }) => (
         return <Translator key={index} data={{ name: element[0], language: element[1], id: index + 150 }} />
       })}
     </ul>
+*/}
 
     {/* ======================================================================================== */}
 
