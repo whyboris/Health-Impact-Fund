@@ -1,5 +1,5 @@
 // this order dictates the dropdown order and what gets shown
-const languageList = [
+const LanguageList = [
   // `ar`, // Arabic
   `zh`, // Cheneze (Simplified)
   `en`, // English
