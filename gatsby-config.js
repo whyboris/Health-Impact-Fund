@@ -1,4 +1,4 @@
-const { languageList } = require("./src/intl/languages");
+const { LanguageList } = require("./src/intl/languages");
 
 module.exports = {
   siteMetadata: {
@@ -57,7 +57,7 @@ module.exports = {
       resolve: `gatsby-plugin-intl`,
       options: {
         path: `${__dirname}/src/intl`,
-        languages: languageList,
+        languages: LanguageList,
         defaultLanguage: `en`,
         redirect: true,
         redirectComponent: require.resolve(`./src/components/redirect.js`),

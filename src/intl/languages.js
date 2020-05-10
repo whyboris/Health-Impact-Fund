@@ -1,7 +1,7 @@
 // this order dictates the dropdown order and what gets shown
 const languageList = [
   // `ar`, // Arabic
-  // `zh`, // Cheneze (Simplified)
+  `zh`, // Cheneze (Simplified)
   `en`, // English
   `fr`, // French
   `de`, // German
@@ -88,4 +88,4 @@ const languageSetup = {
 
 module.exports.languageNames = languageSetup;
 
-module.exports.languageList = languageList;
+module.exports.LanguageList = LanguageList;

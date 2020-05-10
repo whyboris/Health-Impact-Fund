@@ -5,8 +5,26 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const Benefits = ({ intl }) => {
-  let showLongDescription1 = false
-  let showLongDescription2 = false
+  const lol = {
+    first: false,
+    second: false,
+    third: false
+  }
+
+  function handleClick(selector) {
+    if (!lol[selector]) {
+      document.getElementById(selector).classList.remove("hidden")
+    } else {
+      document.getElementById(selector).classList.add("hidden")
+    }
+    lol[selector] = !lol[selector]
+  }
+
+  function handleKeydown(event, selector) {
+    if (event.keyCode === 13) {
+      handleClick(selector);
+    }
+  }
 
   return (
     <Layout>
@@ -18,6 +36,7 @@ const Benefits = ({ intl }) => {
 
       <div
         className="scroll-to-top"
+        role="button"
         onClick={() => {
           window.scrollTo(0, 0)
         }}
@@ -40,7 +59,7 @@ const Benefits = ({ intl }) => {
         <FormattedMessage id="benefits.advantages_for" /> ...
       </h1>
 
-      <strong style={{ display: "block", "margin-top": "40px" }}>
+      <strong style={{ display: "block", "marginTop": "40px" }}>
         ... <FormattedMessage id="benefits.patients" />:
       </strong>
 
@@ -51,15 +70,11 @@ const Benefits = ({ intl }) => {
           <FormattedMessage id="benefits.patients_1" />{" "}
           <strong
             className="see-more-click"
+            role="button"
+            tabIndex="0"
             style={{ display: "inline-block" }}
-            onClick={() => {
-              if (!showLongDescription1) {
-                document.getElementById("first").classList.remove("hidden")
-              } else {
-                document.getElementById("first").classList.add("hidden")
-              }
-              showLongDescription1 = !showLongDescription1
-            }}
+            onClick={() => handleClick('first')}
+            onKeyDown={(event) => handleKeydown(event, 'first')}
           >
             <FormattedMessage id="benefits.see_more" />
           </strong>
@@ -79,15 +94,11 @@ const Benefits = ({ intl }) => {
           <FormattedMessage id="benefits.patients_2" />{" "}
           <strong
             className="see-more-click"
+            role="button"
+            tabIndex="0"
             style={{ display: "inline-block" }}
-            onClick={() => {
-              if (!showLongDescription2) {
-                document.getElementById("second").classList.remove("hidden")
-              } else {
-                document.getElementById("second").classList.add("hidden")
-              }
-              showLongDescription2 = !showLongDescription2
-            }}
+            onClick={() => handleClick('second')}
+            onKeyDown={(event) => handleKeydown(event, 'second')}
           >
             <FormattedMessage id="benefits.see_more" />
           </strong>
@@ -107,15 +118,11 @@ const Benefits = ({ intl }) => {
           <FormattedMessage id="benefits.patients_3" />{" "}
           <strong
             className="see-more-click"
+            role="button"
+            tabIndex="0"
             style={{ display: "inline-block" }}
-            onClick={() => {
-              if (!showLongDescription2) {
-                document.getElementById("third").classList.remove("hidden")
-              } else {
-                document.getElementById("third").classList.add("hidden")
-              }
-              showLongDescription2 = !showLongDescription2
-            }}
+            onClick={() => handleClick('third')}
+            onKeyDown={(event) => handleKeydown(event, 'third')}
           >
             <FormattedMessage id="benefits.see_more" />
           </strong>

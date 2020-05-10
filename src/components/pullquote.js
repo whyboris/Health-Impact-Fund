@@ -2,7 +2,7 @@ import React from "react"
 
 import Swiper from 'react-id-swiper';
 
-import 'react-id-swiper/lib/styles/scss/swiper.scss';
+import './swiper.css'
 
 import { injectIntl, FormattedMessage } from "gatsby-plugin-intl"
 
