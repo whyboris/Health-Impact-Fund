@@ -13,7 +13,7 @@ const LanguageList = [
   `pt`, // Portuguese (Portugal, Brazil)
   // `ru`, // Russian
   `es`, // Spanish
-  // `tr`, // Turkish
+  `tr`, // Turkish
   // `ur`, // Urdu
   // `id`, // ID -- identify the felds
 ];
