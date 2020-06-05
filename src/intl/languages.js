@@ -74,7 +74,7 @@ const languageSetup = {
   },
   tr: {
     english: `Turkish`,
-    native: `Türk`
+    native: `Türkçe`
   },
   ur: {
     english: `Urdu`,
