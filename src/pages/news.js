@@ -20,10 +20,10 @@ const News = ({ intl }) => (
 
     <div className="news-item">
       <div className="photo-and-caption">
-        <img src="/img/black-lives-matter.jpg" alt="Black Lives Matter" />
+        <img src="/news/black-lives-matter.jpg" alt="Black Lives Matter" />
         <span className="caption">
           <a href="https://pixabay.com/illustrations/black-lives-matter-racism-5253733/">
-            irk_omg
+            Pixabay
           </a>
         </span>
       </div>
@@ -100,7 +100,94 @@ const News = ({ intl }) => (
 
     <div className="news-item">
       <div className="photo-and-caption">
-        <img src="/img/LeilaJanah.jpg" alt="Leila Janah" />
+        <img src="/news/covid-news.jpg" alt="Leila Janah" />
+        <span className="caption">
+          <a href="https://pixabay.com/photos/mask-virus-pandemic-coronavirus-4934337/">
+            Pixabay
+          </a>
+        </span>
+      </div>
+
+      <span className="date">2020.XX.XX</span>
+
+      <div className="news-text">
+        <h2>Health Impact Fund and COVID-19 in STAT</h2>
+
+        <p>
+          For governments, a Covid-19 Health Impact Fund would reduce the
+          current competition over which country gets vaccinated first, since
+          all countries could collaborate to offer a joint reward. That would
+          reduce their budgetary uncertainty, while increasing incentives for
+          private investors.
+        </p>
+        <p>
+          The key here is that we can afford to make some kinds of mistakes: We
+          can pay too much; we can subsidize vaccines that don’t work out. But
+          we cannot afford to discourage the pharmaceutical industry from
+          participating in the search for the solutions we urgently and
+          desperately need.
+        </p>
+      </div>
+    </div>
+
+    <div className="news-item">
+      <div className="photo-and-caption">
+        <img src="/news/india-news.jpg" alt="Leila Janah" />
+        <span className="caption">
+          <a href="https://cdn.pixabay.com/photo/2014/04/02/14/48/children-306607__480.jpg">
+            Pixabay
+          </a>
+        </span>
+      </div>
+
+      <span className="date">2020.XX.XX</span>
+
+      <div className="news-text">
+        <h2>The right time to shift pharma gears: The Hindu</h2>
+
+        <p>
+          The Health Impact Fund would get pharmaceutical firms interested in
+          certain R&D projects that are unprofitable under the current regime –
+          especially ones expected to produce large health gains among mostly
+          poor people. Such projects would predominantly address communicable
+          diseases, which continue to impose devastating disease burdens mainly
+          upon the poor.
+        </p>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <div className="news-item">
+      <div className="photo-and-caption">
+        <img src="/news/china-news.jpg" alt="Leila Janah" />
+        <span className="caption">
+          <a href="https://cdn.pixabay.com/photo/2020/03/07/17/15/coronavirus-4910360__480.jpg">
+            Pixabay
+          </a>
+        </span>
+      </div>
+
+      <span className="date">2020.XX.XX</span>
+
+      <div className="news-text">
+        <h2>China's official news channel, CGTN on the Health Impact Fund</h2>
+
+        <p>
+          Medications have done wonders for humanity. With the proposed Health
+          Impact Fund reform, the pharmaceuticals sector could achieve much more
+          still. The dark disaster of COVID-19 may yet give rise to a new dawn
+          of massive progress in human health.
+        </p>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <div className="news-item">
+      <div className="photo-and-caption">
+        <img src="/news/LeilaJanah.jpg" alt="Leila Janah" />
         <span className="caption">
           <a href="https://commons.wikimedia.org/wiki/File:Leila_Janah_(15313650137).jpg">
             Photo by Christopher Michel
@@ -139,7 +226,7 @@ const News = ({ intl }) => (
 
     <div className="news-item">
       <div className="photo-and-caption">
-        <img src="/img/berlin_workshop.jpg" alt="Berlin Workshop" />
+        <img src="/news/berlin_workshop.jpg" alt="Berlin Workshop" />
       </div>
 
       <span className="date">2019.11.13</span>
@@ -197,7 +284,7 @@ const News = ({ intl }) => (
 
     <div className="news-item">
       <div className="photo-and-caption">
-        <img src="/img/GordonBrown.jpg" alt="Gordon Brown" />
+        <img src="/news/GordonBrown.jpg" alt="Gordon Brown" />
         <span className="caption">
           <a href="https://www.flickr.com/photos/26087974@N05/2794502401/in/photolist-5fWycT-73eyY4-K27DF5-7srBjU-5yrHsu-4pRJQ3-LxKie-6FQgRL-21YNA-7fuBBP-YrMnc-XLitE-4pB7az-22E6bwo-81ukoA-6qCvdA-5A2dWq-81raKp-3pqzmL-4W6Ldz-9e3DLE-7G3t1c-7KVkH-81uk3j-bnoTq-83tNQB-7KVx4-4WaZnb-65D1NB-YrMMT-4W6LHi-6byQ6F-E1Bbz-suznZz-7YLEhZ-7KUVL-7KV4s-4Wb2z9-4Wb5nG-5WEWkq-7GEke-bB7KBf-7KUXP-6Fcrgy-4Wb1ey-7JrU1-7KUFS-5AUF6y-6vuMmB-7KVda">
             Photo by Cory M. Grenier
