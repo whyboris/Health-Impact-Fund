@@ -20,6 +20,86 @@ const News = ({ intl }) => (
 
     <div className="news-item">
       <div className="photo-and-caption">
+        <img src="/img/black-lives-matter.jpg" alt="Black Lives Matter" />
+        <span className="caption">
+          <a href="https://pixabay.com/illustrations/black-lives-matter-racism-5253733/">
+            irk_omg
+          </a>
+        </span>
+      </div>
+
+      <span className="date">2020.06.10</span>
+
+      <div className="news-text">
+        <h2>Black Lives Matter</h2>
+
+        <p>
+          Incentives for Global Health is committed to the worldwide effort to
+          overcome racism everywhere: in policing and the penal system, in
+          housing and credit, in education and employment, in health care and
+          social security, in politics and the media, in our hearts and minds
+          and everyday lives.
+        </p>
+        <p>
+          In our world, poverty and racism are deeply intertwined and mutually
+          reinforcing. Rules that systematically harm the poor are
+          overwhelmingly harming people of color, and often persist precisely
+          because of that.
+        </p>
+        <p>
+          The rules of the pharma sector must reflect that the health and
+          survival of all human beings has equal value. We call on governments
+          to jointly create and finance a Health Impact Fund designed on this
+          foundation. The Fund should reward pharmaceutical innovators for each
+          registered product, sold without markup, according to the health gains
+          achieved with it – regardless of whose health is at stake. Firms would
+          earn no less from protecting a poor person or a person of color, and
+          often much more than what this person could have paid themselves.
+        </p>
+        <p>
+          For the Incentives for Global Health team, Black Lives Matter is about
+          more than police violence; it is also about our work. We believe that
+          health policy should reflect equity in access, not only to healthcare,
+          but also safety and protection.
+        </p>
+        <p>Join us in this work!</p>
+        <ul className="news-li">
+          <li>
+            Support the{" "}
+            <a href="https://blacklivesmatter.com/">
+              #BlackLivesMatter Global Network
+            </a>
+          </li>
+          <li>
+            Support <a href="http://m4bl.org/">Movement for Black Lives</a> call
+            for housing and healthcare for all
+          </li>
+          <li>
+            <a href="https://www.who.int/healthsystems/topics/equity/en/">
+              Support equity in global health
+            </a>
+          </li>
+          <li>
+            Join and/or take action with{" "}
+            <a href="https://whitecoats4blacklives.org/">
+              #WhiteCoats4BlackLives
+            </a>
+          </li>
+          <li>
+            Join the{" "}
+            <a href="https://www.bma.org.uk/news-and-opinion/we-stand-in-solidarity-bma-statement-on-black-lives-matter">
+              international health worker solidarity with BLM
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <div className="news-item">
+      <div className="photo-and-caption">
         <img src="/img/LeilaJanah.jpg" alt="Leila Janah" />
         <span className="caption">
           <a href="https://commons.wikimedia.org/wiki/File:Leila_Janah_(15313650137).jpg">

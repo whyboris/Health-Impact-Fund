@@ -111,6 +111,12 @@ a {
     padding-top: 40px;
   }
 
+  .news-li {
+    li {
+      margin: 10px 10px 10px 0;
+    }
+  }
+
   .news-download {
     display: block;
 
@@ -1044,6 +1050,7 @@ header {
       left: 40px;
       top: 30px;
     }
+
   }
 
   .panel-container {
