@@ -20,9 +20,9 @@ const News = ({ intl }) => (
 
     <div className="news-item">
       <div className="photo-and-caption">
-        <img src="/news/black-lives-matter.jpg" alt="Black Lives Matter" />
+        <img src="/news/black-lives-matter.png" alt="Black Lives Matter" />
         <span className="caption">
-          <a href="https://pixabay.com/illustrations/black-lives-matter-racism-5253733/">
+          <a href="https://pixabay.com/illustrations/black-live-matter-racism-protest-5278646/">
             Pixabay
           </a>
         </span>
@@ -100,7 +100,39 @@ const News = ({ intl }) => (
 
     <div className="news-item">
       <div className="photo-and-caption">
-        <img src="/news/covid-news.jpg" alt="Leila Janah" />
+        <img src="/news/india.jpg" alt="Leila Janah" />
+        <span className="caption">
+          <a href="https://cdn.pixabay.com/photo/2014/04/02/14/48/children-306607__480.jpg">
+            Pixabay
+          </a>
+        </span>
+      </div>
+
+      <span className="date">2020.06.06</span>
+
+      <div className="news-text">
+        <h2>The right time to shift pharma gears: The Hindu</h2>
+
+        <p>
+          The Health Impact Fund would get pharmaceutical firms interested in
+          certain R&D projects that are unprofitable under the current regime –
+          especially ones expected to produce large health gains among mostly
+          poor people. Such projects would predominantly address communicable
+          diseases, which continue to impose devastating disease burdens mainly
+          upon the poor.
+        </p>
+        <p>
+          Read more: <a href="https://www.thehindu.com/opinion/op-ed/a-right-time-to-shift-pharma-gears/article31761582.ece">The Hindu</a>
+        </p>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <div className="news-item">
+      <div className="photo-and-caption">
+        <img src="/news/covid.jpg" alt="Leila Janah" />
         <span className="caption">
           <a href="https://pixabay.com/photos/mask-virus-pandemic-coronavirus-4934337/">
             Pixabay
@@ -108,7 +140,7 @@ const News = ({ intl }) => (
         </span>
       </div>
 
-      <span className="date">2020.XX.XX</span>
+      <span className="date">2020.06.03</span>
 
       <div className="news-text">
         <h2>Health Impact Fund and COVID-19 in STAT</h2>
@@ -127,31 +159,8 @@ const News = ({ intl }) => (
           participating in the search for the solutions we urgently and
           desperately need.
         </p>
-      </div>
-    </div>
-
-    <div className="news-item">
-      <div className="photo-and-caption">
-        <img src="/news/india-news.jpg" alt="Leila Janah" />
-        <span className="caption">
-          <a href="https://cdn.pixabay.com/photo/2014/04/02/14/48/children-306607__480.jpg">
-            Pixabay
-          </a>
-        </span>
-      </div>
-
-      <span className="date">2020.XX.XX</span>
-
-      <div className="news-text">
-        <h2>The right time to shift pharma gears: The Hindu</h2>
-
         <p>
-          The Health Impact Fund would get pharmaceutical firms interested in
-          certain R&D projects that are unprofitable under the current regime –
-          especially ones expected to produce large health gains among mostly
-          poor people. Such projects would predominantly address communicable
-          diseases, which continue to impose devastating disease burdens mainly
-          upon the poor.
+          Read more: <a href="https://www.statnews.com/2020/06/03/health-impact-fund-spur-development-equitable-use-covid-19-vaccine/">STAT</a>
         </p>
       </div>
     </div>
@@ -161,7 +170,7 @@ const News = ({ intl }) => (
 
     <div className="news-item">
       <div className="photo-and-caption">
-        <img src="/news/china-news.jpg" alt="Leila Janah" />
+        <img src="/news/china.jpg" alt="Leila Janah" />
         <span className="caption">
           <a href="https://cdn.pixabay.com/photo/2020/03/07/17/15/coronavirus-4910360__480.jpg">
             Pixabay
@@ -169,7 +178,7 @@ const News = ({ intl }) => (
         </span>
       </div>
 
-      <span className="date">2020.XX.XX</span>
+      <span className="date">2020.06.02</span>
 
       <div className="news-text">
         <h2>China's official news channel, CGTN on the Health Impact Fund</h2>
@@ -180,11 +189,49 @@ const News = ({ intl }) => (
           still. The dark disaster of COVID-19 may yet give rise to a new dawn
           of massive progress in human health.
         </p>
+        <p>
+          Read more: <a href="https://news.cgtn.com/news/2020-06-02/Restructuring-pharmaceutical-innovation-QZq50NZOxi/index.html">CGTN</a>
+        </p>
       </div>
     </div>
 
     <br />
     <br />
+
+    <div className="news-item">
+      <div className="photo-and-caption">
+        <img src="/news/krisha-kops.jpg" alt="Leila Janah" />
+        <span className="caption">
+          <a href="https://pixabay.com/photos/family-joy-kid-happy-together-2655509/">
+            Pixabay
+          </a>
+        </span>
+      </div>
+
+      <span className="date">2020.05.24</span>
+
+      <div className="news-text">
+        <h2>Krisha Kops on the the Health Impact Fund in TAZ</h2>
+
+        <p>
+          Denn überspitzt gesagt, kann es einem Unternehmen, das nur für den
+          Verkauf eines Mittels entlohnt wird, statt für dessen Effektivität,
+          herzlich egal sein, was das Medikament an- oder ausrichtet. Zudem wäre
+          eine Firma daran interessiert, seinen Kundenstamm zu erhalten, was ein
+          Fortbestehen der Krankheit voraussetzt. Würde die Firma hingegen ihr
+          Medikament beim Health Impact Fund melden, erhielten sie den
+          Hauptertrag durch den maximalen Gesundheitsgewinn, sprich die
+          Ausrottung der Krankheit.
+        </p>
+        <p>
+          Read more: <a href="https://taz.de/Corona-und-die-Pharmaindustrie/!5684767/">TAZ</a>
+        </p>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
     <div className="news-item">
       <div className="photo-and-caption">
         <img src="/news/LeilaJanah.jpg" alt="Leila Janah" />
