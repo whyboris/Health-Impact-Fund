@@ -67,7 +67,7 @@
     },
     "general": {
         "contact_us": "",
-        "description": "İlaçların fiyatını araştırma maliyetinden ayıralım.",
+        "description": "İlaçların fiyatını araştırma maliyetinden ayıralım.",
         "design_credit": "",
         "legal_notice": "Yasal Uyarı",
         "title": "Sağlık Etki Fonu"
@@ -192,8 +192,8 @@
         "title": "Sağlık Etki Fonu Yayınları"
     },
     "team": {
-        "about_IGH": "Küresel Sağlık Teşvikleri, temel amacı {intl_HIP} önerisini ilerletmek olan ABD merkezli kar amacı gütmeyen bir kuruluştur. Bu önemli çalışmada {intl_volunteers}'ın bizimle işbirliği yapmasını memnuniyetle karşılıyoruz.",
-        "about_IGH_more": "Küresel Sağlık Teşvikleri'ne katılmak veya destek olmak ilginizi çekiyorsa,{intl_email} adresine yazabilir veya {intl_donation} yapabilirsiniz.",
+        "about_IGH": "Küresel Sağlık Teşvikleri, temel amacı {intl_HIP} önerisini ilerletmek olan ABD merkezli kar amacı gütmeyen bir kuruluştur. Bu önemli çalışmada {intl_volunteers} bizimle işbirliği yapmasını memnuniyetle karşılıyoruz.",
+        "about_IGH_more": "Küresel Sağlık Teşvikleri'ne katılmak veya destek olmak ilginizi çekiyorsa, {intl_email} adresine yazabilir veya {intl_donation} yapabilirsiniz.",
         "advisory_council": "Uluslararası Danışma Konseyi",
         "Aidan Hollis": "IGH Başkanı ve Kurucu Ortağı",
         "Aidan Hollis_long": "Aidan Hollis Calgary Üniversitesi'nde Ekonomi Profesörüdür ve aynı zamanda Avrupa ve Asya'da ticari bankacılıkta ve devlet dairisinde çalışmıştır. Yürütme ekibi ile işbirliği içinde Küresel Sağlık Teşvikleri'nin (IGH) izlediği rotayı belirlemekle sorumludur. Aidan Hollis IGH'yi kurmuş ve Sağlık Etki Fonu modelini geliştirmiştir.",
@@ -265,7 +265,7 @@
         "Tim Gilbert_long": "Tim Gilbert, fikri mülkiyet konusunda uzmanlaşmış bir butik hukuk firması olan Gilberts LLP'nin kurucusudur.",
         "title": "Takım",
         "translators": "Çevirme Ekibi",
-        "volunteers": "yeni ekip gönüllüleri",
+        "volunteers": "yeni ekip gönüllülerinin",
         "Wu Qunhong": "Harbin Tıp Üniversitesi Sağlık Yönetimi Koleji Yönetici Dekanı"
     },
     "videos": {
