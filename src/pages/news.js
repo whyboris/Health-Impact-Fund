@@ -21,11 +21,6 @@ const News = ({ intl }) => (
     <div className="news-item">
       <div className="photo-and-caption">
         <img src="/news/AmartyaSen.jpg" alt="Amartya Sen" />
-        {/* <span className="caption">
-          <a href="#">
-            none
-          </a>
-        </span> */}
       </div>
 
       <span className="date">2020.06.22</span>
@@ -56,12 +51,7 @@ const News = ({ intl }) => (
 
     <div className="news-item">
       <div className="photo-and-caption">
-        <img src="/news/black-lives-matter.png" alt="Black Lives Matter" />
-        <span className="caption">
-          <a href="https://pixabay.com/illustrations/black-live-matter-racism-protest-5278646/">
-            Pixabay
-          </a>
-        </span>
+        <img src="/news/black-lives-matter.png" alt="Black Lives Matter" title="Photo credit: Pixabay" />
       </div>
 
       <span className="date">2020.06.10</span>
@@ -136,12 +126,7 @@ const News = ({ intl }) => (
 
     <div className="news-item">
       <div className="photo-and-caption">
-        <img src="/news/india.jpg" alt="Leila Janah" />
-        <span className="caption">
-          <a href="https://cdn.pixabay.com/photo/2014/04/02/14/48/children-306607__480.jpg">
-            Pixabay
-          </a>
-        </span>
+        <img src="/news/india.jpg" alt="The Hindu" title="Photo credit: Pixabay" />
       </div>
 
       <span className="date">2020.06.06</span>
@@ -171,12 +156,7 @@ const News = ({ intl }) => (
 
     <div className="news-item">
       <div className="photo-and-caption">
-        <img src="/news/covid.jpg" alt="Leila Janah" />
-        <span className="caption">
-          <a href="https://pixabay.com/photos/mask-virus-pandemic-coronavirus-4934337/">
-            Pixabay
-          </a>
-        </span>
+        <img src="/news/covid.jpg" alt="Covid-19" title="Photo credit: Pixabay" />
       </div>
 
       <span className="date">2020.06.03</span>
@@ -212,12 +192,7 @@ const News = ({ intl }) => (
 
     <div className="news-item">
       <div className="photo-and-caption">
-        <img src="/news/china.jpg" alt="Leila Janah" />
-        <span className="caption">
-          <a href="https://cdn.pixabay.com/photo/2020/03/07/17/15/coronavirus-4910360__480.jpg">
-            Pixabay
-          </a>
-        </span>
+        <img src="/news/china.jpg" alt="CGTN" title="Photo credit: Pixabay" />
       </div>
 
       <span className="date">2020.06.02</span>
@@ -245,12 +220,7 @@ const News = ({ intl }) => (
 
     <div className="news-item">
       <div className="photo-and-caption">
-        <img src="/news/krisha-kops.jpg" alt="Leila Janah" />
-        <span className="caption">
-          <a href="https://pixabay.com/photos/family-joy-kid-happy-together-2655509/">
-            Pixabay
-          </a>
-        </span>
+        <img src="/news/krisha-kops.jpg" alt="Leila Janah" title="Photo credit: Pixabay" />
       </div>
 
       <span className="date">2020.05.24</span>
