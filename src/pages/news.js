@@ -20,6 +20,42 @@ const News = ({ intl }) => (
 
     <div className="news-item">
       <div className="photo-and-caption">
+        <img src="/news/AmartyaSen.jpg" alt="Amartya Sen" />
+        {/* <span className="caption">
+          <a href="#">
+            none
+          </a>
+        </span> */}
+      </div>
+
+      <span className="date">2020.06.22</span>
+
+      <div className="news-text">
+        <h2>Amartya Sen honored</h2>
+
+        <p>
+          We are delighted that our International Advisory Board member Amartya
+          Sen, winner of the 1998 Nobel Prize in Economics, has been honored
+          with the Peace Prize of the German book trade.
+        </p>
+        <p>
+          The team congratulates Professor Sen and adds its heartfelt thanks for
+          his intellectual support of the Health Impact Fund idea.
+        </p>
+        <p>
+          Read more:{" "}
+          <a href="https://www.zeit.de/kultur/2020-06/philosoph-amartya-sen-erhaelt-friedenspreis">
+            zeit
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <div className="news-item">
+      <div className="photo-and-caption">
         <img src="/news/black-lives-matter.png" alt="Black Lives Matter" />
         <span className="caption">
           <a href="https://pixabay.com/illustrations/black-live-matter-racism-protest-5278646/">
@@ -122,7 +158,10 @@ const News = ({ intl }) => (
           upon the poor.
         </p>
         <p>
-          Read more: <a href="https://www.thehindu.com/opinion/op-ed/a-right-time-to-shift-pharma-gears/article31761582.ece">The Hindu</a>
+          Read more:{" "}
+          <a href="https://www.thehindu.com/opinion/op-ed/a-right-time-to-shift-pharma-gears/article31761582.ece">
+            The Hindu
+          </a>
         </p>
       </div>
     </div>
@@ -160,7 +199,10 @@ const News = ({ intl }) => (
           desperately need.
         </p>
         <p>
-          Read more: <a href="https://www.statnews.com/2020/06/03/health-impact-fund-spur-development-equitable-use-covid-19-vaccine/">STAT</a>
+          Read more:{" "}
+          <a href="https://www.statnews.com/2020/06/03/health-impact-fund-spur-development-equitable-use-covid-19-vaccine/">
+            STAT
+          </a>
         </p>
       </div>
     </div>
@@ -190,7 +232,10 @@ const News = ({ intl }) => (
           of massive progress in human health.
         </p>
         <p>
-          Read more: <a href="https://news.cgtn.com/news/2020-06-02/Restructuring-pharmaceutical-innovation-QZq50NZOxi/index.html">CGTN</a>
+          Read more:{" "}
+          <a href="https://news.cgtn.com/news/2020-06-02/Restructuring-pharmaceutical-innovation-QZq50NZOxi/index.html">
+            CGTN
+          </a>
         </p>
       </div>
     </div>
@@ -224,7 +269,10 @@ const News = ({ intl }) => (
           Ausrottung der Krankheit.
         </p>
         <p>
-          Read more: <a href="https://taz.de/Corona-und-die-Pharmaindustrie/!5684767/">TAZ</a>
+          Read more:{" "}
+          <a href="https://taz.de/Corona-und-die-Pharmaindustrie/!5684767/">
+            TAZ
+          </a>
         </p>
       </div>
     </div>
