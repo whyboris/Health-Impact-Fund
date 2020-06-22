@@ -1039,7 +1039,7 @@ header {
       float: none;
 
       img {
-        max-width: 90%;
+        max-width: calc(100vw - 55px);
       }
     }
 
