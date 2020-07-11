@@ -33,6 +33,10 @@ const Advisor = ({ data }) => {
         <p id={data.id} className="description-long hidden">
           <FormattedMessage
             id={"team." + data.name + "_long"}
+            values={{
+              intl_breaking_line: <><br /><br /></>,
+              intl_thomas_website: <a href="https://campuspress.yale.edu/thomaspogge/">campuspress.yale.edu/thomaspogge</a>,
+            }}
           />
         </p>
       </li>

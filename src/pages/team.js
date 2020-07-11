@@ -46,20 +46,20 @@ const scientific_advisors = [
 
 const board = [
   "Aidan Hollis",
+  "Jami Taylor",
+  "Sachin Chaturvedi",
   "Thomas Pogge",
   "Tim Gilbert",
-  "Sachin Chaturvedi",
 ]
 
 // must coincide with order of `board`
-/*
 const boardImages = [
   "Aidan.jpg",
+  "Jami.jpg",
+  "Sachin.jpg",
   "Thomas.jpg",
-  "",
-  "",
+  "Tim.jpg",
 ]
-*/
 
 const management = [
   "Aidan Hollis",
@@ -183,7 +183,7 @@ const Team = ({ intl }) => (
     </h1>
     <ul className="team-list">
       {board.map((element, index) => {
-        return <Advisor key={index} data={{ name: element, id: index + 200 }} />
+        return <Advisor key={index} data={{ name: element, id: index + 200, image: boardImages[index]  }} />
       })}
     </ul>
 

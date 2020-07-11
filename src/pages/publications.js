@@ -11,24 +11,27 @@ const Publications = ({ intl }) => {
   setTimeout(() => {
 
     const youtube = document.getElementById("main-video");
-    const source = "https://img.youtube.com/vi/"+ youtube.dataset.embed +"/sddefault.jpg";
-    const image = new Image();
-    image.src = source;
 
-    image.addEventListener( "load", () => {
-        youtube.appendChild( image );
-    });
+    if (youtube) {
+      const source = "https://img.youtube.com/vi/"+ youtube.dataset.embed +"/sddefault.jpg";
+      const image = new Image();
+      image.src = source;
 
-    youtube.addEventListener( "click", function() {
-      const iframe = document.createElement( "iframe" );
+      image.addEventListener( "load", () => {
+          youtube.appendChild( image );
+      });
 
-      iframe.setAttribute( "frameborder", "0" );
-      iframe.setAttribute( "allowfullscreen", "" );
-      iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
+      youtube.addEventListener( "click", function() {
+        const iframe = document.createElement( "iframe" );
 
-      this.innerHTML = "";
-      this.appendChild( iframe );
-    } );
+        iframe.setAttribute( "frameborder", "0" );
+        iframe.setAttribute( "allowfullscreen", "" );
+        iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
+
+        this.innerHTML = "";
+        this.appendChild( iframe );
+      } );
+    }
 
   }, 1000)
 

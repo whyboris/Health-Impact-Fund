@@ -20,6 +20,70 @@ const News = ({ intl }) => (
 
     <div className="news-item">
       <div className="photo-and-caption">
+        <img src="/news/Jami.jpg" alt="Jami Taylor" />
+      </div>
+
+      <span className="date">2020.07.10</span>
+
+      <div className="news-text">
+        <h2>
+          Jami Taylor joins Incentives for Global Health Board of Directors
+        </h2>
+
+        <p>
+          Incentives for Global Health welcomes Jami Taylor to the Board of
+          Directors.
+        </p>
+        <p>
+          Jami Taylor is a recognized expert in innovative financing for
+          pharmaceutical research, development, access and delivery. Most
+          recently, as an investor relations lead at Reata Pharmaceuticals, she
+          helped to secure a $350 million investment from Blackstone Life
+          Sciences to advance promising compounds within Reata’s pipeline.
+          Previously, Jami was a managing director at Stanton Park Capital, a
+          boutique investment bank providing merger and acquisition, capital
+          raising, and consulting services to private companies in the life
+          sciences field.
+        </p>
+        <p>
+          Earlier, Jami spent more than seven years in global leadership roles
+          at Johnson & Johnson, working across Janssen R&D, Janssen Global
+          Commercial Strategy, and key committees and functions at the Corporate
+          level. There, she was a co-founder of the Johnson & Johnson Global
+          Public Health organization.
+        </p>
+        <p>
+          Prior to joining Johnson & Johnson, Jami spent more than 10 years at
+          the firm she founded as an undergraduate, providing alliance
+          development and communications services to an elite roster of clients,
+          including major pharmaceutical and biotechnology companies.
+        </p>
+        <p>
+          Jami’s experience beyond industry includes work with the White House
+          Office of Public Liaison, members of the U.S. Congress, and the U.S.
+          Departments of Treasury, Commerce, and Health & Human Services to
+          advance legislative and policy priorities on a nationwide scale. In
+          2014, Jami was named a Cross-Sector Leadership Fellow at the Presidio
+          Institute, a program created by the White House Office of Social
+          Innovation and Civic Participation to advance the work of leaders
+          addressing society’s most complex challenges.
+        </p>
+        <p>
+          Jami is an alumna of Northwestern University, Harvard University, and
+          the University of Virginia. She is a frequent presenter at major
+          international forums and a lecturer at leading universities, including
+          the MIT Sloan School of Management, the Wharton School of the
+          University of Pennsylvania, Harvard Law School and Harvard Business
+          School.
+        </p>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <div className="news-item">
+      <div className="photo-and-caption">
         <img src="/news/AmartyaSen.jpg" alt="Amartya Sen" />
       </div>
 
@@ -51,7 +115,11 @@ const News = ({ intl }) => (
 
     <div className="news-item">
       <div className="photo-and-caption">
-        <img src="/news/black-lives-matter.png" alt="Black Lives Matter" title="Photo credit: Pixabay" />
+        <img
+          src="/news/black-lives-matter.png"
+          alt="Black Lives Matter"
+          title="Photo credit: Pixabay"
+        />
       </div>
 
       <span className="date">2020.06.10</span>
@@ -126,7 +194,11 @@ const News = ({ intl }) => (
 
     <div className="news-item">
       <div className="photo-and-caption">
-        <img src="/news/india.jpg" alt="The Hindu" title="Photo credit: Pixabay" />
+        <img
+          src="/news/india.jpg"
+          alt="The Hindu"
+          title="Photo credit: Pixabay"
+        />
       </div>
 
       <span className="date">2020.06.06</span>
@@ -156,7 +228,11 @@ const News = ({ intl }) => (
 
     <div className="news-item">
       <div className="photo-and-caption">
-        <img src="/news/covid.jpg" alt="Covid-19" title="Photo credit: Pixabay" />
+        <img
+          src="/news/covid.jpg"
+          alt="Covid-19"
+          title="Photo credit: Pixabay"
+        />
       </div>
 
       <span className="date">2020.06.03</span>
@@ -220,7 +296,11 @@ const News = ({ intl }) => (
 
     <div className="news-item">
       <div className="photo-and-caption">
-        <img src="/news/krisha-kops.jpg" alt="Leila Janah" title="Photo credit: Pixabay" />
+        <img
+          src="/news/krisha-kops.jpg"
+          alt="Leila Janah"
+          title="Photo credit: Pixabay"
+        />
       </div>
 
       <span className="date">2020.05.24</span>
