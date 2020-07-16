@@ -17,6 +17,11 @@ import Header from "./header"
 import "./layout.scss"
 
 const Layout = ({ children, intl }) => {
+
+  if (intl.locale === 'ar') {
+    require('./arabic.scss')
+  }
+
   return (
     <>
       <Header siteTitle={intl.formatMessage({ id: "general.title" })} />
