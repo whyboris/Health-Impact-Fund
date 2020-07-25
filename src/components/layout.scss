@@ -371,57 +371,64 @@ a {
   width: 29%;
 
   .book {
-    display: inline-block;
     box-shadow: 5px 5px 20px #333;
+    display: inline-block;
     margin: 10px;
   }
 
-  .book img { vertical-align: middle; }
+  .book img {
+    vertical-align: middle;
+    border-radius: 3px;
+  }
 
-  .csstransforms3d  .books {
+  .csstransforms3d .books {
     -moz-perspective: 100px;
     -moz-transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
   }
 
-  .csstransforms3d  .book {
+  .csstransforms3d .book {
+    box-shadow: none;
+    margin: 0;
+    outline: 1px solid transparent; /* Helps smooth jagged edges in Firefox */
     position: relative;
     -moz-perspective: 100px;
     -moz-transform: rotateY(-3deg);
     -webkit-transform: perspective(100) rotateY(-3deg);
-    outline: 1px solid transparent; /* Helps smooth jagged edges in Firefox */
-    box-shadow: none;
-    margin: 0;
   }
 
-  .csstransforms3d  .book img {
-    position: relative;
+  .csstransforms3d .book img {
     max-width: 100%;
+    position: relative;
   }
 
-  .csstransforms3d  .book:before,
-  .csstransforms3d  .book:after {
+  .csstransforms3d .book:before,
+  .csstransforms3d .book:after {
+    content: ' ';
+    height: 96%;
     position: absolute;
     top: 2%;
-    height: 96%;
-    content: ' ';
     z-index: -1;
   }
 
-  .csstransforms3d  .book:before {
+  .csstransforms3d .book:before {
+    background-color: #497e92;
+    border-radius: 3px;
+    box-shadow: 9px 22px 30px #BBB;
+    height: 95%;
+    left: 6.5%;
+    transform: translate(-1px, 1px);
     width: 100%;
-    left: 7.5%;
-    background-color: #5a2d18;
-    box-shadow: 5px 5px 20px #333;
   }
 
-  .csstransforms3d  .book:after {
-    width: 5%;
-    left: 100%;
+  .csstransforms3d .book:after {
     background-color: #EFEFEF;
-    box-shadow: inset 0px 0px 5px #aaa;
+    box-shadow: inset 4px 0px 5px #aaa;
+    left: 100%;
+    max-height: 95%;
+    width: 5%;
     -moz-transform: rotateY(20deg);
-    -webkit-transform: perspective(100) rotateY(20deg);
+    -webkit-transform: perspective(100) rotateY(20deg) translate(-2px, 2px);
   }
 }
 
