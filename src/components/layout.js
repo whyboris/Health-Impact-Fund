@@ -15,19 +15,16 @@ import {
 
 import Header from "./header"
 import "./layout.scss"
+import "./arabic.scss"
 
 const Layout = ({ children, intl }) => {
-
-  if (intl.locale === 'ar') {
-    require('./arabic.scss')
-  }
 
   return (
     <>
       <Header siteTitle={intl.formatMessage({ id: "general.title" })} />
       <div className="body-contents">
 
-        <main>{children}</main>
+        <main className={ intl.locale === 'ar' ? "rtl-version" : "" }>{children}</main>
 
         <footer>
 
