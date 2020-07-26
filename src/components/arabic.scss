@@ -28,3 +28,12 @@
   }
 
 }
+
+.nav-link-rtl {
+  .dropdown-content {
+    direction: rtl;
+  }
+  .dropdown-content-language {
+    direction: ltr;
+  }
+}
