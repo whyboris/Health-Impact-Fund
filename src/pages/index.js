@@ -197,26 +197,12 @@ const IndexPage = ({ intl }) => {
         </div>
       </div>
 
-      <div id="main-video" className="youtube" data-embed="rTMqGbTNkNg">
+      <div id="main-video" className="youtube" data-embed="yGUgAHTyYMs">
         <div className="placeholder-gradient"></div>
         <div className="placeholder-channel"></div>
-        <span className="placeholder-title">Reimagining pharmaceutical innovation | Thomas Pogge at TEDxCanberra</span>
+        <span className="placeholder-title">Health Impact Fund: Making New Medicines available to everyone</span>
         <div className="play-button"></div>
       </div>
-
-      {/*
-      <div className="video-container">
-        <iframe
-          title="Medicine for the 99 percent"
-          width="560"
-          height="315"
-          src="https://www.youtube-nocookie.com/embed/rTMqGbTNkNg"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </div>
-      */}
 
       <div className="hip-book">
         <img alt="Health Impact Fund book" src="/img/HIF_book_cover.jpg" />
