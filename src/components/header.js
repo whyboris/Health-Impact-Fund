@@ -7,8 +7,8 @@ import Icon from "../images/language.svg"
 
 import { injectIntl, FormattedMessage } from "gatsby-plugin-intl"
 
-const Header = ({ siteTitle }) => (
-  <header>
+const Header = ({ siteTitle, showRTL }) => (
+  <header className={ showRTL ? 'nav-link-rtl' : ''}>
     <div
       style={{
         margin: `0 auto`,
@@ -211,10 +211,12 @@ const Header = ({ siteTitle }) => (
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
+  showRTL: PropTypes.bool,
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: '',
+  showRTL: false,
 }
 
 export default injectIntl(Header)

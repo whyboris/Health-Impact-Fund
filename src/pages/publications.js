@@ -10,27 +10,33 @@ const Publications = ({ intl }) => {
 
   setTimeout(() => {
 
-    const youtube = document.getElementById("main-video");
+    const videos = [];
 
-    if (youtube) {
-      const source = "https://img.youtube.com/vi/"+ youtube.dataset.embed +"/sddefault.jpg";
-      const image = new Image();
-      image.src = source;
+    videos.push(document.getElementById("first-video"));
+    videos.push(document.getElementById("second-video"));
+    videos.push(document.getElementById("third-video"));
 
-      image.addEventListener( "load", () => {
-          youtube.appendChild( image );
-      });
+    for (let i = 0; i < videos.length; i++) {
+      if (videos[i]) {
+        const source = "https://img.youtube.com/vi/"+ videos[i].dataset.embed +"/sddefault.jpg";
+        const image = new Image();
+        image.src = source;
 
-      youtube.addEventListener( "click", function() {
-        const iframe = document.createElement( "iframe" );
+        image.addEventListener( "load", () => {
+            videos[i].appendChild( image );
+        });
 
-        iframe.setAttribute( "frameborder", "0" );
-        iframe.setAttribute( "allowfullscreen", "" );
-        iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
+        videos[i].addEventListener( "click", function() {
+          const iframe = document.createElement( "iframe" );
 
-        this.innerHTML = "";
-        this.appendChild( iframe );
-      } );
+          iframe.setAttribute( "frameborder", "0" );
+          iframe.setAttribute( "allowfullscreen", "" );
+          iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
+
+          this.innerHTML = "";
+          this.appendChild( iframe );
+        } );
+      }
     }
 
   }, 1000)
@@ -297,10 +303,24 @@ const Publications = ({ intl }) => {
       <FormattedMessage id="videos.videos" />
     </h1>
 
-    <div id="main-video" className="youtube" data-embed="rTMqGbTNkNg">
+    <div id="first-video" className="youtube" data-embed="yGUgAHTyYMs">
+      <div className="placeholder-gradient"></div>
+      <div className="placeholder-channel"></div>
+      <span className="placeholder-title">Health Impact Fund: Making New Medicines available to everyone</span>
+      <div className="play-button"></div>
+    </div>
+
+    <div id="second-video" className="youtube" data-embed="rTMqGbTNkNg">
       <div className="placeholder-gradient"></div>
       <div className="placeholder-channel"></div>
       <span className="placeholder-title">Reimagining pharmaceutical innovation | Thomas Pogge at TEDxCanberra</span>
+      <div className="play-button"></div>
+    </div>
+
+    <div id="third-video" className="youtube" data-embed="quDCE_q1GtQ">
+      <div className="placeholder-gradient"></div>
+      <div className="placeholder-channel"></div>
+      <span className="placeholder-title">Is a Health Impact Fund an Equitable Solution to Fund Vaccine Access for All?</span>
       <div className="play-button"></div>
     </div>
 

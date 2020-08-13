@@ -19,7 +19,11 @@ const PullQuote = ({data}) => {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev'
     },
-    spaceBetween: 30
+    spaceBetween: 30,
+    autoplay: {
+      delay: 20000,
+      disableOnInteraction: true
+    }
   }
 
   return (

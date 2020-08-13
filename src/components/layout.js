@@ -21,7 +21,7 @@ const Layout = ({ children, intl }) => {
 
   return (
     <>
-      <Header siteTitle={intl.formatMessage({ id: "general.title" })} />
+      <Header siteTitle={intl.formatMessage({ id: "general.title" })} showRTL={ intl.locale === 'ar' } />
       <div className="body-contents">
 
         <main className={ intl.locale === 'ar' ? "rtl-version" : "" }>{children}</main>
