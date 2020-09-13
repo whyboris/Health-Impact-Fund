@@ -1,6 +1,6 @@
 // this order dictates the dropdown order and what gets shown
 const LanguageList = [
-  // `ar`, // Arabic
+  `ar`, // Arabic
   `zh`, // Cheneze (Simplified)
   `en`, // English
   `fr`, // French
