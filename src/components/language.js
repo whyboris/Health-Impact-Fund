@@ -11,7 +11,10 @@ const Language = () => {
           languages.map(language => (
             <span
               key={language}
+              role="button"
+              tabIndex="0"
               onClick={() => changeLocale(language)}
+              onKeyDown={ (event) => event.key === "Enter" ? changeLocale(language) : null }
               className="language-selection"
               style={{
                 color: currentLocale === language ? `#80CF0F` : `#222222`,

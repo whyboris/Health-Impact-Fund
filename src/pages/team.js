@@ -1,11 +1,14 @@
 import React from "react"
 import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 
-import Layout from "../components/layout"
 import Advisor from "../components/advisor"
 import AdvisorSimple from "../components/advisorsimple"
-import Translator from "../components/translator"
+import Layout from "../components/layout"
 import SEO from "../components/seo"
+import ScrollToTop from "../components/scrolltotop"
+import Translator from "../components/translator"
+
+const { management, managementImages } = require("../components/constants");
 
 // make sure each has an entry in the en.json & other languages!
 const advisors = [
@@ -61,33 +64,6 @@ const boardImages = [
   "Tim.jpg",
 ]
 
-const management = [
-  "Aidan Hollis",
-  "Peggy Tse",
-  "Maria Ginevra Cattaneo",
-  "Max Alexander Matthey",
-  "Felicitas Holzer",
-  "Daniele Botti",
-  // "Najid Ahmad",
-  // "Özlem Denli",
-  // "Seung Chan (Kevin) Lee",
-  "Boris Yakubchik",
-]
-
-// must coincide with order of `management`
-const managementImages = [
-  "Aidan.jpg",
-  "Peggy.jpg",
-  "Maria.jpg",
-  "Max.jpg",
-  "Felicitas.jpg",
-  "Daniele.jpg",
-  // "",
-  // "Ozlem.jpg",
-  // "",
-  "Boris.jpg",
-]
-
 const translators = [
   ["Alessandra Tisi", "Italian"],
   ["Danielle Denny", "Portuguese"],
@@ -112,26 +88,8 @@ const Team = ({ intl }) => (
       description={intl.formatMessage({ id: "general.description" })}
     />
 
-    <div
-      className="scroll-to-top"
-      role="button"
-      onClick={() => {
-        window.scrollTo(0, 0)
-      }}
-    >
-      <svg
-        width="16"
-        height="10"
-        viewBox="0 0 16 10"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M14.1053 0L8 6.10526L1.89474 0L0 1.89474L8 9.89474L16 1.89474L14.1053 0Z"
-          fill="#222222"
-        />
-      </svg>
-    </div>
+    <ScrollToTop />
+
     <h1>
       <FormattedMessage id="team.heading" />
     </h1>

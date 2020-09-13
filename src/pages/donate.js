@@ -1,14 +1,17 @@
 import React from "react"
-import { FormattedMessage, Link, injectIntl } from "gatsby-plugin-intl"
+import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 
+import Advisor from "../components/advisor"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
+const { management, managementImages } = require("../components/constants");
 
 const Benefits = ({ intl }) => (
   <Layout>
     <SEO
       lang={intl.locale}
-      title={"donate"}
+      title={"Donate"}
       description={"Donate to HIF today"}
     />
 
@@ -46,6 +49,17 @@ const Benefits = ({ intl }) => (
       bring pharmaceutical innovation at affordable prices to everyone.
     </p>
     <p>Thank you for your commitment to global health!</p>
+
+
+    <h1 id="management" style={{ marginTop: "40px" }}>
+      <FormattedMessage id="team.management_team" />
+    </h1>
+    <ul className="team-list team-list-with-photo">
+      {management.map((element, index) => {
+        return <Advisor key={index} data={{ name: element, id: index + 300, image: managementImages[index] }} />
+      })}
+    </ul>
+
   </Layout>
 )
 
