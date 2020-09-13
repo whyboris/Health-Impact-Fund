@@ -123,11 +123,11 @@ const IndexPage = ({ intl }) => {
         <div className="thin-panel">
           <div className="donation-box">
             <FormattedMessage id="intro.donate_text" />
-            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K7ULUVQSNFV8C">
+            <Link to="/donate">
               <button className="button">
                 <FormattedMessage id="intro.button_donate" />
               </button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
