@@ -27,6 +27,7 @@ const management = [
   // "Najid Ahmad",
   // "Özlem Denli",
   // "Seung Chan (Kevin) Lee",
+  "Yasmine Bark",
   "Boris Yakubchik",
 ];
 
@@ -41,6 +42,7 @@ const managementImages = [
   // "",
   // "Ozlem.jpg",
   // "",
+  "Yasmine.jpg",
   "Boris.jpg",
 ];
 
