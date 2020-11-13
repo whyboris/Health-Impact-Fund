@@ -48,6 +48,32 @@ const News = ({ intl }) => {
       </h1>
 
       <div className="news-item">
+        <div className="photo-and-caption">
+          <img src="/news/liberation.png" alt="Libération" />
+        </div>
+
+        <span className="date">2020-11-10</span>
+
+        <div className="news-text">
+          <h2>Op-ed in Libération supporting the Health Impact Fund</h2>
+
+          <p>
+            Timothy Daly, Aidan Hollis, Felicitas Holzer, and Thomas Pogge make the case
+            for the Health Impact Fund in France’s progressive newspaper, Libération.
+          </p>
+          <p>
+            Read more:{" "}
+            <a href="https://www.liberation.fr/debats/2020/11/09/le-fonds-d-impact-sanitaire-pour-une-recherche-pharmaceutique-plus-equitable_1805063">
+              liberation.fr
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <br />
+      <br />
+
+      <div className="news-item">
         <span className="date date-float-left">2020.08.10</span>
 
         <div className="news-text news-text-full-width">
