@@ -38,6 +38,13 @@ const Advisor = ({ data }) => {
               intl_thomas_website: <a href="https://campuspress.yale.edu/thomaspogge/">campuspress.yale.edu/thomaspogge</a>,
             }}
           />
+
+          {
+            data.email && <div className="email">
+              <a href={"mailto:" + data.email}>{data.email}</a>
+            </div>
+          }
+
         </p>
       </li>
     </>

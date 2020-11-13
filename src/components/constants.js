@@ -26,11 +26,26 @@ const management = [
   "Daniele Botti",
   // "Najid Ahmad",
   // "Özlem Denli",
-  // "Seung Chan (Kevin) Lee",
   "Yasmine Bark",
   "Vikita Mehta",
+  "Seung Chan (Kevin) Lee",
   "Boris Yakubchik",
 ];
+
+const managementEmails = [
+  "aidan@healthimpactfund.org",
+  "peggy@healthimpactfund.org",
+  "mariaginevra@healthimpactfund.org",
+  "max@healthimpactfund.org",
+  "felicitas@healthimpactfund.org",
+  "daniele@healthimpactfund.org",
+  // "some email",
+  // "some email",
+  "yasmine@healthimpactfund.org",
+  "",
+  "",
+  "",
+]
 
 // must coincide with order of `management`
 const managementImages = [
@@ -42,9 +57,9 @@ const managementImages = [
   "Daniele.jpg",
   // "",
   // "Ozlem.jpg",
-  // "",
   "Yasmine.jpg",
   "Vikita.jpg",
+  "Kevin.jpg",
   "Boris.jpg",
 ];
 
@@ -105,6 +120,7 @@ module.exports = {
   boardImages,
   former_advisors,
   management,
+  managementEmails,
   managementImages,
   scientific_advisors,
   translators,

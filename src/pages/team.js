@@ -14,6 +14,7 @@ const {
   boardImages,
   former_advisors,
   management,
+  managementEmails,
   managementImages,
   scientific_advisors,
   translators,
@@ -90,7 +91,7 @@ const Team = ({ intl }) => (
     </h1>
     <ul className="team-list team-list-with-photo">
       {management.map((element, index) => {
-        return <Advisor key={index} data={{ name: element, id: index + 300, image: managementImages[index] }} />
+        return <Advisor key={index} data={{ name: element, id: index + 300, image: managementImages[index], email: managementEmails[index] }} />
       })}
     </ul>
 
