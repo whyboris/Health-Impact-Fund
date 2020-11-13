@@ -32,6 +32,21 @@ const management = [
   "Boris Yakubchik",
 ];
 
+const managementEmails = [
+  "aidan@healthimpactfund.org",
+  "peggy@healthimpactfund.org",
+  "mariaginevra@healthimpactfund.org",
+  "max@healthimpactfund.org",
+  "felicitas@healthimpactfund.org",
+  "daniele@healthimpactfund.org",
+  // "some email",
+  // "some email",
+  "yasmine@healthimpactfund.org",
+  "",
+  "",
+  "",
+]
+
 // must coincide with order of `management`
 const managementImages = [
   "Aidan.jpg",
@@ -105,6 +120,7 @@ module.exports = {
   boardImages,
   former_advisors,
   management,
+  managementEmails,
   managementImages,
   scientific_advisors,
   translators,

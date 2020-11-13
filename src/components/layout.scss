@@ -287,6 +287,10 @@ a {
   overflow: hidden;
   transition-duration: 350ms;
   transition-property: max-height;
+
+  .email {
+    margin: 12px 0 24px;
+  }
 }
 
 .hidden {
