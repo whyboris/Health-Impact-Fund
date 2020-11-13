@@ -26,9 +26,9 @@ const management = [
   "Daniele Botti",
   // "Najid Ahmad",
   // "Özlem Denli",
-  // "Seung Chan (Kevin) Lee",
   "Yasmine Bark",
   "Vikita Mehta",
+  "Seung Chan (Kevin) Lee",
   "Boris Yakubchik",
 ];
 
@@ -42,9 +42,9 @@ const managementImages = [
   "Daniele.jpg",
   // "",
   // "Ozlem.jpg",
-  // "",
   "Yasmine.jpg",
   "Vikita.jpg",
+  "Kevin.jpg",
   "Boris.jpg",
 ];
 
