@@ -47,6 +47,29 @@ const News = ({ intl }) => {
         <FormattedMessage id="news.heading" />
       </h1>
 
+
+      <div className="news-item">
+        <span className="date date-float-left">2020.12.07</span>
+
+        <div className="news-text news-text-full-width">
+          <h2>
+            After Covid: Global Health, Big Pharma & the Health Impact Fund
+          </h2>
+
+          <p>
+            December 7 at 6pm CET on Zoom
+          </p>
+
+          <a href="https://www.eventbrite.ca/e/after-covid-global-health-big-pharma-and-the-health-impact-fund-tickets-128430921343">
+            <img src="/news/2020.12.07-event.jpg" alt="Jami Taylor" />
+          </a>
+        </div>
+
+      </div>
+
+      <br />
+      <br />
+
       <div className="news-item">
         <div className="photo-and-caption">
           <img src="/news/liberation.png" alt="Libération" />

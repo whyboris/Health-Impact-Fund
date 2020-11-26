@@ -225,6 +225,10 @@ const IndexPage = ({ intl }) => {
           </a>
         </div>
       </div>
+
+      <a className="temp-image" href="https://www.eventbrite.ca/e/after-covid-global-health-big-pharma-and-the-health-impact-fund-tickets-128430921343">
+        <img src="/news/2020.12.07-event.jpg" alt="Jami Taylor" />
+      </a>
     </Layout>
   )
 }
