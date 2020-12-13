@@ -225,6 +225,7 @@ const IndexPage = ({ intl }) => {
           </a>
         </div>
       </div>
+
     </Layout>
   )
 }
