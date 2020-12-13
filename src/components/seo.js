@@ -56,6 +56,10 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: `summary`,
         },
         {
+          name: `twitter:image`,
+          content: `https://healthimpactfund.org/img/0.png`,
+        },
+        {
           name: `twitter:creator`,
           content: `@HealthImpact`,
         },
