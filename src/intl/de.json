@@ -68,7 +68,7 @@
     "general": {
         "contact_us": "Kontaktiere uns:",
         "description": "Den Medikamentenpreis von den Forschungskosten abtrennen.",
-        "design_credit": "",
+        "design_credit": "Design und Konzeption",
         "legal_notice": "Impressum",
         "title": "Health Impact Fund"
     },
@@ -124,6 +124,8 @@
         "pilot_text": "Das Pilotprojekt ist ein fünfjähriger Wettbewerb, an dessen Ende eine feste Prämiensumme unter den teilnehmenden Pharmainnovatoren aufgeteilt wird. Die Aufteilung hängt von den Gesundheitsgewinnen ab, die die teilnehmenden Organisationen damit erzielen, dass sie einen ihrer Wirkstoffe in ein  Land mit niedrigerem Einkommen einführen, in dem es bisher nicht erhältlich war. ",
         "quote_jami_name": "Jami Taylor, Janssen Pharmaceuticals (Johnson & Johnson)",
         "quote_jami_text": "Mit ausreichenden Finanzmitteln könnte der Health Impact Fund ein wirksames Mittel sein, um Investitionen von kleinen und großen biopharmazeutischen Unternehmen anzuregen, um so den Bedürfnissen einkommensschwacher Bevölkerungsgruppen gerecht werden zu können. Er würde kommerzielle Anreize mit dem sozialen Ziel in Einklang bringen, die  globale Morbidität und Mortalität zu reduzieren. Es könnte Unternehmen, einschließlich Janssen Pharmaceuticals, bei ihren Bemühungen unterstützen, innovative Produkte in einem wettbewerbsfähigen, marktorientierten Rahmen zu entwickeln, der Ergebnisse belohnt.",
+        "quote_jayasree_name": "Dr. Jayasree K. Iyer, Geschäftsführer, Access to Medicine Foundation",
+        "quote_jayasree_text": "Die Access to Medicine Foundation setzt sich dafür ein, Menschen in Ländern mit niedrigem und mittlerem Einkommen den Zugang zu lebensrettenden Medikamenten zu erleichtern. Der Pharmasektor spielt durch sein Fachwissen und seine Ressourcen eine Schlüsselrolle dabei. Die Mission der Access to Medicine Foundation ist es, den Pharmasektor zu ermutigen, mehr zu tun. Wir erkennen im Modell des Health Impact Fund die Möglichkeit, Pharmaunternehmen zu motivieren, den Zugang zu ihren Produkten zu verbessern, mehr in die Erforschung von Krankheiten zu investieren, von denen vor allem die am stärksten benachteiligten Menschen der Welt betroffen sind, und eine breitere Verbreitung zu erreichen. Wir unterstützen die gemeinsamen Ziele und Bestrebungen eines Pilotprojekts des Health Impact Fund",
         "quote_norway_name": "Liberale (Venstre) Partei Norwegens",
         "quote_norway_text": "Als Ergänzung zum derzeitigen Patentsystem sollte ein internationaler Gesundheitsfonds (Health Impact Fund) eingerichtet werden. Über den Health Impact Fund können Pharmaunternehmen ihre Medikamente freiwillig anmelden und sich verpflichten, sie gegen Zahlung einer Unterstützung aus dem Fonds über zehn Jahre hinweg gegen den niedrigsten Preis zur Verfügung zu stellen, wenn ihre Medikamente eine größere gesundheitliche Wirkung haben. Dies gibt den Unternehmen Anreize, Medikamente für die Menschen mit dem größten Gesundheitsbedarf zu entwickeln - und nicht nur für jene mit der größten Kaufkraft. ",
         "quote_tom_name": "Tom Bollyky",
@@ -189,7 +191,6 @@
         "hif_pilot_proposal_description": "Dieses Heftchen gibt eine Einführung und Begründung des Health Impact Fund und bespricht insbesondere Konzeption und Konditionen des von uns vorgeschlagenen Pilotprojekts und die daran mitwirkenden Parteien.",
         "hif_summaries": "Zusammenfassung des Health Impact Funds",
         "hif_summaries_description": "Dieses Dokument enthält eine zweiseitige Zusammenfassung des Health Impact Fund sowie seines Zwecks und seiner  Vorzüge für Patient*innen,  Pharmaunternehmen und Steuerzahler*innen. Auch die Frage der politischen Realisierung des Health Impact Fund wird angesprochen? ",
-        "info": "Ein zu übersetzender Text",
         "title": "Health Impact Fund - Veröffentlichungen"
     },
     "team": {
@@ -234,8 +235,8 @@
         "Max Alexander Matthey": "Director of Communications",
         "Max Alexander Matthey_long": "Max Alexander Matthey ist neben dem Studium der Philosophie, Politik und Wirtschaft an der Universität Witten/Herdecke für die Kommunikation des Health Impact Fund zuständig. Nachdem er einige Jahre als Rettungsassistent gearbeitet hat, studierte er Volkswirtschaftslehre an der Universität Münster und schrieb seine Abschlussarbeit über die Effektivität der Entwicklungshilfe. Inspiriert durch sein Engagement beim Health Impact Fund, hat er nun begonnen, an einer Promotion zu arbeiten, die sich aus gesundheits- und entwicklungsökonomischer Sicht mit vernachlässigten Krankheiten befasst.",
         "Mel Spigelman": "Präsident und CEO der Global Alliance for TB Drug Development",
-        "Najid Ahmad": "",
-        "Najid Ahmad_long": "",
+        "Najid Ahmad": "Wissenschaftlicher Mitarbeiter",
+        "Najid Ahmad_long": "Wissenschaftlicher Mitarbeiter",
         "Noam Chomsky": "ehemaliger Institutsprofessor, Institut für Linguistik & Philosophie, MIT.",
         "opportunities": "Chancen",
         "opportunity_1": "Sie haben Erfahrungen im Management der Pharmaindustrie",
@@ -244,8 +245,8 @@
         "opportunity_4": "Sie können uns dabei unterstützen, unsere Website in andere Sprachen, wie z.B. Französisch, Japanisch oder Arabisch, zu übersetzen",
         "opportunity_intro": "Wir haben derzeit offene Stellen für ehrenamtliche Tätigkeiten. Auch wenn wir jede Unterstützung sehr schätzen, würden wir uns insbesonders über folgende Fähigkeiten freuen:",
         "opportunity_postscript": "Wichtig ist uns vor allem, dass Sie sich  für die Verbesserung der globalen Gesundheit begeistern  können und die Bereitschaft zur Teamarbeit mitbringen. Wir heißen Mitarbeiter aus allen Ländern und aller Ethnien etc. willkommen.",
-        "Özlem Denli": "",
-        "Özlem Denli_long": "",
+        "Özlem Denli": "Wissenschaftlicher Mitarbeiter",
+        "Özlem Denli_long": "Özlem Denli promovierte in Politikwissenschaft und Internationalen Beziehungen an der Universität Oslo (Norwegen). Ihre Lehre und Forschung konzentriert sich auf politische Philosophie, Geschichte der politischen Theorie und zeitgenössisches politisches Denken mit Schwerpunkt auf liberaler Theorie und Praxis. Denli hat zahlreiche türkische Aufsätze zu den Gerechtigkeitstheorien von John Rawls und Thomas Pogge veröffentlicht.",
         "Paul Farmer": "Vorsitzender der Abteilung für globale Gesundheits- und Sozialmedizin der Harvard Medical School; Mitbegründer, Partner im Gesundheitswesen.",
         "Paul Martin": "Ehemaliger Premierminister von Kanada.",
         "Peggy Tse": "Direktor (Asien)",
@@ -258,7 +259,7 @@
         "Sachin Chaturvedi": "Vorstandsmitglied",
         "Sachin Chaturvedi_long": "Sachin Chaturvedi ist Generaldirektor des Forschungs- und Informationssystems für Entwicklungsländer (RIS), eines in Neu-Delhi ansässigen Thinktanks.",
         "scientific_advisory_board": "Wissenschaftlicher Beirat",
-        "Seung Chan (Kevin) Lee": "",
+        "Seung Chan (Kevin) Lee": "Stellvertretender Länderkoordinator für die Republik Korea",
         "Seung Chan (Kevin) Lee_long": "",
         "Sir Michael Rawlins": "ehemaliger Vorsitzender des britischen National Institute of Health & Clinical Excellence (NICE).",
         "Sonali Kochhar": "Spezialist für klinische Forschung und Arzneimittelentwicklung bei PATH",
@@ -267,8 +268,13 @@
         "Tim Gilbert": "Vorstandsmitglied",
         "Tim Gilbert_long": "Tim Gilbert ist Gründer von Gilberts LLP, einer auf geistiges Eigentum spezialisierten Anwaltskanzlei.",
         "title": "Team",
+        "translators": "Übersetzer",
+        "Vikita Mehta": "Outreach-Koordinator",
+        "Vikita Mehta_long": "Vikita Mehta koordiniert die Öffentlichkeitsarbeit und die sozialen Medien an der IGH. Sie ist Forschungs- und Fundraising-Direktorin für die Wohltätigkeitsorganisation Hemoglobal mit dem Ziel, Ungleichheiten bei der Behandlung von Blutkrankheiten in Asien abzubauen, und verfolgt verschiedene politische Projekte zur Förderung der Gerechtigkeit für Behinderte und zur Verringerung der Armut in Kanada und Kenia.",
         "volunteers": "Neue Freiwillige im Team",
-        "Wu Qunhong": "Executive Dean des Health Management College an der medizinischen Universität Harbin"
+        "Wu Qunhong": "Executive Dean des Health Management College an der medizinischen Universität Harbin",
+        "Yasmine Bark": "Regionalkoordinator, Naher Osten und Nordafrika",
+        "Yasmine Bark_long": "Registrierter Apotheker mit einem MSc in Experimental Therapeutics von der University of Oxford und einem MSc in Public Health, derzeit als Gesundheitsberater und Apothekenberater in London, Großbritannien."
     },
     "videos": {
         "coming_soon": "Weitere Videos werden in Kürze veröffentlicht.",
