@@ -124,6 +124,8 @@
         "pilot_text": "O piloto é concebido como um projeto de cinco anos em que os inovadores farmacêuticos competem por uma parte de um conjunto de recompensas fixo. O dinheiro seria distribuído entre as organizações participantes de acordo com os ganhos em saúde que cada um alcançaria com a introdução de um medicamento em um país de baixa ou baixa renda média, onde anteriormente não estava disponível.",
         "quote_jami_name": "Jami Taylor, Janssen Pharmaceuticals (Johnson & Johnson)",
         "quote_jami_text": "Com financiamento suficiente, o Fundo de Impacto na Saúde poderia ser uma maneira eficaz de estimular o investimento de pequenas e grandes empresas biofarmacêuticas para atender às necessidades das populações de baixa renda. Alinharia os incentivos comerciais aos objetivos sociais de reduzir o excesso de morbimortalidade. Poderia apoiar as empresas, incluindo a Janssen, em seus esforços para desenvolver produtos inovadores dentro de uma estrutura competitiva baseada no mercado que recompensasse pelos resultados.",
+        "quote_jayasree_name": "Dr. Jayasree K. Iyer, Diretor Executivo, Access to Medicine Foundation",
+        "quote_jayasree_text": "A Access to Medicine Foundation está comprometida em melhorar o acesso a medicamentos que salvam vidas para pessoas que vivem em países de baixa e média renda. Por meio de sua experiência e recursos, o setor farmacêutico tem um papel fundamental para alcançar isso. A missão da Fundação Acesso ao Medicamento é incentivar o setor farmacêutico a fazer mais. Reconhecemos no modelo do Health Impact Fund uma oportunidade de motivar as empresas farmacêuticas a aumentar o acesso a seus produtos, a investir mais em pesquisas para doenças que afetam principalmente as pessoas mais desfavorecidas do mundo e a obter uma distribuição mais ampla. Apoiamos os objetivos e aspirações comuns de um projeto-piloto do Fundo de Impacto na Saúde",
         "quote_norway_name": "Partido Liberal (Esquerdo) da Noruega",
         "quote_norway_text": "Um Fundo Internacional de Impacto na Saúde (HIF) deve ser estabelecido como um complemento ao atual sistema de patentes. Por meio do Health Impact Fund, as empresas farmacêuticas podem registrar voluntariamente seus medicamentos e comprometer-se a disponibilizá-los pelo menor preço mediante pagamento de apoio ao longo de dez anos do Fundo, com base no maior impacto à saúde trazidos por seus medicamentos. Isso incentiva as empresas a desenvolver medicamentos para aqueles com maiores necessidades de saúde e não apenas para aqueles com maior poder de compra.",
         "quote_tom_name": "Tom Bollyky",
@@ -189,7 +191,6 @@
         "hif_pilot_proposal_description": "Este folheto descreve e justifica o Fundo de Impacto na Saúde e seu piloto proposto, especificando o design e os termos do piloto, bem como as partes envolvidas.",
         "hif_summaries": "Resumos do Fundo de Impacto na Saúde",
         "hif_summaries_description": "Este documento fornece um resumo de duas páginas do Fundo de Impacto na Saúde e seus objetivos. Explica como o Fundo de Impacto na Saúde funciona para pacientes, empresas farmacêuticas e contribuintes. Também descreve um caminho a seguir para a realização.",
-        "info": "algum texto a ser traduzido",
         "title": "Publicações do Fundo de Impacto na Saúde"
     },
     "team": {
@@ -267,8 +268,13 @@
         "Tim Gilbert": "Membro do Conselho",
         "Tim Gilbert_long": "Tim Gilbert é fundador da Gilberts LLP, um escritório de advocacia especializado em propriedade intelectual.",
         "title": "Equipe",
+        "translators": "Tradutores",
+        "Vikita Mehta": "Coordenador de divulgação",
+        "Vikita Mehta_long": "Vikita Mehta coordena divulgação e mídia social na IGH. Ela é diretora de pesquisa e arrecadação de fundos para a instituição de caridade Hemoglobal com o objetivo de reduzir as desigualdades no tratamento de doenças do sangue na Ásia e também está desenvolvendo vários projetos de políticas para promover a justiça para deficientes e reduzir a pobreza no Canadá e no Quênia.",
         "volunteers": "voluntários da nova equipe",
-        "Wu Qunhong": "Decano Executivo da Faculdade de Administração de Saúde da Harbin Medical University"
+        "Wu Qunhong": "Decano Executivo da Faculdade de Administração de Saúde da Harbin Medical University",
+        "Yasmine Bark": "Coordenador Regional, Oriente Médio e Norte da África",
+        "Yasmine Bark_long": "Farmacêutico registrado com MSc em Experimental Therapeutics pela University of Oxford e MSc em Saúde Pública, atualmente trabalhando como Consultor de Saúde e Consultor de Farmácia em Londres, Reino Unido."
     },
     "videos": {
         "coming_soon": "Mais vídeos serão publicados em breve.",

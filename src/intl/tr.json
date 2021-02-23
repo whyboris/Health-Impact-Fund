@@ -66,9 +66,9 @@
         "title": "Sık Sorulan Sorular | SSS"
     },
     "general": {
-        "contact_us": "",
+        "contact_us": "Bize Ulaşın:",
         "description": "İlaçların fiyatını araştırma maliyetinden ayıralım.",
-        "design_credit": "",
+        "design_credit": "Tasarım ve tasarım",
         "legal_notice": "Yasal Uyarı",
         "title": "Sağlık Etki Fonu"
     },
@@ -124,6 +124,8 @@
         "pilot_text": "Pilot programı, ilaç sektöründeki yenilikçilerinin sabit bir ödül havuzunun payı için yarışacakları beş yıllık bir proje olarak tasarlandı. Havuzdaki para, katılımcı kuruluşlar arasında uygulamaya koydukları ilaçların daha önce ulaşmamış olduğu düşük veya düşük-orta gelirli bir ülkelerde elde edeceği sağlık kazanımlarına orantılı olarak dağıtılacaktır.",
         "quote_jami_name": "Jami Taylor, Janssen İlaç (Johnson & Johnson)",
         "quote_jami_text": "Yeterli finansman sağlandığında, Sağlık Etki Fonu, küçük ve büyük biyo-ilaç şirketlerinden düşük gelirli nüfusların ihtiyaçlarını karşılamak için yatırımları teşvik etmenin etkili bir yolu olabilir. Ticari teşvikleri, aşırı hastalık ve ölümleri azaltmaya yönelik sosyal hedeflerle uyumlu hale getirecektir. Bu program, sonuçları ödüllendiren rekabetçi, piyasaya dayalı bir çerçevede yenilikçi ürünler geliştirme çabalarında Janssen de dahil olmak üzere çeşitli ilaç şirketlerini destekleyebilir.",
+        "quote_jayasree_name": "Dr. Jayasree K. Iyer, İcra Direktörü, Tıpa Erişim Vakfı",
+        "quote_jayasree_text": "İlaca Erişim Vakfı, düşük ve orta gelirli ülkelerde yaşayan insanların hayat kurtaran ilaçlara erişimini iyileştirmeye kararlıdır. İlaç sektörü, uzmanlığı ve kaynakları sayesinde bunu başarmada kilit bir role sahiptir. İlaca Erişim Vakfı'nın misyonu, ilaç sektörünü daha fazlasını yapmaya teşvik etmektir. Sağlık Etki Fonu modelinde, ilaç şirketlerini ürünlerine erişimi artırmaya, öncelikle dünyanın en dezavantajlı insanlarını etkileyen hastalıklar için araştırmaya daha fazla yatırım yapmaya ve daha geniş bir dağıtım sağlamaya motive etme fırsatı tanıyoruz. Sağlık Etki Fonu pilotunun ortak hedeflerini ve özlemlerini destekliyoruz",
         "quote_norway_name": "Norveç Liberal Partisi (Sol)",
         "quote_norway_text": "Mevcut patent sistemine ek olarak uluslararası bir Sağlık Etki Fonu (HIF) oluşturulmalıdır. Sağlık Etki Fonu aracılığıyla ilaç şirketleri ilaçlarını gönüllü olarak kaydedebilir ve oluşturdukları sağlık etkisine orantılı olarak Fon'dan on yıl boyunca destek ödenmesi karşılığında ilaçlarını en düşük fiyata sunmayı taahhüt edebilirler. Bu, şirketlere yalnızca en büyük satın alma gücüne sahip olan insanlar için değil, aynı zamanda en büyük sağlık ihtiyaçları olan insanlar için de ilaç geliştirme teşvikleri verir.",
         "quote_tom_name": "Tom Bollyky",
@@ -183,8 +185,8 @@
     "publications": {
         "click_to_download": "İndirmek için buraya tıklayın",
         "heading": "Yayınlar",
-        "hif_factsheet": "",
-        "hif_graphic": "",
+        "hif_factsheet": "Sağlık Etki Fonu bilgi formu",
+        "hif_graphic": "1 sayfada Sağlık Etki Fonu",
         "hif_pilot_proposal": "Sağlık Etki Fonu Pilot Önerisi",
         "hif_pilot_proposal_description": "Bu kitapçık, Sağlık Etki Fonu'nu ve beraberinde önerilen pilot programını, ilgili tarafları ve plot programının tasarımını detaylandırarak ana hatlarıyla açıklar ve savunur.",
         "hif_summaries": "Sağlık Etki Fonu Özetleri",
@@ -209,7 +211,7 @@
         "donation": "bağış",
         "Dorairaj Prabhakaran": "ABD Kronik Hastalık Kontrol Merkezi Genel Müdürü",
         "Felicitas Holzer": "Koordinatör, Devlet İlişkileri",
-        "Felicitas Holzer_long": "",
+        "Felicitas Holzer_long": "Felicitas Holzer, FLACSO Arjantin'de Biyoetik Programında araştırmacıdır ve Dünya Sağlık Örgütü (WHO) Küresel Biyoetik İşbirliği Merkezleri Ağı'na katılır. Paris'teki Sorbonne Université'den doktora sahibidir. Doktora tezi, sağlık araştırmalarında adil fayda paylaşımına odaklandı. İngilizce, Fransızca, Almanca ve İspanyolca bilmektedir.",
         "former_advisory_council": "Eski üyeler",
         "Gustav Nossal": "Araştırma Biyologu; 2000 Yılının Avustralyalısı Ödülü.",
         "Harvey Rubin": "Profesör, Pennsylvania Üniversitesi Tıp Fakültesi",
@@ -217,7 +219,7 @@
         "Heidemarie Wieczorek-Zeul": "eski Alman Ekonomik İşbirliği ve Kalkınma Bakanı.",
         "invitation": "Sorularınızı ve yorumlarınızı {İntl_email} adresine gönderebilirsiniz.",
         "James Orbinski": "York Üniversitesi Dahdaleh Küresel Sağlık Araştırmaları Enstitüsü Profesörü ve İlk Direktörü; eski Uluslararası Médecins Sans Frontières Başkanı; İhmal Edilen Hastalıklar için İlaç Girişimi (DNDi) kurucu ortağı; Dignitas International'ın kurucu ortağı.",
-        "Jami Taylor":"Kurul Üyesi",
+        "Jami Taylor": "Kurul Üyesi",
         "Jami Taylor_long": "Jami Taylor is a recognized expert in innovative financing for pharmaceutical research, development, access and delivery.",
         "Jan Rosier": "University College Dublin'de Biyoteknoloji Profesörü; Janssen İlaç Geliştirme Eski Başkan Yardımcısı.",
         "John J. DeGioia": "Georgetown Üniversitesi Rektörü.",
@@ -267,8 +269,12 @@
         "Tim Gilbert_long": "Tim Gilbert, fikri mülkiyet konusunda uzmanlaşmış bir butik hukuk firması olan Gilberts LLP'nin kurucusudur.",
         "title": "Takım",
         "translators": "Çevirme Ekibi",
+        "Vikita Mehta": "Sosyal Yardım Koordinatörü",
+        "Vikita Mehta_long": "Vikita Mehta, IGH'de sosyal medyayı ve sosyal medyayı koordine ediyor. Asya'daki kan hastalıklarının bakımındaki eşitsizlikleri azaltmak amacıyla Hemoglobal yardım kuruluşunun Araştırma ve Kaynak Geliştirme Direktörüdür ve ayrıca Kanada ve Kenya'da engellilik adaletini teşvik etmek ve dönem yoksulluğunu azaltmak için çeşitli politika projeleri yürütmektedir.",
         "volunteers": "yeni ekip gönüllülerinin",
-        "Wu Qunhong": "Harbin Tıp Üniversitesi Sağlık Yönetimi Koleji Yönetici Dekanı"
+        "Wu Qunhong": "Harbin Tıp Üniversitesi Sağlık Yönetimi Koleji Yönetici Dekanı",
+        "Yasmine Bark": "Bölge Koordinatörü, Orta Doğu ve Kuzey Afrika",
+        "Yasmine Bark_long": "Oxford Üniversitesi'nden Deneysel Terapötikler alanında MSc ve Halk Sağlığı alanında MSc'ye sahip, şu anda Londra, Birleşik Krallık'ta Sağlık Danışmanı ve Eczacılık Danışmanı olarak çalışan Kayıtlı Eczacı."
     },
     "videos": {
         "coming_soon": "Yakında daha fazla video paylaşılacaktır.",

@@ -124,6 +124,8 @@
         "pilot_text": "An karɓi ƙaramin binciken bincike azaman aikin shekaru biyar wanda zai ba masana masana'antar harhada magunguna damar yin gasa tare da lokacin sakamako mai lada. Za a rarraba kudaden tsakanin kungiyoyin da ke yin la’akari da fa’idodin kiwon lafiya na mutum daya da aka samu ta hanyar gabatar da jiyya ga kasa mai rauni ko kuma kasa mai tasowa.",
         "quote_jami_name": "Jami Taylor, Janssen Pharmaceuticals (Johnson & Johnson)",
         "quote_jami_text": "Tare da isasshen kudade, Asusun Tallafawar Kiwon Lafiya na iya zama ingantacciyar hanyar ƙarfafa saka hannun jari daga ƙanana da manyan kamfanonin samar da magunguna don magance bukatun jama'ar da ke fama da ƙarancin shiga. Wannan zai iya daidaita manufofin kasuwanci tare da burin zamantakewa na rage wuce haddi da mace-mace. Zai iya tallafawa kamfanoni, ciki har da Janssen, a cikin ƙoƙarinsu na haɓaka samfurori masu tasowa a cikin gasa, tsarin tushen kasuwa wanda ke ba da sakamakon.",
+        "quote_jayasree_name": "Dokta Jayasree K. Iyer, Babban Darakta, Samun Gidauniyar Magunguna",
+        "quote_jayasree_text": "Asusun Samun Magunguna ya himmatu don inganta damar yin amfani da magungunan ceton rai ga mutanen da ke zaune a ƙasashe masu ƙasƙanci da masu matsakaici. Ta hanyar kwarewa da albarkatu, bangaren harhada magunguna na da muhimmiyar rawa wajen cimma wannan. Manufar Gidauniyar Samun Magunguna ita ce ta ƙarfafa ɓangaren magunguna don yin ƙari. Mun yarda a cikin tsarin Asusun Kula da Tasirin Lafiya wata dama ce ta zaburar da kamfanonin harhada magunguna don kara samun damar samfuran su, don sa hannun jari a bincike kan cututtukan da suka fi shafar mutanen da suka fi fama da talauci a duniya da kuma samun yaduwar yaduwa. Muna tallafawa manufofin da aka tsara da kuma burin matukin jirgi na Asusun Tasirin Lafiya",
         "quote_norway_name": "Ralungiyar Liberal (Hagu) ofungiyar Norway",
         "quote_norway_text": "Ya kamata a kafa Asusun Inshorar Lafiya na Duniya (HIF) azaman kari don kariyar da ake samu ta haƙƙin haƙƙi. Ta hanyar kamfanonin inshorar lafiya kamfanin na iya yin rajista don magunguna da son rai kuma sun himmatu wajen samar da tallafin aƙalla sama da shekaru 10 daga Asusun bisa la’akari da mahimmancin lafiyar magunguna. Wannan yana ba wa kamfanoni ƙarfin gwiwa don haɓaka magunguna ga waɗanda ke da mafi yawan bukatun kiwon lafiya kuma ba kawai waɗanda ke da madafan iko na siye ba.",
         "quote_tom_name": "Tom Bollyky",
@@ -183,13 +185,12 @@
     "publications": {
         "click_to_download": "Latsa nan don saukewa",
         "heading": "Bugawa",
-        "hif_factsheet": "",
-        "hif_graphic": "",
+        "hif_factsheet": "Takardar gaskiya game da Tasirin Tasirin Lafiya",
+        "hif_graphic": "Asusun Tasirin Lafiya a shafi na 1",
         "hif_pilot_proposal": "Tsarin gwajin Asusun Tallafi na Kiwon Lafiya",
         "hif_pilot_proposal_description": "Wannan littafin ya fito da hujjoji kuma ya tabbatar da Asusun Lafiya Jari da matukin jirgin da aka gabatar, tare da bayyana tsari da sharuddan matukin jirgin da kuma bangarorin da abin ya shafa.",
         "hif_summaries": "Takaita Asusun Tallafawar Lafiya",
         "hif_summaries_description": "Wannan takaddar ta samar da taƙaitaccen shafi mai shafi biyu na Shirin inshorar Kiwon Lafiya da kuma burinsa. Ya yi bayanin yadda Tsarin Inshorar Lafiya ke aiki ga marasa lafiya, kamfanonin harhada magunguna, da masu biyan haraji. Hakanan yana shimfida wata hanya ta fahimta",
-        "info": "wasu rubutu da za'a fassara",
         "title": "Labaran Tallafin Lafiya Jari Lafiya"
     },
     "team": {
@@ -267,8 +268,13 @@
         "Tim Gilbert": "Membobin kwamitin",
         "Tim Gilbert_long": "Tim Gilbert shine wanda ya kirkiro Gilberts LLP, kamfanin lauya ne mai ƙwararre kan fannin ilimi.",
         "title": "Kungiya",
+        "translators": "Masu Fassarawa",
+        "Vikita Mehta": "Ko'odinetan Wa'azi",
+        "Vikita Mehta_long": "Vikita Mehta yana ba da sanarwa da kafofin watsa labarun a IGH. Ita ce Darakta mai Binciken da Ba da Tallafi ga kungiyar agaji ta Hemoglobal da nufin rage rashin adalci a kula da cututtukan jini a Asiya, sannan kuma tana ci gaba da aiwatar da wasu manufofi na bunkasa manufofin nakasa da rage talaucin lokaci a Kanada da Kenya.",
         "volunteers": "sabbin masu sa kai",
-        "Wu Qunhong": "Babban jami'in Sciences na Kiwon lafiya a Makarantar Kiwon Lafiya na Harbin"
+        "Wu Qunhong": "Babban jami'in Sciences na Kiwon lafiya a Makarantar Kiwon Lafiya na Harbin",
+        "Yasmine Bark": "Mai kula da yankin, Gabas ta Tsakiya da Arewacin Afirka",
+        "Yasmine Bark_long": "Rijista Magungunan likita tare da MSc a gwajin gwaji daga Jami'ar Oxford da MSc a Kiwon Lafiyar Jama'a, a halin yanzu suna aiki azaman mai ba da shawara kan Kiwon Lafiya da Mashawarcin Magunguna a London, United Kingdom."
     },
     "videos": {
         "coming_soon": "Za a fitar da ƙarin bidiyo nan ba da jimawa ba.",

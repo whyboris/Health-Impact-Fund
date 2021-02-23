@@ -66,6 +66,13 @@ const PullQuote = ({data}) => {
             </span>
           </div>
 
+          <div className="pull-quote">
+            <FormattedMessage id="intro.quote_jayasree_text" />
+            <span className="quote-author">
+              <FormattedMessage id="intro.quote_jayasree_name" />
+            </span>
+          </div>
+
         </Swiper>
       </div>
     </>

@@ -47,6 +47,73 @@ const News = ({ intl }) => {
         <FormattedMessage id="news.heading" />
       </h1>
 
+      <div className="news-item">
+        <div className="photo-and-caption">
+          <img src="/news/ctmirror.png" alt="CTMirror" />
+        </div>
+
+        <span className="date">2021-02-01</span>
+
+        <div className="news-text">
+          <h2>Deena Mousa discusses how the Health Impact Fund can help with pandemic preparedness.</h2>
+
+          <p>
+            "We rely on markets to drive innovation in pharmaceuticals — and thus save lives. That system is broken.
+            The way drug companies are rewarded for advances in vaccine technology discourages progress in how we produce vaccines."
+          </p>
+          <p>
+            Read more:{" "}
+            <a href="https://ctmirror.org/category/ct-viewpoints/we-arent-ready-for-the-next-pandemic/">
+              ctmirror.org
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <br />
+      <br />
+
+      <div className="news-item">
+        <span className="date date-float-left">2021.01.19</span>
+
+        <div className="news-text news-text-full-width">
+          <h2>
+            Research and Information System for Developing Countries (New Delhi) holds a webinar on Innovation and Access to Vaccines and the Health Impact Fund
+          </h2>
+
+          <p>
+            January 19 at 6:30pm IST
+          </p>
+
+          <img className="temp-image" src="/news/2021.01.19-event.jpg" alt="Innovation and Access to Vaccines and Health Impact Fund" />
+        </div>
+
+      </div>
+
+      <br />
+      <br />
+
+      <div className="news-item">
+        <div className="photo-and-caption">
+          <img src="/news/freitag.png" alt="der Freitag" />
+        </div>
+
+        <span className="date">2020-02-01</span>
+
+        <div className="news-text">
+          <h2>Freitag asks: Doesn’t Malaria also deserve BioNTech?</h2>
+
+          <p>
+            Read more:{" "}
+            <a href="https://www.freitag.de/autoren/der-freitag/verdient-malaria-kein-biontech">
+              freitag.de
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <br />
+      <br />
 
       <div className="news-item">
         <span className="date date-float-left">2020.12.07</span>
@@ -61,7 +128,7 @@ const News = ({ intl }) => {
           </p>
 
           <a href="https://www.eventbrite.ca/e/after-covid-global-health-big-pharma-and-the-health-impact-fund-tickets-128430921343">
-            <img className="temp-image" src="/news/2020.12.07-event.jpg" alt="Jami Taylor" />
+            <img className="temp-image" src="/news/2020.12.07-event.jpg" alt="After Covid: Globa Health, Big Pharma, & the Health Impact Fund" />
           </a>
         </div>
 
