@@ -124,6 +124,8 @@
         "pilot_text": "Il progetto pilota è concepito come un progetto quinquennale che permetterebbe agli innovatori farmaceutici di competere per una quota di un montepremi fissato in precedenza. Il premio in denaro verrebbe poi distribuito tra le organizzazioni partecipanti in base ai guadagni in salute ottenuti grazie all'introduzione in un paese a reddito medio o basso di un medicinale precedentemente non disponibile.",
         "quote_jami_name": "Jami Taylor, Janssen Pharmaceuticals (Johnson & Johnson)",
         "quote_jami_text": "Con finanziamenti sufficienti, l'Health Impact Fund potrebbe essere un modo efficace per stimolare gli investimenti delle piccole e grandi aziende biofarmaceutiche verso il soddisfacimento delle esigenze delle popolazioni a basso reddito. Esso allineerebbe gli incentivi commerciali con gli obiettivi sociali di riduzione della morbilità e della mortalità in eccesso. Potrebbe supportare le aziende, tra cui Janssen, nei loro sforzi per sviluppare prodotti innovativi in un contesto competitivo e basato su un mercato che premia i risultati.",
+        "quote_jayasree_name": "Dr. Jayasree K. Iyer, Direttore esecutivo, Access to Medicine Foundation",
+        "quote_jayasree_text": "La Access to Medicine Foundation si impegna a migliorare l'accesso ai medicinali salvavita per le persone che vivono in paesi a basso e medio reddito. Grazie alla sua esperienza e alle sue risorse, il settore farmaceutico ha un ruolo chiave nel raggiungimento di questo obiettivo. La missione della Access to Medicine Foundation è incoraggiare il settore farmaceutico a fare di più. Riconosciamo nel modello Health Impact Fund un'opportunità per motivare le aziende farmaceutiche ad aumentare l'accesso ai loro prodotti, a investire di più nella ricerca per malattie che colpiscono principalmente le persone più svantaggiate del mondo e per ottenere una distribuzione più ampia. Sosteniamo gli obiettivi e le aspirazioni condivise di un progetto pilota dell'Health Impact Fund",
         "quote_norway_name": "Partito (di sinistra) liberale della Norvegia",
         "quote_norway_text": "L' Health Impact Fund (HIF) dovrebbe essere istituito a livello internazionale come supplemento all'attuale sistema di brevetti. Attraverso l'HIF le società farmaceutiche possono registrare volontariamente i propri farmaci e impegnarsi a renderli disponibili al prezzo più basso a fronte dell'erogazione di un premio decennale da parte del Fondo che si basa sull'impatto che questi farmaci hanno sulla salute dei pazienti. Ciò offre alle aziende incentivi per lo sviluppo di medicinali per le persone con i maggiori bisogni sanitari e non solo per quelli con il massimo potere d'acquisto.",
         "quote_tom_name": "Tom Bollyky ",
@@ -189,7 +191,6 @@
         "hif_pilot_proposal_description": "Questo opuscolo presenta e giustifica l'Health Impact Fund e il progetto pilota proposto, specificandone struttura e condizioni, nonché le parti coinvolte.",
         "hif_summaries": "Sintesi dell'Health Impact Fund ",
         "hif_summaries_description": "Questo documento fornisce un riepilogo di due pagine dell' Health Impact Fund e dei suoi obiettivi. Spiega come funziona l'Health Impact Fund per i pazienti, per le aziende farmaceutiche e per i contribuenti. Presenta anche una possibile via di realizzazione del progetto.",
-        "info": "",
         "title": "Le pubblicazioni dell'Health Impact Fund "
     },
     "team": {
@@ -267,8 +268,13 @@
         "Tim Gilbert": "Membro di bordo",
         "Tim Gilbert_long": "Tim Gilbert è fondatore di Gilberts LLP, uno studio legale specializzato in proprietà intellettuale.",
         "title": "Squadra",
+        "translators": "Traduttori",
+        "Vikita Mehta": "Coordinatore di sensibilizzazione",
+        "Vikita Mehta_long": "Vikita Mehta coordina le attività di sensibilizzazione e social media presso IGH. È direttrice di ricerca e raccolta fondi per l'organizzazione benefica Hemoglobal con l'obiettivo di ridurre le disuguaglianze nella cura delle malattie del sangue in Asia e sta anche portando avanti vari progetti politici per promuovere la giustizia della disabilità e ridurre la povertà mestruale in Canada e Kenya.",
         "volunteers": "nuovi volontari di squadra",
-        "Wu Qunhong": "Decano esecutivo del Health Management College dell'Università medica di Harbin"
+        "Wu Qunhong": "Decano esecutivo del Health Management College dell'Università medica di Harbin",
+        "Yasmine Bark": "Coordinatore regionale, Medio Oriente e Nord Africa",
+        "Yasmine Bark_long": "Farmacista registrato con un master in terapia sperimentale presso l'Università di Oxford e un master in sanità pubblica, attualmente lavora come consulente sanitario e consulente di farmacia a Londra, Regno Unito."
     },
     "videos": {
         "coming_soon": "Altri video saranno pubblicati a breve.",

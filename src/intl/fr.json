@@ -124,6 +124,8 @@
         "pilot_text": "Le pilote est conçu comme un projet de cinq ans dans le cadre duquel les innovateurs pharmaceutiques se disputeraient une part d'une cagnotte de récompenses fixe. L'argent serait réparti entre les organisations participantes en fonction des gains sanitaires que chacune réaliserait en introduisant un médicament dans un pays à revenu faible ou intermédiaire inférieur dans lequel il n'était pas disponible auparavant.",
         "quote_jami_name": "Jami Taylor, Janssen Pharmaceuticals",
         "quote_jami_text": "Avec un financement suffisant, le Fonds d'impact sanitaire pourrait être un moyen efficace de stimuler les investissements des petites et grandes entreprises biopharmaceutiques pour répondre aux besoins des populations à faible revenu. Il alignerait les incitations commerciales sur les objectifs sociaux de réduction de la morbidité et de la mortalité excessives. Il pourrait soutenir les entreprises, y compris Janssen, dans leurs efforts pour développer des produits innovants dans un cadre concurrentiel basé sur le marché qui récompense les résultats.",
+        "quote_jayasree_name": "Dr Jayasree K. Iyer, directeur exécutif, Access to Medicine Foundation",
+        "quote_jayasree_text": "La Fondation pour l'accès aux médicaments s'est engagée à améliorer l'accès aux médicaments vitaux pour les personnes vivant dans les pays à revenu faible ou intermédiaire. De par son expertise et ses ressources, le secteur pharmaceutique a un rôle clé à jouer pour y parvenir. La mission de la Fondation pour l'accès à la médecine est d'encourager le secteur pharmaceutique à en faire plus. Nous reconnaissons dans le modèle du Health Impact Fund une opportunité de motiver les sociétés pharmaceutiques à améliorer l'accès à leurs produits, à investir davantage dans la recherche sur les maladies qui affectent principalement les personnes les plus défavorisées du monde et à élargir leur distribution. Nous soutenons les objectifs et les aspirations partagés d'un projet pilote du Health Impact Fund",
         "quote_norway_name": "Parti libéral (gauche) de Norvège",
         "quote_norway_text": "Un Fonds international sanitaire devrait être créé en complément du système actuel des brevets. Grâce au Fonds d'impact sanitaire, les sociétés pharmaceutiques peuvent enregistrer volontairement leurs médicaments et s'engager à les rendre disponibles au prix le plus bas contre le paiement d'une aide sur dix ans du Fonds sur la base de l'impact sanitaire majeur de leurs médicaments. Cela incite les entreprises à développer des médicaments pour ceux qui ont les plus grands besoins de santé et pas seulement ceux qui ont le plus grand pouvoir d'achat.",
         "quote_tom_name": "Tom Bollyky",
@@ -189,7 +191,6 @@
         "hif_pilot_proposal_description": "Cette brochure décrit et justifie le Fonds d'impact sanitaire et son projet pilote, en spécifiant la conception et les conditions du projet pilote ainsi que les parties impliquées.",
         "hif_summaries": "Les résumés du Fonds d'impact sanitaire",
         "hif_summaries_description": "Ce document fournit un résumé de deux pages du Fonds d'impact sanitaire et de ses objectifs. Il explique comment le Fonds d'impact sanitaire fonctionne pour les patients, les sociétés pharmaceutiques et les contribuables. Il trace également un chemin vers la réalisation de son implémentation.",
-        "info": "du texte à traduire",
         "title": "Publications du Fonds d'impact sanitaire"
     },
     "team": {
@@ -267,8 +268,13 @@
         "Tim Gilbert": "Membre du conseil",
         "Tim Gilbert_long": "Tim Gilbert est le fondateur de Gilberts LLP, un cabinet d'avocats spécialisé dans la propriété intellectuelle.",
         "title": "L'Équipe",
+        "translators": "Traducteurs",
+        "Vikita Mehta": "Coordonnateur de la sensibilisation",
+        "Vikita Mehta_long": "Vikita Mehta coordonne la sensibilisation et les médias sociaux à l'ISFH. Elle est directrice de la recherche et de la collecte de fonds pour l'organisme de bienfaisance Hemoglobal dans le but de réduire les inégalités en matière de soins pour les maladies du sang en Asie, et poursuit également divers projets politiques visant à promouvoir la justice pour les personnes handicapées et à réduire la pauvreté périodique au Canada et au Kenya.",
         "volunteers": "De nouveaux bénévoles de l'équipe",
-        "Wu Qunhong": "Doyen exécutif du Health Management College de l'Université médicale de Harbin"
+        "Wu Qunhong": "Doyen exécutif du Health Management College de l'Université médicale de Harbin",
+        "Yasmine Bark": "Coordinateur régional, Moyen-Orient et Afrique du Nord",
+        "Yasmine Bark_long": "Pharmacien agréé avec une maîtrise en thérapeutique expérimentale de l'Université d'Oxford et une maîtrise en santé publique, travaillant actuellement en tant que consultant en soins de santé et conseiller en pharmacie à Londres, Royaume-Uni."
     },
     "videos": {
         "coming_soon": "D'autres vidéos seront bientôt publiées.",

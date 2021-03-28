@@ -46,6 +46,13 @@ const PullQuote = ({data}) => {
         <Swiper {...params}>
 
           <div className="pull-quote">
+            <FormattedMessage id="intro.quote_jayasree_text" />
+            <span className="quote-author">
+              <FormattedMessage id="intro.quote_jayasree_name" />
+            </span>
+          </div>
+
+          <div className="pull-quote">
             <FormattedMessage id="intro.quote_jami_text" />
             <span className="quote-author">
               <FormattedMessage id="intro.quote_jami_name" />
