@@ -1,6 +1,7 @@
 import React from "react"
 
 import Swiper from 'react-id-swiper';
+import SwiperCore, { Pagination } from 'swiper';
 
 import './swiper.css'
 
@@ -9,6 +10,8 @@ import { injectIntl } from "gatsby-plugin-intl"
 import Step from "./step"
 
 const Carousel = ({data}) => {
+
+  SwiperCore.use([Pagination])
 
   const params = {
     pagination: {
