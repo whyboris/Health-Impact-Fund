@@ -57,6 +57,7 @@ const PullQuote = ({data}) => {
           </div>
 
           <div className="pull-quote">
+            <img className="quote-image" src={'/img/Jami.jpg'} alt={'Photo of Jami Taylor'} />
             <FormattedMessage id="intro.quote_jami_text" />
             <span className="quote-author">
               <FormattedMessage id="intro.quote_jami_name" />
