@@ -1,7 +1,7 @@
 import React from "react"
 
 import Swiper from 'react-id-swiper';
-import SwiperCore, { Pagination } from 'swiper';
+import SwiperCore, { Pagination, Navigation } from 'swiper';
 
 import './swiper.css'
 
@@ -9,7 +9,7 @@ import { injectIntl, FormattedMessage } from "gatsby-plugin-intl"
 
 const PullQuote = ({data}) => {
 
-  SwiperCore.use([Pagination])
+  SwiperCore.use([Pagination, Navigation])
 
   const params = {
     loop: true,
