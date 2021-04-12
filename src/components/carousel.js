@@ -1,7 +1,7 @@
 import React from "react"
 
 import Swiper from 'react-id-swiper';
-import SwiperCore, { Pagination } from 'swiper';
+import SwiperCore, { Pagination, Navigation } from 'swiper';
 
 import './swiper.css'
 
@@ -11,7 +11,7 @@ import Step from "./step"
 
 const Carousel = ({data}) => {
 
-  SwiperCore.use([Pagination])
+  SwiperCore.use([Pagination, Navigation])
 
   const params = {
     pagination: {
