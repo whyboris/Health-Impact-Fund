@@ -189,7 +189,7 @@ const IndexPage = ({ intl }) => {
             </div>
           </Link>
 
-          <a href="/pdf/HIF_pilot_proposal_2019_11.pdf">
+          <a href="/pdf/HIF_pilot_proposal_2021_04.pdf">
             <div className="button button-second">
               <FormattedMessage id="intro.pilot_read_pilot" />
             </div>

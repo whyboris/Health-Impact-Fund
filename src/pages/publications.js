@@ -101,7 +101,7 @@ const Publications = ({ intl }) => {
       <a href={
         intl.locale === 'es'
         ? "/pdf/HIF_pilot_proposal_2019_11_es.pdf"
-        : "/pdf/HIF_pilot_proposal_2019_11.pdf"
+        : "/pdf/HIF_pilot_proposal_2021_04.pdf"
       }>
         <Icon />
         <FormattedMessage id="publications.click_to_download" />
