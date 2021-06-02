@@ -29,6 +29,9 @@ const management = [
   "Yasmine Bark",
   "Vikita Mehta",
   "Seung Chan (Kevin) Lee",
+  "Zeke Ngcobo",
+  "Glorianna Tillemann-Dick",
+  "Thalia Arawi",
   "Boris Yakubchik",
 ];
 
@@ -43,6 +46,9 @@ const managementEmails = [
   // "some email",
   "yasmine@healthimpactfund.org",
   "",
+  "",
+  "zeke@healthimpactfund.org",
+  "glorianna@healthimpactfund.org",
   "",
   "",
 ]
@@ -60,6 +66,9 @@ const managementImages = [
   "Yasmine.jpg",
   "Vikita.jpg",
   "Kevin.jpg",
+  "Zeke.jpg",
+  "Glorianna.jpg",
+  "Thalia.jpg",
   "Boris.jpg",
 ];
 
