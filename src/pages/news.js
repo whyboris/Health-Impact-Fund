@@ -13,24 +13,24 @@ const News = ({ intl }) => {
     const youtube = document.getElementById("main-video");
 
     if (youtube) {
-      const source = "https://img.youtube.com/vi/"+ youtube.dataset.embed +"/sddefault.jpg";
+      const source = "https://img.youtube.com/vi/" + youtube.dataset.embed + "/sddefault.jpg";
       const image = new Image();
       image.src = source;
 
-      image.addEventListener( "load", () => {
-          youtube.appendChild( image );
+      image.addEventListener("load", () => {
+        youtube.appendChild(image);
       });
 
-      youtube.addEventListener( "click", function() {
-        const iframe = document.createElement( "iframe" );
+      youtube.addEventListener("click", function () {
+        const iframe = document.createElement("iframe");
 
-        iframe.setAttribute( "frameborder", "0" );
-        iframe.setAttribute( "allowfullscreen", "" );
-        iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("allowfullscreen", "");
+        iframe.setAttribute("src", "https://www.youtube.com/embed/" + this.dataset.embed + "?rel=0&showinfo=0&autoplay=1");
 
         this.innerHTML = "";
-        this.appendChild( iframe );
-      } );
+        this.appendChild(iframe);
+      });
     }
 
   }, 1000)
@@ -46,6 +46,104 @@ const News = ({ intl }) => {
       <h1>
         <FormattedMessage id="news.heading" />
       </h1>
+
+
+      <div className="news-item">
+        <div className="photo-and-caption">
+          <img src="/news/hankookilbo.png" alt="hankookilbo" />
+        </div>
+
+        <span className="date">2021-05-19</span>
+
+        <div className="news-text">
+          <h2>Korea Pharmaceutical Society recommends the Health Impact Fund.</h2>
+
+          <p>
+          Lee Dong-Kun (이동근), the Secretary General of the Pharmaceutical Society for a Healthy Society, proposes the Health Impact Fund in a super op-ed in the Hankuk Ilbo (한국 일보).
+          </p>
+          <p>
+            Read more:{" "}
+            <a href="https://www.hankookilbo.com/News/Read/A2021051311270005154">
+              hankookilbo.com
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <br />
+      <br />
+
+      <div className="news-item">
+        <div className="photo-and-caption">
+          <img src="/news/dvhn.png" alt="dvhn.nl" />
+        </div>
+
+        <span className="date">2021-05-16</span>
+
+        <div className="news-text">
+          <h2>Ruben Mersch suggests the Health Impact Fund as a way to get "more health for our money"</h2>
+
+          <p>
+            Read more:{" "}
+            <a href="https://www.dvhn.nl/meningen/Opinie/Meer-gezondheid-voor-ons-geld-26830211.html">
+              dvhn.nl
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <br />
+      <br />
+
+      <div className="news-item">
+        <div className="photo-and-caption">
+          <img src="/news/Heesob_Nam.jpg" alt="Heesob Nam" />
+        </div>
+
+        <span className="date">2021-05-10</span>
+
+        <div className="news-text">
+          <h2>The team at Incentives for Global Health acknowledges the passing of Heesob Nam.</h2>
+
+          <p>
+            Heesob Nam was a patent attorney, actively engaged in the movement for access to knowledge and innovations. He held a Ph.D. degree in law from Queen Mary, University of London and a master's degree (LL.M) from Munich Intellectual Property Law Center. He was a director of the Commons Foundation and a research director of Knowledge Commune, and served as a special advisor to Korea's National Human Rights Committee in regard to the right to science and culture. He also worked for several civil societies including: Civil Society Coalition (steering committee member); Open Net Korea; IPLeft ; and Korea Progressive Network.
+          </p>
+          <p>
+            Some tributes to Heesob are collected here:{" "}
+            <a href="http://phmovement.or.kr/tributes-to-heesob-nam-1966-2021-legendary-south-korean-ip-activist/#comment-30">
+              phmovement.or.kr
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <br />
+      <br />
+
+      <div className="news-item">
+        <div className="photo-and-caption">
+          <img src="/news/Peter_Singer.jpg" alt="Peter Singer" />
+        </div>
+
+        <span className="date">2021-04-25</span>
+
+        <div className="news-text">
+          <h2>Peter Singer promotes the Health Impact Fund as "a much more rational system."</h2>
+
+          <p>
+            The pharmaceutical companies can play a role, of course, in terms of making some vaccines available at cost, or allowing producers in low-income countries to produce generics. But you can’t expect pharmaceuticals to be charities. The system of patenting rewards companies for selling to wealthy people and doesn’t reward them for providing drugs for people who can’t afford them. An alternative scheme, called the Health Impact Fund, has been proposed, to which governments would contribute funds, and they would be allocated to the extent that a drug reduces the global burden of disease. Then the pharmaceutical companies would have an incentive to develop those products that would do the most to help people worldwide. That would be a much more rational system.  
+          </p>
+          <p>
+            Read more:{" "}
+            <a href="https://www.newyorker.com/culture/the-new-yorker-interview/peter-singer-is-committed-to-controversial-ideas">
+              New Yorker
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <br />
+      <br />
 
       <div className="news-item">
         <div className="photo-and-caption">
