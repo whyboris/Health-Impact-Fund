@@ -9,10 +9,14 @@ const Advisor = ({ data }) => {
     <>
       <li
         onClick={() => {
+
+          const docRef = typeof document !== `undefined` ? document : undefined;
+          if (!docRef) { return };
+
           if (!showLongDescription) {
-            document.getElementById(data.id).classList.remove("hidden")
+            docRef.getElementById(data.id).classList.remove("hidden")
           } else {
-            document.getElementById(data.id).classList.add("hidden")
+            docRef.getElementById(data.id).classList.add("hidden")
           }
           showLongDescription = !showLongDescription
         }}

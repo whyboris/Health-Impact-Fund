@@ -13,10 +13,14 @@ const Benefits = ({ intl }) => {
   }
 
   function handleClick(selector) {
+
+    const docRef = typeof document !== `undefined` ? document : undefined;
+    if (!docRef) { return };
+
     if (!lol[selector]) {
-      document.getElementById(selector).classList.remove("hidden")
+      docRef.getElementById(selector).classList.remove("hidden")
     } else {
-      document.getElementById(selector).classList.add("hidden")
+      docRef.getElementById(selector).classList.add("hidden")
     }
     lol[selector] = !lol[selector]
   }

@@ -10,11 +10,14 @@ const Publications = ({ intl }) => {
 
   setTimeout(() => {
 
+    const docRef = typeof document !== `undefined` ? document : undefined;
+    if (!docRef) { return };
+    
     const videos = [];
 
-    videos.push(document.getElementById("first-video"));
-    videos.push(document.getElementById("second-video"));
-    videos.push(document.getElementById("third-video"));
+    videos.push(docRef.getElementById("first-video"));
+    videos.push(docRef.getElementById("second-video"));
+    videos.push(docRef.getElementById("third-video"));
 
     for (let i = 0; i < videos.length; i++) {
       if (videos[i]) {
@@ -27,7 +30,7 @@ const Publications = ({ intl }) => {
         });
 
         videos[i].addEventListener( "click", function() {
-          const iframe = document.createElement( "iframe" );
+          const iframe = docRef.createElement( "iframe" );
 
           iframe.setAttribute( "frameborder", "0" );
           iframe.setAttribute( "allowfullscreen", "" );

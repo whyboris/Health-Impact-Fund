@@ -10,7 +10,10 @@ const News = ({ intl }) => {
 
   setTimeout(() => {
 
-    const youtube = document.getElementById("main-video");
+    const docRef = typeof document !== `undefined` ? document : undefined;
+    if (!docRef) { return };
+
+    const youtube = docRef.getElementById("main-video");
 
     if (youtube) {
       const source = "https://img.youtube.com/vi/" + youtube.dataset.embed + "/sddefault.jpg";
@@ -22,7 +25,7 @@ const News = ({ intl }) => {
       });
 
       youtube.addEventListener("click", function () {
-        const iframe = document.createElement("iframe");
+        const iframe = docRef.createElement("iframe");
 
         iframe.setAttribute("frameborder", "0");
         iframe.setAttribute("allowfullscreen", "");
