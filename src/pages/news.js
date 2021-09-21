@@ -11,6 +11,7 @@ const News = ({ intl }) => {
   setTimeout(() => {
 
     const docRef = typeof document !== `undefined` ? document : undefined;
+    if (!docRef) { return };
 
     const youtube = docRef.getElementById("main-video");
 

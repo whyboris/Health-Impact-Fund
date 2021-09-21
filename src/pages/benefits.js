@@ -15,6 +15,7 @@ const Benefits = ({ intl }) => {
   function handleClick(selector) {
 
     const docRef = typeof document !== `undefined` ? document : undefined;
+    if (!docRef) { return };
 
     if (!lol[selector]) {
       docRef.getElementById(selector).classList.remove("hidden")

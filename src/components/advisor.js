@@ -11,6 +11,7 @@ const Advisor = ({ data }) => {
         onClick={() => {
 
           const docRef = typeof document !== `undefined` ? document : undefined;
+          if (!docRef) { return };
 
           if (!showLongDescription) {
             docRef.getElementById(data.id).classList.remove("hidden")

@@ -11,6 +11,7 @@ const Publications = ({ intl }) => {
   setTimeout(() => {
 
     const docRef = typeof document !== `undefined` ? document : undefined;
+    if (!docRef) { return };
     
     const videos = [];
 
