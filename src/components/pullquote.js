@@ -73,6 +73,7 @@ const PullQuote = ({data}) => {
           </div>
 
           <div className="pull-quote">
+            <img className="quote-image" src={'/img/LiberalPartyNorway.png'} alt={'Liberal Party of Norway logo'} />
             <FormattedMessage id="intro.quote_norway_text" />
             <span className="quote-author">
               <FormattedMessage id="intro.quote_norway_name" />
