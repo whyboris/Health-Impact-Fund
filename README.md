@@ -20,8 +20,6 @@ Seems like the `en.json` (and other languages in the `/intl` folder) _must_ be a
 
 For simplicity, I recommend sorting the JSON alphabetically with [Sort JSON objects](https://marketplace.visualstudio.com/items?itemName=richie5um2.vscode-sort-json) for _VSCode_.
 
-Images are hosted externally for simplicity.
-
 ### If you've not coded but want to start:
 
 0. Starting may be daunting, but you can do it! Follow the instructions for [Gatsby](https://www.gatsbyjs.org/tutorial/part-zero/):
