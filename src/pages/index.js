@@ -37,6 +37,31 @@ const IndexPage = ({ intl }) => {
       } );
     }
 
+    if (intl.locale == "de") {
+      const youtube = docRef.getElementById("de-video");
+
+      if (youtube) {
+        const source = "https://img.youtube.com/vi/"+ youtube.dataset.embed +"/sddefault.jpg";
+        const image = new Image();
+        image.src = source;
+  
+        image.addEventListener( "load", () => {
+            youtube.appendChild( image );
+        });
+  
+        youtube.addEventListener( "click", function() {
+          const iframe = docRef.createElement( "iframe" );
+  
+          iframe.setAttribute( "frameborder", "0" );
+          iframe.setAttribute( "allowfullscreen", "" );
+          iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1&start=1042");
+  
+          this.innerHTML = "";
+          this.appendChild( iframe );
+        } );
+      }
+    }
+
   }, 1000)
 
   return (
@@ -206,6 +231,18 @@ const IndexPage = ({ intl }) => {
         <span className="placeholder-title">Health Impact Fund: Making New Medicines available to everyone</span>
         <div className="play-button"></div>
       </div>
+      
+
+      { intl.locale == "de" &&
+  
+      <div id="de-video" className="youtube" data-embed="ZMZQIK1O1Ag">
+        <div className="placeholder-gradient"></div>
+        <div className="placeholder-channel"></div>
+        <span className="placeholder-title">Unser Gesundheitssystem - fair & effizient</span>
+        <div className="play-button"></div>
+      </div>
+      
+      }
 
       <div className="hip-book">
         <img alt="Health Impact Fund book" src="/img/HIF_book_cover.jpg" />
