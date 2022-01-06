@@ -57,6 +57,14 @@ const PullQuote = ({data}) => {
           </div>
 
           <div className="pull-quote">
+            <img className="quote-image" src={'/img/Lauterbach.jpg'} alt={'Photo of Karl Lauterbach'} />
+            <FormattedMessage id="intro.quote_karl_text" />
+            <span className="quote-author">
+              <FormattedMessage id="intro.quote_karl_name" />
+            </span>
+          </div>
+
+          <div className="pull-quote">
             <img className="quote-image" src={'/img/Jayasree.jpg'} alt={'Photo of Dr. Jayasree K. Iyer'} />
             <FormattedMessage id="intro.quote_jayasree_text" />
             <span className="quote-author">

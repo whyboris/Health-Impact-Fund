@@ -37,6 +37,31 @@ const IndexPage = ({ intl }) => {
       } );
     }
 
+    if (intl.locale == "de") {
+      const youtube = docRef.getElementById("de-video");
+
+      if (youtube) {
+        const source = "https://img.youtube.com/vi/"+ youtube.dataset.embed +"/sddefault.jpg";
+        const image = new Image();
+        image.src = source;
+  
+        image.addEventListener( "load", () => {
+            youtube.appendChild( image );
+        });
+  
+        youtube.addEventListener( "click", function() {
+          const iframe = docRef.createElement( "iframe" );
+  
+          iframe.setAttribute( "frameborder", "0" );
+          iframe.setAttribute( "allowfullscreen", "" );
+          iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1&start=1042");
+  
+          this.innerHTML = "";
+          this.appendChild( iframe );
+        } );
+      }
+    }
+
   }, 1000)
 
   return (
@@ -68,6 +93,17 @@ const IndexPage = ({ intl }) => {
       <p className="center-block">
         <FormattedMessage id="intro.hif_description" />
       </p>
+
+      { intl.locale == "de" &&
+  
+      <div id="de-video" className="youtube" data-embed="ZMZQIK1O1Ag">
+        <div className="placeholder-gradient"></div>
+        <div className="placeholder-channel"></div>
+        <span className="placeholder-title">Unser Gesundheitssystem - fair & effizient</span>
+        <div className="play-button"></div>
+      </div>
+      
+      }
 
       <Carousel />
 
