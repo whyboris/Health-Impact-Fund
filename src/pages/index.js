@@ -94,6 +94,17 @@ const IndexPage = ({ intl }) => {
         <FormattedMessage id="intro.hif_description" />
       </p>
 
+      { intl.locale == "de" &&
+  
+      <div id="de-video" className="youtube" data-embed="ZMZQIK1O1Ag">
+        <div className="placeholder-gradient"></div>
+        <div className="placeholder-channel"></div>
+        <span className="placeholder-title">Unser Gesundheitssystem - fair & effizient</span>
+        <div className="play-button"></div>
+      </div>
+      
+      }
+
       <Carousel />
 
       <br />
@@ -231,18 +242,6 @@ const IndexPage = ({ intl }) => {
         <span className="placeholder-title">Health Impact Fund: Making New Medicines available to everyone</span>
         <div className="play-button"></div>
       </div>
-      
-
-      { intl.locale == "de" &&
-  
-      <div id="de-video" className="youtube" data-embed="ZMZQIK1O1Ag">
-        <div className="placeholder-gradient"></div>
-        <div className="placeholder-channel"></div>
-        <span className="placeholder-title">Unser Gesundheitssystem - fair & effizient</span>
-        <div className="play-button"></div>
-      </div>
-      
-      }
 
       <div className="hip-book">
         <img alt="Health Impact Fund book" src="/img/HIF_book_cover.jpg" />
