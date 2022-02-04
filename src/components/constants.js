@@ -30,7 +30,8 @@ const management = [
   "Vikita Mehta",
   "Seung Chan (Kevin) Lee",
   "Zeke Ngcobo",
-  "Glorianna Tillemann-Dick",
+  // "Glorianna Tillemann-Dick",
+  "Abdullah Kaya",
   "Thalia Arawi",
   "Boris Yakubchik",
 ];
@@ -48,7 +49,8 @@ const managementEmails = [
   "",
   "",
   "zeke@healthimpactfund.org",
-  "glorianna@healthimpactfund.org",
+  // "glorianna@healthimpactfund.org",
+  "",
   "",
   "",
 ]
@@ -67,7 +69,8 @@ const managementImages = [
   "Vikita.jpg",
   "Kevin.jpg",
   "Zeke.jpg",
-  "Glorianna.jpg",
+  // "Glorianna.jpg",
+  "Abdullah.jpg",
   "Thalia.jpg",
   "Boris.jpg",
 ];
