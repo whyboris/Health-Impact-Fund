@@ -79,7 +79,6 @@ const advisors = [
   "Noam Chomsky",
   "John J. DeGioia",
   "Ruth Faden",
-  "Paul Farmer",
   "Robert C. Gallo",
   "Professor David Haslam",
   "Paul Martin",
@@ -97,7 +96,10 @@ const advisors = [
   "Richard Wilder",
 ];
 
-const former_advisors = ["Kenneth J. Arrow"];
+const former_advisors = [
+  "Kenneth J. Arrow",
+  "Paul Farmer",
+];
 
 const scientific_advisors = [
   "Sonali Kochhar",
