@@ -9,10 +9,13 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: "UA-5555193-17",
-      },
+        trackingIds: ['G-G6BNHBJVKH'],
+        pluginConfig: {
+          head: true
+        }
+      }
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
