@@ -144,7 +144,9 @@
     "quote_peter_name": "Peter Singer",
     "quote_peter_text": "El Fondo de Impacto en la Salud sería un paso importante hacia la cobertura sanitaria universal asequible, que con razón es la máxima prioridad de la OMS, y hacia el logro del tercer Objetivo de Desarrollo Sostenible.",
     "quote_karl_name": "karl lauterbach",
-    "quote_karl_text": "El Fondo de Impacto en la Salud es una de esas propuestas que se pueden considerar cien por cien innovadoras en relación a la pregunta: ¿Cómo resolvemos el problema de que en realidad tenemos un mundo tan rico y, sin embargo, en los países más pobres la gente no tiene medicamentos? En mi opinión, este es el mejor ejemplo de ética aplicada que conozco. Aquí, la teoría ética se combina con el conocimiento económico y se aplica a un problema real, y simplemente no se puede hacer nada mejor que eso."
+    "quote_karl_text": "El Fondo de Impacto en la Salud es una de esas propuestas que se pueden considerar cien por cien innovadoras en relación a la pregunta: ¿Cómo resolvemos el problema de que en realidad tenemos un mundo tan rico y, sin embargo, en los países más pobres la gente no tiene medicamentos? En mi opinión, este es el mejor ejemplo de ética aplicada que conozco. Aquí, la teoría ética se combina con el conocimiento económico y se aplica a un problema real, y simplemente no se puede hacer nada mejor que eso.",
+    "quote_iqwig_name": "IQWiG",
+    "quote_iqwig_text": "En resumen, el requisito del Health Impact Fund de evaluar los beneficios para la salud es ciertamente factible a un costo razonable y, de hecho, es exactamente lo que hacen IQWiG y otras agencias HTA (por ejemplo, HAS en Francia o NICE en Inglaterra y Gales) a diario. ."
   },
   "navigation": {
     "about": "Acerca de",
@@ -170,7 +172,8 @@
     "summary": "Resumen",
     "team": "Equipo",
     "videos": "Videos",
-    "what": "¿Qué es el Fondo para el Impacto sobre la Salud?"
+    "what": "¿Qué es el Fondo para el Impacto sobre la Salud?",
+    "quotes": "Citas de expertos"
   },
   "news": {
     "heading": "Noticias recientes",
@@ -306,5 +309,8 @@
     "reward_see_more": "Una característica importante del Fondo para el Impacto sobre la Salud es que cada uno de sus fondos anuales de recompensa se fija por adelantado. Esto ayuda al Fondo y a sus financiadores a administrar sus presupuestos. Cada fondo fijo se divide de acuerdo con los beneficios en salud que los productos registrados han logrado en el año correspondiente. Las empresas compiten de este modo para mejorar la salud humana. Cada producto registrado participa en los pagos durante un período de diez años, que se asemeja a la duración de la exclusividad que las empresas disfrutan actualmente por las patentes. Al final de este período de recompensa, se requeriría al innovador que licencie su producto registrado para la producción genérica, independientemente de cualquier patente no vencida.",
     "see_more": "Ver más",
     "title": "¿Qué es el Fondo para el Impacto sobre la Salud?"
+  },
+  "quotes": {
+    "title": "Citas de expertos"
   }
 }

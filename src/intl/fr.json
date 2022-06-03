@@ -144,7 +144,9 @@
     "quote_peter_name": "Peter Singer",
     "quote_peter_text": "Le Fonds d'impact sur la santé serait une étape importante vers une couverture sanitaire universelle abordable, qui est à juste titre la priorité absolue de l'OMS, et vers la réalisation du troisième objectif de développement durable.",
     "quote_karl_name": "Karl Lauterbach",
-    "quote_karl_text": "Le Fonds d'impact sur la santé est l'une de ces propositions qui peuvent être considérées comme innovantes à cent pour cent par rapport à la question : comment résoudre le problème que nous avons réellement un monde si riche, et pourtant dans les pays les plus pauvres, les gens n'ont pas de médicaments ? À mon avis, c'est le meilleur exemple d'éthique appliquée que je connaisse. Ici, la théorie éthique est combinée avec la connaissance économique et appliquée à un problème réel, et vous ne pouvez tout simplement pas faire mieux que cela."
+    "quote_karl_text": "Le Fonds d'impact sur la santé est l'une de ces propositions qui peuvent être considérées comme innovantes à cent pour cent par rapport à la question : comment résoudre le problème que nous avons réellement un monde si riche, et pourtant dans les pays les plus pauvres, les gens n'ont pas de médicaments ? À mon avis, c'est le meilleur exemple d'éthique appliquée que je connaisse. Ici, la théorie éthique est combinée avec la connaissance économique et appliquée à un problème réel, et vous ne pouvez tout simplement pas faire mieux que cela.",
+    "quote_iqwig_name": "IQWiG",
+    "quote_iqwig_text": "En résumé, l'exigence du Fonds d'impact sanitaire d'évaluer les avantages pour la santé est certainement réalisable à un coût raisonnable et est en effet exactement ce qui est fait par IQWiG et d'autres agences HTA (par exemple HAS en France ou NICE en Angleterre et au Pays de Galles) sur une base quotidienne ."
   },
   "navigation": {
     "about": "A propos",
@@ -170,7 +172,8 @@
     "summary": "Sommaire",
     "team": "L'Équipe",
     "videos": "Vidéos",
-    "what": "Qu'est-ce que le Fonds d'impact sanitaire"
+    "what": "Qu'est-ce que le Fonds d'impact sanitaire",
+    "quotes": "Citations d'experts"
   },
   "news": {
     "heading": "Nouvelles récentes",
@@ -306,5 +309,8 @@
     "reward_see_more": "Une caractéristique importante du Fonds d'impact sanitaire est que chacune de ses cagnottes annuelles de récompenses est fixée à l'avance. Cela aide le Fonds et ses bailleurs de fonds à gérer leurs budgets. Chaque cagnotte est divisée en fonction des gains sanitaires réalisés par les produits enregistrés au cours de l'année concernée. Les entreprises sont donc en concurrence pour améliorer la santé humaine. Chaque produit enregistré participe aux versements pendant une période de dix ans, ce qui ressemble à la durée d'exclusivité dont les entreprises bénéficient désormais grâce aux brevets. À la fin de cette période de récompense, l'innovateur serait tenu de concéder sous licence son produit enregistré pour la production générique, indépendamment de brevets non expirés.",
     "see_more": "Voir plus",
     "title": "Qu'est-ce que le Fonds d'impact sanitaire?"
+  },
+  "quotes": {
+    "title": "Citations d'experts"
   }
 }
