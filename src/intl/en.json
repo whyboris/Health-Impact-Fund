@@ -130,6 +130,8 @@
     "quote_karl_text": "The Health Impact Fund is one of those proposals that can be considered one hundred percent innovative in relation to the question: How do we solve the problem that we actually have such a rich world, and yet in the poorer countries people have no medicines? In my view, this is the very best example of applied ethics that I know of. Here, ethical theory is combined with economic knowledge and applied to an actual problem, and you simply can't do better than that.",
     "quote_norway_name": "Liberal (Venstre) Party of Norway",
     "quote_norway_text": "An international Health Impact Fund (HIF) should be established as a supplement to the current patent system. Through Health Impact Fund pharmaceutical companies can voluntarily register their drugs and commit to making them available at the lowest price against payment of support over ten years from the Fund on the basis of major health impact their drugs have. This gives companies incentives to develop medicines for those with the greatest health needs and not only those with the greatest purchasing power.",
+    "quote_iqwig_name": "IQWiG",
+    "quote_iqwig_text": "In summary, the requirement of the Health Impact Fund to assess health benefits is certainly feasible at a reasonable expense and is indeed exactly what is done by IQWiG and other HTA agencies (e.g. HAS in France or NICE in England and Wales) on a daily basis.",
     "quote_peter_name": "Peter Singer",
     "quote_peter_text": "The Health Impact Fund would be an important step towards affordable universal health coverage, which rightly is the WHO's top priority, and towards achieving the third Sustainable Development Goal.",
     "quote_tom_name": "Tom Bollyky",
@@ -165,12 +167,16 @@
     "opportunities": "Opportunities",
     "problem": "The problem",
     "publications": "Publications",
+    "quotes": "Expert quotes",
     "recent_events": "Recent events",
     "scientific_advisors": "Scientific Advisors",
     "summary": "Summary",
     "team": "Team",
     "videos": "Videos",
     "what": "What is the Health Impact Fund"
+  },
+  "quotes": {
+    "title": "Expert Quotes"
   },
   "news": {
     "heading": "Recent news",
@@ -198,6 +204,8 @@
     "title": "Health Impact Fund Publications"
   },
   "team": {
+    "Abdullah Kaya": "Acting Country Coordinator, Turkey",
+    "Abdullah Kaya_long": "Abdullah studied political science and public administration at Marmara University and Paris 1 Panthéon Sorbonne and has a special interest in public health and global inequalities. He is a former athlete who hopes to become a scholar.",
     "about_IGH": "Incentives for Global Health is a US-based non-profit organization with the principal mandate of advancing the {intl_HIP} proposal. We welcome {intl_volunteers} to collaborate with us in this important work.",
     "about_IGH_more": "If you are interested in getting involved or in supporting Incentives for Global Health, please write us at {intl_email} or consider  making a {intl_donation}.",
     "advisory_council": "International Advisory Council",
@@ -206,8 +214,6 @@
     "Amartya Sen": "Professor of Economics and Philosophy, Harvard University; Nobel Prize Winner in Economics.",
     "Baroness Onora O'Neill": "Member of the UK House of Lords; former President of the British Academy.",
     "board": "Board",
-    "Abdullah Kaya": "Acting Country Coordinator, Turkey",
-    "Abdullah Kaya_long": "Abdullah studied political science and public administration at Marmara University and Paris 1 Panthéon Sorbonne and has a special interest in public health and global inequalities. He is a former athlete who hopes to become a scholar.",
     "Boris Yakubchik": "Webmaster",
     "Boris Yakubchik_long": "Boris Yakubchik is a web developer in charge of upkeeping the current website. He is proud to be a part of the Effective Altruism movement.",
     "Carl F. Nathan": "Chairman of Department of Microbiology and Immunology at Cornell University",
