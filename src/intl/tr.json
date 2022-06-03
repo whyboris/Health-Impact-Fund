@@ -144,7 +144,9 @@
     "quote_peter_name": "Peter Şarkıcı",
     "quote_peter_text": "Sağlık Etki Fonu, haklı olarak DSÖ'nün birinci önceliği olan uygun fiyatlı evrensel sağlık sigortasına ve üçüncü Sürdürülebilir Kalkınma Hedefine ulaşılmasına yönelik önemli bir adım olacaktır.",
     "quote_karl_name": "Karl Lauterbach",
-    "quote_karl_text": "Sağlık Etki Fonu, şu soruyla ilgili olarak yüzde yüz yenilikçi olarak kabul edilebilecek önerilerden biri: Gerçekten bu kadar zengin bir dünyamız varken, daha yoksul ülkelerde insanların ilacı yokken sorunu nasıl çözebiliriz? Benim görüşüme göre, bu benim bildiğim uygulamalı etiğin en iyi örneğidir. Burada, etik teori ekonomik bilgi ile birleştirilir ve gerçek bir soruna uygulanır ve bundan daha iyisini yapamazsınız."
+    "quote_karl_text": "Sağlık Etki Fonu, şu soruyla ilgili olarak yüzde yüz yenilikçi olarak kabul edilebilecek önerilerden biri: Gerçekten bu kadar zengin bir dünyamız varken, daha yoksul ülkelerde insanların ilacı yokken sorunu nasıl çözebiliriz? Benim görüşüme göre, bu benim bildiğim uygulamalı etiğin en iyi örneğidir. Burada, etik teori ekonomik bilgi ile birleştirilir ve gerçek bir soruna uygulanır ve bundan daha iyisini yapamazsınız.",
+    "quote_iqwig_name": "IQWiG",
+    "quote_iqwig_text": "Özetle, Sağlık Etki Fonunun sağlık yararlarını değerlendirme gerekliliği makul bir masrafla kesinlikle uygulanabilir ve aslında tam olarak IQWiG ve diğer STD ajansları (örneğin Fransa'da HAS veya İngiltere ve Galler'de NICE) tarafından günlük olarak yapılan şeydir. ."
   },
   "navigation": {
     "about": "Hakkında",
@@ -170,7 +172,8 @@
     "summary": "Özet",
     "team": "Ekip",
     "videos": "Videolar",
-    "what": "Sağlık Etki Fonu Nedir"
+    "what": "Sağlık Etki Fonu Nedir",
+    "quotes": "Uzman alıntıları"
   },
   "news": {
     "heading": "Son Haberler",
@@ -306,5 +309,8 @@
     "reward_see_more": "Sağlık Etki Fonu'nun önemli bir özelliği yıllık ödül havuzlarının her birinin önceden sabitlenmiş olmasıdır. Bu, Fon ve fon sağlayıcılarının bütçelerini yönetmelerine yardımcı olur. Her havuz, kayıtlı ürünlerin ilgili yılda elde ettiği sağlık kazanımlarına orantılı şekilde bölüştürülür. Böylece firmaların insan sağlığını geliştirmek için rekabet etmeleri sağlanır. Her tescilli ürün on yıllık bir süre için ödemelere katılır, bu da firmaların mevcut sistemde patent altında faydalandıkları  korunma süresine benzer. Bu ödül süresinin sonunda,süresi dolmamış patentlere bakılmaksızın, yenilikçinin kayıtlı ürününü genel üretime lisanslaması gerekecektir.",
     "see_more": "Daha fazla gör",
     "title": "Sağlık Etki Fonu nedir?"
+  },
+  "quotes": {
+    "title": "Uzman Alıntılar"
   }
 }

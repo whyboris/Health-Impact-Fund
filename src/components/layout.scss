@@ -786,7 +786,7 @@ header {
 
     .quote-image {
       border-radius: 50%;
-      border: 1px solid black;
+      outline: 1px solid black;
       bottom: 4px;
       height: 120px;
       left: 20px;
@@ -800,6 +800,28 @@ header {
     font-weight: bold;
     margin-bottom: 50px;
     margin-top: 10px;
+  }
+}
+
+.standalone-quote {
+  .quote-text {
+    margin: 20px 0 60px 140px;
+    display: block;
+    min-height: 120px;
+    // border: 1px solid red;
+  }
+
+  .quote-author {
+    display: block;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 18px;
+  }
+
+  .quote-image {
+    outline: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
   }
 }
 

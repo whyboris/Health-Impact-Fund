@@ -86,6 +86,9 @@ const Header = ({ siteTitle, showRTL }) => (
             <Link to="/benefits">
               <FormattedMessage id="navigation.benefits" />
             </Link>
+            <Link to="/quotes">
+              <FormattedMessage id="navigation.quotes" />
+            </Link>
             <Link to="/faq">
               <FormattedMessage id="navigation.faq" />
             </Link>

@@ -144,7 +144,9 @@
     "what_text": "Der Health Impact Fund ist ein neuartiger leistungsbezogener Mechanismus, der neue Arzneimittel gemäß ihrer tatsächlichen therapeutischen Auswirkungen prämiert.",
     "why_button": "Was sonst?",
     "why_heading": "Warum.",
-    "why_text": "Die meisten Krankheiten und vorzeitigen Todesfälle weltweit werden durch Armut verursacht. Arme Menschen können sich oft nicht die Medikamente leisten, die sie brauchen."
+    "why_text": "Die meisten Krankheiten und vorzeitigen Todesfälle weltweit werden durch Armut verursacht. Arme Menschen können sich oft nicht die Medikamente leisten, die sie brauchen.",
+    "quote_iqwig_name": "IQWiG",
+    "quote_iqwig_text": "Zusammenfassend lässt sich sagen, dass die Anforderung des Health Impact Fund, den gesundheitlichen Nutzen zu bewerten, sicherlich mit vertretbarem Aufwand machbar ist und tatsächlich genau das ist, was das IQWiG und andere HTA-Agenturen (z. B. HAS in Frankreich oder NICE in England und Wales) täglich tun ."
   },
   "navigation": {
     "about": "Über",
@@ -170,7 +172,8 @@
     "summary": "Zusammenfassung",
     "team": "Das Team",
     "videos": "Videos",
-    "what": "Was ist der Health Impact Fund?"
+    "what": "Was ist der Health Impact Fund?",
+    "quotes": "Expertenzitate"
   },
   "news": {
     "heading": "Neueste Nachrichten",
@@ -306,5 +309,8 @@
     "reward_see_more": "Eine wichtige Eigenschaft des Health Impact Fund ist, dass er mit vorab festgesetzen Jahresausschüttungen arbeitet. Das erleichtert dem Fund und seinen Sponsoren die Finanzplanung. Jede Jahresausschüttung ist gemäß den Gesundheitsgewinnen aufzuteilen, die die jeweils gemeldeten Medikamente im betreffenden Jahr erzielt haben. Innovatoren konkurrieren also um Erzielung von Gesundheitsgewinnen.  Jedes gemeldete Produkt nimmt zehn  Jahre lang an den Ausschüttungen teil. Das ist ungefähr so lang, wie Medikamente derzeit effektiven Patentschutz genießen. Nach Ablauf der zehn Jahre müssen Innovatoren ihre gemeldeten Produkte zum generischen Vertrieb freigeben, auch wenn sie Patente haben, die noch nicht ganz abgelaufen sind.",
     "see_more": "Mehr sehen",
     "title": "Was ist der Health Impact Fund?"
+  },
+  "quotes": {
+    "title": "Expertenzitate"
   }
 }

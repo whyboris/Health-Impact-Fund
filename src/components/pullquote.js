@@ -49,6 +49,14 @@ const PullQuote = ({data}) => {
         <Swiper {...params}>
 
           <div className="pull-quote">
+            <img className="quote-image" src={'/img/IQWiG.png'} alt={'Photo of IQWiG'} />
+            <FormattedMessage id="intro.quote_iqwig_text" />
+            <span className="quote-author">
+              <FormattedMessage id="intro.quote_iqwig_name" />
+            </span>
+          </div>
+
+          <div className="pull-quote">
             <img className="quote-image" src={'/img/Lauterbach.jpg'} alt={'Photo of Karl Lauterbach'} />
             <FormattedMessage id="intro.quote_karl_text" />
             <span className="quote-author">
