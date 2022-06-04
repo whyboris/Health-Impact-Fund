@@ -1,5 +1,7 @@
 const { LanguageList } = require("./src/intl/languages");
 
+require('dotenv').config()
+
 module.exports = {
   siteMetadata: {
     title: `Health Impact Fund`,
@@ -42,6 +44,13 @@ module.exports = {
         rule: {
           include: /images/
         }
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+          endpoint: process.env.MAILCHIMP_ENDPOINT,
+          timeout: 3500,
       }
     },
     {

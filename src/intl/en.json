@@ -150,6 +150,7 @@
   },
   "navigation": {
     "about": "About",
+    "newsletter": "Newsletter",
     "advantages": "Advantages",
     "advisory_board": "Advisory Board",
     "background": "Background",
@@ -174,6 +175,9 @@
     "team": "Team",
     "videos": "Videos",
     "what": "What is the Health Impact Fund"
+  },
+  "newsletter": {
+    "title": "Newsletter"
   },
   "quotes": {
     "title": "Expert Quotes"
