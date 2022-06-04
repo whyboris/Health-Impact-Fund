@@ -1,5 +1,4 @@
 import React from "react"
-import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 
 import addToMailchimp from "gatsby-plugin-mailchimp"
 
@@ -7,6 +6,11 @@ export default class MailChimpComponent extends React.Component {
   state = {
     name: null,
     email: null,
+    fname: null,
+    lname: null,
+    country: null,
+    language: null,
+    lol: "disabled",
   }
 
   _handleChange = (e) => {
@@ -18,10 +22,15 @@ export default class MailChimpComponent extends React.Component {
     })
   }
 
+  _handleCheckbox = (e) => {
+    console.log(e.target.checked)
+    this.setState({ lol: e.target.checked ? "enabled" : "disabled" })
+  }
+
   _handleSubmit = (e) => {
     e.preventDefault()
 
-    console.log("submit", this.state)
+    // console.log("submit", this.state)
 
     addToMailchimp(this.state.email, this.state)
       .then(({ msg, result }) => {
@@ -60,17 +69,22 @@ export default class MailChimpComponent extends React.Component {
             <input type="text" onChange={this._handleChange} name="language" />
           </div>
 
-          <input type="checkbox" />
+          <input type="checkbox" onChange={this._handleCheckbox} />
           <label>
-            I consent to receive emails from Incentives for Global Health
+            I consent to receive emails from{" "}
+            <em>Incentives for Global Health</em>
           </label>
 
-          <input className="button" type="submit" value="Subscribe" />
+          <input
+            className={"button " + this.state.lol}
+            type="submit"
+            value="Subscribe"
+          />
 
           <p>
-            After signing up you will begin receiving informational emails from
-            Health Impact Fund / Incentives for Global Health. We do not share
-            your information with any third parties.
+            After signing up you will begin receiving informational emails from{" "}
+            <em>Health Impact Fund</em> / <em>Incentives for Global Health</em>.
+            We do not share your information with any third parties.
           </p>
 
           <p>

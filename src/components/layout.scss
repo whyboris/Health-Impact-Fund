@@ -944,7 +944,7 @@ header {
   width: 500px;
 
   .inputs {
-    margin: auto;
+    margin: 0 auto 30px;
     width: 270px;
   }
 
@@ -972,7 +972,6 @@ header {
 
   .button {
     background: $primary;
-    border: 2px solid $pramaryDark;
     color: white;
     cursor: pointer;
     display: block;
@@ -982,8 +981,24 @@ header {
     text-decoration: none;
   }
 
+  .disabled  {
+    opacity: 0.8;
+    pointer-events: none;
+    filter: saturate(0);
+    border: 2px solid white;
+  }
+
+  .enabled {
+    border: 2px solid $primary;
+  }
+
   p {
     font-size: 14px;
+  }
+
+  em {
+    font-weight: initial;
+    font-style: italic;
   }
 
   span {
