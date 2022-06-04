@@ -939,9 +939,55 @@ header {
 // =========================================== MAILCHIMP =============================================
 
 .mailchimp {
+
+  margin: auto;
+  width: 500px;
+
+  .inputs {
+    margin: auto;
+    width: 270px;
+  }
+
   input:not([type='checkbox']) {
     display: block;
-    margin: 20px;
+    font-size: 16px;
+    margin: 6px 0 12px;
+    padding: 6px;
+    width: 260px;
+
+    &::placeholder {
+      color: #80cf0f;
+    }
+  }
+
+  input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  label {
+    position: absolute;
+    transform: translate(7px, 4px);
+  }
+
+  .button {
+    background: $primary;
+    border: 2px solid $pramaryDark;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    margin: 20px auto !important;
+    padding: 16px 23px !important;
+    text-decoration: none;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  span {
+    font-size: 12px;
   }
 }
 
