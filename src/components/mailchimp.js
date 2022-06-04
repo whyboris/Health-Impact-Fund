@@ -11,19 +11,20 @@ export default class MailChimpComponent extends React.Component {
     country: null,
     language: null,
     lol: "disabled",
+    finished: null,
   }
 
   _handleChange = (e) => {
-    console.log({
-      [`${e.target.name}`]: e.target.value,
-    })
+    // console.log({
+    //   [`${e.target.name}`]: e.target.value,
+    // })
     this.setState({
       [`${e.target.name}`]: e.target.value,
     })
   }
 
   _handleCheckbox = (e) => {
-    console.log(e.target.checked)
+    // console.log(e.target.checked)
     this.setState({ lol: e.target.checked ? "enabled" : "disabled" })
   }
 
@@ -34,12 +35,13 @@ export default class MailChimpComponent extends React.Component {
 
     addToMailchimp(this.state.email, this.state)
       .then(({ msg, result }) => {
-        console.log("msg", `${result}: ${msg}`)
+        // console.log("msg", `${result}: ${msg}`)
 
         if (result !== "success") {
           throw msg
         }
-        alert(msg)
+        // alert(msg)
+        this.setState({ finished: true })
       })
       .catch((err) => {
         console.log("err", err)
@@ -51,7 +53,7 @@ export default class MailChimpComponent extends React.Component {
     return (
       <div className="mailchimp">
         <form onSubmit={this._handleSubmit}>
-          <div className="inputs">
+          <div className={"inputs " + (this.state.finished ? "subscribed" : "")}>
             <span>Email:</span>
             <input
               type="email"
@@ -69,14 +71,14 @@ export default class MailChimpComponent extends React.Component {
             <input type="text" onChange={this._handleChange} name="language" />
           </div>
 
-          <input type="checkbox" onChange={this._handleCheckbox} />
+          <input type="checkbox" onChange={this._handleCheckbox}  className={this.state.finished ? "subscribed" : ""} />
           <label>
             I consent to receive emails from{" "}
             <em>Incentives for Global Health</em>
           </label>
 
           <input
-            className={"button " + this.state.lol}
+            className={"button " + this.state.lol + (this.state.finished ? " subscribed" : "")}
             type="submit"
             value="Subscribe"
           />
@@ -101,6 +103,8 @@ export default class MailChimpComponent extends React.Component {
             </a>
           </p>
         </form>
+
+        {this.state.finished && <div className="success-subscribe">Thank you for subscribing</div>}
       </div>
     )
   }

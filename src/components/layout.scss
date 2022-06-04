@@ -939,8 +939,8 @@ header {
 // =========================================== MAILCHIMP =============================================
 
 .mailchimp {
-
   margin: auto;
+  position: relative;
   width: 500px;
 
   .inputs {
@@ -1004,7 +1004,24 @@ header {
   span {
     font-size: 12px;
   }
+
+  .subscribed {
+    cursor: initial;
+    opacity: 0.6;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .success-subscribe {
+    font-size: 30px;
+    left: auto;
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    width: 100%;
+  }
 }
+
 
 // =========================================== YOUTUBE =============================================
 
