@@ -1,9 +1,8 @@
 import React from "react"
-import { FormattedMessage, Link, injectIntl } from "gatsby-plugin-intl"
+import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ScrollToTop from "../components/scrolltotop"
 
 const Quotes = ({ intl }) => (
   <Layout>

@@ -92,6 +92,9 @@ const Header = ({ siteTitle, showRTL }) => (
             <Link to="/faq">
               <FormattedMessage id="navigation.faq" />
             </Link>
+            <Link to="/newsletter">
+              <FormattedMessage id="navigation.newsletter" />
+            </Link>
           </div>
         </div>
 
