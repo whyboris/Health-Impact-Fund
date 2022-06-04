@@ -49,7 +49,9 @@ const PullQuote = ({data}) => {
         <Swiper {...params}>
 
           <div className="pull-quote">
-            <img className="quote-image" src={'/img/IQWiG.png'} alt={'Photo of IQWiG'} />
+            <a href="https://www.iqwig.de/ueber-uns/struktur-des-instituts/institutsleitung/stellvertretender-institutsleiter/" target="_blank">
+              <img className="quote-image" src={'/img/Stefan.jpg'} alt={'Photo of Stefan Lange'} />
+            </a>
             <FormattedMessage id="intro.quote_iqwig_text" />
             <span className="quote-author">
               <FormattedMessage id="intro.quote_iqwig_name" />
