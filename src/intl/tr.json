@@ -173,7 +173,8 @@
     "team": "Ekip",
     "videos": "Videolar",
     "what": "Sağlık Etki Fonu Nedir",
-    "quotes": "Uzman alıntıları"
+    "quotes": "Uzman alıntıları",
+    "newsletter": "Bülten"
   },
   "news": {
     "heading": "Son Haberler",
@@ -289,7 +290,9 @@
     "Zeke Ngcobo": "Bölgesel Koordinatör, Sahra Altı Afrika",
     "Zeke Ngcobo_long": "Zeke, halk sağlığına tutkusu olan Güney Afrikalı bir yazar ve girişimcidir. Küresel Sağlık Teşvikleri için Sahra Altı Afrika'da sosyal yardıma öncülük ediyor. Güney Kore, Seul'deki Sahmyook Üniversitesi'nden Halk Sağlığı alanında yüksek lisans derecesi aldı.",
     "Abdullah Kaya": "Ülke Koordinatör Vekili, Türkiye",
-    "Abdullah Kaya_long": "Abdullah, Marmara Üniversitesi ve Paris 1 Panthéon Sorbonne'da siyaset bilimi ve kamu yönetimi okudu ve halk sağlığı ve küresel eşitsizliklere özel bir ilgi duyuyor. O bir bilim adamı olmayı umut eden eski bir atlet."
+    "Abdullah Kaya_long": "Abdullah, Marmara Üniversitesi ve Paris 1 Panthéon Sorbonne'da siyaset bilimi ve kamu yönetimi okudu ve halk sağlığı ve küresel eşitsizliklere özel bir ilgi duyuyor. O bir bilim adamı olmayı umut eden eski bir atlet.",
+    "Paa Kwasi Sefa-Frimpong": "Program Proje Lideri - Sahra Altı Afrika",
+    "Paa Kwasi Sefa-Frimpong_long": "Paa Kwasi Sefa-Frimpong, kapsamlı eğitim (Lisans (Psikoloji), Tıp Lisansı, Cerrahi Lisansı (MBCHB) ve Halk Sağlığı Yüksek Lisans dereceleri) ile halk sağlığına odaklanan bir tıp doktorudur. Araştırma, veri toplama, izleme ve değerlendirme ve kalite kontrolünün tüm yönlerinde proje desteği sağlama konusunda deneyimlidir. Program uygulama ve yönetimi, politika savunuculuğu, eğitim ve sağlık sistemlerinin güçlendirilmesi konularında deneyimlidir. Hevesli bir okuyucu olan Kwasi, beş ülkede yaşadı ve çok sayıda dil biliyor."
   },
   "videos": {
     "coming_soon": "Yakında daha fazla video paylaşılacaktır.",
@@ -312,5 +315,8 @@
   },
   "quotes": {
     "title": "Uzman Alıntılar"
+  },
+  "newsletter": {
+    "title": "Bülten"
   }
 }

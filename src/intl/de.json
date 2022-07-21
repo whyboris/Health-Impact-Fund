@@ -173,7 +173,8 @@
     "team": "Das Team",
     "videos": "Videos",
     "what": "Was ist der Health Impact Fund?",
-    "quotes": "Expertenzitate"
+    "quotes": "Expertenzitate",
+    "newsletter": "Newsletter"
   },
   "news": {
     "heading": "Neueste Nachrichten",
@@ -289,7 +290,9 @@
     "Zeke Ngcobo": "Regionalkoordinator, Subsahara-Afrika",
     "Zeke Ngcobo_long": "Zeke ist ein südafrikanischer Schriftsteller und Unternehmer mit einer Leidenschaft für die öffentliche Gesundheit. Sie leitet die Öffentlichkeitsarbeit in Subsahara-Afrika für Incentives for Global Health. Sie erwarb einen Master in Public Health von der Sahmyook University in Seoul, Südkorea.",
     "Abdullah Kaya": "Stellvertretender Länderkoordinator, Türkei",
-    "Abdullah Kaya_long": "Abdullah studierte Politikwissenschaft und öffentliche Verwaltung an der Marmara-Universität und Paris 1 Panthéon Sorbonne und hat ein besonderes Interesse an öffentlicher Gesundheit und globalen Ungleichheiten. Er ist ein ehemaliger Athlet, der hofft, ein Gelehrter zu werden."
+    "Abdullah Kaya_long": "Abdullah studierte Politikwissenschaft und öffentliche Verwaltung an der Marmara-Universität und Paris 1 Panthéon Sorbonne und hat ein besonderes Interesse an öffentlicher Gesundheit und globalen Ungleichheiten. Er ist ein ehemaliger Athlet, der hofft, ein Gelehrter zu werden.",
+    "Paa Kwasi Sefa-Frimpong": "Programmprojektleiter - Subsahara-Afrika",
+    "Paa Kwasi Sefa-Frimpong_long": "Paa Kwasi Sefa-Frimpong ist Ärztin mit Schwerpunkt Public Health mit umfassender Ausbildung (BSc (Psychologie), Bachelor of Medicine, Bachelor of Surgery (MBCHB) und Master of Public Health). Er ist erfahren in der Bereitstellung von Projektunterstützung in allen Aspekten der Forschung, Datenerfassung, Überwachung und Auswertung sowie Qualitätskontrolle. Er hat Erfahrung mit Programmimplementierung und -management, politischer Interessenvertretung, Schulung und Stärkung von Gesundheitssystemen. Als begeisterter Leser hat Kwasi in fünf Ländern gelebt und spricht zahlreiche Sprachen."
   },
   "videos": {
     "coming_soon": "Weitere Videos werden in Kürze veröffentlicht.",
@@ -312,5 +315,8 @@
   },
   "quotes": {
     "title": "Expertenzitate"
+  },
+  "newsletter": {
+    "title": "Newsletter"
   }
 }

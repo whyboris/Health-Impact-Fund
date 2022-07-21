@@ -173,7 +173,8 @@
     "team": "Squadra",
     "videos": "video",
     "what": "Cos'è l'Health Impact Fund",
-    "quotes": "Citazioni di esperti"
+    "quotes": "Citazioni di esperti",
+    "newsletter": "Notiziario"
   },
   "news": {
     "heading": "Notizie recenti",
@@ -289,7 +290,9 @@
     "Zeke Ngcobo": "Coordinatore Regionale, Africa Subsahariana",
     "Zeke Ngcobo_long": "Zeke è uno scrittore e imprenditore sudafricano con la passione per la salute pubblica. Sta conducendo la divulgazione nell'Africa subsahariana per gli incentivi per la salute globale. Ha conseguito un Master in Public Health presso la Sahmyook University di Seoul, in Corea del Sud.",
     "Abdullah Kaya": "Coordinatore nazionale ad interim, Turchia",
-    "Abdullah Kaya_long": "Abdullah ha studiato scienze politiche e pubblica amministrazione all'Università di Marmara e al Panthéon Sorbonne di Parigi 1 e ha un interesse speciale per la salute pubblica e le disuguaglianze globali. È un ex atleta che spera di diventare uno studioso."
+    "Abdullah Kaya_long": "Abdullah ha studiato scienze politiche e pubblica amministrazione all'Università di Marmara e al Panthéon Sorbonne di Parigi 1 e ha un interesse speciale per la salute pubblica e le disuguaglianze globali. È un ex atleta che spera di diventare uno studioso.",
+    "Paa Kwasi Sefa-Frimpong": "Capo progetto del programma - Africa subsahariana",
+    "Paa Kwasi Sefa-Frimpong_long": "Paa Kwasi Sefa-Frimpong è un medico con un focus sulla salute pubblica con un'ampia formazione (BSc (Psicologia), Bachelor of Medicine, Bachelor of Surgery (MBCHB) e Master of Public Health). Ha esperienza nel fornire supporto al progetto su tutti gli aspetti della ricerca, acquisizione dei dati, monitoraggio e valutazione e controllo della qualità. Ha esperienza con l'attuazione e la gestione del programma, la promozione delle politiche, la formazione e il rafforzamento dei sistemi sanitari. Appassionato lettore, Kwasi ha vissuto in cinque paesi e parla numerose lingue."
   },
   "videos": {
     "coming_soon": "Altri video saranno pubblicati a breve.",
@@ -312,5 +315,8 @@
   },
   "quotes": {
     "title": "Citazioni di esperti"
+  },
+  "newsletter": {
+    "title": "Notiziario"
   }
 }

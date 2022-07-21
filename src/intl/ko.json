@@ -173,7 +173,8 @@
     "team": "팀",
     "videos": "비디오 영상",
     "what": "HIF은 무엇인가요",
-    "quotes": "전문가 인용문"
+    "quotes": "전문가 인용문",
+    "newsletter": "뉴스 레터"
   },
   "news": {
     "heading": "최근 뉴스",
@@ -289,7 +290,9 @@
     "Zeke Ngcobo": "사하라 사막 이남 아프리카 지역 코디네이터",
     "Zeke Ngcobo_long": "Zeke는 공중 보건에 대한 열정을 가진 남아프리카 작가이자 기업가입니다. 그녀는 글로벌 건강을위한 인센티브를 위해 사하라 사막 이남 아프리카에서 봉사 활동을 이끌고 있습니다. 그녀는 한국 서울의 삼육 대학교에서 공중 보건학 석사 학위를 받았습니다.",
     "Abdullah Kaya": "터키 국가 코디네이터 대행",
-    "Abdullah Kaya_long": "Abdullah는 Marmara University와 Paris 1 Panthéon Sorbonne에서 정치학 및 행정학을 전공했으며 공중 보건 및 글로벌 불평등에 특별한 관심을 가지고 있습니다. 그는 학자가 되기를 희망하는 전직 운동선수입니다."
+    "Abdullah Kaya_long": "Abdullah는 Marmara University와 Paris 1 Panthéon Sorbonne에서 정치학 및 행정학을 전공했으며 공중 보건 및 글로벌 불평등에 특별한 관심을 가지고 있습니다. 그는 학자가 되기를 희망하는 전직 운동선수입니다.",
+    "Paa Kwasi Sefa-Frimpong": "프로그램 프로젝트 리더 - 사하라 사막 이남의 아프리카",
+    "Paa Kwasi Sefa-Frimpong_long": "Paa Kwasi Sefa-Frimpong은 광범위한 교육(BSc(심리학), 의학 학사, 외과 학사(MBCHB) 및 공중 보건 석사)을 통해 공중 보건에 중점을 둔 의사입니다. 그는 연구, 데이터 캡처, 모니터링 및 평가, 품질 관리 측면에서 프로젝트 지원을 제공한 경험이 있습니다. 그는 프로그램 구현 및 관리, 정책 옹호, 교육 및 의료 시스템 강화에 경험이 있습니다. 열렬한 독자인 Kwasi는 5개국에 거주했으며 다양한 언어를 구사합니다."
   },
   "videos": {
     "coming_soon": "더 많은 비디오가 곧 게시 될 예정입니다.",
@@ -312,5 +315,8 @@
   },
   "quotes": {
     "title": "전문가 인용구"
+  },
+  "newsletter": {
+    "title": "뉴스 레터"
   }
 }

@@ -173,7 +173,8 @@
     "team": "L'Équipe",
     "videos": "Vidéos",
     "what": "Qu'est-ce que le Fonds d'impact sanitaire",
-    "quotes": "Citations d'experts"
+    "quotes": "Citations d'experts",
+    "newsletter": "Bulletin"
   },
   "news": {
     "heading": "Nouvelles récentes",
@@ -289,7 +290,9 @@
     "Zeke Ngcobo": "Coordinateur régional, Afrique subsaharienne",
     "Zeke Ngcobo_long": "Zeke est un écrivain et entrepreneur sud-africain passionné par la santé publique. Elle dirige la sensibilisation en Afrique subsaharienne pour les incitations à la santé mondiale. Elle a obtenu une maîtrise en santé publique de l'Université Sahmyook de Séoul, en Corée du Sud.",
     "Abdullah Kaya": "Coordinateur national par intérim, Turquie",
-    "Abdullah Kaya_long": "Abdullah a étudié les sciences politiques et l'administration publique à l'Université de Marmara et à Paris 1 Panthéon Sorbonne et s'intéresse particulièrement à la santé publique et aux inégalités mondiales. C'est un ancien athlète qui espère devenir érudit."
+    "Abdullah Kaya_long": "Abdullah a étudié les sciences politiques et l'administration publique à l'Université de Marmara et à Paris 1 Panthéon Sorbonne et s'intéresse particulièrement à la santé publique et aux inégalités mondiales. C'est un ancien athlète qui espère devenir érudit.",
+    "Paa Kwasi Sefa-Frimpong": "Chef de Projet Programme - Afrique Subsaharienne",
+    "Paa Kwasi Sefa-Frimpong_long": "Paa Kwasi Sefa-Frimpong est un médecin spécialisé en santé publique avec une formation approfondie (BSc (psychologie), licence en médecine, licence en chirurgie (MBCHB) et maîtrise en santé publique). Il est expérimenté dans la fourniture d'un soutien de projet sur tous les aspects de la recherche, de la saisie de données, du suivi et de l'évaluation et du contrôle de la qualité. Il a de l'expérience dans la mise en œuvre et la gestion de programmes, le plaidoyer politique, la formation et le renforcement des systèmes de santé. Lecteur avide, Kwasi a vécu dans cinq pays et parle de nombreuses langues."
   },
   "videos": {
     "coming_soon": "D'autres vidéos seront bientôt publiées.",
@@ -312,5 +315,8 @@
   },
   "quotes": {
     "title": "Citations d'experts"
+  },
+  "newsletter": {
+    "title": "Bulletin"
   }
 }

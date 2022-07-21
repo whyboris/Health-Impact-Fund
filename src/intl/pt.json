@@ -173,7 +173,8 @@
     "team": "Equipe",
     "videos": "Vídeos",
     "what": "O que é o Fundo de Impacto na Saúde",
-    "quotes": "Citações de especialistas"
+    "quotes": "Citações de especialistas",
+    "newsletter": "Boletim de Notícias"
   },
   "news": {
     "heading": "Notícias recentes",
@@ -289,7 +290,9 @@
     "Zeke Ngcobo": "Coordenador Regional, África Subsaariana",
     "Zeke Ngcobo_long": "Zeke é um escritor e empresário sul-africano apaixonado pela saúde pública. Ela está liderando a divulgação na África Subsaariana para incentivos à saúde global. Ela obteve um mestrado em Saúde Pública pela Sahmyook University em Seul, Coreia do Sul.",
     "Abdullah Kaya": "Coordenador Interino do País, Turquia",
-    "Abdullah Kaya_long": "Abdullah estudou ciência política e administração pública na Universidade de Marmara e na Paris 1 Panthéon Sorbonne e tem um interesse especial em saúde pública e desigualdades globais. Ele é um ex-atleta que espera se tornar um estudioso."
+    "Abdullah Kaya_long": "Abdullah estudou ciência política e administração pública na Universidade de Marmara e na Paris 1 Panthéon Sorbonne e tem um interesse especial em saúde pública e desigualdades globais. Ele é um ex-atleta que espera se tornar um estudioso.",
+    "Paa Kwasi Sefa-Frimpong": "Líder do Projeto do Programa - África Subsaariana",
+    "Paa Kwasi Sefa-Frimpong_long": "Paa Kwasi Sefa-Frimpong é um médico com foco em saúde pública com treinamento extensivo (BSc (Psicologia), Bacharel em Medicina, Bacharel em Cirurgia (MBCHB) e Mestrado em Saúde Pública). Ele tem experiência em fornecer suporte a projetos em todos os aspectos de pesquisa, captura de dados, monitoramento e avaliação e controle de qualidade. Ele tem experiência com implementação e gestão de programas, defesa de políticas, treinamento e fortalecimento de sistemas de saúde. Leitor ávido, Kwasi morou em cinco países e fala vários idiomas."
   },
   "videos": {
     "coming_soon": "Mais vídeos serão publicados em breve.",
@@ -312,5 +315,8 @@
   },
   "quotes": {
     "title": "Cotações de especialistas"
+  },
+  "newsletter": {
+    "title": "Boletim de Notícias"
   }
 }
