@@ -25,7 +25,9 @@ const Quotes = ({ intl }) => (
         <span className="quote-text">
           <FormattedMessage id="intro.quote_iqwig_text" />
           <span className="quote-author">
-            <FormattedMessage id="intro.quote_iqwig_name" />
+            <a href="/pdf/IQWiG_HIF.pdf">
+              <FormattedMessage id="intro.quote_iqwig_name" />
+            </a>
           </span>
         </span>
       </div>
