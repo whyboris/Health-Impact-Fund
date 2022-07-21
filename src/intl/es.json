@@ -173,7 +173,8 @@
     "team": "Equipo",
     "videos": "Videos",
     "what": "¿Qué es el Fondo para el Impacto sobre la Salud?",
-    "quotes": "Citas de expertos"
+    "quotes": "Citas de expertos",
+    "newsletter": "Boletin informativo"
   },
   "news": {
     "heading": "Noticias recientes",
@@ -289,7 +290,9 @@
     "Zeke Ngcobo": "Coordinador regional, África subsahariana",
     "Zeke Ngcobo_long": "Zeke es un escritor y empresario sudafricano apasionado por la salud pública. Lidera la difusión en África subsahariana de incentivos para la salud global. Obtuvo una Maestría en Salud Pública de la Universidad Sahmyook en Seúl, Corea del Sur.",
     "Abdullah Kaya": "Coordinador interino de país, Turquía",
-    "Abdullah Kaya_long": "Abdullah estudió ciencias políticas y administración pública en la Universidad de Marmara y en Paris 1 Panthéon Sorbonne y tiene un interés especial en la salud pública y las desigualdades globales. Él es un ex atleta que espera convertirse en un erudito."
+    "Abdullah Kaya_long": "Abdullah estudió ciencias políticas y administración pública en la Universidad de Marmara y en Paris 1 Panthéon Sorbonne y tiene un interés especial en la salud pública y las desigualdades globales. Él es un ex atleta que espera convertirse en un erudito.",
+    "Paa Kwasi Sefa-Frimpong": "Líder de Proyecto de Programa - África Subsahariana",
+    "Paa Kwasi Sefa-Frimpong_long": "Paa Kwasi Sefa-Frimpong es una doctora en medicina con un enfoque en la salud pública con una amplia formación (BSc (Psicología), Licenciatura en Medicina, Licenciatura en Cirugía (MBCHB) y Maestría en Salud Pública). Tiene experiencia en brindar apoyo a proyectos en todos los aspectos de la investigación, captura de datos, monitoreo y evaluación, y control de calidad. Tiene experiencia en implementación y gestión de programas, promoción de políticas, capacitación y fortalecimiento de sistemas de salud. Ávido lector, Kwasi ha vivido en cinco países y habla numerosos idiomas."
   },
   "videos": {
     "coming_soon": "Más videos serán publicados pronto.",
@@ -312,5 +315,8 @@
   },
   "quotes": {
     "title": "Citas de expertos"
+  },
+  "newsletter": {
+    "title": "Boletin informativo"
   }
 }
