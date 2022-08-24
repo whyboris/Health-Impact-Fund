@@ -1,7 +1,7 @@
 {
   "name": "health-impact-fund",
   "description": "Health Impact Fund built with Gatsby",
-  "version": "0.6.0",
+  "version": "1.2.0",
   "author": "Boris Yakubchik",
   "dependencies": {
     "gatsby": "4.19.2",

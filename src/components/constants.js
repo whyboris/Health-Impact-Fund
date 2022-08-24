@@ -33,7 +33,7 @@ const management = [
   // "Glorianna Tillemann-Dick",
   "Abdullah Kaya",
   "Thalia Arawi",
-  "Paa Kwasi Sefa-Frimpong",
+  // "Paa Kwasi Sefa-Frimpong",
   "Boris Yakubchik",
 ];
 
@@ -53,7 +53,7 @@ const managementEmails = [
   // "glorianna@healthimpactfund.org",
   "",
   "",
-  "",
+  // "",
   "",
 ]
 
@@ -74,7 +74,7 @@ const managementImages = [
   // "Glorianna.jpg",
   "Abdullah.jpg",
   "Thalia.jpg",
-  "Paa.jpg",
+  // "Paa.jpg",
   "Boris.jpg",
 ];
 
