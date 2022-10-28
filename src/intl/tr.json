@@ -122,12 +122,18 @@
     "pilot_heading": "Önemli bir ilk adım Sağlık Etki Fonu Pilot programıdır.",
     "pilot_read_pilot": "Sağlık Etki Fonu Pilot programını keşfedin",
     "pilot_text": "Pilot programı, ilaç sektöründeki yenilikçilerinin sabit bir ödül havuzunun payı için yarışacakları beş yıllık bir proje olarak tasarlandı. Havuzdaki para, katılımcı kuruluşlar arasında uygulamaya koydukları ilaçların daha önce ulaşmamış olduğu düşük veya düşük-orta gelirli bir ülkelerde elde edeceği sağlık kazanımlarına orantılı olarak dağıtılacaktır.",
+    "quote_iqwig_name": "PD Dr. med. Stefan Lange (IQWiG)",
+    "quote_iqwig_text": "Özetle, Sağlık Etki Fonunun sağlık yararlarını değerlendirme gerekliliği makul bir masrafla kesinlikle uygulanabilir ve aslında tam olarak IQWiG ve diğer STD ajansları (örneğin Fransa'da HAS veya İngiltere ve Galler'de NICE) tarafından günlük olarak yapılan şeydir. .",
     "quote_jami_name": "Jami Taylor, Janssen İlaç (Johnson & Johnson)",
     "quote_jami_text": "Yeterli finansman sağlandığında, Sağlık Etki Fonu, küçük ve büyük biyo-ilaç şirketlerinden düşük gelirli nüfusların ihtiyaçlarını karşılamak için yatırımları teşvik etmenin etkili bir yolu olabilir. Ticari teşvikleri, aşırı hastalık ve ölümleri azaltmaya yönelik sosyal hedeflerle uyumlu hale getirecektir. Bu program, sonuçları ödüllendiren rekabetçi, piyasaya dayalı bir çerçevede yenilikçi ürünler geliştirme çabalarında Janssen de dahil olmak üzere çeşitli ilaç şirketlerini destekleyebilir.",
     "quote_jayasree_name": "Dr. Jayasree K. Iyer, İcra Direktörü, Tıpa Erişim Vakfı",
     "quote_jayasree_text": "İlaca Erişim Vakfı, düşük ve orta gelirli ülkelerde yaşayan insanların hayat kurtaran ilaçlara erişimini iyileştirmeye kararlıdır. İlaç sektörü, uzmanlığı ve kaynakları sayesinde bunu başarmada kilit bir role sahiptir. İlaca Erişim Vakfı'nın misyonu, ilaç sektörünü daha fazlasını yapmaya teşvik etmektir. Sağlık Etki Fonu modelinde, ilaç şirketlerini ürünlerine erişimi artırmaya, öncelikle dünyanın en dezavantajlı insanlarını etkileyen hastalıklar için araştırmaya daha fazla yatırım yapmaya ve daha geniş bir dağıtım sağlamaya motive etme fırsatı tanıyoruz. Sağlık Etki Fonu pilotunun ortak hedeflerini ve özlemlerini destekliyoruz",
+    "quote_karl_name": "Karl Lauterbach",
+    "quote_karl_text": "Sağlık Etki Fonu, şu soruyla ilgili olarak yüzde yüz yenilikçi olarak kabul edilebilecek önerilerden biri: Gerçekten bu kadar zengin bir dünyamız varken, daha yoksul ülkelerde insanların ilacı yokken sorunu nasıl çözebiliriz? Benim görüşüme göre, bu benim bildiğim uygulamalı etiğin en iyi örneğidir. Burada, etik teori ekonomik bilgi ile birleştirilir ve gerçek bir soruna uygulanır ve bundan daha iyisini yapamazsınız.",
     "quote_norway_name": "Norveç Liberal Partisi (Sol)",
     "quote_norway_text": "Mevcut patent sistemine ek olarak uluslararası bir Sağlık Etki Fonu (HIF) oluşturulmalıdır. Sağlık Etki Fonu aracılığıyla ilaç şirketleri ilaçlarını gönüllü olarak kaydedebilir ve oluşturdukları sağlık etkisine orantılı olarak Fon'dan on yıl boyunca destek ödenmesi karşılığında ilaçlarını en düşük fiyata sunmayı taahhüt edebilirler. Bu, şirketlere yalnızca en büyük satın alma gücüne sahip olan insanlar için değil, aynı zamanda en büyük sağlık ihtiyaçları olan insanlar için de ilaç geliştirme teşvikleri verir.",
+    "quote_peter_name": "Peter Şarkıcı",
+    "quote_peter_text": "Sağlık Etki Fonu, haklı olarak DSÖ'nün birinci önceliği olan uygun fiyatlı evrensel sağlık sigortasına ve üçüncü Sürdürülebilir Kalkınma Hedefine ulaşılmasına yönelik önemli bir adım olacaktır.",
     "quote_tom_name": "Tom Bollyky",
     "quote_tom_text": "Sağlık Etki Fonu planı hem yenilikçi bir plandır hem de doğru zamanda ortaya çıkmıştır. Önemli bir küresel sağlık etkisine sahip ilaçlar oluşturmak ve bu ilaçların yaygın ve sürekli kullanılabilirliklerini sağlamak için açık bir teşvik oluşturulması ihtiyacı vardır. Uluslararası veya ulusal fikri mülkiyet yasalarında toptan değişiklikler gerektirmeyen piyasaya dayalı bir yaklaşım, olası bağışçılar ve sektör katılımcıları tarafından olumlu karşılanacaktır.",
     "step_01": "Sağlık Etki Fonu her yıl devletler, uluslararası vergilendirme ve/veya yardım fonları tarafından sağlanan sabit bir ödül para havuzu dağıtır.",
@@ -140,13 +146,7 @@
     "what_text": "Sağlık Etki Fonu, gerçekleştirdikleri sağlık etkisine dayalı olarak yeni ilaçları ödüllendiren yenilikçi bir performans endeksli ödeme mekanizması sunmaktadır.",
     "why_button": "Peki başka?",
     "why_heading": "Neden?",
-    "why_text": "Dünya çapında hastalıkların ve erken ölümlerin çoğu yoksulluktan kaynaklanmaktadır - fakir insanlar ihtiyaç duydukları ilaçları karşılayamamaktadır.",
-    "quote_peter_name": "Peter Şarkıcı",
-    "quote_peter_text": "Sağlık Etki Fonu, haklı olarak DSÖ'nün birinci önceliği olan uygun fiyatlı evrensel sağlık sigortasına ve üçüncü Sürdürülebilir Kalkınma Hedefine ulaşılmasına yönelik önemli bir adım olacaktır.",
-    "quote_karl_name": "Karl Lauterbach",
-    "quote_karl_text": "Sağlık Etki Fonu, şu soruyla ilgili olarak yüzde yüz yenilikçi olarak kabul edilebilecek önerilerden biri: Gerçekten bu kadar zengin bir dünyamız varken, daha yoksul ülkelerde insanların ilacı yokken sorunu nasıl çözebiliriz? Benim görüşüme göre, bu benim bildiğim uygulamalı etiğin en iyi örneğidir. Burada, etik teori ekonomik bilgi ile birleştirilir ve gerçek bir soruna uygulanır ve bundan daha iyisini yapamazsınız.",
-    "quote_iqwig_name": "PD Dr. med. Stefan Lange (IQWiG)",
-    "quote_iqwig_text": "Özetle, Sağlık Etki Fonunun sağlık yararlarını değerlendirme gerekliliği makul bir masrafla kesinlikle uygulanabilir ve aslında tam olarak IQWiG ve diğer STD ajansları (örneğin Fransa'da HAS veya İngiltere ve Galler'de NICE) tarafından günlük olarak yapılan şeydir. ."
+    "why_text": "Dünya çapında hastalıkların ve erken ölümlerin çoğu yoksulluktan kaynaklanmaktadır - fakir insanlar ihtiyaç duydukları ilaçları karşılayamamaktadır."
   },
   "navigation": {
     "about": "Hakkında",
@@ -164,21 +164,24 @@
     "language": "Dil",
     "management_team": "Yönetim ekibi",
     "news": "Haberler",
+    "newsletter": "Bülten",
     "opportunities": "Fırsatlar",
     "problem": "Sorun",
     "publications": "Yayınlar",
+    "quotes": "Uzman alıntıları",
     "recent_events": "Son olaylar",
     "scientific_advisors": "Bilimsel Danışmanlar",
     "summary": "Özet",
     "team": "Ekip",
     "videos": "Videolar",
-    "what": "Sağlık Etki Fonu Nedir",
-    "quotes": "Uzman alıntıları",
-    "newsletter": "Bülten"
+    "what": "Sağlık Etki Fonu Nedir"
   },
   "news": {
     "heading": "Son Haberler",
     "title": "Sağlık Etki Fonu Haberleri"
+  },
+  "newsletter": {
+    "title": "Bülten"
   },
   "notfound": {
     "description": "Bu sayfa mevcut değil",
@@ -201,7 +204,12 @@
     "hif_summaries_description": "Bu belge, Sağlık Etki Fonu ve hedeflerinin iki sayfalık bir özetini sunmaktadır. Belge sağlık Etki Fonu'nun hastalar, ilaç şirketleri ve vergi mükellefleri için nasıl çalıştığını açıklamakta ve programın hayata geçirilmesine giden yolu da özetlemektedir.",
     "title": "Sağlık Etki Fonu Yayınları"
   },
+  "quotes": {
+    "title": "Uzman Alıntılar"
+  },
   "team": {
+    "Abdullah Kaya": "Ülke Koordinatör Vekili, Türkiye",
+    "Abdullah Kaya_long": "Abdullah, Marmara Üniversitesi ve Paris 1 Panthéon Sorbonne'da siyaset bilimi ve kamu yönetimi okudu ve halk sağlığı ve küresel eşitsizliklere özel bir ilgi duyuyor. O bir bilim adamı olmayı umut eden eski bir atlet.",
     "about_IGH": "Küresel Sağlık Teşvikleri, temel amacı {intl_HIP} önerisini ilerletmek olan ABD merkezli kar amacı gütmeyen bir kuruluştur. Bu önemli çalışmada {intl_volunteers} bizimle işbirliği yapmasını memnuniyetle karşılıyoruz.",
     "about_IGH_more": "Küresel Sağlık Teşvikleri'ne katılmak veya destek olmak ilginizi çekiyorsa, {intl_email} adresine yazabilir veya {intl_donation} yapabilirsiniz.",
     "advisory_council": "Uluslararası Danışma Konseyi",
@@ -257,6 +265,8 @@
     "opportunity_postscript": "Aradığımız temel özellikler, küresel sağlığı iyileştirme konusuna heyecan duymak ve bir ekibin parçası olarak çalışmaya istekli olmaktır. Tüm ülkelerden, etnik kökenlerden vb. katılımcıları bekliyoruz. ",
     "Özlem Denli": "Araştırma Görevlisi",
     "Özlem Denli_long": "Özlem Denli doktorasını siyasal bilimler ve uluslarası ilişkiler alanında Oslo Üniversitesinde (Norveç) tamamladı. Öğretim ve araştırma çalışmalarında siyaset felsefesi, siyaset teorisi tarihi ve modern siyasal düşünceler alanlarına odaklandı ve libarel teori ve uygulalarında uzmanlaştı. Denli John Rawls' ve Thomas Pogge'nin adalet teorileri üzerine Türkçe olarak birçok makale paylaştı. ",
+    "Paa Kwasi Sefa-Frimpong": "Program Proje Lideri - Sahra Altı Afrika",
+    "Paa Kwasi Sefa-Frimpong_long": "Paa Kwasi Sefa-Frimpong, kapsamlı eğitim (Lisans (Psikoloji), Tıp Lisansı, Cerrahi Lisansı (MBCHB) ve Halk Sağlığı Yüksek Lisans dereceleri) ile halk sağlığına odaklanan bir tıp doktorudur. Araştırma, veri toplama, izleme ve değerlendirme ve kalite kontrolünün tüm yönlerinde proje desteği sağlama konusunda deneyimlidir. Program uygulama ve yönetimi, politika savunuculuğu, eğitim ve sağlık sistemlerinin güçlendirilmesi konularında deneyimlidir. Hevesli bir okuyucu olan Kwasi, beş ülkede yaşadı ve çok sayıda dil biliyor.",
     "Paul Farmer": "Harvard Tıp Okulu Global Sağlık ve Sosyal Tıp Bölüm Başkanı; Kurucu Ortak, Sağlık Ortakları.",
     "Paul Martin": "Kanada'nın yirmi birinci Başbakanı.",
     "Peggy Tse": "Bölge Direktörü (Asya)",
@@ -283,16 +293,14 @@
     "translators": "Çevirme Ekibi",
     "Vikita Mehta": "Sosyal Yardım Koordinatörü",
     "Vikita Mehta_long": "Vikita Mehta, IGH'de sosyal medyayı ve sosyal medyayı koordine ediyor. Asya'daki kan hastalıklarının bakımındaki eşitsizlikleri azaltmak amacıyla Hemoglobal yardım kuruluşunun Araştırma ve Kaynak Geliştirme Direktörüdür ve ayrıca Kanada ve Kenya'da engellilik adaletini teşvik etmek ve dönem yoksulluğunu azaltmak için çeşitli politika projeleri yürütmektedir.",
+    "Vita Mithi": "Ortaklık Görevlisi",
+    "Vita Mithi_long": "Malavi'de Halk Sağlığı Araştırma Danışmanlığı'nda Armref Data for Action'ın kurucusu ve Nikotin ve Tütün Genetiği ve Omics Ağı Araştırmaları Derneği'nin iletişim lideri ve Afrika Liderleri Enstitüsü 2022 araştırma yöntemleri programında araştırma görevlisi. Amerikan Tıbbi Toksikoloji Koleji'nde Endüstride Tıbbi Toksikoloji uzmanı ve Africa Oxford Sağlık İnovasyon ve Girişimcilik Programı 2022 üyesidir ve Malawi'deki Livingstonia Üniversitesi'nden Halk Sağlığı alanında lisans derecesine sahiptir.",
     "volunteers": "yeni ekip gönüllülerinin",
     "Wu Qunhong": "Harbin Tıp Üniversitesi Sağlık Yönetimi Koleji Yönetici Dekanı",
     "Yasmine Bark": "Bölge Koordinatörü, Orta Doğu ve Kuzey Afrika",
     "Yasmine Bark_long": "Oxford Üniversitesi'nden Deneysel Terapötikler alanında MSc ve Halk Sağlığı alanında MSc'ye sahip, şu anda Londra, Birleşik Krallık'ta Sağlık Danışmanı ve Eczacılık Danışmanı olarak çalışan Kayıtlı Eczacı.",
     "Zeke Ngcobo": "Bölgesel Koordinatör, Sahra Altı Afrika",
-    "Zeke Ngcobo_long": "Zeke, halk sağlığına tutkusu olan Güney Afrikalı bir yazar ve girişimcidir. Küresel Sağlık Teşvikleri için Sahra Altı Afrika'da sosyal yardıma öncülük ediyor. Güney Kore, Seul'deki Sahmyook Üniversitesi'nden Halk Sağlığı alanında yüksek lisans derecesi aldı.",
-    "Abdullah Kaya": "Ülke Koordinatör Vekili, Türkiye",
-    "Abdullah Kaya_long": "Abdullah, Marmara Üniversitesi ve Paris 1 Panthéon Sorbonne'da siyaset bilimi ve kamu yönetimi okudu ve halk sağlığı ve küresel eşitsizliklere özel bir ilgi duyuyor. O bir bilim adamı olmayı umut eden eski bir atlet.",
-    "Paa Kwasi Sefa-Frimpong": "Program Proje Lideri - Sahra Altı Afrika",
-    "Paa Kwasi Sefa-Frimpong_long": "Paa Kwasi Sefa-Frimpong, kapsamlı eğitim (Lisans (Psikoloji), Tıp Lisansı, Cerrahi Lisansı (MBCHB) ve Halk Sağlığı Yüksek Lisans dereceleri) ile halk sağlığına odaklanan bir tıp doktorudur. Araştırma, veri toplama, izleme ve değerlendirme ve kalite kontrolünün tüm yönlerinde proje desteği sağlama konusunda deneyimlidir. Program uygulama ve yönetimi, politika savunuculuğu, eğitim ve sağlık sistemlerinin güçlendirilmesi konularında deneyimlidir. Hevesli bir okuyucu olan Kwasi, beş ülkede yaşadı ve çok sayıda dil biliyor."
+    "Zeke Ngcobo_long": "Zeke, halk sağlığına tutkusu olan Güney Afrikalı bir yazar ve girişimcidir. Küresel Sağlık Teşvikleri için Sahra Altı Afrika'da sosyal yardıma öncülük ediyor. Güney Kore, Seul'deki Sahmyook Üniversitesi'nden Halk Sağlığı alanında yüksek lisans derecesi aldı."
   },
   "videos": {
     "coming_soon": "Yakında daha fazla video paylaşılacaktır.",
@@ -312,11 +320,5 @@
     "reward_see_more": "Sağlık Etki Fonu'nun önemli bir özelliği yıllık ödül havuzlarının her birinin önceden sabitlenmiş olmasıdır. Bu, Fon ve fon sağlayıcılarının bütçelerini yönetmelerine yardımcı olur. Her havuz, kayıtlı ürünlerin ilgili yılda elde ettiği sağlık kazanımlarına orantılı şekilde bölüştürülür. Böylece firmaların insan sağlığını geliştirmek için rekabet etmeleri sağlanır. Her tescilli ürün on yıllık bir süre için ödemelere katılır, bu da firmaların mevcut sistemde patent altında faydalandıkları  korunma süresine benzer. Bu ödül süresinin sonunda,süresi dolmamış patentlere bakılmaksızın, yenilikçinin kayıtlı ürününü genel üretime lisanslaması gerekecektir.",
     "see_more": "Daha fazla gör",
     "title": "Sağlık Etki Fonu nedir?"
-  },
-  "quotes": {
-    "title": "Uzman Alıntılar"
-  },
-  "newsletter": {
-    "title": "Bülten"
   }
 }

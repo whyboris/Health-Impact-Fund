@@ -122,12 +122,18 @@
     "pilot_heading": "Une première étape importante est un projet pilote du Fonds d'impact sanitaire.",
     "pilot_read_pilot": "Explorer le projet pilote du Fonds d'impact sanitaire",
     "pilot_text": "Le pilote est conçu comme un projet de cinq ans dans le cadre duquel les innovateurs pharmaceutiques se disputeraient une part d'une cagnotte de récompenses fixe. L'argent serait réparti entre les organisations participantes en fonction des gains sanitaires que chacune réaliserait en introduisant un médicament dans un pays à revenu faible ou intermédiaire inférieur dans lequel il n'était pas disponible auparavant.",
+    "quote_iqwig_name": "PD Dr. med. Stefan Lange (IQWiG)",
+    "quote_iqwig_text": "En résumé, l'exigence du Fonds d'impact sanitaire d'évaluer les avantages pour la santé est certainement réalisable à un coût raisonnable et est en effet exactement ce qui est fait par IQWiG et d'autres agences HTA (par exemple HAS en France ou NICE en Angleterre et au Pays de Galles) sur une base quotidienne .",
     "quote_jami_name": "Jami Taylor, Janssen Pharmaceuticals",
     "quote_jami_text": "Avec un financement suffisant, le Fonds d'impact sanitaire pourrait être un moyen efficace de stimuler les investissements des petites et grandes entreprises biopharmaceutiques pour répondre aux besoins des populations à faible revenu. Il alignerait les incitations commerciales sur les objectifs sociaux de réduction de la morbidité et de la mortalité excessives. Il pourrait soutenir les entreprises, y compris Janssen, dans leurs efforts pour développer des produits innovants dans un cadre concurrentiel basé sur le marché qui récompense les résultats.",
     "quote_jayasree_name": "Dr Jayasree K. Iyer, directeur exécutif, Access to Medicine Foundation",
     "quote_jayasree_text": "La Fondation pour l'accès aux médicaments s'est engagée à améliorer l'accès aux médicaments vitaux pour les personnes vivant dans les pays à revenu faible ou intermédiaire. De par son expertise et ses ressources, le secteur pharmaceutique a un rôle clé à jouer pour y parvenir. La mission de la Fondation pour l'accès à la médecine est d'encourager le secteur pharmaceutique à en faire plus. Nous reconnaissons dans le modèle du Health Impact Fund une opportunité de motiver les sociétés pharmaceutiques à améliorer l'accès à leurs produits, à investir davantage dans la recherche sur les maladies qui affectent principalement les personnes les plus défavorisées du monde et à élargir leur distribution. Nous soutenons les objectifs et les aspirations partagés d'un projet pilote du Health Impact Fund",
+    "quote_karl_name": "Karl Lauterbach",
+    "quote_karl_text": "Le Fonds d'impact sur la santé est l'une de ces propositions qui peuvent être considérées comme innovantes à cent pour cent par rapport à la question : comment résoudre le problème que nous avons réellement un monde si riche, et pourtant dans les pays les plus pauvres, les gens n'ont pas de médicaments ? À mon avis, c'est le meilleur exemple d'éthique appliquée que je connaisse. Ici, la théorie éthique est combinée avec la connaissance économique et appliquée à un problème réel, et vous ne pouvez tout simplement pas faire mieux que cela.",
     "quote_norway_name": "Parti libéral (gauche) de Norvège",
     "quote_norway_text": "Un Fonds international sanitaire devrait être créé en complément du système actuel des brevets. Grâce au Fonds d'impact sanitaire, les sociétés pharmaceutiques peuvent enregistrer volontairement leurs médicaments et s'engager à les rendre disponibles au prix le plus bas contre le paiement d'une aide sur dix ans du Fonds sur la base de l'impact sanitaire majeur de leurs médicaments. Cela incite les entreprises à développer des médicaments pour ceux qui ont les plus grands besoins de santé et pas seulement ceux qui ont le plus grand pouvoir d'achat.",
+    "quote_peter_name": "Peter Singer",
+    "quote_peter_text": "Le Fonds d'impact sur la santé serait une étape importante vers une couverture sanitaire universelle abordable, qui est à juste titre la priorité absolue de l'OMS, et vers la réalisation du troisième objectif de développement durable.",
     "quote_tom_name": "Tom Bollyky",
     "quote_tom_text": "Le plan du Fonds d'impact sur la santé est à la fois novateur et opportun. Il existe un besoin évident d'incitations pour créer des médicaments ayant un impact significatif sur la santé mondiale et assurer leur disponibilité généralisée et durable. Une approche basée sur le marché, qui ne requiert pas de modifications radicales des lois internationales ou nationales sur la propriété intellectuelle, devrait être bien reçue par les donateurs potentiels et les participants de l'industrie.",
     "step_01": "Le Fonds d'impact sanitaire détient pour chaque année une cagnotte de récompenses fournies par les États, la fiscalité internationale et / ou des bailleurs de fonds caritatifs.",
@@ -140,13 +146,7 @@
     "what_text": "Le Fonds d'impact sanitaire propose un mécanisme innovant de rémunération au rendement qui récompense les nouveaux produits pharmaceutiques en fonction de leur impact réel sur la santé.",
     "why_button": "Quoi d'autre?",
     "why_heading": "Pourquoi.",
-    "why_text": "La plupart des maladies et des décès prématurés dans le monde sont causés par la pauvreté - les pauvres n'ont pas les moyens d'acheter les médicaments appropriés.",
-    "quote_peter_name": "Peter Singer",
-    "quote_peter_text": "Le Fonds d'impact sur la santé serait une étape importante vers une couverture sanitaire universelle abordable, qui est à juste titre la priorité absolue de l'OMS, et vers la réalisation du troisième objectif de développement durable.",
-    "quote_karl_name": "Karl Lauterbach",
-    "quote_karl_text": "Le Fonds d'impact sur la santé est l'une de ces propositions qui peuvent être considérées comme innovantes à cent pour cent par rapport à la question : comment résoudre le problème que nous avons réellement un monde si riche, et pourtant dans les pays les plus pauvres, les gens n'ont pas de médicaments ? À mon avis, c'est le meilleur exemple d'éthique appliquée que je connaisse. Ici, la théorie éthique est combinée avec la connaissance économique et appliquée à un problème réel, et vous ne pouvez tout simplement pas faire mieux que cela.",
-    "quote_iqwig_name": "PD Dr. med. Stefan Lange (IQWiG)",
-    "quote_iqwig_text": "En résumé, l'exigence du Fonds d'impact sanitaire d'évaluer les avantages pour la santé est certainement réalisable à un coût raisonnable et est en effet exactement ce qui est fait par IQWiG et d'autres agences HTA (par exemple HAS en France ou NICE en Angleterre et au Pays de Galles) sur une base quotidienne ."
+    "why_text": "La plupart des maladies et des décès prématurés dans le monde sont causés par la pauvreté - les pauvres n'ont pas les moyens d'acheter les médicaments appropriés."
   },
   "navigation": {
     "about": "A propos",
@@ -164,21 +164,24 @@
     "language": "Langue",
     "management_team": "L'Equipe de direction",
     "news": "L'actualité",
+    "newsletter": "Bulletin",
     "opportunities": "Les opportunités",
     "problem": "Le problème",
     "publications": "Les publications",
+    "quotes": "Citations d'experts",
     "recent_events": "Événements récents",
     "scientific_advisors": "Conseillers scientifiques",
     "summary": "Sommaire",
     "team": "L'Équipe",
     "videos": "Vidéos",
-    "what": "Qu'est-ce que le Fonds d'impact sanitaire",
-    "quotes": "Citations d'experts",
-    "newsletter": "Bulletin"
+    "what": "Qu'est-ce que le Fonds d'impact sanitaire"
   },
   "news": {
     "heading": "Nouvelles récentes",
     "title": "Nouvelles du Fonds d'impact sanitaire"
+  },
+  "newsletter": {
+    "title": "Bulletin"
   },
   "notfound": {
     "description": "Cette page n'existe pas",
@@ -201,7 +204,12 @@
     "hif_summaries_description": "Ce document fournit un résumé de deux pages du Fonds d'impact sanitaire et de ses objectifs. Il explique comment le Fonds d'impact sanitaire fonctionne pour les patients, les sociétés pharmaceutiques et les contribuables. Il trace également un chemin vers la réalisation de son implémentation.",
     "title": "Publications du Fonds d'impact sanitaire"
   },
+  "quotes": {
+    "title": "Citations d'experts"
+  },
   "team": {
+    "Abdullah Kaya": "Coordinateur national par intérim, Turquie",
+    "Abdullah Kaya_long": "Abdullah a étudié les sciences politiques et l'administration publique à l'Université de Marmara et à Paris 1 Panthéon Sorbonne et s'intéresse particulièrement à la santé publique et aux inégalités mondiales. C'est un ancien athlète qui espère devenir érudit.",
     "about_IGH": "\"Incentives for Global Health\" est une organisation américaine à but non lucratif dont le mandat principal est de faire avancer la proposition {intl_HIP}. Nous invitons les {intl_volunteers} à collaborer avec nous sur ce travail important.",
     "about_IGH_more": "Si vous êtes désireux de vous impliquer ou de soutenir Incentives for Global Health, veuillez nous écrire à {intl_email} ou envisager de faire un {intl_donation}.",
     "advisory_council": "Conseil consultatif international",
@@ -257,6 +265,8 @@
     "opportunity_postscript": "Les caractéristiques clés sont l'enthousiasme pour l'amélioration de la santé à l'échelle mondiale et la volonté de travailler en équipe. Nous accueillons des collaborateurs de tous les pays, toutes les origines, etc.",
     "Özlem Denli": "Adjoint de recherche",
     "Özlem Denli_long": "Özlem Denli a reçu son doctorat en Sciences Politiques et Relations Internationales de l'Université d'Oslo, Norvège. Son expertise, en enseignement et recherche, se concentre sur la philosophie politique, l'histoire de la théorie politique, et la pensée politique contemporaine, ayant un intérêt particulier pour la théorie et les pratiques libérales. Denli a publié de nombreux essais en turc sur les théories de la justice de John Rawls et Thomas Pogge.",
+    "Paa Kwasi Sefa-Frimpong": "Chef de Projet Programme - Afrique Subsaharienne",
+    "Paa Kwasi Sefa-Frimpong_long": "Paa Kwasi Sefa-Frimpong est un médecin spécialisé en santé publique avec une formation approfondie (BSc (psychologie), licence en médecine, licence en chirurgie (MBCHB) et maîtrise en santé publique). Il est expérimenté dans la fourniture d'un soutien de projet sur tous les aspects de la recherche, de la saisie de données, du suivi et de l'évaluation et du contrôle de la qualité. Il a de l'expérience dans la mise en œuvre et la gestion de programmes, le plaidoyer politique, la formation et le renforcement des systèmes de santé. Lecteur avide, Kwasi a vécu dans cinq pays et parle de nombreuses langues.",
     "Paul Farmer": "Président du département de Santé Mondiale et de médecine sociale de la Harvard Medical School; Co-fondateur, Partners in Health.",
     "Paul Martin": "vingt et unième premier ministre du Canada.",
     "Peggy Tse": "Directeur (Asie)",
@@ -283,16 +293,14 @@
     "translators": "Traducteurs",
     "Vikita Mehta": "Coordonnateur de la sensibilisation",
     "Vikita Mehta_long": "Vikita Mehta coordonne la sensibilisation et les médias sociaux à l'ISFH. Elle est directrice de la recherche et de la collecte de fonds pour l'organisme de bienfaisance Hemoglobal dans le but de réduire les inégalités en matière de soins pour les maladies du sang en Asie, et poursuit également divers projets politiques visant à promouvoir la justice pour les personnes handicapées et à réduire la pauvreté périodique au Canada et au Kenya.",
+    "Vita Mithi": "Chargée des partenariats",
+    "Vita Mithi_long": "Fondateur d'Armref Data for Action in Public Health Research Consultancy au Malawi, et responsable de la communication pour la Society for Research on Nicotine and Tobacco Genetics and Omics Network et chercheur dans le programme de méthodes de recherche Leaders of Africa Institute 2022. Il est boursier en toxicologie médicale dans l'industrie à l'American College of Medical Toxicology et Africa Oxford Health Innovation and Entrepreneurship Scheme2022 et est titulaire d'un baccalauréat en santé publique de l'Université de Livingstonia, au Malawi.",
     "volunteers": "De nouveaux bénévoles de l'équipe",
     "Wu Qunhong": "Doyen exécutif du Health Management College de l'Université médicale de Harbin",
     "Yasmine Bark": "Coordinateur régional, Moyen-Orient et Afrique du Nord",
     "Yasmine Bark_long": "Pharmacien agréé avec une maîtrise en thérapeutique expérimentale de l'Université d'Oxford et une maîtrise en santé publique, travaillant actuellement en tant que consultant en soins de santé et conseiller en pharmacie à Londres, Royaume-Uni.",
     "Zeke Ngcobo": "Coordinateur régional, Afrique subsaharienne",
-    "Zeke Ngcobo_long": "Zeke est un écrivain et entrepreneur sud-africain passionné par la santé publique. Elle dirige la sensibilisation en Afrique subsaharienne pour les incitations à la santé mondiale. Elle a obtenu une maîtrise en santé publique de l'Université Sahmyook de Séoul, en Corée du Sud.",
-    "Abdullah Kaya": "Coordinateur national par intérim, Turquie",
-    "Abdullah Kaya_long": "Abdullah a étudié les sciences politiques et l'administration publique à l'Université de Marmara et à Paris 1 Panthéon Sorbonne et s'intéresse particulièrement à la santé publique et aux inégalités mondiales. C'est un ancien athlète qui espère devenir érudit.",
-    "Paa Kwasi Sefa-Frimpong": "Chef de Projet Programme - Afrique Subsaharienne",
-    "Paa Kwasi Sefa-Frimpong_long": "Paa Kwasi Sefa-Frimpong est un médecin spécialisé en santé publique avec une formation approfondie (BSc (psychologie), licence en médecine, licence en chirurgie (MBCHB) et maîtrise en santé publique). Il est expérimenté dans la fourniture d'un soutien de projet sur tous les aspects de la recherche, de la saisie de données, du suivi et de l'évaluation et du contrôle de la qualité. Il a de l'expérience dans la mise en œuvre et la gestion de programmes, le plaidoyer politique, la formation et le renforcement des systèmes de santé. Lecteur avide, Kwasi a vécu dans cinq pays et parle de nombreuses langues."
+    "Zeke Ngcobo_long": "Zeke est un écrivain et entrepreneur sud-africain passionné par la santé publique. Elle dirige la sensibilisation en Afrique subsaharienne pour les incitations à la santé mondiale. Elle a obtenu une maîtrise en santé publique de l'Université Sahmyook de Séoul, en Corée du Sud."
   },
   "videos": {
     "coming_soon": "D'autres vidéos seront bientôt publiées.",
@@ -312,11 +320,5 @@
     "reward_see_more": "Une caractéristique importante du Fonds d'impact sanitaire est que chacune de ses cagnottes annuelles de récompenses est fixée à l'avance. Cela aide le Fonds et ses bailleurs de fonds à gérer leurs budgets. Chaque cagnotte est divisée en fonction des gains sanitaires réalisés par les produits enregistrés au cours de l'année concernée. Les entreprises sont donc en concurrence pour améliorer la santé humaine. Chaque produit enregistré participe aux versements pendant une période de dix ans, ce qui ressemble à la durée d'exclusivité dont les entreprises bénéficient désormais grâce aux brevets. À la fin de cette période de récompense, l'innovateur serait tenu de concéder sous licence son produit enregistré pour la production générique, indépendamment de brevets non expirés.",
     "see_more": "Voir plus",
     "title": "Qu'est-ce que le Fonds d'impact sanitaire?"
-  },
-  "quotes": {
-    "title": "Citations d'experts"
-  },
-  "newsletter": {
-    "title": "Bulletin"
   }
 }

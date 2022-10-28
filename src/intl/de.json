@@ -122,6 +122,8 @@
     "pilot_heading": "Ein wichtiger erster Schritt ist das Health Impact Fund Pilotprojekt",
     "pilot_read_pilot": "Das Health Impact Fund Pilotprojekt",
     "pilot_text": "Das Pilotprojekt ist ein fünfjähriger Wettbewerb, an dessen Ende eine feste Prämiensumme unter den teilnehmenden Pharmainnovatoren aufgeteilt wird. Die Aufteilung hängt von den Gesundheitsgewinnen ab, die die teilnehmenden Organisationen damit erzielen, dass sie einen ihrer Wirkstoffe in ein  Land mit niedrigerem Einkommen einführen, in dem es bisher nicht erhältlich war.",
+    "quote_iqwig_name": "PD Dr. med. Stefan Lange (IQWiG)",
+    "quote_iqwig_text": "Zusammenfassend lässt sich sagen, dass die Anforderung des Health Impact Fund, den gesundheitlichen Nutzen zu bewerten, sicherlich mit vertretbarem Aufwand machbar ist und tatsächlich genau das ist, was das IQWiG und andere HTA-Agenturen (z. B. HAS in Frankreich oder NICE in England und Wales) täglich tun .",
     "quote_jami_name": "Jami Taylor, Janssen Pharmaceuticals (Johnson & Johnson)",
     "quote_jami_text": "Mit ausreichenden Finanzmitteln könnte der Health Impact Fund ein wirksames Mittel sein, um Investitionen von kleinen und großen biopharmazeutischen Unternehmen anzuregen, um so den Bedürfnissen einkommensschwacher Bevölkerungsgruppen gerecht werden zu können. Er würde kommerzielle Anreize mit dem sozialen Ziel in Einklang bringen, die  globale Morbidität und Mortalität zu reduzieren. Es könnte Unternehmen, einschließlich Janssen Pharmaceuticals, bei ihren Bemühungen unterstützen, innovative Produkte in einem wettbewerbsfähigen, marktorientierten Rahmen zu entwickeln, der Ergebnisse belohnt.",
     "quote_jayasree_name": "Dr. Jayasree K. Iyer, Geschäftsführer, Access to Medicine Foundation",
@@ -144,9 +146,7 @@
     "what_text": "Der Health Impact Fund ist ein neuartiger leistungsbezogener Mechanismus, der neue Arzneimittel gemäß ihrer tatsächlichen therapeutischen Auswirkungen prämiert.",
     "why_button": "Was sonst?",
     "why_heading": "Warum.",
-    "why_text": "Die meisten Krankheiten und vorzeitigen Todesfälle weltweit werden durch Armut verursacht. Arme Menschen können sich oft nicht die Medikamente leisten, die sie brauchen.",
-    "quote_iqwig_name": "PD Dr. med. Stefan Lange (IQWiG)",
-    "quote_iqwig_text": "Zusammenfassend lässt sich sagen, dass die Anforderung des Health Impact Fund, den gesundheitlichen Nutzen zu bewerten, sicherlich mit vertretbarem Aufwand machbar ist und tatsächlich genau das ist, was das IQWiG und andere HTA-Agenturen (z. B. HAS in Frankreich oder NICE in England und Wales) täglich tun ."
+    "why_text": "Die meisten Krankheiten und vorzeitigen Todesfälle weltweit werden durch Armut verursacht. Arme Menschen können sich oft nicht die Medikamente leisten, die sie brauchen."
   },
   "navigation": {
     "about": "Über",
@@ -164,21 +164,24 @@
     "language": "Sprache",
     "management_team": "Führungsteam",
     "news": "Nachrichten",
+    "newsletter": "Newsletter",
     "opportunities": "Chancen",
     "problem": "Das Problem",
     "publications": "Veröffentlichungen",
+    "quotes": "Expertenzitate",
     "recent_events": "Die jüngsten Ereignisse",
     "scientific_advisors": "Wissenschaftliche Berater",
     "summary": "Zusammenfassung",
     "team": "Das Team",
     "videos": "Videos",
-    "what": "Was ist der Health Impact Fund?",
-    "quotes": "Expertenzitate",
-    "newsletter": "Newsletter"
+    "what": "Was ist der Health Impact Fund?"
   },
   "news": {
     "heading": "Neueste Nachrichten",
     "title": "Health Impact Fund Nachrichten"
+  },
+  "newsletter": {
+    "title": "Newsletter"
   },
   "notfound": {
     "description": "Diese Seite existiert nicht",
@@ -201,7 +204,12 @@
     "hif_summaries_description": "Dieses Dokument enthält eine zweiseitige Zusammenfassung des Health Impact Fund sowie seines Zwecks und seiner  Vorzüge für Patient*innen,  Pharmaunternehmen und Steuerzahler*innen. Auch die Frage der politischen Realisierung des Health Impact Fund wird angesprochen?",
     "title": "Health Impact Fund - Veröffentlichungen"
   },
+  "quotes": {
+    "title": "Expertenzitate"
+  },
   "team": {
+    "Abdullah Kaya": "Stellvertretender Länderkoordinator, Türkei",
+    "Abdullah Kaya_long": "Abdullah studierte Politikwissenschaft und öffentliche Verwaltung an der Marmara-Universität und Paris 1 Panthéon Sorbonne und hat ein besonderes Interesse an öffentlicher Gesundheit und globalen Ungleichheiten. Er ist ein ehemaliger Athlet, der hofft, ein Gelehrter zu werden.",
     "about_IGH": "Incentives for Global Health ist eine in den USA ansässige gemeinnützige Organisation mit dem Hauptauftrag, den  {intl_HIP} zu realisieren. Wir begrüßen alle Interessenten, die  uns bei dieser wichtigen Arbeit unterstützen möchten.",
     "about_IGH_more": "Wenn Sie Interesse haben, uns mit Ihrem Engagement oder finanziell zu  unterstützen, schreiben Sie uns bitte eine E-Mail an {intl_email} oder  denken Sie an  eine  {intl_donation}.",
     "advisory_council": "Internationaler Beirat",
@@ -257,6 +265,8 @@
     "opportunity_postscript": "Wichtig ist uns vor allem, dass Sie sich  für die Verbesserung der globalen Gesundheit begeistern  können und die Bereitschaft zur Teamarbeit mitbringen. Wir heißen Mitarbeiter aus allen Ländern und aller Ethnien etc. willkommen.",
     "Özlem Denli": "Wissenschaftlicher Mitarbeiter",
     "Özlem Denli_long": "Özlem Denli promovierte in Politikwissenschaft und Internationalen Beziehungen an der Universität Oslo (Norwegen). Ihre Lehre und Forschung konzentriert sich auf politische Philosophie, Geschichte der politischen Theorie und zeitgenössisches politisches Denken mit Schwerpunkt auf liberaler Theorie und Praxis. Denli hat zahlreiche türkische Aufsätze zu den Gerechtigkeitstheorien von John Rawls und Thomas Pogge veröffentlicht.",
+    "Paa Kwasi Sefa-Frimpong": "Programmprojektleiter - Subsahara-Afrika",
+    "Paa Kwasi Sefa-Frimpong_long": "Paa Kwasi Sefa-Frimpong ist Ärztin mit Schwerpunkt Public Health mit umfassender Ausbildung (BSc (Psychologie), Bachelor of Medicine, Bachelor of Surgery (MBCHB) und Master of Public Health). Er ist erfahren in der Bereitstellung von Projektunterstützung in allen Aspekten der Forschung, Datenerfassung, Überwachung und Auswertung sowie Qualitätskontrolle. Er hat Erfahrung mit Programmimplementierung und -management, politischer Interessenvertretung, Schulung und Stärkung von Gesundheitssystemen. Als begeisterter Leser hat Kwasi in fünf Ländern gelebt und spricht zahlreiche Sprachen.",
     "Paul Farmer": "Vorsitzender der Abteilung für globale Gesundheits- und Sozialmedizin der Harvard Medical School; Mitbegründer, Partner im Gesundheitswesen.",
     "Paul Martin": "Ehemaliger Premierminister von Kanada.",
     "Peggy Tse": "Direktor (Asien)",
@@ -283,16 +293,14 @@
     "translators": "Übersetzer",
     "Vikita Mehta": "Outreach-Koordinator",
     "Vikita Mehta_long": "Vikita Mehta koordiniert die Öffentlichkeitsarbeit und die sozialen Medien an der IGH. Sie ist Forschungs- und Fundraising-Direktorin für die Wohltätigkeitsorganisation Hemoglobal mit dem Ziel, Ungleichheiten bei der Behandlung von Blutkrankheiten in Asien abzubauen, und verfolgt verschiedene politische Projekte zur Förderung der Gerechtigkeit für Behinderte und zur Verringerung der Armut in Kanada und Kenia.",
+    "Vita Mithi": "Partnerschaftsbeauftragter",
+    "Vita Mithi_long": "Gründer von Armref Data for Action in Public Health Research Consultancy in Malawi und Kommunikationsleiter für die Society for Research on Nicotine and Tobacco Genetics and Omics Network und Forschungswissenschaftler im Forschungsmethodenprogramm Leaders of Africa Institute 2022. Er ist Medical Toxicology in Industry Fellow am American College of Medical Toxicology und Africa Oxford Health Innovation and Entrepreneurship Scheme2022 Fellow und hat einen Bachelor-Abschluss in Public Health von der University of Livingstonia in Malawi.",
     "volunteers": "Neue Freiwillige im Team",
     "Wu Qunhong": "Executive Dean des Health Management College an der medizinischen Universität Harbin",
     "Yasmine Bark": "Regionalkoordinator, Naher Osten und Nordafrika",
     "Yasmine Bark_long": "Registrierter Apotheker mit einem MSc in Experimental Therapeutics von der University of Oxford und einem MSc in Public Health, derzeit als Gesundheitsberater und Apothekenberater in London, Großbritannien.",
     "Zeke Ngcobo": "Regionalkoordinator, Subsahara-Afrika",
-    "Zeke Ngcobo_long": "Zeke ist ein südafrikanischer Schriftsteller und Unternehmer mit einer Leidenschaft für die öffentliche Gesundheit. Sie leitet die Öffentlichkeitsarbeit in Subsahara-Afrika für Incentives for Global Health. Sie erwarb einen Master in Public Health von der Sahmyook University in Seoul, Südkorea.",
-    "Abdullah Kaya": "Stellvertretender Länderkoordinator, Türkei",
-    "Abdullah Kaya_long": "Abdullah studierte Politikwissenschaft und öffentliche Verwaltung an der Marmara-Universität und Paris 1 Panthéon Sorbonne und hat ein besonderes Interesse an öffentlicher Gesundheit und globalen Ungleichheiten. Er ist ein ehemaliger Athlet, der hofft, ein Gelehrter zu werden.",
-    "Paa Kwasi Sefa-Frimpong": "Programmprojektleiter - Subsahara-Afrika",
-    "Paa Kwasi Sefa-Frimpong_long": "Paa Kwasi Sefa-Frimpong ist Ärztin mit Schwerpunkt Public Health mit umfassender Ausbildung (BSc (Psychologie), Bachelor of Medicine, Bachelor of Surgery (MBCHB) und Master of Public Health). Er ist erfahren in der Bereitstellung von Projektunterstützung in allen Aspekten der Forschung, Datenerfassung, Überwachung und Auswertung sowie Qualitätskontrolle. Er hat Erfahrung mit Programmimplementierung und -management, politischer Interessenvertretung, Schulung und Stärkung von Gesundheitssystemen. Als begeisterter Leser hat Kwasi in fünf Ländern gelebt und spricht zahlreiche Sprachen."
+    "Zeke Ngcobo_long": "Zeke ist ein südafrikanischer Schriftsteller und Unternehmer mit einer Leidenschaft für die öffentliche Gesundheit. Sie leitet die Öffentlichkeitsarbeit in Subsahara-Afrika für Incentives for Global Health. Sie erwarb einen Master in Public Health von der Sahmyook University in Seoul, Südkorea."
   },
   "videos": {
     "coming_soon": "Weitere Videos werden in Kürze veröffentlicht.",
@@ -312,11 +320,5 @@
     "reward_see_more": "Eine wichtige Eigenschaft des Health Impact Fund ist, dass er mit vorab festgesetzen Jahresausschüttungen arbeitet. Das erleichtert dem Fund und seinen Sponsoren die Finanzplanung. Jede Jahresausschüttung ist gemäß den Gesundheitsgewinnen aufzuteilen, die die jeweils gemeldeten Medikamente im betreffenden Jahr erzielt haben. Innovatoren konkurrieren also um Erzielung von Gesundheitsgewinnen.  Jedes gemeldete Produkt nimmt zehn  Jahre lang an den Ausschüttungen teil. Das ist ungefähr so lang, wie Medikamente derzeit effektiven Patentschutz genießen. Nach Ablauf der zehn Jahre müssen Innovatoren ihre gemeldeten Produkte zum generischen Vertrieb freigeben, auch wenn sie Patente haben, die noch nicht ganz abgelaufen sind.",
     "see_more": "Mehr sehen",
     "title": "Was ist der Health Impact Fund?"
-  },
-  "quotes": {
-    "title": "Expertenzitate"
-  },
-  "newsletter": {
-    "title": "Newsletter"
   }
 }

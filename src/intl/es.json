@@ -122,12 +122,18 @@
     "pilot_heading": "Un primer paso importante es un Fondo para el Impacto sobre la Salud Piloto.",
     "pilot_read_pilot": "Explore el Fondo para el Impacto sobre la Salud Piloto",
     "pilot_text": "El Fondo para el Impacto sobre la Salud Piloto está concebido como un proyecto de cinco años que haría que los innovadores farmacéuticos compitan por una participación en un fondo fijo de recompensa. El dinero se distribuiría entre las organizaciones participantes de acuerdo con los beneficios en salud que cada uno lograría al introducir un medicamento en un país de ingreso bajo o mediano bajo donde anteriormente no estaba disponible.",
+    "quote_iqwig_name": "PD Dr. med. Stefan Lange (IQWiG)",
+    "quote_iqwig_text": "En resumen, el requisito del Health Impact Fund de evaluar los beneficios para la salud es ciertamente factible a un costo razonable y, de hecho, es exactamente lo que hacen IQWiG y otras agencias HTA (por ejemplo, HAS en Francia o NICE en Inglaterra y Gales) a diario. .",
     "quote_jami_name": "Jami Taylor, Janssen Pharmaceuticals (Johnson & Johnson)",
     "quote_jami_text": "Con fondos suficientes, el Fondo para el Impacto sobre la Salud podría ser una forma efectiva de estimular la inversión de pequeñas y grandes compañías farmacéuticas para satisfacer las necesidades de las poblaciones de bajos ingresos. Alinearía los incentivos comerciales con los objetivos sociales de reducir la morbilidad y mortalidad. Podría apoyar a las empresas, como Janssen, en sus esfuerzos para desarrollar productos innovadores, dentro de un marco competitivo y basado en el mercado que recompensa los resultados.",
     "quote_jayasree_name": "Dr. Jayasree K. Iyer, Director Ejecutivo, Access to Medicine Foundation",
     "quote_jayasree_text": "La Access to Medicine Foundation se compromete a mejorar el acceso a los medicamentos que salvan la vida de las personas que viven en países de ingresos bajos y medios. A través de su experiencia y recursos, el sector farmacéutico tiene un papel clave para lograrlo. La misión de la Access to Medicine Foundation es animar al sector farmacéutico a hacer más. Reconocemos en el modelo Health Impact Fund una oportunidad para motivar a las empresas farmacéuticas a aumentar el acceso a sus productos, invertir más en la investigación de enfermedades que afectan principalmente a las personas más desfavorecidas del mundo y lograr una distribución más amplia. Apoyamos las metas y aspiraciones compartidas de un piloto del Health Impact Fund",
+    "quote_karl_name": "karl lauterbach",
+    "quote_karl_text": "El Fondo de Impacto en la Salud es una de esas propuestas que se pueden considerar cien por cien innovadoras en relación a la pregunta: ¿Cómo resolvemos el problema de que en realidad tenemos un mundo tan rico y, sin embargo, en los países más pobres la gente no tiene medicamentos? En mi opinión, este es el mejor ejemplo de ética aplicada que conozco. Aquí, la teoría ética se combina con el conocimiento económico y se aplica a un problema real, y simplemente no se puede hacer nada mejor que eso.",
     "quote_norway_name": "Partido Liberal (Venstre) de Noruega",
     "quote_norway_text": "Se debe establecer un Fondo para el Impacto sobre la Salud (HIF) como un complemento al sistema actual de patentes. A través del HIF, las compañías farmacéuticas pueden registrar voluntariamente sus medicamentos y comprometerse a ponerlos a disposición al precio más bajo a cambio de un pago durante más de diez años por parte del Fondo, en función del impacto sobre la salud que tienen sus medicamentos. Esto ofrece a las empresas incentivos para desarrollar medicamentos para las personas con las mayores necesidades en salud y no solo para aquellas con el mayor poder adquisitivo.",
+    "quote_peter_name": "Peter Singer",
+    "quote_peter_text": "El Fondo de Impacto en la Salud sería un paso importante hacia la cobertura sanitaria universal asequible, que con razón es la máxima prioridad de la OMS, y hacia el logro del tercer Objetivo de Desarrollo Sostenible.",
     "quote_tom_name": "Tom Bollyky",
     "quote_tom_text": "El plan del Fondo para el Impacto sobre la Salud es innovador y oportuno. Existe una clara necesidad de incentivos para crear medicamentos con un impacto significativo en la salud mundial y garantizar su disponibilidad generalizada y sostenida. Un enfoque basado en el mercado, que no requiera cambios generales en las leyes internacionales o nacionales de propiedad intelectual, debe ser bien recibido tanto por posibles donantes como por participantes de la industria.",
     "step_01": "El Fondo para el Impacto sobre la Salud distribuye cada año un fondo fijo de recompensa de dinero provisto por Estados, impuestos internacionales y/o donantes benéficos.",
@@ -140,13 +146,7 @@
     "what_text": "El Fondo para el Impacto sobre la Salud ofrece un mecanismo innovador de pago por desempeño que recompensa los nuevos productos farmacéuticos en función del impacto real sobre la salud.",
     "why_button": "¿Qué más?",
     "why_heading": "¿Por qué?",
-    "why_text": "La mayoría de las enfermedades y muertes prematuras en todo el mundo son causadas por la pobreza: las personas pobres no pueden pagar medicamentos adecuados.",
-    "quote_peter_name": "Peter Singer",
-    "quote_peter_text": "El Fondo de Impacto en la Salud sería un paso importante hacia la cobertura sanitaria universal asequible, que con razón es la máxima prioridad de la OMS, y hacia el logro del tercer Objetivo de Desarrollo Sostenible.",
-    "quote_karl_name": "karl lauterbach",
-    "quote_karl_text": "El Fondo de Impacto en la Salud es una de esas propuestas que se pueden considerar cien por cien innovadoras en relación a la pregunta: ¿Cómo resolvemos el problema de que en realidad tenemos un mundo tan rico y, sin embargo, en los países más pobres la gente no tiene medicamentos? En mi opinión, este es el mejor ejemplo de ética aplicada que conozco. Aquí, la teoría ética se combina con el conocimiento económico y se aplica a un problema real, y simplemente no se puede hacer nada mejor que eso.",
-    "quote_iqwig_name": "PD Dr. med. Stefan Lange (IQWiG)",
-    "quote_iqwig_text": "En resumen, el requisito del Health Impact Fund de evaluar los beneficios para la salud es ciertamente factible a un costo razonable y, de hecho, es exactamente lo que hacen IQWiG y otras agencias HTA (por ejemplo, HAS en Francia o NICE en Inglaterra y Gales) a diario. ."
+    "why_text": "La mayoría de las enfermedades y muertes prematuras en todo el mundo son causadas por la pobreza: las personas pobres no pueden pagar medicamentos adecuados."
   },
   "navigation": {
     "about": "Acerca de",
@@ -164,21 +164,24 @@
     "language": "Idioma",
     "management_team": "Equipo de administración",
     "news": "Noticias",
+    "newsletter": "Boletin informativo",
     "opportunities": "Oportunidades",
     "problem": "El problema",
     "publications": "Publicaciones",
+    "quotes": "Citas de expertos",
     "recent_events": "Eventos recientes",
     "scientific_advisors": "Asesores científicos",
     "summary": "Resumen",
     "team": "Equipo",
     "videos": "Videos",
-    "what": "¿Qué es el Fondo para el Impacto sobre la Salud?",
-    "quotes": "Citas de expertos",
-    "newsletter": "Boletin informativo"
+    "what": "¿Qué es el Fondo para el Impacto sobre la Salud?"
   },
   "news": {
     "heading": "Noticias recientes",
     "title": "Noticias del Fondo para el Impacto sobre la Salud"
+  },
+  "newsletter": {
+    "title": "Boletin informativo"
   },
   "notfound": {
     "description": "Esta página no existe",
@@ -201,7 +204,12 @@
     "hif_summaries_description": "Este documento proporciona un resumen de dos páginas del Fondo para el Impacto sobre la Salud y sus objetivos. Explica cómo funciona el Fondo para el Impacto sobre la Salud para pacientes, compañías farmacéuticas y contribuyentes. También describe un camino hacia su realización.",
     "title": "Publicaciones del Fondo para el Impacto sobre la Salud"
   },
+  "quotes": {
+    "title": "Citas de expertos"
+  },
   "team": {
+    "Abdullah Kaya": "Coordinador interino de país, Turquía",
+    "Abdullah Kaya_long": "Abdullah estudió ciencias políticas y administración pública en la Universidad de Marmara y en Paris 1 Panthéon Sorbonne y tiene un interés especial en la salud pública y las desigualdades globales. Él es un ex atleta que espera convertirse en un erudito.",
     "about_IGH": "Incentivos para la Salud Global (IGH) es una organización sin fines de lucro con sede en los Estados Unidos, cuyo principal mandato es promover la propuesta del {intl_HIP}. Damos la bienvenida al {intl_volunteers} para colaborar con nosotros en este importante trabajo.",
     "about_IGH_more": "Si está interesado en participar o apoyar Incentivos para la Salud Global (IGH), puede escribir a {intl_email} o puede hacer una {intl_donation}.",
     "advisory_council": "Consejo asesor internacional",
@@ -257,6 +265,8 @@
     "opportunity_postscript": "Las características clave son el entusiasmo por mejorar la salud global y la disposición a trabajar como parte de un equipo. Damos la bienvenida a colaboradores de todos los países, etnias, etc.",
     "Özlem Denli": "Investigador asociado",
     "Özlem Denli_long": "Özlem Denli recibió su doctorado en Ciencias Políticas y Relaciones Internacionales de la Universidad de Oslo (Noruega). Su docencia e investigación se centran en la filosofía política, la historia de la teoría política y el pensamiento político contemporáneo, con énfasis en la teoría y las prácticas liberales. Denli ha publicado numerosos ensayos en turco sobre las teorías de la justicia de John Rawls y Thomas Pogge.",
+    "Paa Kwasi Sefa-Frimpong": "Líder de Proyecto de Programa - África Subsahariana",
+    "Paa Kwasi Sefa-Frimpong_long": "Paa Kwasi Sefa-Frimpong es una doctora en medicina con un enfoque en la salud pública con una amplia formación (BSc (Psicología), Licenciatura en Medicina, Licenciatura en Cirugía (MBCHB) y Maestría en Salud Pública). Tiene experiencia en brindar apoyo a proyectos en todos los aspectos de la investigación, captura de datos, monitoreo y evaluación, y control de calidad. Tiene experiencia en implementación y gestión de programas, promoción de políticas, capacitación y fortalecimiento de sistemas de salud. Ávido lector, Kwasi ha vivido en cinco países y habla numerosos idiomas.",
     "Paul Farmer": "Presidente del Departamento de Salud Global y Medicina Social de la Facultad de Medicina de Harvard, cofundador de Partners in Health.",
     "Paul Martin": "Ex primer ministro de Canadá.",
     "Peggy Tse": "Director (Asia)",
@@ -283,16 +293,14 @@
     "translators": "Traductores",
     "Vikita Mehta": "Coordinador de divulgación",
     "Vikita Mehta_long": "Vikita Mehta coordina el alcance y las redes sociales en IGH. Es directora de investigación y recaudación de fondos para la organización benéfica Hemoglobal con el objetivo de reducir las desigualdades en la atención de enfermedades de la sangre en Asia, y también está llevando a cabo varios proyectos de políticas para promover la justicia de la discapacidad y reducir la pobreza de época en Canadá y Kenia.",
+    "Vita Mithi": "Oficial de Asociaciones",
+    "Vita Mithi_long": "Fundador de Armref Data for Action in Public Health Research Consultancy en Malawi, líder de comunicaciones de la Society for Research on Nicotine and Tobacco Genetics and Omics Network y académico de investigación en el programa de métodos de investigación Leaders of Africa Institute 2022. Es becario de toxicología médica en la industria en el Colegio Americano de Toxicología Médica, y becario del Africa Oxford Health Innovation and Entrepreneurship Scheme2022 y tiene una licenciatura en salud pública de la Universidad de Livingstonia, en Malawi.",
     "volunteers": "Nuevo equipo de voluntarios",
     "Wu Qunhong": "Decano ejecutivo de Health Management College en la Harbin Medical University.",
     "Yasmine Bark": "Coordinador regional, Medio Oriente y África del Norte",
     "Yasmine Bark_long": "Farmacéutico registrado con una Maestría en Terapéutica Experimental de la Universidad de Oxford y una Maestría en Salud Pública, actualmente trabaja como Consultor de Salud y Asesor de Farmacia en Londres, Reino Unido.",
     "Zeke Ngcobo": "Coordinador regional, África subsahariana",
-    "Zeke Ngcobo_long": "Zeke es un escritor y empresario sudafricano apasionado por la salud pública. Lidera la difusión en África subsahariana de incentivos para la salud global. Obtuvo una Maestría en Salud Pública de la Universidad Sahmyook en Seúl, Corea del Sur.",
-    "Abdullah Kaya": "Coordinador interino de país, Turquía",
-    "Abdullah Kaya_long": "Abdullah estudió ciencias políticas y administración pública en la Universidad de Marmara y en Paris 1 Panthéon Sorbonne y tiene un interés especial en la salud pública y las desigualdades globales. Él es un ex atleta que espera convertirse en un erudito.",
-    "Paa Kwasi Sefa-Frimpong": "Líder de Proyecto de Programa - África Subsahariana",
-    "Paa Kwasi Sefa-Frimpong_long": "Paa Kwasi Sefa-Frimpong es una doctora en medicina con un enfoque en la salud pública con una amplia formación (BSc (Psicología), Licenciatura en Medicina, Licenciatura en Cirugía (MBCHB) y Maestría en Salud Pública). Tiene experiencia en brindar apoyo a proyectos en todos los aspectos de la investigación, captura de datos, monitoreo y evaluación, y control de calidad. Tiene experiencia en implementación y gestión de programas, promoción de políticas, capacitación y fortalecimiento de sistemas de salud. Ávido lector, Kwasi ha vivido en cinco países y habla numerosos idiomas."
+    "Zeke Ngcobo_long": "Zeke es un escritor y empresario sudafricano apasionado por la salud pública. Lidera la difusión en África subsahariana de incentivos para la salud global. Obtuvo una Maestría en Salud Pública de la Universidad Sahmyook en Seúl, Corea del Sur."
   },
   "videos": {
     "coming_soon": "Más videos serán publicados pronto.",
@@ -312,11 +320,5 @@
     "reward_see_more": "Una característica importante del Fondo para el Impacto sobre la Salud es que cada uno de sus fondos anuales de recompensa se fija por adelantado. Esto ayuda al Fondo y a sus financiadores a administrar sus presupuestos. Cada fondo fijo se divide de acuerdo con los beneficios en salud que los productos registrados han logrado en el año correspondiente. Las empresas compiten de este modo para mejorar la salud humana. Cada producto registrado participa en los pagos durante un período de diez años, que se asemeja a la duración de la exclusividad que las empresas disfrutan actualmente por las patentes. Al final de este período de recompensa, se requeriría al innovador que licencie su producto registrado para la producción genérica, independientemente de cualquier patente no vencida.",
     "see_more": "Ver más",
     "title": "¿Qué es el Fondo para el Impacto sobre la Salud?"
-  },
-  "quotes": {
-    "title": "Citas de expertos"
-  },
-  "newsletter": {
-    "title": "Boletin informativo"
   }
 }
