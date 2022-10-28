@@ -34,6 +34,7 @@ const management = [
   "Abdullah Kaya",
   "Thalia Arawi",
   // "Paa Kwasi Sefa-Frimpong",
+  "Vita Mithi",
   "Boris Yakubchik",
 ];
 
@@ -55,6 +56,7 @@ const managementEmails = [
   "",
   // "",
   "",
+  "",
 ]
 
 // must coincide with order of `management`
@@ -75,6 +77,7 @@ const managementImages = [
   "Abdullah.jpg",
   "Thalia.jpg",
   // "Paa.jpg",
+  "Vita.jpg",
   "Boris.jpg",
 ];
 

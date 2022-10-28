@@ -122,6 +122,8 @@
     "pilot_heading": "An important first step is a Health Impact Fund Pilot.",
     "pilot_read_pilot": "Explore the Health Impact Fund Pilot",
     "pilot_text": "The pilot  is conceived as  a five-year project that would have pharmaceutical innovators compete for a share of a fixed reward pool. The money would be distributed among the participating organizations according to the health gains each would achieve by introducing a medicine to a low- or lower-middle income country where it was previously unavailable.",
+    "quote_iqwig_name": "PD Dr. med. Stefan Lange (IQWiG)",
+    "quote_iqwig_text": "In summary, the requirement of the Health Impact Fund to assess health benefits is certainly feasible at a reasonable expense and is indeed exactly what is done by IQWiG and other HTA agencies (e.g. HAS in France or NICE in England and Wales) on a daily basis.",
     "quote_jami_name": "Jami Taylor,  Janssen Pharmaceuticals (Johnson & Johnson)",
     "quote_jami_text": "With sufficient funding, the Health Impact Fund could be an effective way of stimulating investment from small and large bio-pharmaceutical companies to address the needs of low-income populations. It would align commercial incentives with social goals of reducing excess morbidity and mortality. It could support companies, including Janssen, in their efforts to develop innovative products within a competitive, market-based framework that rewards outcomes.",
     "quote_jayasree_name": "Dr. Jayasree K. Iyer, Executive Director, Access to Medicine Foundation",
@@ -130,8 +132,6 @@
     "quote_karl_text": "The Health Impact Fund is one of those proposals that can be considered one hundred percent innovative in relation to the question: How do we solve the problem that we actually have such a rich world, and yet in the poorer countries people have no medicines? In my view, this is the very best example of applied ethics that I know of. Here, ethical theory is combined with economic knowledge and applied to an actual problem, and you simply can't do better than that.",
     "quote_norway_name": "Liberal (Venstre) Party of Norway",
     "quote_norway_text": "An international Health Impact Fund (HIF) should be established as a supplement to the current patent system. Through Health Impact Fund pharmaceutical companies can voluntarily register their drugs and commit to making them available at the lowest price against payment of support over ten years from the Fund on the basis of major health impact their drugs have. This gives companies incentives to develop medicines for those with the greatest health needs and not only those with the greatest purchasing power.",
-    "quote_iqwig_name": "PD Dr. med. Stefan Lange (IQWiG)",
-    "quote_iqwig_text": "In summary, the requirement of the Health Impact Fund to assess health benefits is certainly feasible at a reasonable expense and is indeed exactly what is done by IQWiG and other HTA agencies (e.g. HAS in France or NICE in England and Wales) on a daily basis.",
     "quote_peter_name": "Peter Singer",
     "quote_peter_text": "The Health Impact Fund would be an important step towards affordable universal health coverage, which rightly is the WHO's top priority, and towards achieving the third Sustainable Development Goal.",
     "quote_tom_name": "Tom Bollyky",
@@ -150,7 +150,6 @@
   },
   "navigation": {
     "about": "About",
-    "newsletter": "Newsletter",
     "advantages": "Advantages",
     "advisory_board": "Advisory Board",
     "background": "Background",
@@ -165,6 +164,7 @@
     "language": "Language",
     "management_team": "Team",
     "news": "News",
+    "newsletter": "Newsletter",
     "opportunities": "Opportunities",
     "problem": "The problem",
     "publications": "Publications",
@@ -176,15 +176,12 @@
     "videos": "Videos",
     "what": "What is the Health Impact Fund"
   },
-  "newsletter": {
-    "title": "Newsletter"
-  },
-  "quotes": {
-    "title": "Expert Quotes"
-  },
   "news": {
     "heading": "Recent news",
     "title": "Health Impact Fund News"
+  },
+  "newsletter": {
+    "title": "Newsletter"
   },
   "notfound": {
     "description": "This page does not exist",
@@ -207,6 +204,9 @@
     "hif_summaries_description": "This document provides a two-page summary of the Health Impact Fund and its goals. It explains how the Health Impact Fund works for patients, for pharmaceutical companies, and for taxpayers. It also outlines a path forward to realization.",
     "title": "Health Impact Fund Publications"
   },
+  "quotes": {
+    "title": "Expert Quotes"
+  },
   "team": {
     "Abdullah Kaya": "Acting Country Coordinator, Turkey",
     "Abdullah Kaya_long": "Abdullah studied political science and public administration at Marmara University and Paris 1 Panthéon Sorbonne and has a special interest in public health and global inequalities. He is a former athlete who hopes to become a scholar.",
@@ -218,8 +218,6 @@
     "Amartya Sen": "Professor of Economics and Philosophy, Harvard University; Nobel Prize Winner in Economics.",
     "Baroness Onora O'Neill": "Member of the UK House of Lords; former President of the British Academy.",
     "board": "Board",
-    "Paa Kwasi Sefa-Frimpong": "Program Project Lead - Sub-Saharan Africa",
-    "Paa Kwasi Sefa-Frimpong_long": "Paa Kwasi Sefa-Frimpong is a medical doctor with a focus on public health with extensive training (BSc (Psychology), Bachelor of Medicine, Bachelor of Surgery (MBCHB) and Master of Public Health degrees). He is experienced in providing project support on all aspects of research, data capturing, monitoring and evaluation, and quality control. He is experienced with programme implementation and management, policy advocacy, training, and health systems strengthening. An avid reader, Kwasi has lived in five countries and speaks numerous languages.",
     "Boris Yakubchik": "Webmaster",
     "Boris Yakubchik_long": "Boris Yakubchik is a web developer in charge of upkeeping the current website. He is proud to be a part of the Effective Altruism movement.",
     "Carl F. Nathan": "Chairman of Department of Microbiology and Immunology at Cornell University",
@@ -267,6 +265,8 @@
     "opportunity_postscript": "Key characteristics are enthusiasm for improving global health and a willingness to work as part of a team. We welcome collaborators from all countries, ethnicities, etc.",
     "Özlem Denli": "Research Associate",
     "Özlem Denli_long": "Özlem Denli received her Ph.D in Political Science and International Relations from Oslo University (Norway). Her teaching and research focus on political philosophy, history of political theory, and contemporary political thought, with an emphasis on liberal theory and practices. Denli has published numerous essays in Turkish on John Rawls's and Thomas Pogge's theories of justice.",
+    "Paa Kwasi Sefa-Frimpong": "Program Project Lead - Sub-Saharan Africa",
+    "Paa Kwasi Sefa-Frimpong_long": "Paa Kwasi Sefa-Frimpong is a medical doctor with a focus on public health with extensive training (BSc (Psychology), Bachelor of Medicine, Bachelor of Surgery (MBCHB) and Master of Public Health degrees). He is experienced in providing project support on all aspects of research, data capturing, monitoring and evaluation, and quality control. He is experienced with programme implementation and management, policy advocacy, training, and health systems strengthening. An avid reader, Kwasi has lived in five countries and speaks numerous languages.",
     "Paul Farmer": "Chair of the Department of Global Health and Social Medicine at Harvard Medical School; Co-Founder, Partners in Health.",
     "Paul Martin": "twenty-first Prime Minister of Canada.",
     "Peggy Tse": "Director (Asia)",
@@ -293,6 +293,8 @@
     "translators": "Translators",
     "Vikita Mehta": "Outreach Coordinator",
     "Vikita Mehta_long": "Vikita Mehta coordinates outreach and social media at IGH. She is a Research and Fundraising Director for the charity Hemoglobal with the aim of reducing inequities in care for blood diseases in Asia, and is also pursuing various policy projects to promote disability justice and reduce period poverty in Canada and Kenya.",
+    "Vita Mithi": "Partnerships Officer",
+    "Vita Mithi_long": "Founder of Armref Data for Action in Public Health Research Consultancy in Malawi, and a communication lead for the Society for Research on Nicotine and Tobacco Genetics and Omics Network and research scholar in the Leaders of Africa Institute 2022 research methods program. He is a Medical Toxicology in Industry fellow at the American College of Medical Toxicology, and Africa Oxford Health Innovation and Entrepreneurship Scheme2022 fellow and holds a Bachelor’s degree in Public Health from the University of Livingstonia, in Malawi.",
     "volunteers": "new team volunteers",
     "Wu Qunhong": "Executive Dean of Health Management College at Harbin Medical University",
     "Yasmine Bark": "Regional Coordinator, Middle East and North Africa",

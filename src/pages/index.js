@@ -87,7 +87,7 @@ const IndexPage = ({ intl }) => {
         <FormattedMessage id="intro.hif_description" />
       </p>
 
-      { intl.locale == "de" &&
+      { intl.locale === "de" &&
   
       <div id="de-video" className="youtube" data-embed="ZMZQIK1O1Ag">
         <div className="placeholder-gradient"></div>
@@ -229,7 +229,7 @@ const IndexPage = ({ intl }) => {
         </div>
       </div>
 
-      <div id="main-video" className="youtube" data-embed={ intl.locale == "es" ? "6SggD-94bOI" : "yGUgAHTyYMs" }>
+      <div id="main-video" className="youtube" data-embed={ intl.locale === "es" ? "6SggD-94bOI" : "yGUgAHTyYMs" }>
         <div className="placeholder-gradient"></div>
         <div className="placeholder-channel"></div>
         <span className="placeholder-title">Health Impact Fund: Making New Medicines available to everyone</span>
