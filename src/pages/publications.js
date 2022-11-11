@@ -262,7 +262,7 @@ const Publications = ({ intl }) => {
         </li>
 
         <li>
-          <a href="/pdf/High-level-panel-draft-2016-02-23-en-français.pdf">
+          <a href="/pdf/High-level-panel-draft-2016-02-23-en-francais.pdf">
             <Icon />
             <strong>Aidan Hollis and Thomas Pogge</strong>
             <span>
