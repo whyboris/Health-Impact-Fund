@@ -24,10 +24,12 @@ For simplicity, I recommend sorting the JSON alphabetically with [Sort JSON obje
 
 #### Newsletter
 
-You will need to create a `.env` file with 
-```
+You will need to create a `.env` file with
+
+```env
 MAILCHIMP_ENDPOINT="https://healthimpactfund.us11.list-manage.com/subscribe/post?u=..."
-``` 
+```
+
 (but instead of the `...` get the [private endpoint from Mailchimp](https://www.gatsbyjs.com/plugins/gatsby-plugin-mailchimp/#mailchimp-endpoint)).
 
 
