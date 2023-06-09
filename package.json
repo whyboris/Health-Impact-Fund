@@ -4,7 +4,7 @@
   "version": "1.2.0",
   "author": "Boris Yakubchik",
   "dependencies": {
-    "gatsby": "5.5.0",
+    "gatsby": "5.10.0",
     "gatsby-plugin-google-gtag": "5.5.0",
     "gatsby-plugin-image": "3.5.0",
     "gatsby-plugin-intl": "5.8.1",
