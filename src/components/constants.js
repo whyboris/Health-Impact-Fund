@@ -35,6 +35,7 @@ const management = [
   "Thalia Arawi",
   // "Paa Kwasi Sefa-Frimpong",
   "Vita Mithi",
+  "Victor Serre",
   "Boris Yakubchik",
 ];
 
@@ -55,6 +56,7 @@ const managementEmails = [
   "",
   "",
   // "",
+  "",
   "",
   "",
 ]
@@ -78,6 +80,7 @@ const managementImages = [
   "Thalia.jpg",
   // "Paa.jpg",
   "Vita.jpg",
+  "Victor.jpg",
   "Boris.jpg",
 ];
 
