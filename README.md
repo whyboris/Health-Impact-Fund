@@ -16,13 +16,13 @@ The webstie is built with _Gatsby_ and the _gatsby-starter-default-intl_ starter
 
 ## Caveats
 
-#### Translation files
+### Translation files
 
 Seems like the `en.json` (and other languages in the `/intl` folder) _must_ be a valid JSON with no errors (no trailing commas for example). If there is an error, none of the text will be rendered; you will instead see the text reference id.
 
 For simplicity, I recommend sorting the JSON alphabetically with [Sort JSON objects](https://marketplace.visualstudio.com/items?itemName=richie5um2.vscode-sort-json) for _VSCode_.
 
-#### Newsletter
+### Newsletter
 
 You will need to create a `.env` file with
 
@@ -32,8 +32,7 @@ MAILCHIMP_ENDPOINT="https://healthimpactfund.us11.list-manage.com/subscribe/post
 
 (but instead of the `...` get the [private endpoint from Mailchimp](https://www.gatsbyjs.com/plugins/gatsby-plugin-mailchimp/#mailchimp-endpoint)).
 
-
-### If you've not coded but want to start:
+### If you've not coded but want to start
 
 0. Starting may be daunting, but you can do it! Follow the instructions for [Gatsby](https://www.gatsbyjs.org/tutorial/part-zero/):
    - install **git**
